@@ -4,6 +4,7 @@
 :toclevels: 4
 :imagedir: images/
 
+
 Welcome to the Population Genomics Laboratory of the http://www.igb.cnr.it/[Institute of Genetics and Biophysics].
 We are interested in understanding causes and consequences of genetic diversity and how natural selection in humans affects loci related to diseases
 
@@ -35,6 +36,12 @@ This project is in collaboration with:
 
 REPROS is funded by https://www.merigen.it/[Merigen Research s.r.l].
 
+{empty} +
+{empty} +
+{empty} +
+{empty} +
+
+
 === Genetics of fruit shape and size in peppers
 Capsicum fruits are among the most-widely consumed vegetable crops in the world, and one of the most extensively domesticated plants. While a focus of breeding programs and widely studied for its beneficial properties, the genetics of pepper has been studied mostly by linkage analysis and with the use of coarse sets of markers and low resolution phenotypic data.
 
@@ -60,6 +67,11 @@ This project is a collaboration with Pasquale Tripodi and Nunzio D'Agostino at h
 
 >> Go to the project https://ezcn.github.io/Capsicum-genomics/[website]! <<
 
+{empty} +
+{empty} +
+{empty} +
+{empty} +
+
 === Positive selction at the ABCA12 gene
 
 Natural selection acts on genetic variants by increasing the frequency of alleles responsible for a cellular function that is favorable in a certain environment.
@@ -75,6 +87,11 @@ The Cross Population Extended Haplotype Homozogysity statistic (XP-EHH), measure
 
 >> See our open access https://www.nature.com/articles/s41598-019-40360-9[paper]!! <<
 
+{empty} +
+{empty} +
+{empty} +
+{empty} +
+
 === Deleterious mutations in human consanguineous populations
 
 Alleles with detrimental consequences and recessive inheritance pattern are the major contributors to the genetic load in human populations. Indeed, while dominant deleterious variants are quickly purged by selection, recessive variants remain in the populations at low frequency and mostly in a heterozygosis.
@@ -82,6 +99,11 @@ Alleles with detrimental consequences and recessive inheritance pattern are the 
 image:images/consang_pop.png[consang_pop,500,400,role="right"] In consanguineous populations kin marriages can cause deleterious recessive variants to be exposed in homozygous state causing higher rate rate of disorders (congenital, late onset, infertility, miscarriage, infant mortality and morbidity). At the same time, however, inbreeding provides an occasion for selection to act on deleterious phenotypes, in a phenomenon known as purging through inbreeding.
 
 We are interested in understanding and characterizing the incidence of deleterious mutations in consanguineous populations.
+
+{empty} +
+{empty} +
+{empty} +
+{empty} +
 
 == *People*
 
@@ -100,7 +122,8 @@ for research computing (e.g. programming languages, version control, statistical
 
 I founded and led http://www.igb.cnr.it/obilab[OBiLab], a project on training in Bioinformatics
 
-
+{empty} +
+{empty} +
 
 === *Silvia Buonaiuto*, PhD student
 
@@ -108,6 +131,8 @@ image:images/silvia.jpg[silvia,200,role="right"] I am a Phd Student at National 
 
 I have a master’s degree in Biology from the University of Napoli Federico II. I did a master thesis in molecular biology at the Department of Biology.
 
+{empty} +
+{empty} +
 
 === *Gianluca Damaggio*, Master Student
 
@@ -117,6 +142,8 @@ My project consists in the analysis of  embryonic whole-genome sequences from re
 
 I am also collaborating to project with the Laboratory of Elena Cattaneo in Milano. My contribution is to set up a pipeline to count the number of repeats in the Huntington's gene.
 
+{empty} +
+{empty} +
 
 === *Flavia Villani*, Master Student
 
@@ -124,11 +151,17 @@ I am a master's student at the Institue of Genetics and Biophysics of the Italia
 
 I contributed to a project that studies idiopathic recurrent miscarriage. Currently, I am working to build a library using the Python programming language for the statistical analysis of negative selection using sequence data. In particular, I am focusing on the use of pangenomic sequence data.
 
+{empty} +
+{empty} +
+
 === *Giuliana D'angelo*, Master Student
 
 I am a molecular biology student at University of Naples Federico II currently working on my master's degree thesis at the Institue of Genetics and Biophysics of the Italian National Research Council.
 
 For my thesis, I am studying embryonic mitochondrial sequences from recurrent miscarriages in humans. In particular, I am doing the variant calling, determining haplogroups, and studying the incidence of deleterious mutations in mitochondrial genes and regulatory regions.
+
+{empty} +
+{empty} +
 
 === Former members
 
@@ -137,6 +170,10 @@ For my thesis, I am studying embryonic mitochondrial sequences from recurrent mi
 * Marianna Buonaiuto, visiting Postdoc, 2017
 * Lucia De Martino, visiting Graduate Student, 2016
 
+{empty} +
+{empty} +
+{empty} +
+{empty} +
 
 == *Publications*
 
@@ -226,6 +263,11 @@ Book chapters
 
 * 2011 Barbujani G., Colonna V. (2011). Genetic bases of human biodiversity: an update. . In: Zachos F.E., Habel J.C. . Biodiversity Hotspots . p. 97-120, berlino:springer, ISBN: 9783642209918
 * 2010 BARBUJANI G, COLONNA V (2010). Genetic bases of human biodiversity: an update. In: ZACHOS F. BIODIVERSITY HOTSPOTS. BERLIN:Springer
+
+{empty} +
+{empty} +
+{empty} +
+{empty} +
 
 == *Contacts*
 
