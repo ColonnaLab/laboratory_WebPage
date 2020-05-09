@@ -2,9 +2,7 @@
 :toc-title: Page Content
 :toc: left
 :toclevels: 4
-:toc-collapsable:
 :imagedir: images/
-
 
 Welcome to the Population Genomics Laboratory of the http://www.igb.cnr.it/[Institute of Genetics and Biophysics].
 We are interested in understanding causes and consequences of genetic diversity and how natural selection in humans affects loci related to diseases
