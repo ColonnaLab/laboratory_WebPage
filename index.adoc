@@ -2,6 +2,7 @@
 :toc-title: Page Content
 :toc: left
 :toclevels: 4
+:toc-collapsable:
 :imagedir: images/
 
 
