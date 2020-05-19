@@ -240,6 +240,8 @@ I am a molecular biology student at University of Naples Federico II currently w
 For my thesis, I am studying embryonic mitochondrial sequences from recurrent miscarriages in humans. In particular, I am doing the variant calling, determining haplogroups, and studying the incidence of deleterious mutations in mitochondrial genes and regulatory regions.
 
 image:images/Octicons-mark-github.svg[git,30] https://github.com/GiulianaDangelo[My GitHub]
+
+{empty} +
 {empty} +
 {empty} +
 
