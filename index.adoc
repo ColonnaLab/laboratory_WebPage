@@ -17,7 +17,9 @@ Numerical and structural chromosomal abnormalities are routinely investigated to
 
 This project will identify variants severely disrupting genes and regulatory functions, therefore incompatible with life, using whole genome sequence of DNA extracted from chorionic villi of miscarriages collected from women with RPL.
 
-image:images/preSeq_screaning.png[preSeq_screaning,500,400,role="right"] This project will identify variants severely disrupting genes and regulatory functions, therefore incompatible with life, using whole genome sequence of DNA extracted from chorionic villi of miscarriages collected from women with RPL.
+
+image::images/preSeq_screaning.png[preSeq_screaning,500,400,role="right"]
+This project will identify variants severely disrupting genes and regulatory functions, therefore incompatible with life, using whole genome sequence of DNA extracted from chorionic villi of miscarriages collected from women with RPL.
 
 We will identify the highly deleterious dominant mutations as well as rare moderately to highly deleterious recessive mutations that constitute the genetic load of human populations and contribute to miscarriage. Participant inclusion criteria (e.g. recurrence, consanguinity, selection of comorbidities) will ensure the prevalence of genetic over environmental causes, and pre-sequencing screening will exclude cases with large chromosomal aberration.
 
@@ -33,9 +35,14 @@ This project is in collaboration with:
 
 - https://mpba.fbk.eu/furlanello[Cesare Furlanello], Fondazione Bruno Kessler
 
-GReP is funded by https://www.merigen.it/[Merigen Research s.r.l] and POR Campania FSE 2014-2020 ASSE III – Ob. Sp. 14  LOGHI
+GReP is funded by https://www.merigen.it/[Merigen Research s.r.l] and POR Campania FSE 2014-2020 ASSE III – Ob. Sp. 14
 
-GReP code is on https://github.com/ezcn/grep[image:images/Octicons-mark-github.svg]
+image::images/loghi_grep.png[loghi_grep,400,align="left"]
+
+
+image:images/Octicons-mark-github.svg[git,30] GReP code is on https://github.com/ezcn/grep
+
+
 
 {empty} +
 {empty} +
@@ -51,7 +58,7 @@ This project is in collaboration with:
 
 - http://www.hypervolu.me/~erik/erik_garrison.html[Erik Garrison], University of California Santa Cruz
 
-vgpop code is on https://github.com/Flavia95/VGpop[image:images/Octicons-mark-github.svg]
+image:images/Octicons-mark-github.svg[git,30] vgpop code is on https://github.com/Flavia95/VGpop[image:images/Octicons-mark-github.svg]
 
 {empty} +
 {empty} +
@@ -66,18 +73,27 @@ These consideration were presented at the Commissione sanita' of the Italian Sen
 
 We are working in three research lines:
 
-1. Through ELIXIR-ITA we are making a community effort to train laboratories on protocols, methods and procedure for the study of the SARS-CoV-2 genomes
+(i) Through ELIXIR-ITA we are making a community effort to train laboratories on protocols, methods and procedure for the study of the SARS-CoV-2 genomes
 
-2. We are recruiting COVID19+ individuals from Regione Basilicata, one of the few regions in Italy with the lowest rate of infection. This research is supported by local associations and entrepreneur
+(ii) We are recruiting COVID19+ individuals from Regione Basilicata, one of the few regions in Italy with the lowest rate of infection. This research is supported by local associations and entrepreneur
 
-[#img-blocc]
-[caption="Figure 1.2: ",link=https://github.com/ColonnaLab/laboratory_WebPage/tree/master/images/blob/master/image/bloccsheme.png]
-image::images/bloccsheme.png[blocc,1000]
+[.float-group]
+--
+[.left]
 
-3. We are part of a network that aim to develop a platform for sharing and analyzing genomic sequence information from samples collected in the Region Campania in Italy. This research is supported by Regione Campania – Recover – Covid 19 -DPGR n. 45 (06/03/2020). Prot. 2020, 0213629 del 05/05/2020.
+image::images/bloccscheme.png[B,600,500]
 
-{empty} +
-{empty} +
+[.left]
+image::images/blok-large.png[A,300]
+
+--
+
+
+(iii) We are part of a network that aim to develop a platform for sharing and analyzing genomic sequence information from samples collected in the Region Campania in Italy. This research is supported by Regione Campania – Recover – Covid 19 -DPGR n. 45 (06/03/2020). Prot. 2020, 0213629 del 05/05/2020.
+
+[#img-wolrd]
+image::images/wolrd_covid19.png[wolrd_covid19,700,align="center"]
+
 {empty} +
 {empty} +
 
@@ -177,6 +193,8 @@ for research computing (e.g. programming languages, version control, statistical
 
 I founded and led http://www.igb.cnr.it/obilab[OBiLab], a project on training in Bioinformatics
 
+image:images/Octicons-mark-github.svg[git,30] https://github.com/ezcn[My GitHub]
+
 {empty} +
 {empty} +
 
@@ -185,6 +203,8 @@ I founded and led http://www.igb.cnr.it/obilab[OBiLab], a project on training in
 image:images/silvia.jpg[silvia,200,role="right"] I am a Phd Student at National Research Council and Università della Campania Luigi Vanvitelli. I work on a project that studies idiopathic recurrent miscarriage and aims at identifying genetic variants likely to cause miscarriages to ultimately improve prenatal diagnosis.
 
 I have a master’s degree in Biology from the University of Napoli Federico II. I did a master thesis in molecular biology at the Department of Biology.
+
+image:images/Octicons-mark-github.svg[git,30] https://github.com/SilviaBuonaiuto[My GitHub]
 
 {empty} +
 {empty} +
@@ -197,6 +217,8 @@ My project consists in the analysis of  embryonic whole-genome sequences from re
 
 I am also collaborating to project with the Laboratory of Elena Cattaneo in Milano. My contribution is to set up a pipeline to count the number of repeats in the Huntington's gene.
 
+image:images/Octicons-mark-github.svg[git,30] https://github.com/GianlucaDamaggio[My GitHub]
+
 {empty} +
 {empty} +
 
@@ -205,6 +227,8 @@ I am also collaborating to project with the Laboratory of Elena Cattaneo in Mila
 I am a master's student at the Institue of Genetics and Biophysics of the Italian National Research Council. I graduated in Biology at the University of Fisciano (Italy).
 
 I contributed to a project that studies idiopathic recurrent miscarriage. Currently, I am working to build a library using the Python programming language for the statistical analysis of negative selection using sequence data. In particular, I am focusing on the use of pangenomic sequence data.
+
+image:images/Octicons-mark-github.svg[git,30] https://github.com/Flavia95[My GitHub]
 
 {empty} +
 {empty} +
@@ -215,6 +239,7 @@ I am a molecular biology student at University of Naples Federico II currently w
 
 For my thesis, I am studying embryonic mitochondrial sequences from recurrent miscarriages in humans. In particular, I am doing the variant calling, determining haplogroups, and studying the incidence of deleterious mutations in mitochondrial genes and regulatory regions.
 
+image:images/Octicons-mark-github.svg[git,30] https://github.com/GiulianaDangelo[My GitHub]
 {empty} +
 {empty} +
 
