@@ -62,14 +62,17 @@ vgpop code is on https://github.com/Flavia95/VGpop[image:images/Octicons-mark-gi
 
 With the emerging of the COVID19+ pandemic we feel motivated to give our contribution as geneticists. There are certainly many aspects worth working on, among which the paucity of SARS-CoV-2 genomic sequences from Italy publicly available. Despite Italy being one of the earliest countries hit by the pandemic, as we write (04/05/20) there are only seven sequences from samples collected in Italy in GenBank. We are committed to collect, sequence and openly publish as many samples as we can. Knowledge of the SARS-CoV-2 genomic sequence will enable basic research on COVID19, including monitoring the pandemic diffusion, improving genetic testing and develop effective vaccines.
 
-These consideration were presented at the Commissione sanita' of the Italian Senate of the Republic. Slides can be find https://docs.google.com/presentation/d/1q0xk8xmwI3MzMYek4CJpmat2bc0zSzp3mr5HCnXdCw8/edit#slide=id.p[here]
-docs/2020_Covid19Senato.pdf[here]
+These consideration were presented at the Commissione sanita' of the Italian Senate of the Republic. Slides can be find https://github.com/ColonnaLab/laboratory_WebPage/blob/master/docs/2020_Covid19Senato.pdf[here]
 
 We are working in three research lines:
 
 1. Through ELIXIR-ITA we are making a community effort to train laboratories on protocols, methods and procedure for the study of the SARS-CoV-2 genomes
 
 2. We are recruiting COVID19+ individuals from Regione Basilicata, one of the few regions in Italy with the lowest rate of infection. This research is supported by local associations and entrepreneur
+
+[#img-blocc]
+[caption="Figure 1.2: ",link=https://github.com/ColonnaLab/laboratory_WebPage/tree/master/images/blob/master/image/bloccsheme.png]
+image::images/bloccsheme.png[blocc,1000]
 
 3. We are part of a network that aim to develop a platform for sharing and analyzing genomic sequence information from samples collected in the Region Campania in Italy. This research is supported by Regione Campania – Recover – Covid 19 -DPGR n. 45 (06/03/2020). Prot. 2020, 0213629 del 05/05/2020.
 
