@@ -7,6 +7,8 @@
 Welcome to the Population Genomics Laboratory of the http://www.igb.cnr.it/[Institute of Genetics and Biophysics].
 We are interested in understanding causes and consequences of genetic diversity and how natural selection in humans affects loci related to diseases
 
+'+Fascinating. _(Lieutenant Spock)_+'
+
 == *Ongoing Research*
 
 === GReP - Genomics of Recurrent Pregnancy Loss
