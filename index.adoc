@@ -9,10 +9,12 @@
 Welcome to the *Population Genomics Laboratory* of the http://www.igb.cnr.it/[Institute of Genetics and Biophysics] of the https://www.cnr.it/en[National Research Council].
 We are interested in understanding causes and consequences of genetic diversity and how natural selection in humans affects loci related to diseases
 [.text-right]
-_" Fascinating." (Lieutenant Spock)_
+"```_Fascinating_```" _(Lieutenant Spock)_
 
 image::images/igblogo.png[igb,400,align="left"]
 image::images/CNR_logo.svg.png[cnr,400,align="right"]
+
+
 
 
 == *Ongoing Research*
@@ -27,8 +29,11 @@ This project will identify variants severely disrupting genes and regulatory fun
 
 
 
-.We are interested in sequencing euploid miscarriages, therefore we do a pre-sequencing screening to exclude aneuploidies and comorbidities. We estimated that 20% of collected samples is euploid. We also find that with current methods it is not possible to make a diagnosis in about 25% of the samples.
-image::images/preSeq_screaning.png[preSeq_screaning,500,400,align="center"]
+image::images/preSeq_screaning.png[preSeq_screaning,500,400,role="right"]
+[purple]#_We are interested in sequencing euploid miscarriages, therefore we do a pre-sequencing screening to exclude aneuploidies and comorbidities. We estimated that 20% of collected samples is euploid. We also find that with current methods it is not possible to make a diagnosis in about 25% of the samples._#
+
+
+//,align="center"]
 
 
 
@@ -72,7 +77,7 @@ Variation graphs are a pangenomic model based on a compact representation of the
 
 With the emerging of the COVID19+ pandemic we feel motivated to give our contribution as geneticists. Among the many aspects worth working on, we chose to deal with the paucity of SARS-CoV-2 genomic sequences from Italy publicly available.
 
-.Despite Italy being one of the earliest countries hit by the pandemic, as we write (04/05/20) there are only seven sequences from samples collected in Italy in GenBank.
+.[purple]#Despite Italy being one of the earliest countries hit by the pandemic, as we write (04/05/20) there are only seven sequences from samples collected in Italy in GenBank.#
 [.left]
 [#img-wolrd]
 image::images/wolrd_covid19.png[wolrd_covid19,700,align="center"]
@@ -80,7 +85,7 @@ image::images/wolrd_covid19.png[wolrd_covid19,700,align="center"]
 
 We are committed to collect, sequence and openly publish as many samples as we can. Knowledge of the SARS-CoV-2 genomic sequence will enable basic research on COVID19, including monitoring the pandemic diffusion, improving genetic testing and develop effective vaccines.
 
-*These consideration were presented at the Commissione sanita' of the Italian Senate of the Republic. Slides can be find https://github.com/ColonnaLab/laboratory_WebPage/blob/master/docs/2020_Covid19Senato.pdf[here]*
+*These consideration were presented at the Commissione sanità of the Italian Senate of the Republic. Slides can be find https://github.com/ColonnaLab/laboratory_WebPage/blob/master/docs/2020_Covid19Senato.pdf[here]*
 
 We are working on SARS-CoV-2 genomics along three research lines:
 
@@ -90,8 +95,7 @@ We are working on SARS-CoV-2 genomics along three research lines:
 
 .  We are recruiting COVID19+ individuals from Regione Basilicata, one of the few regions in Italy with the lowest rate of infection. This research is supported by local associations and entrepreneurs.
 
-image::images/bloccscheme.png[blocc,700,align="center"]
-
+image::images/bloccscheme.png[blocc,1000,align="center"]
 
 '''
 
@@ -108,7 +112,8 @@ PARDOM is funded by PRIN 2017 20177RL4KL
 
 === *Vincenza Colonna*
 
-image:images/vcolonna.jpg[vcolonna,400,role="right"] I am a researcher at the Institue of Genetics and Biophysics of the Italian National Research Council. I graduated in Evolutionary Biology from University of Napoli Federico II (Italy), did postdoctoral work at University of Ferrara (Italy) and at the Wellcome Trust Sanger Institute (UK). I was lectures in Genetics and Bioinformatics at the University of Ferrara (Italy). See my full C.V. http://www.igb.cnr.it/popgenlab/cvenza[here].
+image:images/vcolonna.jpg[vcolonna,400,role="right"]
+[purple]#_I am a researcher at the Institue of Genetics and Biophysics of the Italian National Research Council. I graduated in Evolutionary Biology from University of Napoli Federico II (Italy), did postdoctoral work at University of Ferrara (Italy) and at the Wellcome Trust Sanger Institute (UK). I was lectures in Genetics and Bioinformatics at the University of Ferrara (Italy)._# + [gray]#See my full C.V. http://www.igb.cnr.it/popgenlab/cvenza[here].#
 
 I am a population geneticist and an expert in bioinformatics, working mainly with human data.
 
@@ -123,8 +128,7 @@ I founded and led http://www.igb.cnr.it/obilab[OBiLab], a project on training in
 
 image:images/Octicons-mark-github.svg[git,30] https://github.com/ezcn[My GitHub]
 
-{empty} +
-{empty} +
+'''
 
 === *Silvia Buonaiuto*, PhD student
 
@@ -134,8 +138,7 @@ I have a master’s degree in Biology from the University of Napoli Federico II.
 
 image:images/Octicons-mark-github.svg[git,30] https://github.com/SilviaBuonaiuto[My GitHub]
 
-{empty} +
-{empty} +
+'''
 
 === *Gianluca Damaggio*, Master Student
 
@@ -147,9 +150,7 @@ I am also collaborating to project with the Laboratory of Elena Cattaneo in Mila
 
 image:images/Octicons-mark-github.svg[git,30] https://github.com/GianlucaDamaggio[My GitHub]
 
-{empty} +
-{empty} +
-
+'''
 === *Flavia Villani*, Master Student
 
 I am a master's student at the Institue of Genetics and Biophysics of the Italian National Research Council. I graduated in Biology at the University of Fisciano (Italy).
@@ -158,8 +159,7 @@ I contributed to a project that studies idiopathic recurrent miscarriage. Curren
 
 image:images/Octicons-mark-github.svg[git,30] https://github.com/Flavia95[My GitHub]
 
-{empty} +
-{empty} +
+'''
 
 === *Giuliana D'Angelo*, Master Student
 
