@@ -1,0 +1,64 @@
+== *Past Research Interests*
+
+=== Genetics of fruit shape and size in peppers
+Capsicum fruits are among the most-widely consumed vegetable crops in the world, and one of the most extensively domesticated plants. While a focus of breeding programs and widely studied for its beneficial properties, the genetics of pepper has been studied mostly by linkage analysis and with the use of coarse sets of markers and low resolution phenotypic data.
+
+We discovered 746k high quality polymorphic sites analyzing sequence data of 373 pepper accessions. We also measured thirty-eight fruit shape and size attributes in 220 C. annuum accessions.We used these data to:
+
+(i) uncover genomic properties of the pepper genome
+
+(ii) describe population structure within the Capsicum genus at a resolution never achieved before
+
+(iii) study natural selection,
+
+(iv) discover significant association between genetic markers and traits related to pepper fruit shape and size in C. annuum, including a non-synonymous change in the sequence of longifolia 1-like gene associated with variance in fruit elongation.
+
+[#img-capsicum]
+[caption="Figure 1.2: ",link=https://github.com/GianlucaDamaggio/testWebPage/blob/master/image/preSeq_screaning.png]
+image::images/capsicum.png[capsicum,1000]
+
+Our collection includes 373 pepper accessions from eleven species from 51 countries. It covers all the economically important species of Capsicum widely used in breeding programs, representing the largest study so far in terms of number of species and number of genetic variants analyzed.
+
+This project is a collaboration with Pasquale Tripodi and Nunzio D'Agostino at http://sito.entecra.it/portale/cra_dati_istituto.php?id=207[CREA]
+
+>> See our open access https://www.nature.com/articles/s41598-019-46136-5[paper]!! <<
+
+>> Go to the project https://ezcn.github.io/Capsicum-genomics/[website]! <<
+
+{empty} +
+{empty} +
+{empty} +
+{empty} +
+
+=== Positive selction at the ABCA12 gene
+
+Natural selection acts on genetic variants by increasing the frequency of alleles responsible for a cellular function that is favorable in a certain environment.
+
+In a https://genomebiology.biomedcentral.com/articles/10.1186/gb-2014-15-6-r88[previous genome-wide scan for positive selection] in contemporary humans, we identified a signal of positive selection in European and Asians at the genetic variant rs10180970. The variant is located in the second intron of the http://www.ensembl.org/Homo_sapiens/Gene/Summary?db=core;g=ENSG00000144452;r=2:214931542-215138428[ABCA12] gene, which is implicated in the lipid barrier formation and down-regulated by UVB radiation. Mutations in ABCA12 causes https://omim.org/entry/242500[Harlequin Ichthyosis], a rare recessive disorderd with variable penetrance.
+
+We studied the signal of selection in the genomic region surrounding rs10180970 in a larger dataset that includes DNA sequences from ancient samples. We also investigated the functional consequences of gene expression of the alleles of rs10180970 and another genetic variant in its proximity in healthy volunteers exposed to similar UV radiation.
+
+image::images/abca12.png[abca12,800]
+
+The Cross Population Extended Haplotype Homozogysity statistic (XP-EHH), measured between pairs of continental populations, shows a signal of positive selection in non-Africans over 35kb downstream rs10180970, especially in East-Asians.
+
+
+>> See our open access https://www.nature.com/articles/s41598-019-40360-9[paper]!! <<
+
+{empty} +
+{empty} +
+{empty} +
+{empty} +
+
+=== Deleterious mutations in human consanguineous populations
+
+Alleles with detrimental consequences and recessive inheritance pattern are the major contributors to the genetic load in human populations. Indeed, while dominant deleterious variants are quickly purged by selection, recessive variants remain in the populations at low frequency and mostly in a heterozygosis.
+
+image:images/consang_pop.png[consang_pop,500,400,role="right"] In consanguineous populations kin marriages can cause deleterious recessive variants to be exposed in homozygous state causing higher rate rate of disorders (congenital, late onset, infertility, miscarriage, infant mortality and morbidity). At the same time, however, inbreeding provides an occasion for selection to act on deleterious phenotypes, in a phenomenon known as purging through inbreeding.
+
+We are interested in understanding and characterizing the incidence of deleterious mutations in consanguineous populations.
+
+{empty} +
+{empty} +
+{empty} +
+{empty} +

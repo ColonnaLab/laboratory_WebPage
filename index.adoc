@@ -1,17 +1,19 @@
 = *Colonna Lab*
 :toc-title: Page Content
 :toc: left
-:toclevels: 4
+:toclevels: 2
 :imagedir: images/
+:figure-caption!:
 
-Welcome to the Population Genomics Laboratory of the http://www.igb.cnr.it/[Institute of Genetics and Biophysics].
+
+Welcome to the *Population Genomics Laboratory* of the http://www.igb.cnr.it/[Institute of Genetics and Biophysics].
 We are interested in understanding causes and consequences of genetic diversity and how natural selection in humans affects loci related to diseases
 
-+Fascinating. _(Lieutenant Spock)_+
+_" Fascinating." (Lieutenant Spock)_
 
 == *Ongoing Research*
 
-=== GReP - Genomics of Recurrent Pregnancy Loss
+=== *GReP* - Genomics of Recurrent Pregnancy Loss
 
 Approximately 70% of all human fertilizations are naturally aborted, with most occurring before the mother knows she is pregnant. Miscarriages that occur later in pregnancy are often due to non-viable genetic variation and this is very likely in the case of Recurrent Pregnancy Losses (RPL).
 
@@ -20,86 +22,76 @@ Numerical and structural chromosomal abnormalities are routinely investigated to
 This project will identify variants severely disrupting genes and regulatory functions, therefore incompatible with life, using whole genome sequence of DNA extracted from chorionic villi of miscarriages collected from women with RPL.
 
 
-image::images/preSeq_screaning.png[preSeq_screaning,500,400,role="right"]
-This project will identify variants severely disrupting genes and regulatory functions, therefore incompatible with life, using whole genome sequence of DNA extracted from chorionic villi of miscarriages collected from women with RPL.
+
+.We are interested in sequencing euploid miscarriages, therefore we do a pre-sequencing screening to exclude aneuploidies and comorbidities. We estimated that 20% of collected samples is euploid. We also find that with current methods it is not possible to make a diagnosis in about 25% of the samples.
+image::images/preSeq_screaning.png[preSeq_screaning,500,400,align="center"]
+
+
 
 We will identify the highly deleterious dominant mutations as well as rare moderately to highly deleterious recessive mutations that constitute the genetic load of human populations and contribute to miscarriage. Participant inclusion criteria (e.g. recurrence, consanguinity, selection of comorbidities) will ensure the prevalence of genetic over environmental causes, and pre-sequencing screening will exclude cases with large chromosomal aberration.
 
-We are interested in sequencing euploid miscarriages, therefore we do a pre-sequencing screening to exclude aneuploidies and comorbidity.
++GReP+ code is shared https://github.com/ezcn/grep[here] image:images/Octicons-mark-github.svg[git,30]
 
-We estimated that 20% of collected samples is euploid. We also find that with current methods it is not possible to make a diagnosis in about 25% of the samples.
 
-This project is in collaboration with:
 
+===== *Collaborations*
+[none]
 - https://www.monash.edu.my/science/staff/academic/qasim-ayub[Qasim Ayub], Monash University, Malaysia
-
 - http://docente.unife.it/michele.rubini[Michele Rubini], University of Ferrara
-
 - https://mpba.fbk.eu/furlanello[Cesare Furlanello], Fondazione Bruno Kessler
 
-GReP is funded by https://www.merigen.it/[Merigen Research s.r.l] and POR Campania FSE 2014-2020 ASSE III – Ob. Sp. 14
+===== *Funding*
+[none]
+- https://www.merigen.it/[Merigen Research s.r.l]
+- POR Campania FSE 2014-2020 ASSE III – Ob. Sp. 14
 
 image::images/loghi_grep.png[loghi_grep,400,align="left"]
 
-
-image:images/Octicons-mark-github.svg[git,30] GReP code is on https://github.com/ezcn/grep
-
+'''
 
 
-{empty} +
-{empty} +
-{empty} +
-{empty} +
-
-=== vgpop - Population genetics from variation graphs
+=== *vgpop* - Population genetics from variation graphs
 
 
 Variation graphs are a pangenomic model based on a compact representation of the mutual alignment of many genomes. They are used to compress information from vast sequence sets and support the explicit representation of both simple and complex genomic variants. We are intersted in developing methods to compute population genetic statistics directly from variation graphs. Such approaches will allow us to explore complex genomic variants which are often excluded from most of the existing population genetic methods. As our first goal we would like to adapt existing code for population genetic analyses to variation graphs, and in the future we would like to explore new methods to answer basic population genetic questions based on information contained in complex genetic variants.
 
-This project is in collaboration with:
++vgpop+ code is shared https://github.com/Flavia95/VGpop[here] image:images/Octicons-mark-github.svg[git,30]
 
+
+===== *Collaborations*
 - http://www.hypervolu.me/~erik/erik_garrison.html[Erik Garrison], University of California Santa Cruz
 
-image:images/Octicons-mark-github.svg[git,30] vgpop code is on https://github.com/Flavia95/VGpop[image:images/Octicons-mark-github.svg]
 
-{empty} +
-{empty} +
-{empty} +
-{empty} +
+'''
 
-=== Genomics of COVID19
+=== *BLoCC* - Genomics of COVID19
 
-With the emerging of the COVID19+ pandemic we feel motivated to give our contribution as geneticists. There are certainly many aspects worth working on, among which the paucity of SARS-CoV-2 genomic sequences from Italy publicly available. Despite Italy being one of the earliest countries hit by the pandemic, as we write (04/05/20) there are only seven sequences from samples collected in Italy in GenBank. We are committed to collect, sequence and openly publish as many samples as we can. Knowledge of the SARS-CoV-2 genomic sequence will enable basic research on COVID19, including monitoring the pandemic diffusion, improving genetic testing and develop effective vaccines.
+With the emerging of the COVID19+ pandemic we feel motivated to give our contribution as geneticists. Among the many aspects worth working on, we chose to deal with the paucity of SARS-CoV-2 genomic sequences from Italy publicly available.
 
-These consideration were presented at the Commissione sanita' of the Italian Senate of the Republic. Slides can be find https://github.com/ColonnaLab/laboratory_WebPage/blob/master/docs/2020_Covid19Senato.pdf[here]
-
-We are working in three research lines:
-
-(i) Through ELIXIR-ITA we are making a community effort to train laboratories on protocols, methods and procedure for the study of the SARS-CoV-2 genomes
-
-(ii) We are recruiting COVID19+ individuals from Regione Basilicata, one of the few regions in Italy with the lowest rate of infection. This research is supported by local associations and entrepreneur
-
-[.float-group]
---
+.Despite Italy being one of the earliest countries hit by the pandemic, as we write (04/05/20) there are only seven sequences from samples collected in Italy in GenBank.
 [.left]
-
-image::images/bloccscheme.png[B,600,500]
-
-[.left]
-image::images/blok-large.png[A,300]
-
---
-
-
-(iii) We are part of a network that aim to develop a platform for sharing and analyzing genomic sequence information from samples collected in the Region Campania in Italy. This research is supported by Regione Campania – Recover – Covid 19 -DPGR n. 45 (06/03/2020). Prot. 2020, 0213629 del 05/05/2020.
-
 [#img-wolrd]
 image::images/wolrd_covid19.png[wolrd_covid19,700,align="center"]
 
-{empty} +
-{empty} +
 
-=== PARDOM - Parallel Domestications: the _Phaseolus_ replicated experiment to understand genome evolution and adaptation
+We are committed to collect, sequence and openly publish as many samples as we can. Knowledge of the SARS-CoV-2 genomic sequence will enable basic research on COVID19, including monitoring the pandemic diffusion, improving genetic testing and develop effective vaccines.
+
+*These consideration were presented at the Commissione sanita' of the Italian Senate of the Republic. Slides can be find https://github.com/ColonnaLab/laboratory_WebPage/blob/master/docs/2020_Covid19Senato.pdf[here]*
+
+We are working on SARS-CoV-2 genomics along three research lines:
+
+. Through ELIXIR-ITA we are making a community effort to train laboratories on protocols, methods and procedure for the study of the SARS-CoV-2 genomes
+
+.  We are part of a network that aim to develop a platform for sharing and analyzing genomic sequence information from samples collected in the Region Campania in Italy. This research is supported by Regione Campania – Recover – Covid 19 -DPGR n. 45 (06/03/2020). Prot. 2020, 0213629 del 05/05/2020.
+
+.  We are recruiting COVID19+ individuals from Regione Basilicata, one of the few regions in Italy with the lowest rate of infection. This research is supported by local associations and entrepreneurs.
+
+image::images/bloccscheme.png[blocc,700,align="center"]
+
+
+'''
+
+=== *PARDOM* - Parallel Domestications: the _Phaseolus_ replicated experiment to understand genome evolution and adaptation
 
 _Phaseolus_ is a unique example of multiple parallel domestication events that provide a natural experiment to study convergent phenotypic evolution associated with convergent genomic and/or transcriptomic changes. We want to study convergent evolution in four replicates of the domestication process in _P_. _vulgaris_ (PV) and _P_. _lunatus_ (PL), two highly collinear species each domesticated independently in Mesoamerica and the Andes, resulting in at least four independent domestication events.
 
@@ -107,76 +99,6 @@ This project is in collaboration with:
 - http://www.univpm.it/roberto.papa[Roberto Papa]
 
 PARDOM is funded by PRIN 2017 20177RL4KL
-
-{empty} +
-{empty} +
-{empty} +
-{empty} +
-
-== *Past Research Interests*
-
-=== Genetics of fruit shape and size in peppers
-Capsicum fruits are among the most-widely consumed vegetable crops in the world, and one of the most extensively domesticated plants. While a focus of breeding programs and widely studied for its beneficial properties, the genetics of pepper has been studied mostly by linkage analysis and with the use of coarse sets of markers and low resolution phenotypic data.
-
-We discovered 746k high quality polymorphic sites analyzing sequence data of 373 pepper accessions. We also measured thirty-eight fruit shape and size attributes in 220 C. annuum accessions.We used these data to:
-
-(i) uncover genomic properties of the pepper genome
-
-(ii) describe population structure within the Capsicum genus at a resolution never achieved before
-
-(iii) study natural selection,
-
-(iv) discover significant association between genetic markers and traits related to pepper fruit shape and size in C. annuum, including a non-synonymous change in the sequence of longifolia 1-like gene associated with variance in fruit elongation.
-
-[#img-capsicum]
-[caption="Figure 1.2: ",link=https://github.com/GianlucaDamaggio/testWebPage/blob/master/image/preSeq_screaning.png]
-image::images/capsicum.png[capsicum,1000]
-
-Our collection includes 373 pepper accessions from eleven species from 51 countries. It covers all the economically important species of Capsicum widely used in breeding programs, representing the largest study so far in terms of number of species and number of genetic variants analyzed.
-
-This project is a collaboration with Pasquale Tripodi and Nunzio D'Agostino at http://sito.entecra.it/portale/cra_dati_istituto.php?id=207[CREA]
-
->> See our open access https://www.nature.com/articles/s41598-019-46136-5[paper]!! <<
-
->> Go to the project https://ezcn.github.io/Capsicum-genomics/[website]! <<
-
-{empty} +
-{empty} +
-{empty} +
-{empty} +
-
-=== Positive selction at the ABCA12 gene
-
-Natural selection acts on genetic variants by increasing the frequency of alleles responsible for a cellular function that is favorable in a certain environment.
-
-In a https://genomebiology.biomedcentral.com/articles/10.1186/gb-2014-15-6-r88[previous genome-wide scan for positive selection] in contemporary humans, we identified a signal of positive selection in European and Asians at the genetic variant rs10180970. The variant is located in the second intron of the http://www.ensembl.org/Homo_sapiens/Gene/Summary?db=core;g=ENSG00000144452;r=2:214931542-215138428[ABCA12] gene, which is implicated in the lipid barrier formation and down-regulated by UVB radiation. Mutations in ABCA12 causes https://omim.org/entry/242500[Harlequin Ichthyosis], a rare recessive disorderd with variable penetrance.
-
-We studied the signal of selection in the genomic region surrounding rs10180970 in a larger dataset that includes DNA sequences from ancient samples. We also investigated the functional consequences of gene expression of the alleles of rs10180970 and another genetic variant in its proximity in healthy volunteers exposed to similar UV radiation.
-
-image::images/abca12.png[abca12,800]
-
-The Cross Population Extended Haplotype Homozogysity statistic (XP-EHH), measured between pairs of continental populations, shows a signal of positive selection in non-Africans over 35kb downstream rs10180970, especially in East-Asians.
-
-
->> See our open access https://www.nature.com/articles/s41598-019-40360-9[paper]!! <<
-
-{empty} +
-{empty} +
-{empty} +
-{empty} +
-
-=== Deleterious mutations in human consanguineous populations
-
-Alleles with detrimental consequences and recessive inheritance pattern are the major contributors to the genetic load in human populations. Indeed, while dominant deleterious variants are quickly purged by selection, recessive variants remain in the populations at low frequency and mostly in a heterozygosis.
-
-image:images/consang_pop.png[consang_pop,500,400,role="right"] In consanguineous populations kin marriages can cause deleterious recessive variants to be exposed in homozygous state causing higher rate rate of disorders (congenital, late onset, infertility, miscarriage, infant mortality and morbidity). At the same time, however, inbreeding provides an occasion for selection to act on deleterious phenotypes, in a phenomenon known as purging through inbreeding.
-
-We are interested in understanding and characterizing the incidence of deleterious mutations in consanguineous populations.
-
-{empty} +
-{empty} +
-{empty} +
-{empty} +
 
 == *People*
 
