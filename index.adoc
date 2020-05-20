@@ -6,7 +6,7 @@
 :figure-caption!:
 
 
-Welcome to the *Population Genomics Laboratory* of the http://www.igb.cnr.it/[Institute of Genetics and Biophysics] of the National Research Council.
+Welcome to the *Population Genomics Laboratory* of the http://www.igb.cnr.it/[Institute of Genetics and Biophysics] of the https://www.cnr.it/en[National Research Council].
 We are interested in understanding causes and consequences of genetic diversity and how natural selection in humans affects loci related to diseases
 
 _" Fascinating." (Lieutenant Spock)_
