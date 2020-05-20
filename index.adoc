@@ -112,7 +112,7 @@ PARDOM is funded by PRIN 2017 20177RL4KL
 
 === *Vincenza Colonna*
 
-image:images/vcolonna.jpg[vcolonna,400,role="right"]
+image:images/vcolonna.jpg[vcolonna,300,role="right"]
 [purple]#_I am a researcher at the Institue of Genetics and Biophysics of the Italian National Research Council. I graduated in Evolutionary Biology from University of Napoli Federico II (Italy), did postdoctoral work at University of Ferrara (Italy) and at the Wellcome Trust Sanger Institute (UK). I was lectures in Genetics and Bioinformatics at the University of Ferrara (Italy)._# + [gray]#See my full C.V. http://www.igb.cnr.it/popgenlab/cvenza[here].#
 
 I am a population geneticist and an expert in bioinformatics, working mainly with human data.
@@ -169,10 +169,7 @@ For my thesis, I am studying embryonic mitochondrial sequences from recurrent mi
 
 image:images/Octicons-mark-github.svg[git,30] https://github.com/GiulianaDangelo[My GitHub]
 
-{empty} +
-{empty} +
-{empty} +
-
+'''
 === Former members
 
 * Roberto Sirica, PhD student, 2015-2018
