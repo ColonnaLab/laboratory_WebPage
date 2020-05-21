@@ -270,6 +270,9 @@ Book chapters
 * 2011 Barbujani G., Colonna V. (2011). Genetic bases of human biodiversity: an update. . In: Zachos F.E., Habel J.C. . Biodiversity Hotspots . p. 97-120, berlino:springer, ISBN: 9783642209918
 * 2010 BARBUJANI G, COLONNA V (2010). Genetic bases of human biodiversity: an update. In: ZACHOS F. BIODIVERSITY HOTSPOTS. BERLIN:Springer
 
+Past research
+
+At this https://github.com/ColonnaLab/laboratory_WebPage/blob/master/docs/pastResearc.adoc[link] is possible to found our past Research
 {empty} +
 {empty} +
 {empty} +
