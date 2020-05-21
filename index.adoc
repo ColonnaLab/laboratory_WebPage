@@ -1,9 +1,9 @@
 = *Colonna Lab*
+:figure-caption!:
 :toc-title: Page Content
 :toc: left
 :toclevels: 2
-:imagedir::images/
-:figure-caption!:
+
 
 
 Welcome to the *Population Genomics Laboratory* of the http://www.igb.cnr.it/[Institute of Genetics and Biophysics] of the https://www.cnr.it/en[National Research Council].
@@ -43,13 +43,13 @@ We will identify the highly deleterious dominant mutations as well as rare moder
 
 
 
-===== *Collaborations*
+==== *Collaborations*
 [none]
 - https://www.monash.edu.my/science/staff/academic/qasim-ayub[Qasim Ayub], Monash University, Malaysia
 - http://docente.unife.it/michele.rubini[Michele Rubini], University of Ferrara
 - https://mpba.fbk.eu/furlanello[Cesare Furlanello], Fondazione Bruno Kessler
 
-===== *Funding*
+==== *Funding*
 [none]
 - https://www.merigen.it/[Merigen Research s.r.l]
 - POR Campania FSE 2014-2020 ASSE III – Ob. Sp. 14
@@ -67,7 +67,7 @@ Variation graphs are a pangenomic model based on a compact representation of the
 +vgpop+ code is shared https://github.com/Flavia95/VGpop[here] image:images/Octicons-mark-github.svg[git,30]
 
 
-===== *Collaborations*
+==== *Collaborations*
 - http://www.hypervolu.me/~erik/erik_garrison.html[Erik Garrison], University of California Santa Cruz
 
 

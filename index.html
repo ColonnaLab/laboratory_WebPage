@@ -5,7 +5,6 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="generator" content="Asciidoctor 2.0.10">
-<meta name="author" content=":imagedir::images/">
 <title>Colonna Lab</title>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,300italic,400,400italic,600,600italic%7CNoto+Serif:400,400italic,700,700italic%7CDroid+Sans+Mono:400,700">
 <style>
@@ -436,13 +435,85 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 #footer-text{color:rgba(0,0,0,.6);font-size:.9em}}
 @media amzn-kf8{#header,#content,#footnotes,#footer{padding:0}}
 </style>
+<!-- Generate a nice TOC -->
+<script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+<script src="https://code.jquery.com/ui/1.11.4/jquery-ui.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.tocify/1.9.0/javascripts/jquery.tocify.min.js"></script>
+<!-- We do not need the tocify CSS because the asciidoc CSS already provides most of what we neeed -->
+
+<style>
+.tocify-header {
+    font-style: italic;
+}
+
+.tocify-subheader {
+    font-style: normal;
+    font-size: 90%;
+}
+
+.tocify ul {
+    margin: 0;
+ }
+
+.tocify-focus {
+    color: #7a2518;
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+.tocify-focus > a {
+    color: #7a2518;
+}
+</style>
+
+<script type="text/javascript">
+    $(function () {
+        // Add a new container for the tocify toc into the existing toc so we can re-use its
+        // styling
+        $("#toc").append("<div id='generated-toc'></div>");
+        $("#generated-toc").tocify({
+            extendPage: false,
+            context: "#content",
+            highlightOnScroll: true,
+            hideEffect: "slideUp",
+            // Use the IDs that asciidoc already provides so that TOC links and intra-document
+            // links are the same. Anything else might confuse users when they create bookmarks.
+            hashGenerator: function(text, element) {
+                return $(element).attr("id");
+            },
+            // Smooth scrolling doesn't work properly if we use the asciidoc IDs
+            smoothScroll: false,
+            // Set to 'none' to use the tocify classes
+            theme: "none",
+            // Handle book (may contain h1) and article (only h2 deeper)
+            selectors: $( "#content" ).has( "h1" ).size() > 0 ? "h1,h2,h3,h4,h5" : "h2,h3,h4,h5",
+            ignoreSelector: ".discrete"
+        });
+
+        // Switch between static asciidoc toc and dynamic tocify toc based on browser size
+        // This is set to match the media selectors in the asciidoc CSS
+        // Without this, we keep the dynamic toc even if it is moved from the side to preamble
+        // position which will cause odd scrolling behavior
+        var handleTocOnResize = function() {
+            if ($(document).width() < 768) {
+                $("#generated-toc").hide();
+                $(".sectlevel0").show();
+                $(".sectlevel1").show();
+            }
+            else {
+                $("#generated-toc").show();
+                $(".sectlevel0").hide();
+                $(".sectlevel1").hide();
+            }
+        }
+
+        $(window).resize(handleTocOnResize);
+        handleTocOnResize();
+    });
+</script>
 </head>
 <body class="article toc2 toc-left">
 <div id="header">
 <h1><strong>Colonna Lab</strong></h1>
-<div class="details">
-<span id="author" class="author">:imagedir::images/</span><br>
-</div>
 <div id="toc" class="toc2">
 <div id="toctitle">Page Content</div>
 <ul class="sectlevel1">
@@ -519,8 +590,8 @@ We are interested in understanding causes and consequences of genetic diversity 
 <div class="paragraph">
 <p>GReP code is shared <a href="https://github.com/ezcn/grep">here</a> <span class="image"><img src="images/Octicons-mark-github.svg" alt="git" width="30"></span></p>
 </div>
-<div class="sect4">
-<h5 id="_collaborations"><strong>Collaborations</strong></h5>
+<div class="sect3">
+<h4 id="_collaborations"><strong>Collaborations</strong></h4>
 <div class="ulist none">
 <ul class="none">
 <li>
@@ -535,8 +606,8 @@ We are interested in understanding causes and consequences of genetic diversity 
 </ul>
 </div>
 </div>
-<div class="sect4">
-<h5 id="_funding"><strong>Funding</strong></h5>
+<div class="sect3">
+<h4 id="_funding"><strong>Funding</strong></h4>
 <div class="ulist none">
 <ul class="none">
 <li>
@@ -563,8 +634,8 @@ We are interested in understanding causes and consequences of genetic diversity 
 <div class="paragraph">
 <p>vgpop code is shared <a href="https://github.com/Flavia95/VGpop">here</a> <span class="image"><img src="images/Octicons-mark-github.svg" alt="git" width="30"></span></p>
 </div>
-<div class="sect4">
-<h5 id="_collaborations_2"><strong>Collaborations</strong></h5>
+<div class="sect3">
+<h4 id="_collaborations_2"><strong>Collaborations</strong></h4>
 <div class="ulist">
 <ul>
 <li>
@@ -914,7 +985,7 @@ via Pietro Castellino 111 - 80131 Napoli - Italy - <a href="https://www.google.c
 </div>
 <div id="footer">
 <div id="footer-text">
-Last updated 2020-05-20 16:55:16 +0200
+Last updated 2020-05-21 11:28:12 +0200
 </div>
 </div>
 </body>
