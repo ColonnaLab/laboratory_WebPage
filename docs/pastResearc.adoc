@@ -1,6 +1,6 @@
-== *Past Research Interests*
+= *Past Research Interests*
 
-=== Genetics of fruit shape and size in peppers
+== Genetics of fruit shape and size in peppers
 Capsicum fruits are among the most-widely consumed vegetable crops in the world, and one of the most extensively domesticated plants. While a focus of breeding programs and widely studied for its beneficial properties, the genetics of pepper has been studied mostly by linkage analysis and with the use of coarse sets of markers and low resolution phenotypic data.
 
 We discovered 746k high quality polymorphic sites analyzing sequence data of 373 pepper accessions. We also measured thirty-eight fruit shape and size attributes in 220 C. annuum accessions.We used these data to:
@@ -30,7 +30,7 @@ This project is a collaboration with Pasquale Tripodi and Nunzio D'Agostino at h
 {empty} +
 {empty} +
 
-=== Positive selction at the ABCA12 gene
+== Positive selction at the ABCA12 gene
 
 Natural selection acts on genetic variants by increasing the frequency of alleles responsible for a cellular function that is favorable in a certain environment.
 
@@ -50,11 +50,11 @@ The Cross Population Extended Haplotype Homozogysity statistic (XP-EHH), measure
 {empty} +
 {empty} +
 
-=== Deleterious mutations in human consanguineous populations
+== Deleterious mutations in human consanguineous populations
 
 Alleles with detrimental consequences and recessive inheritance pattern are the major contributors to the genetic load in human populations. Indeed, while dominant deleterious variants are quickly purged by selection, recessive variants remain in the populations at low frequency and mostly in a heterozygosis.
 
-image:/images/consang_pop.png[consang_pop,500,align="center"]
+image:/images/consang_pop.png[consang_pop,800,align="center"]
 
 In consanguineous populations kin marriages can cause deleterious recessive variants to be exposed in homozygous state causing higher rate rate of disorders (congenital, late onset, infertility, miscarriage, infant mortality and morbidity). At the same time, however, inbreeding provides an occasion for selection to act on deleterious phenotypes, in a phenomenon known as purging through inbreeding.
 
