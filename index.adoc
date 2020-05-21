@@ -11,8 +11,7 @@ We are interested in understanding causes and consequences of genetic diversity 
 [.text-right]
 "```_Fascinating_```" _(Lieutenant Spock)_
 
-image::images/igblogo.png[igb,400,align="left"]
-image::images/CNR_logo.svg.png[cnr,400,align="right"]
+image::images/loghi_cnr_igb.png[400]
 
 
 
@@ -93,7 +92,7 @@ We are working on SARS-CoV-2 genomics along three research lines:
 
 .  We are part of a network that aim to develop a platform for sharing and analyzing genomic sequence information from samples collected in the Region Campania in Italy. This research is supported by Regione Campania – Recover – Covid 19 -DPGR n. 45 (06/03/2020). Prot. 2020, 0213629 del 05/05/2020.
 
-.  We are recruiting COVID19+ individuals from Regione Basilicata, one of the few regions in Italy with the lowest rate of infection. This research is supported by local associations and entrepreneurs.
+.  We are recruiting COVID19+ individuals from Regione Basilicata, one of the few regions in Italy with the lowest rate of infection.
 
 image::images/bloccscheme.png[blocc,1000,align="center"]
 
