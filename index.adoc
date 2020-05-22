@@ -61,7 +61,14 @@ image::images/loghi_grep.png[loghi_grep,400,align="left"]
 === *vgpop* - Population genetics from variation graphs
 
 
-Variation graphs are a pangenomic model based on a compact representation of the mutual alignment of many genomes. They are used to compress information from vast sequence sets and support the explicit representation of both simple and complex genomic variants. We are intersted in developing methods to compute population genetic statistics directly from variation graphs. Such approaches will allow us to explore complex genomic variants which are often excluded from most of the existing population genetic methods. As our first goal we would like to adapt existing code for population genetic analyses to variation graphs, and in the future we would like to explore new methods to answer basic population genetic questions based on information contained in complex genetic variants.
+Variation graphs are a pangenomic model based on a compact representation of the mutual alignment of many genomes. They are used to compress information from vast sequence sets and support the explicit representation of both simple and complex genomic variants.
+
+.[purple]#A graph is made up of vertices which are connected by edges. It can represent alignment among two sequences. ChrX represents the sequence used as a reference to describe variants that are present in a sequence analysed.#
+image::images/GRaphchrX.png[GRaphchrX,600,align="center"]
+
+We are intersted in developing methods to compute population genetic statistics directly from variation graphs. Such approaches will allow us to explore complex genomic variants which are often excluded from most of the existing population genetic methods. As our first goal we would like to adapt existing code for population genetic analyses to variation graphs, and in the future we would like to explore new methods to answer basic population genetic questions based on information contained in complex genetic variants.
+
+
 
 +vgpop+ code is shared https://github.com/Flavia95/VGpop[here] image:images/Octicons-mark-github.svg[git,30]
 
@@ -84,6 +91,9 @@ image::images/wolrd_covid19.png[wolrd_covid19,700,align="center"]
 
 We are committed to collect, sequence and openly publish as many samples as we can. Knowledge of the SARS-CoV-2 genomic sequence will enable basic research on COVID19, including monitoring the pandemic diffusion, improving genetic testing and develop effective vaccines.
 
+.[purple]#A de novo assembly of pulled down RNA sequenced on a nanopore device.#
+image::images/Assembly_denovo.png[align="center"]
+
 *These consideration were presented at the Commissione sanità of the Italian Senate of the Republic. Slides can be find https://github.com/ColonnaLab/laboratory_WebPage/blob/master/docs/2020_Covid19Senato.pdf[here]*
 
 We are working on SARS-CoV-2 genomics along three research lines:
@@ -94,7 +104,7 @@ We are working on SARS-CoV-2 genomics along three research lines:
 
 .  We are recruiting COVID19+ individuals from Regione Basilicata, one of the few regions in Italy with the lowest rate of infection.
 
-image::images/bloccscheme.png[blocc,1000,align="center"]
+image::images/bloccscheme.png[blocc,800,align="center"]
 
 '''
 
@@ -152,7 +162,7 @@ image:images/Octicons-mark-github.svg[git,30] https://github.com/GianlucaDamaggi
 '''
 === *Flavia Villani*, Master Student
 
-I am a master's student at the Institue of Genetics and Biophysics of the Italian National Research Council. I graduated in Biology at the University of Fisciano (Italy).
+image:images/Flavia.JPG[flavia,200,role="right"] I am a master’s student at the Institue of Genetics and Biophysics of the Italian National Research Council. I graduated in Biology at the University of Salerno (Italy).
 
 I contributed to a project that studies idiopathic recurrent miscarriage. Currently, I am working to build a library using the Python programming language for the statistical analysis of negative selection using sequence data. In particular, I am focusing on the use of pangenomic sequence data.
 
