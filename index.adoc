@@ -16,7 +16,7 @@ image::images/loghi_cnr_igb.png[400]
 
 
 
-== *Ongoing Research*
+== *Research*
 
 === *GReP* - Genomics of Recurrent Pregnancy Loss
 
@@ -121,6 +121,8 @@ PARDOM is funded by PRIN 2017 20177RL4KL
 == *Training in Bioinformatics*
 
 We are actively organizing and participating into bioinformatics training
+
+== *Science for everyone*
 
 == *People*
 
