@@ -28,7 +28,7 @@ This project will identify variants severely disrupting genes and regulatory fun
 
 
 
-image::images/IbeliveIcanFlyLast.pdf[preSeq_screaning,500,400,role="right"]
+image::images/ibelieve.png[preSeq_screening,500,400,role="right"]
 [purple]#_We are interested in sequencing euploid miscarriages, therefore we do a pre-sequencing screening to exclude aneuploidies and comorbidities. We estimated that 20% of collected samples is euploid. We also find that with current methods it is not possible to make a diagnosis in about 25% of the samples._#
 
 
