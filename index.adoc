@@ -158,13 +158,11 @@ image:images/Octicons-mark-github.svg[git,30] https://github.com/SilviaBuonaiuto
 
 '''
 
-=== *Gianluca Damaggio*, Master Student
+=== *Gianluca Damaggio*, PhD Student
 
-image:images/gianluca.jpg[gianluca,200,role="right"] I received a bachelor's degree in Molecular Biology at the University of Napoli Federico II (Italy) and now I am a master's student at the Institue of Genetics and Biophysics of the Italian National Research Council.
+image:images/gianluca.jpg[gianluca,200,role="right"] I received a bachelor's degree in Molecular Biology and a master's degree in Biology at the University of Napoli Federico II (Italy), my past research was based on the analysis of embryonic whole-genome sequences from recurrent miscarriages in humans. My interest is to investigate the enrichment of deleterious consequences in our cases compared to a control population.
 
-My project consists in the analysis of  embryonic whole-genome sequences from recurrent miscarriages in humans. My interest is to investigate the enrichment of deleterious consequences in our cases compared to a control population. To do this I study the distribution of deleterious variants in the Allele Frequency Spectrum.
-
-I am also collaborating to project with the Laboratory of Elena Cattaneo in Milano. My contribution is to set up a pipeline to count the number of repeats in the Huntington's gene.
+Currently, I am a PhD student and visiting at the Institue of Genetics and Biophysics of the Italian National Research Council in Naples. I am also a Junior Research Fellow for University of Milano Statale ( UNIMI ) in the Laboratory of Elena Cattaneo and my contribution is to set up a pipeline to count the number of repeats in the Huntington's gene.
 
 image:images/Octicons-mark-github.svg[git,30] https://github.com/GianlucaDamaggio[My GitHub]
 
