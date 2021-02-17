@@ -181,7 +181,7 @@ image:images/Octicons-mark-github.svg[git,30] https://github.com/Flavia95[My Git
 
 === *Giuliana D'Angelo*, Master Student
 
-I am a molecular biology student at University of Naples Federico II currently working on my master's degree thesis at the Institue of Genetics and Biophysics of the Italian National Research Council.
+image:images/giuliana.jpg[flavia,200,role="right"] I am a molecular biology student at University of Naples Federico II currently working on my master's degree thesis at the Institue of Genetics and Biophysics of the Italian National Research Council.
 
 For my thesis, I am studying embryonic mitochondrial sequences from recurrent miscarriages in humans. In particular, I am doing the variant calling, determining haplogroups, and studying the incidence of deleterious mutations in mitochondrial genes and regulatory regions.
 
