@@ -57,31 +57,6 @@ image::images/loghi_grep.png[loghi_grep,400,align="left"]
 
 '''
 
-=== *HD-DittoGraph* - a digital human Embryonic Stem Cell platform for Hungtinton’s repeats
-
-This project aims to identify the genetic factors that are implicated in HTT CAG instability both during mitotic cell replication and in post-mitotic neurons. We will employ an unbiased discovery process that relies on a new human embryonic stem (hES) cellC-based cell platform, barcoded DNA libraries, CRISPR technologies and long-read third generation DNA sequencing. Factors modulating CAG elongation have been divided into cis-acting elements (i.e. DNA sequences in the proximity of the repeat or the repeat itself) and trans-acting elements (i. e. other proteins) whose interaction with the repeat contributes to its instability
-
-image::images/strique_count.png[preSeq_screening,800,600,role="center"]
-[purple]#_CAG sizing using STRIque on Nanopore sequencing data obtained from libraries generated starting from a donor plasmid carrying the sequence [CAG]48-CAA-CAG. Several combinations of parameters (prefix/suffix size, Qscore, lenght of the reference sequence) were used. Accurate CAG size was detected under most of the combinations used._#
-
-
-==== *Collaborations*
-[none]
-- http://www.cattaneolab.it/?page_id=42&lang=en[Elena Cattaneo] - University of Milano, Italy
-- https://air.unimi.it/cris/rp/rp11682#.YEDR4C1Q2p0[Dario Besusso] - University of Milano, Italy
-- https://elixir-iib-training.github.io/website/instructors/allegra_via.html[Allegra Via] - ELIXIR-IIB Training Platform
-- https://www.recas-bari.it/index.php/it/[ReCaS] - data center
-
-==== *Funding*
-[none]
-- https://cordis.europa.eu/project/id/742436[H2020-EU.1.1. - EXCELLENT SCIENCE - European Research Council (ERC)]
-- Grant agreement ID: 742436
-
-image::images/cordis.png[loghi_grep,400,align="left"]
-
-'''
-
-
 === *vgpop* - Population genetics from variation graphs
 
 
@@ -100,6 +75,30 @@ We are intersted in developing methods to compute population genetic statistics 
 ==== *Collaborations*
 - http://www.hypervolu.me/~erik/erik_garrison.html[Erik Garrison], University of California Santa Cruz
 
+
+'''
+
+=== *HD-DittoGraph* - a digital human Embryonic Stem Cell platform for Hungtinton’s repeats
+
+This project aims to identify the genetic factors that are implicated in HTT CAG instability both during mitotic cell replication and in post-mitotic neurons. We will employ an unbiased discovery process that relies on a new human embryonic stem (hES) cellC-based cell platform, barcoded DNA libraries, CRISPR technologies and long-read third generation DNA sequencing. Factors modulating CAG elongation have been divided into cis-acting elements (i.e. DNA sequences in the proximity of the repeat or the repeat itself) and trans-acting elements (i. e. other proteins) whose interaction with the repeat contributes to its instability
+
+image::images/strique_count.png[preSeq_screening,800,600,role="center"]
+[purple]#_CAG sizing using STRIque on Nanopore sequencing data obtained from libraries generated starting from a donor plasmid carrying the sequence [CAG]48-CAA-CAG. Several combinations of parameters (prefix/suffix size, Qscore, lenght of the reference sequence) were used. Accurate CAG size was detected under most of the combinations used._#
+
+
+==== *Collaborations*
+[none]
+- http://www.cattaneolab.it/?page_id=42&lang=en[Elena Cattaneo] - University of Milano, Italy
+- https://air.unimi.it/cris/rp/rp11682#.YEDR4C1Q2p0[Dario Besusso] - University of Milano, Italy
+- https://elixir-iib-training.github.io/website/instructors/allegra_via.html[Allegra Via] - ELIXIR-IIB Training Platform
+- https://www.recas-bari.it/index.php/it/[ReCaS] - data center
+
+==== *Project Funding*
+[none]
+- https://cordis.europa.eu/project/id/742436[H2020-EU.1.1. - EXCELLENT SCIENCE - European Research Council (ERC)]
+- Grant agreement ID: 742436
+
+image::images/cordis.png[loghi_grep,400,align="left"]
 
 '''
 
@@ -191,7 +190,7 @@ Currently, I am a PhD student and visiting at the Institue of Genetics and Bioph
 image:images/Octicons-mark-github.svg[git,30] https://github.com/GianlucaDamaggio[My GitHub]
 
 '''
-=== *Flavia Villani*, Master Student
+=== *Flavia Villani*, Research Associate
 
 image:images/Flavia.JPG[flavia,200,role="right"] I am a master’s student at the Institue of Genetics and Biophysics of the Italian National Research Council. I graduated in Biology at the University of Salerno (Italy).
 
