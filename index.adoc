@@ -24,29 +24,25 @@ Approximately 70% of all human fertilizations are naturally aborted, with most o
 
 Numerical and structural chromosomal abnormalities are routinely investigated to understand causes of RPL, while the study of small-size sequence variants that can impact gene function has been neglected, leaving a whole range of possible causes unexplored.
 
-This project will identify variants severely disrupting genes and regulatory functions, therefore incompatible with life, using whole genome sequence of DNA extracted from chorionic villi of miscarriages collected from women with RPL.
+With this project we want to identify variants severely disrupting genes and regulatory functions, therefore incompatible with life, using whole genome sequence of DNA extracted from chorionic villi of miscarriages collected from women with RPL.
+
+*Our medRxiv preprint on this project can be find https://t.co/PpYOa00ipi[here]*
+
+*GReP code* is shared https://github.com/ezcn/grep[here] image:images/Octicons-mark-github.svg[git,30]
 
 
+.[purple]#_We are interested in sequencing euploid embryos from miscarriages, therefore we do a pre-sequencing screening to exclude aneuploidies and comorbidities. Euploid embryos are sequenced and sequences are used to identify mutations. We expect that highly deleterious dominant mutations as well as rare moderately to highly deleterious recessive mutations contribute to miscarriage. Participant inclusion criteria (e.g. recurrence, consanguinity, selection of comorbidities) will ensure the prevalence of genetic over environmental causes._#
+[link=https://t.co/PpYOa00ipi]
+image::images/ibelieveModel.png[preSeq_screening,1000,500]
 
-image::images/ibelieve.png[preSeq_screening,500,400,role="right"]
-[purple]#_We are interested in sequencing euploid miscarriages, therefore we do a pre-sequencing screening to exclude aneuploidies and comorbidities. We estimated that 20% of collected samples is euploid. We also find that with current methods it is not possible to make a diagnosis in about 25% of the samples._#
-
-
-//,align="center"]
-
-
-
-We will identify the highly deleterious dominant mutations as well as rare moderately to highly deleterious recessive mutations that constitute the genetic load of human populations and contribute to miscarriage. Participant inclusion criteria (e.g. recurrence, consanguinity, selection of comorbidities) will ensure the prevalence of genetic over environmental causes, and pre-sequencing screening will exclude cases with large chromosomal aberration.
-
-+GReP+ code is shared https://github.com/ezcn/grep[here] image:images/Octicons-mark-github.svg[git,30]
-
-
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Our preprint on the analysis of genome sequence of miscarried euploid embryos is on <a href="https://twitter.com/hashtag/medRxiv?src=hash&amp;ref_src=twsrc%5Etfw">#medRxiv</a> <a href="https://t.co/PpYOa00ipi">https://t.co/PpYOa00ipi</a> <a href="https://twitter.com/BuonaiutoSilvia?ref_src=twsrc%5Etfw">@BuonaiutoSilvia</a> <a href="https://twitter.com/GDamaggio?ref_src=twsrc%5Etfw">@GDamaggio</a> <a href="https://twitter.com/antonio_capalbo?ref_src=twsrc%5Etfw">@antonio_capalbo</a> We prioritize genomic variants putatively responsible for <a href="https://twitter.com/hashtag/miscarriage?src=hash&amp;ref_src=twsrc%5Etfw">#miscarriage</a> and learned about causes of <a href="https://twitter.com/hashtag/pregnancyloss?src=hash&amp;ref_src=twsrc%5Etfw">#pregnancyloss</a></p>&mdash; Enza Colonna (@v_colonna) <a href="https://twitter.com/v_colonna/status/1347943057468108801?ref_src=twsrc%5Etfw">January 9, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> 
 
 ==== *Collaborations*
 [none]
-- https://www.monash.edu.my/science/staff/academic/qasim-ayub[Qasim Ayub], Monash University, Malaysia
+- https://www.merigen.it/[Imma and Sebastiano Di Biase], MeriGen Research, Italy
+- https://www.igenomix.it/[Antonio Capalbo], Igenomix Italy
 - http://docente.unife.it/michele.rubini[Michele Rubini], University of Ferrara
-- https://mpba.fbk.eu/furlanello[Cesare Furlanello], Fondazione Bruno Kessler
+- https://www.monash.edu.my/science/staff/academic/qasim-ayub[Qasim Ayub], Monash University, Malaysia
 
 ==== *Funding*
 [none]
@@ -62,7 +58,7 @@ image::images/loghi_grep.png[loghi_grep,400,align="left"]
 
 Variation graphs are a pangenomic model based on a compact representation of the mutual alignment of many genomes. They are used to compress information from vast sequence sets and support the explicit representation of both simple and complex genomic variants.
 
-.[purple]#A graph is made up of vertices which are connected by edges. It can represent alignment among two sequences. ChrX represents the sequence used as a reference to describe variants that are present in a sequence analysed.#
+.[purple]#_A graph is made up of vertices which are connected by edges. It can represent alignment and variation among sequences. This graph shows an A/T single nucleotide polymorphisms. The path below with red peppers shows on of teh two possible paths through the graph._#
 image::images/GRaphchrX.png[GRaphchrX,600,align="center"]
 
 We are intersted in developing methods to compute population genetic statistics directly from variation graphs. Such approaches will allow us to explore complex genomic variants which are often excluded from most of the existing population genetic methods. As our first goal we would like to adapt existing code for population genetic analyses to variation graphs, and in the future we would like to explore new methods to answer basic population genetic questions based on information contained in complex genetic variants.
@@ -73,14 +69,15 @@ We are intersted in developing methods to compute population genetic statistics 
 
 
 ==== *Collaborations*
-- http://www.hypervolu.me/~erik/erik_garrison.html[Erik Garrison], University of California Santa Cruz
+- https://scholar.google.com/citations?user=OYJMYwIAAAAJ&hl=en[Robert Williams], https://davidashbrook.wordpress.com/[David Ashbrook], https://thebird.nl/[Pjotr Prins], http://www.hypervolu.me/~erik/erik_garrison.html[Erik Garrison], University of Tennessee Health Science Center
 
 
 '''
 
 === *HD-DittoGraph* - a digital human Embryonic Stem Cell platform for Hungtinton’s repeats
 
-This project aims to identify the genetic factors that are implicated in HTT CAG instability both during mitotic cell replication and in post-mitotic neurons. We will employ an unbiased discovery process that relies on a new human embryonic stem (hES) cellC-based cell platform, barcoded DNA libraries, CRISPR technologies and long-read third generation DNA sequencing. Factors modulating CAG elongation have been divided into cis-acting elements (i.e. DNA sequences in the proximity of the repeat or the repeat itself) and trans-acting elements (i. e. other proteins) whose interaction with the repeat contributes to its instability
+This project aims to identify the genetic factors that are implicated in instability of the CAG repeats in the Hungtinton's gene _HTT_, both during mitotic cell replication and in post-mitotic neurons. We use a human embryonic stem (hES) cellC-based cell platform, barcoded DNA libraries, CRISPR technologies and long-read third generation DNA sequencing.
+//Factors modulating CAG elongation have been divided into cis-acting elements (i.e. DNA sequences in the proximity of the repeat or the repeat itself) and trans-acting elements (i. e. other proteins) whose interaction with the repeat contributes to its instability
 
 image::images/strique_count.png[preSeq_screening,800,600,role="center"]
 [purple]#_CAG sizing using STRIque on Nanopore sequencing data obtained from libraries generated starting from a donor plasmid carrying the sequence [CAG]48-CAA-CAG. Several combinations of parameters (prefix/suffix size, Qscore, lenght of the reference sequence) were used. Accurate CAG size was detected under most of the combinations used._#
@@ -93,16 +90,16 @@ image::images/strique_count.png[preSeq_screening,800,600,role="center"]
 - https://elixir-iib-training.github.io/website/instructors/allegra_via.html[Allegra Via] - ELIXIR-IIB Training Platform
 - https://www.recas-bari.it/index.php/it/[ReCaS] - data center
 
-==== *Project Funding*
-[none]
-- https://cordis.europa.eu/project/id/742436[H2020-EU.1.1. - EXCELLENT SCIENCE - European Research Council (ERC)]
-- Grant agreement ID: 742436
+//==== *Project Funding*
+//[none]
+//- https://cordis.europa.eu/project/id/742436[H2020-EU.1.1. - EXCELLENT SCIENCE - European Research Council (ERC)]
+//- Grant agreement ID: 742436
 
-image::images/cordis.png[loghi_grep,400,align="left"]
+//image::images/cordis.png[loghi_grep,400,align="left"]
 
 '''
 
-=== *BLoCC* - Genomics of COVID19
+=== *SARS-CoV-2* - Genomics of COVID19
 
 With the emerging of the COVID19+ pandemic we feel motivated to give our contribution as geneticists. Among the many aspects worth working on, we chose to deal with the paucity of SARS-CoV-2 genomic sequences from Italy publicly available.
 
@@ -114,21 +111,20 @@ image::images/wolrd_covid19.png[wolrd_covid19,700,align="center"]
 
 We are committed to collect, sequence and openly publish as many samples as we can. Knowledge of the SARS-CoV-2 genomic sequence will enable basic research on COVID19, including monitoring the pandemic diffusion, improving genetic testing and develop effective vaccines.
 
-*These consideration were presented at the Commissione sanità of the Italian Senate of the Republic. Slides can be find https://github.com/ColonnaLab/laboratory_WebPage/blob/master/docs/2020_Covid19Senato.pdf[here]*
+*These consideration were presented at the Commissione sanità of the Italian Senate of the Republic in May 2020. Slides can be find https://github.com/ColonnaLab/laboratory_WebPage/blob/master/docs/2020_Covid19Senato.pdf[here]*
 
-.[purple]#A de novo assembly of pulled down RNA sequenced on a nanopore device.#
-image::images/Assembly_denovo.png[align="center"]
+//.[purple]#A de novo assembly of pulled down RNA sequenced on a nanopore device.#
+//image::images/Assembly_denovo.png[align="center"]
 
+We are working on SARS-CoV-2 genomics along two research lines:
 
-We are working on SARS-CoV-2 genomics along three research lines:
-
-. Through ELIXIR-ITA we are making a community effort to train laboratories on protocols, methods and procedure for the study of the SARS-CoV-2 genomes
+. In collaboration with CEINGE we are sequencing SARS-CoV-2 genomes using third-generation sequencing.
 
 .  We are part of a network that aim to develop a platform for sharing and analyzing genomic sequence information from samples collected in the Region Campania in Italy. This research is supported by Regione Campania – Recover – Covid 19 -DPGR n. 45 (06/03/2020). Prot. 2020, 0213629 del 05/05/2020.
 
-.  We are recruiting COVID19+ individuals from Regione Basilicata, one of the few regions in Italy with the lowest rate of infection.
+//.  We are recruiting COVID19+ individuals from Regione Basilicata, one of the few regions in Italy with the lowest rate of infection.
 
-image::images/bloccscheme.png[blocc,800,align="center"]
+//image::images/bloccscheme.png[blocc,800,align="center"]
 
 '''
 
@@ -145,7 +141,7 @@ PARDOM is funded by PRIN 2017 20177RL4KL
 
 We are actively organizing and participating into bioinformatics training
 
-== *Science for everyone*
+== *Science communication*
 
 == *People*
 
