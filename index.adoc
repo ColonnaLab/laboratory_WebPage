@@ -35,7 +35,6 @@ With this project we want to identify variants severely disrupting genes and reg
 [link=https://t.co/PpYOa00ipi]
 image::images/ibelieveModel.png[preSeq_screening,1000,500]
 
-//<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Our preprint on the analysis of genome sequence of miscarried euploid embryos is on <a href="https://twitter.com/hashtag/medRxiv?src=hash&amp;ref_src=twsrc%5Etfw">#medRxiv</a> <a href="https://t.co/PpYOa00ipi">https://t.co/PpYOa00ipi</a> <a href="https://twitter.com/BuonaiutoSilvia?ref_src=twsrc%5Etfw">@BuonaiutoSilvia</a> <a href="https://twitter.com/GDamaggio?ref_src=twsrc%5Etfw">@GDamaggio</a> <a href="https://twitter.com/antonio_capalbo?ref_src=twsrc%5Etfw">@antonio_capalbo</a> We prioritize genomic variants putatively responsible for <a href="https://twitter.com/hashtag/miscarriage?src=hash&amp;ref_src=twsrc%5Etfw">#miscarriage</a> and learned about causes of <a href="https://twitter.com/hashtag/pregnancyloss?src=hash&amp;ref_src=twsrc%5Etfw">#pregnancyloss</a></p>&mdash; Enza Colonna (@v_colonna) <a href="https://twitter.com/v_colonna/status/1347943057468108801?ref_src=twsrc%5Etfw">January 9, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 ==== *Collaborations*
 [none]
