@@ -14,9 +14,11 @@ We are interested in understanding causes and consequences of genetic diversity 
 image::images/loghi_cnr_igb.png[400]
 
 
-
-
 == *Research*
+
+=== *DELIVER* - Decipher unExpLored genetIc Variation inrEproductive failuRe
+
+We aim at understanding the contribution of genomic variants to the failure of early human embryonic development. Past and current research in this context investigates mostly aneuploidies or insertion/deletions of few up to 10Mb, leaving unexplored the two extremes of this range, i.e. small-size and very large structural variants. We focus on this unexplored variation analyzing DNA sequence data from euploid miscarried embryos produced with third generation sequencing and analyzed with pangenomic techniques. The third-generation sequencing produces reads of length suitable to confidently discover large structural variants, while the pangenome analysis enables the discovery of variants not present in the reference sequence, and highly likely to be detrimental.
 
 === *GReP* - Genomics of Recurrent Pregnancy Loss
 
