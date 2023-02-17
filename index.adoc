@@ -20,30 +20,16 @@ image::images/loghi_cnr_igb.png[400]
 
 We aim at understanding the contribution of genomic variants to the failure of early human embryonic development. Past and current research in this context investigates mostly aneuploidies or insertion/deletions of few up to 10Mb, leaving unexplored the two extremes of this range, i.e. small-size and very large structural variants. We focus on this unexplored variation analyzing DNA sequence data from euploid miscarried embryos produced with third generation sequencing and analyzed with pangenomic techniques. The third-generation sequencing produces reads of length suitable to confidently discover large structural variants, while the pangenome analysis enables the discovery of variants not present in the reference sequence, and highly likely to be detrimental.
 
-=== *GReP* - Genomics of Recurrent Pregnancy Loss
-
-Approximately 70% of all human fertilizations are naturally aborted, with most occurring before the mother knows she is pregnant. Miscarriages that occur later in pregnancy are often due to non-viable genetic variation and this is very likely in the case of Recurrent Pregnancy Losses (RPL).
-
-Numerical and structural chromosomal abnormalities are routinely investigated to understand causes of RPL, while the study of small-size sequence variants that can impact gene function has been neglected, leaving a whole range of possible causes unexplored.
-
-With this project we want to identify variants severely disrupting genes and regulatory functions, therefore incompatible with life, using whole genome sequence of DNA extracted from chorionic villi of miscarriages collected from women with RPL.
 
 *Our medRxiv preprint on this project can be find https://t.co/PpYOa00ipi[here]*
-
-*GReP code* is shared https://github.com/ezcn/grep[here] image:images/Octicons-mark-github.svg[git,30]
 
 
 .[purple]#_We are interested in sequencing euploid embryos from miscarriages, therefore we do a pre-sequencing screening to exclude aneuploidies and comorbidities. Euploid embryos are sequenced and sequences are used to identify mutations. We expect that highly deleterious dominant mutations as well as rare moderately to highly deleterious recessive mutations contribute to miscarriage. Participant inclusion criteria (e.g. recurrence, consanguinity, selection of comorbidities) will ensure the prevalence of genetic over environmental causes._#
 [link=https://t.co/PpYOa00ipi]
 image::images/ibelieveModel.png[preSeq_screening,1000,500]
 
-
-==== *Collaborations*
-[none]
-- https://www.merigen.it/[Imma and Sebastiano Di Biase], MeriGen Research, Italy
-- https://www.igenomix.it/[Antonio Capalbo], Igenomix Italy
-- http://docente.unife.it/michele.rubini[Michele Rubini], University of Ferrara
-- https://www.monash.edu.my/science/staff/academic/qasim-ayub[Qasim Ayub], Monash University, Malaysia
+This project is in collaboration with - https://www.merigen.it/[Imma and Sebastiano Di Biase], MeriGen Research, Italy
+- https://www.igenomix.it/[Antonio Capalbo], Igenomix Italy - http://docente.unife.it/michele.rubini[Michele Rubini], University of Ferrara - https://www.monash.edu.my/science/staff/academic/qasim-ayub[Qasim Ayub], Monash University, Malaysia
 
 ==== *Funding*
 [none]
@@ -54,78 +40,20 @@ image::images/loghi_grep.png[loghi_grep,400,align="left"]
 
 '''
 
-=== *vgpop* - Population genetics from variation graphs
+=== Mouse Pangenomics 
+
+The members of BXDs family have been inbred for 20-200 generations. They are of great value for mapping complex traits and phenome-wide association analysis. Current genomic studies on BXD assume a single linear reference genome, making it difficult to observe sequences diverging from the reference, therefore limiting the accuracy and completeness of analyses. Pangenome models overcome this limitation as they contain the full genomic information of a species.
+
+We are building a reference pangenome for all extant members of all BXD families leveraging third generation and 10X sequence data. We will analyze the genetic variation in relation to thousands of phenotypes in the GeneNetwork.
 
 
-Variation graphs are a pangenomic model based on a compact representation of the mutual alignment of many genomes. They are used to compress information from vast sequence sets and support the explicit representation of both simple and complex genomic variants.
+This project is in collaboration with - https://scholar.google.com/citations?user=OYJMYwIAAAAJ&hl=en[Robert Williams],  https://davidashbrook.wordpress.com/[David Ashbrook], https://thebird.nl/[Pjotr Prins], http://www.hypervolu.me/~erik/erik_garrison.html[Erik Garrison], Department of Genetics, Genomics and Informatics, University of Tennessee Health Science Center,Memphis, TN.
 
-.[purple]#_A graph is made up of vertices which are connected by edges. It can represent alignment and variation among sequences. This graph shows an A/T single nucleotide polymorphisms. The path below with red peppers shows on of teh two possible paths through the graph._#
-image::images/GRaphchrX.png[GRaphchrX,600,align="center"]
+*Our biorxiv preprint on this project can be find https://www.biorxiv.org/content/10.1101/2022.04.21.489063v1.full[here] and https://www.biorxiv.org/content/10.1101/2022.03.02.482700v1.full[here]*
 
-We are intersted in developing methods to compute population genetic statistics directly from variation graphs. Such approaches will allow us to explore complex genomic variants which are often excluded from most of the existing population genetic methods. As our first goal we would like to adapt existing code for population genetic analyses to variation graphs, and in the future we would like to explore new methods to answer basic population genetic questions based on information contained in complex genetic variants.
+.[purple]#_(A) odgi-vizlinear visualization of the pangenome of chromosome 19. Each line represents a haplotype. Line interruptions (white) are insertions in one or more strains, therefore deletions in the others (vertical white stripes). The left side is the centromere, the right side is the telomere.In these two regions sequences are fragmented. (B) Extract of the pangenome from the Zfp91gene showing a 2,006 bp insertion found in DBA/2J and 48% of the BXD strains(green nodes in the graph). The insertion is in complete linkage with two other insertions of 4 bp and 135 bp in a region spanning 2.8 kbp. (C) Strain-specific haplotypes (gray segments are not in scale)_#
 
-
-
-+vgpop+ code is shared https://github.com/Flavia95/VGpop[here] image:images/Octicons-mark-github.svg[git,30]
-
-
-==== *Collaborations*
-- https://scholar.google.com/citations?user=OYJMYwIAAAAJ&hl=en[Robert Williams], https://davidashbrook.wordpress.com/[David Ashbrook], https://thebird.nl/[Pjotr Prins], http://www.hypervolu.me/~erik/erik_garrison.html[Erik Garrison], University of Tennessee Health Science Center
-
-
-'''
-
-=== *HD-DittoGraph* - a digital human Embryonic Stem Cell platform for Hungtinton’s repeats
-
-This project aims to identify the genetic factors that are implicated in instability of the CAG repeats in the Hungtinton's gene _HTT_, both during mitotic cell replication and in post-mitotic neurons. We use a human embryonic stem (hES) cellC-based cell platform, barcoded DNA libraries, CRISPR technologies and long-read third generation DNA sequencing.
-//Factors modulating CAG elongation have been divided into cis-acting elements (i.e. DNA sequences in the proximity of the repeat or the repeat itself) and trans-acting elements (i. e. other proteins) whose interaction with the repeat contributes to its instability
-
-image::images/strique_count.png[preSeq_screening,800,600,role="center"]
-[purple]#_CAG sizing using STRIque on Nanopore sequencing data obtained from libraries generated starting from a donor plasmid carrying the sequence [CAG]48-CAA-CAG. Several combinations of parameters (prefix/suffix size, Qscore, lenght of the reference sequence) were used. Accurate CAG size was detected under most of the combinations used._#
-
-
-==== *Collaborations*
-[none]
-- http://www.cattaneolab.it/?page_id=42&lang=en[Elena Cattaneo] - University of Milano, Italy
-- https://air.unimi.it/cris/rp/rp11682#.YEDR4C1Q2p0[Dario Besusso] - University of Milano, Italy
-- https://elixir-iib-training.github.io/website/instructors/allegra_via.html[Allegra Via] - ELIXIR-IIB Training Platform
-- https://www.recas-bari.it/index.php/it/[ReCaS] - data center
-
-//==== *Project Funding*
-//[none]
-//- https://cordis.europa.eu/project/id/742436[H2020-EU.1.1. - EXCELLENT SCIENCE - European Research Council (ERC)]
-//- Grant agreement ID: 742436
-
-//image::images/cordis.png[loghi_grep,400,align="left"]
-
-'''
-
-=== *SARS-CoV-2* - Genomics of COVID19
-
-With the emerging of the COVID19+ pandemic we feel motivated to give our contribution as geneticists. Among the many aspects worth working on, we chose to deal with the paucity of SARS-CoV-2 genomic sequences from Italy publicly available.
-
-.[purple]#Despite Italy being one of the earliest countries hit by the pandemic, as we write (04/05/20) there are only seven sequences from samples collected in Italy in GenBank.#
-[.left]
-[#img-wolrd]
-image::images/wolrd_covid19.png[wolrd_covid19,700,align="center"]
-
-
-We are committed to collect, sequence and openly publish as many samples as we can. Knowledge of the SARS-CoV-2 genomic sequence will enable basic research on COVID19, including monitoring the pandemic diffusion, improving genetic testing and develop effective vaccines.
-
-*These consideration were presented at the Commissione sanità of the Italian Senate of the Republic in May 2020. Slides can be find https://github.com/ColonnaLab/laboratory_WebPage/blob/master/docs/2020_Covid19Senato.pdf[here]*
-
-//.[purple]#A de novo assembly of pulled down RNA sequenced on a nanopore device.#
-//image::images/Assembly_denovo.png[align="center"]
-
-We are working on SARS-CoV-2 genomics along two research lines:
-
-. In collaboration with CEINGE we are sequencing SARS-CoV-2 genomes using third-generation sequencing.
-
-.  We are part of a network that aim to develop a platform for sharing and analyzing genomic sequence information from samples collected in the Region Campania in Italy. This research is supported by Regione Campania – Recover – Covid 19 -DPGR n. 45 (06/03/2020). Prot. 2020, 0213629 del 05/05/2020.
-
-//.  We are recruiting COVID19+ individuals from Regione Basilicata, one of the few regions in Italy with the lowest rate of infection.
-
-//image::images/bloccscheme.png[blocc,800,align="center"]
+image::images/pangenome.png[loghi_pang,500,align="center"]
 
 '''
 
@@ -133,10 +61,12 @@ We are working on SARS-CoV-2 genomics along two research lines:
 
 _Phaseolus_ is a unique example of multiple parallel domestication events that provide a natural experiment to study convergent phenotypic evolution associated with convergent genomic and/or transcriptomic changes. With the project PARDOM (Parallel Domestications: the _Phaseolus_ replicated experiment to understand genome evolution and adaptation), we want to study convergent evolution in four replicates of the domestication process in _P_. _vulgaris_ (PV) and _P_. _lunatus_ (PL), two highly collinear species each domesticated independently in Mesoamerica and the Andes, resulting in at least four independent domestication events.
 
-This project is in collaboration with:
-- http://www.univpm.it/roberto.papa[Roberto Papa]
+This project is in collaboration with http://www.univpm.it/roberto.papa[Roberto Papa]
 
-PARDOM is funded by PRIN 2017 20177RL4KL
+PARDOM is funded by PRIN 2017 20177RL4KL.
+
+'''
+
 
 //== *Training in Bioinformatics*
 
@@ -151,16 +81,17 @@ PARDOM is funded by PRIN 2017 20177RL4KL
 .[purple]#_I am a researcher at the Institue of Genetics and Biophysics of the Italian National Research Council. I graduated in Evolutionary Biology from University of Napoli Federico II (Italy), did postdoctoral work at University of Ferrara (Italy) and at the Wellcome Trust Sanger Institute (UK). I was lectures in Genetics and Bioinformatics at the University of Ferrara (Italy)._#
 image:images/vcolonna.jpg[vcolonna,200,role="right"]
 
+
+I am a genomicist and an expert in human evolutionary and population genomics and bioinformatics. 
+
+I graduated in Evolutionary Biology from the University of Naples Federico II and did postdoctoral research at the University of Ferrara (Italy) and at Wellcome Trust Sanger Institute in Cambridge (UK). I am now leading the Population genomics laboratory  at the IGB-CNR (Naples, Italy) and I am Assistant Professor at the University of Tennessee, College of Medicine, in the Department of Genetics, Genomics and Informatics 
+
+In my postdoctoral research I was part of the international consortium 1000 Genomes[PMID: 26432245; 23128226] where I led contributions to two specific aspects. First, I contributed to develop FunSeq [PMID: 24092746], a tool that integrates non-coding information from relevant biological databases for the functional characterization of non-coding variants. Second, I lead a genome-wide scan to identify genomic regions with exceptionally high levels of population differentiation [PMID: 24980144] demonstrating that these regions are enriched for positive selection events and that one half may be the result of classic selective sweeps. Findings from both sub-projects have since been applied to demographic inference and the molecular diagnosis of cancer and myeloid malignancies [PMID: 27121471, 22446628], and to deeper studies on positive selection at the ABCA12 gene [PMID: 30890716]. 
+
+During my PhD I worked on human isolated populations contributing to characterize several isolated populations, describing the genomic consequences of isolation [PMID: 17476112, 19550436, 22713810], contributing to genetic association studies [PMID: 16611673, 18162505] and to characterize rare variation [PMID: 28643794]
+
+
 + [gray]#See my full C.V. https://github.com/ColonnaLab/laboratory_WebPage/tree/master/docs/CV_EnzaColonna.pdf[here].#
-
-I am a population geneticist and an expert in bioinformatics, working mainly with human data.
-
-I led research projects on: analysis of genomic sequences (assembly, variant calling) and genomic inference (functional interpretation of genetic variants);population genetic analyses for inference on demography and natural selection; genetics of isolated populations; evolutionary medicine; genetics of rare genomic variants.
-
-I have actively collaborated on projects involving RNAseq data analysis and general statistical inference. During my undergraduate training, I worked on projects on molecular biology.
-
-I am an experienced trainer in teaching basic lab skills
-for research computing (e.g. programming languages, version control, statistical analyses).
 
 I founded and led http://www.igb.cnr.it/obilab[OBiLab], a project on training in Bioinformatics
 
@@ -168,46 +99,65 @@ image:images/Octicons-mark-github.svg[git,30] https://github.com/ezcn[My GitHub]
 
 '''
 
-=== *Silvia Buonaiuto*, PhD student
+=== *Silvia Buonaiuto*, Postdoctoral fellow
 
-image:images/silvia.jpg[silvia,200,role="right"] I am a Phd Student at National Research Council and Università della Campania Luigi Vanvitelli. I work on a project that studies idiopathic recurrent miscarriage and aims at identifying genetic variants likely to cause miscarriages to ultimately improve prenatal diagnosis.
-
-I have a master’s degree in Biology from the University of Napoli Federico II. I did a master thesis in molecular biology at the Department of Biology.
+image:images/silvia.jpg[silvia,200,role="right"] *Project Title: DELIVER - Decipher unExpLored genetIc Variation inrEproductive failuRe*. My project studies idiopathic recurrent miscarriage to identify genetic variants likely to be causative and ultimately improve prenatal diagnosis. I have a PhD degree From the university Luigi Vanvitelli, a master’s degree in Biology from the University of Napoli Federico II. I did a master thesis in molecular biology at the Department of Biology.
 
 image:images/Octicons-mark-github.svg[git,30] https://github.com/SilviaBuonaiuto[My GitHub]
+
+'''
+=== *Madeleine Emms*, Postdoctoral fellow
+
+image:images/Maddie-768x718.jpg[maddie,200,role="right"] *Project Title: PARDOM, Parallel Domestications: the Phaseolus replicated experiment to understand genome evolution and adaptation*. Two species in the genus Phaseolus have been domesticated independently in both Mesoamerica and the Andes, representing multiple parallel domestication events and so providing a natural experiment to study convergent evolution using population genetics. I am also finishing my PhD in Zoology at the University of Cambridge, UK, where I used population genetics to determine the population response of coral reef fishes to climate-induced habitat loss by looking back to the Last Glacial Maximum. I have an MSc in Marine Science from King Abdullah University of Science and Technology (KAUST), Saudi Arabia, and a BSc in Marine Biology from the University of St. Andrews (Scotland). I also worked for several NGOs in coral reef conservation and education prior to starting my PhD.
+
+image:images/Octicons-mark-github.svg[git,30] https://github.com/mae47[My GitHub]
 
 '''
 
 === *Gianluca Damaggio*, PhD Student
 
-image:images/gianluca.jpg[gianluca,200,role="right"] I received a bachelor's degree in Molecular Biology and a master's degree in Biology at the University of Napoli Federico II (Italy), my past research was based on the analysis of embryonic whole-genome sequences from recurrent miscarriages in humans. My interest is to investigate the enrichment of deleterious consequences in our cases compared to a control population.
-
-Currently, I am a PhD student and visiting at the Institue of Genetics and Biophysics of the Italian National Research Council in Naples. I am also a Junior Research Fellow for University of Milano Statale ( UNIMI ) in the Laboratory of Elena Cattaneo and my contribution is to set up a pipeline to count the number of repeats in the Huntington's gene.
+image:images/gianluca.jpg[gianluca,200,role="right"] *Project Title: HD-DittoGraph - a digital human Embryonic Stem Cell platform for Hungtinton’s repeats*. My project aims at acquiring the ability to  precisely detect perturbations of short tandem repeats of the Huntington’s gene in proliferative cells, leveraging third-generation sequencing data. Currently, I am a PhD student at the University of Naples Federico II,  visiting student at the IGB-CNR in Naples, and a Junior Research Fellow at the University of Milano Statale in the Laboratory of Elena Cattaneo.
 
 image:images/Octicons-mark-github.svg[git,30] https://github.com/GianlucaDamaggio[My GitHub]
 
 '''
-=== *Flavia Villani*, Research Associate
+=== *Flavia Villani*, PhD Student
 
-image:images/Flavia.JPG[flavia,200,role="right"] I am a master’s student at the Institue of Genetics and Biophysics of the Italian National Research Council. I graduated in Biology at the University of Salerno (Italy).
-
-I contributed to a project that studies idiopathic recurrent miscarriage. Currently, I am working to build a library using the Python programming language for the statistical analysis of negative selection using sequence data. In particular, I am focusing on the use of pangenomic sequence data.
+image:images/Flavia.JPG[flavia,200,role="right"] *Project Title: Mouse Pangenomics*. I have a master degree in Medical Biotechnology from the University of Naples Federico II. Currently, I am a PhD student at the University of Tennessee Health Science Center. I am building the pangenome of model organisms (inbred mice and rats) using a combination of second and third generation sequence data.
 
 image:images/Octicons-mark-github.svg[git,30] https://github.com/Flavia95[My GitHub]
 
 '''
 
-=== *Giuliana D'Angelo*, Master Student
+=== *Marialaura Zitiello*, Master Student
 
-image:images/giuliana.jpg[flavia,200,role="right"] I am a molecular biology student at University of Naples Federico II currently working on my master's degree thesis at the Institue of Genetics and Biophysics of the Italian National Research Council.
-
-For my thesis, I am studying embryonic mitochondrial sequences from recurrent miscarriages in humans. In particular, I am doing the variant calling, determining haplogroups, and studying the incidence of deleterious mutations in mitochondrial genes and regulatory regions.
-
-image:images/Octicons-mark-github.svg[git,30] https://github.com/GiulianaDangelo[My GitHub]
+image:images/Marialaura.jpeg[Marialaura,200,role="right"] *Project Title: Gene expression regulation through methylation in the genome of human embryos (in collaboration with Antonella Mecca)*
+Our project aims to understand how methylation contribute to miscarriages. To do so, we look for differences in methylation profile between miscarried and normal embryos. We analyze genome sequence data of two human embryos, one miscarried and one voluntary aborted, to identify and compare their methylation profiles. We use the long reads obtained from Nanopore sequencing technology.
+ 
 
 '''
+
+=== *Antonella Mecca*, Master Student
+
+image:images/Antonella.jpeg[Antonella,200,role="right"] *Project Title: Gene expression regulation through methylation in the genome of human embryos (in collaboration with Marialaura Zitiello)* 
+Our project aims to understand how methylation contribute to miscarriages. To do so, we look for differences in methylation profile between miscarried and normal embryos. We analyze genome sequence data of two human embryos, one miscarried and one voluntary aborted, to identify and compare their methylation profiles. We use the long reads obtained from Nanopore sequencing technology.
+ 
+
+'''
+
+=== *Angela Sequino*, Master Student
+
+image:images/Angela.jpg[Angela,200,role="right"] *Project Title: Deciphering the role of structural variation in miscarried embryos*
+
+The aim of my project is to investigate the contribution of structural variation to the genetic causes of euploid miscarriages. I use short-reads sequence data from ten miscarried embryos to call structural variants (SV) using the method developed by Sirén et al. (Science 374.6574 (2021): abg8871). To complete the analysis, I will integrate functional information from genomic annotations to understand to which extent SV can cause miscarriages.
+ 
+
+'''
+
 === Former members
 
+
+* Giuliana D'Angelo, Master Student, 2019-2020
 * Roberto Sirica, PhD student, 2015-2018
 * Gaia Leandra Cecere, undergraduate student, 2018
 * Marianna Buonaiuto, visiting Postdoc, 2017

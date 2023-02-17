@@ -1,5 +1,63 @@
 = *Past Research Interests*
 
+== *GReP* - Genomics of Recurrent Pregnancy Loss
+
+Approximately 70% of all human fertilizations are naturally aborted, with most occurring before the mother knows she is pregnant. Miscarriages that occur later in pregnancy are often due to non-viable genetic variation and this is very likely in the case of Recurrent Pregnancy Losses (RPL).
+
+Numerical and structural chromosomal abnormalities are routinely investigated to understand causes of RPL, while the study of small-size sequence variants that can impact gene function has been neglected, leaving a whole range of possible causes unexplored.
+
+With this project we want to identify variants severely disrupting genes and regulatory functions, therefore incompatible with life, using whole genome sequence of DNA extracted from chorionic villi of miscarriages collected from women with RPL.
+
+*GReP code* is shared https://github.com/ezcn/grep[here] image:images/Octicons-mark-github.svg[git,30]
+
+
+== *HD-DittoGraph* - a digital human Embryonic Stem Cell platform for Hungtinton’s repeats
+
+This project aims to identify the genetic factors that are implicated in instability of the CAG repeats in the Hungtinton's gene _HTT_, both during mitotic cell replication and in post-mitotic neurons. We use a human embryonic stem (hES) cellC-based cell platform, barcoded DNA libraries, CRISPR technologies and long-read third generation DNA sequencing.
+//Factors modulating CAG elongation have been divided into cis-acting elements (i.e. DNA sequences in the proximity of the repeat or the repeat itself) and trans-acting elements (i. e. other proteins) whose interaction with the repeat contributes to its instability
+
+image::images/strique_count.png[preSeq_screening,800,600,role="center"]
+[purple]#_CAG sizing using STRIque on Nanopore sequencing data obtained from libraries generated starting from a donor plasmid carrying the sequence [CAG]48-CAA-CAG. Several combinations of parameters (prefix/suffix size, Qscore, lenght of the reference sequence) were used. Accurate CAG size was detected under most of the combinations used._#
+
+
+=== *Collaborations*
+[none]
+- http://www.cattaneolab.it/?page_id=42&lang=en[Elena Cattaneo] - University of Milano, Italy
+- https://air.unimi.it/cris/rp/rp11682#.YEDR4C1Q2p0[Dario Besusso] - University of Milano, Italy
+- https://elixir-iib-training.github.io/website/instructors/allegra_via.html[Allegra Via] - ELIXIR-IIB Training Platform
+- https://www.recas-bari.it/index.php/it/[ReCaS] - data center
+
+
+== *SARS-CoV-2* - Genomics of COVID19
+
+With the emerging of the COVID19+ pandemic we feel motivated to give our contribution as geneticists. Among the many aspects worth working on, we chose to deal with the paucity of SARS-CoV-2 genomic sequences from Italy publicly available.
+
+.[purple]#Despite Italy being one of the earliest countries hit by the pandemic, as we write (04/05/20) there are only seven sequences from samples collected in Italy in GenBank.#
+[.left]
+[#img-wolrd]
+image::images/wolrd_covid19.png[wolrd_covid19,700,align="center"]
+
+
+We are committed to collect, sequence and openly publish as many samples as we can. Knowledge of the SARS-CoV-2 genomic sequence will enable basic research on COVID19, including monitoring the pandemic diffusion, improving genetic testing and develop effective vaccines.
+
+*These consideration were presented at the Commissione sanità of the Italian Senate of the Republic in May 2020. Slides can be find https://github.com/ColonnaLab/laboratory_WebPage/blob/master/docs/2020_Covid19Senato.pdf[here]*
+
+//.[purple]#A de novo assembly of pulled down RNA sequenced on a nanopore device.#
+//image::images/Assembly_denovo.png[align="center"]
+
+We are working on SARS-CoV-2 genomics along two research lines:
+
+. In collaboration with CEINGE we are sequencing SARS-CoV-2 genomes using third-generation sequencing.
+
+.  We are part of a network that aim to develop a platform for sharing and analyzing genomic sequence information from samples collected in the Region Campania in Italy. This research is supported by Regione Campania – Recover – Covid 19 -DPGR n. 45 (06/03/2020). Prot. 2020, 0213629 del 05/05/2020.
+
+//.  We are recruiting COVID19+ individuals from Regione Basilicata, one of the few regions in Italy with the lowest rate of infection.
+
+//image::images/bloccscheme.png[blocc,800,align="center"]
+
+'''
+
+
 == Genetics of fruit shape and size in peppers
 Capsicum fruits are among the most-widely consumed vegetable crops in the world, and one of the most extensively domesticated plants. While a focus of breeding programs and widely studied for its beneficial properties, the genetics of pepper has been studied mostly by linkage analysis and with the use of coarse sets of markers and low resolution phenotypic data.
 

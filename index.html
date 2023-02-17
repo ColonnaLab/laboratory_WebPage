@@ -4,25 +4,23 @@
 <meta charset="UTF-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="generator" content="Asciidoctor 2.0.10">
+<meta name="generator" content="Asciidoctor 2.0.16">
 <title>Colonna Lab</title>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,300italic,400,400italic,600,600italic%7CNoto+Serif:400,400italic,700,700italic%7CDroid+Sans+Mono:400,700">
 <style>
-/* Asciidoctor default stylesheet | MIT License | https://asciidoctor.org */
-/* Uncomment @import statement to use as custom stylesheet */
-/*@import "https://fonts.googleapis.com/css?family=Open+Sans:300,300italic,400,400italic,600,600italic%7CNoto+Serif:400,400italic,700,700italic%7CDroid+Sans+Mono:400,700";*/
-article,aside,details,figcaption,figure,footer,header,hgroup,main,nav,section{display:block}
-audio,video{display:inline-block}
-audio:not([controls]){display:none;height:0}
-html{font-family:sans-serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}
+/*! Asciidoctor default stylesheet | MIT License | https://asciidoctor.org */
+/* Uncomment the following line when using as a custom stylesheet */
+/* @import "https://fonts.googleapis.com/css?family=Open+Sans:300,300italic,400,400italic,600,600italic%7CNoto+Serif:400,400italic,700,700italic%7CDroid+Sans+Mono:400,700"; */
+html{font-family:sans-serif;-webkit-text-size-adjust:100%}
 a{background:none}
 a:focus{outline:thin dotted}
 a:active,a:hover{outline:0}
 h1{font-size:2em;margin:.67em 0}
-abbr[title]{border-bottom:1px dotted}
 b,strong{font-weight:bold}
+abbr{font-size:.9em}
+abbr[title]{cursor:help;border-bottom:1px dotted #dddddf;text-decoration:none}
 dfn{font-style:italic}
-hr{-moz-box-sizing:content-box;box-sizing:content-box;height:0}
+hr{height:0}
 mark{background:#ff0;color:#000}
 code,kbd,pre,samp{font-family:monospace;font-size:1em}
 pre{white-space:pre-wrap}
@@ -34,20 +32,22 @@ sub{bottom:-.25em}
 img{border:0}
 svg:not(:root){overflow:hidden}
 figure{margin:0}
+audio,video{display:inline-block}
+audio:not([controls]){display:none;height:0}
 fieldset{border:1px solid silver;margin:0 2px;padding:.35em .625em .75em}
 legend{border:0;padding:0}
 button,input,select,textarea{font-family:inherit;font-size:100%;margin:0}
 button,input{line-height:normal}
 button,select{text-transform:none}
-button,html input[type="button"],input[type="reset"],input[type="submit"]{-webkit-appearance:button;cursor:pointer}
+button,html input[type=button],input[type=reset],input[type=submit]{-webkit-appearance:button;cursor:pointer}
 button[disabled],html input[disabled]{cursor:default}
-input[type="checkbox"],input[type="radio"]{box-sizing:border-box;padding:0}
+input[type=checkbox],input[type=radio]{padding:0}
 button::-moz-focus-inner,input::-moz-focus-inner{border:0;padding:0}
 textarea{overflow:auto;vertical-align:top}
 table{border-collapse:collapse;border-spacing:0}
-*,*::before,*::after{-moz-box-sizing:border-box;-webkit-box-sizing:border-box;box-sizing:border-box}
+*,::before,::after{box-sizing:border-box}
 html,body{font-size:100%}
-body{background:#fff;color:rgba(0,0,0,.8);padding:0;margin:0;font-family:"Noto Serif","DejaVu Serif",serif;font-weight:400;font-style:normal;line-height:1;position:relative;cursor:auto;tab-size:4;-moz-osx-font-smoothing:grayscale;-webkit-font-smoothing:antialiased}
+body{background:#fff;color:rgba(0,0,0,.8);padding:0;margin:0;font-family:"Noto Serif","DejaVu Serif",serif;line-height:1;position:relative;cursor:auto;-moz-tab-size:4;-o-tab-size:4;tab-size:4;word-wrap:anywhere;-moz-osx-font-smoothing:grayscale;-webkit-font-smoothing:antialiased}
 a:hover{cursor:pointer}
 img,object,embed{max-width:100%;height:auto}
 object,embed{height:100%}
@@ -62,14 +62,12 @@ img{-ms-interpolation-mode:bicubic}
 img,object,svg{display:inline-block;vertical-align:middle}
 textarea{height:auto;min-height:50px}
 select{width:100%}
-.center{margin-left:auto;margin-right:auto}
-.stretch{width:100%}
 .subheader,.admonitionblock td.content>.title,.audioblock>.title,.exampleblock>.title,.imageblock>.title,.listingblock>.title,.literalblock>.title,.stemblock>.title,.openblock>.title,.paragraph>.title,.quoteblock>.title,table.tableblock>.title,.verseblock>.title,.videoblock>.title,.dlist>.title,.olist>.title,.ulist>.title,.qlist>.title,.hdlist>.title{line-height:1.45;color:#7a2518;font-weight:400;margin-top:0;margin-bottom:.25em}
-div,dl,dt,dd,ul,ol,li,h1,h2,h3,#toctitle,.sidebarblock>.content>.title,h4,h5,h6,pre,form,p,blockquote,th,td{margin:0;padding:0;direction:ltr}
+div,dl,dt,dd,ul,ol,li,h1,h2,h3,#toctitle,.sidebarblock>.content>.title,h4,h5,h6,pre,form,p,blockquote,th,td{margin:0;padding:0}
 a{color:#2156a5;text-decoration:underline;line-height:inherit}
 a:hover,a:focus{color:#1d4b8f}
 a img{border:0}
-p{font-family:inherit;font-weight:400;font-size:1em;line-height:1.6;margin-bottom:1.25em;text-rendering:optimizeLegibility}
+p{line-height:1.6;margin-bottom:1.25em;text-rendering:optimizeLegibility}
 p aside{font-size:.875em;line-height:1.35;font-style:italic}
 h1,h2,h3,#toctitle,.sidebarblock>.content>.title,h4,h5,h6{font-family:"Open Sans","DejaVu Sans",sans-serif;font-weight:300;font-style:normal;color:#ba3925;text-rendering:optimizeLegibility;margin-top:1em;margin-bottom:.5em;line-height:1.0125em}
 h1 small,h2 small,h3 small,#toctitle small,.sidebarblock>.content>.title small,h4 small,h5 small,h6 small{font-size:60%;color:#e99b8f;line-height:0}
@@ -78,14 +76,14 @@ h2{font-size:1.6875em}
 h3,#toctitle,.sidebarblock>.content>.title{font-size:1.375em}
 h4,h5{font-size:1.125em}
 h6{font-size:1em}
-hr{border:solid #dddddf;border-width:1px 0 0;clear:both;margin:1.25em 0 1.1875em;height:0}
+hr{border:solid #dddddf;border-width:1px 0 0;clear:both;margin:1.25em 0 1.1875em}
 em,i{font-style:italic;line-height:inherit}
 strong,b{font-weight:bold;line-height:inherit}
 small{font-size:60%;line-height:inherit}
 code{font-family:"Droid Sans Mono","DejaVu Sans Mono",monospace;font-weight:400;color:rgba(0,0,0,.9)}
-ul,ol,dl{font-size:1em;line-height:1.6;margin-bottom:1.25em;list-style-position:outside;font-family:inherit}
+ul,ol,dl{line-height:1.6;margin-bottom:1.25em;list-style-position:outside;font-family:inherit}
 ul,ol{margin-left:1.5em}
-ul li ul,ul li ol{margin-left:1.25em;margin-bottom:0;font-size:1em}
+ul li ul,ul li ol{margin-left:1.25em;margin-bottom:0}
 ul.square li ul,ul.circle li ul,ul.disc li ul{list-style:inherit}
 ul.square{list-style-type:square}
 ul.circle{list-style-type:circle}
@@ -93,31 +91,29 @@ ul.disc{list-style-type:disc}
 ol li ul,ol li ol{margin-left:1.25em;margin-bottom:0}
 dl dt{margin-bottom:.3125em;font-weight:bold}
 dl dd{margin-bottom:1.25em}
-abbr,acronym{text-transform:uppercase;font-size:90%;color:rgba(0,0,0,.8);border-bottom:1px dotted #ddd;cursor:help}
-abbr{text-transform:none}
 blockquote{margin:0 0 1.25em;padding:.5625em 1.25em 0 1.1875em;border-left:1px solid #ddd}
-blockquote cite{display:block;font-size:.9375em;color:rgba(0,0,0,.6)}
-blockquote cite::before{content:"\2014 \0020"}
-blockquote cite a,blockquote cite a:visited{color:rgba(0,0,0,.6)}
 blockquote,blockquote p{line-height:1.6;color:rgba(0,0,0,.85)}
 @media screen and (min-width:768px){h1,h2,h3,#toctitle,.sidebarblock>.content>.title,h4,h5,h6{line-height:1.2}
 h1{font-size:2.75em}
 h2{font-size:2.3125em}
 h3,#toctitle,.sidebarblock>.content>.title{font-size:1.6875em}
 h4{font-size:1.4375em}}
-table{background:#fff;margin-bottom:1.25em;border:solid 1px #dedede}
+table{background:#fff;margin-bottom:1.25em;border:1px solid #dedede;word-wrap:normal}
 table thead,table tfoot{background:#f7f8f7}
 table thead tr th,table thead tr td,table tfoot tr th,table tfoot tr td{padding:.5em .625em .625em;font-size:inherit;color:rgba(0,0,0,.8);text-align:left}
 table tr th,table tr td{padding:.5625em .625em;font-size:inherit;color:rgba(0,0,0,.8)}
 table tr.even,table tr.alt{background:#f8f8f7}
-table thead tr th,table tfoot tr th,table tbody tr td,table tr td,table tfoot tr td{display:table-cell;line-height:1.6}
+table thead tr th,table tfoot tr th,table tbody tr td,table tr td,table tfoot tr td{line-height:1.6}
 h1,h2,h3,#toctitle,.sidebarblock>.content>.title,h4,h5,h6{line-height:1.2;word-spacing:-.05em}
 h1 strong,h2 strong,h3 strong,#toctitle strong,.sidebarblock>.content>.title strong,h4 strong,h5 strong,h6 strong{font-weight:400}
+.center{margin-left:auto;margin-right:auto}
+.stretch{width:100%}
 .clearfix::before,.clearfix::after,.float-group::before,.float-group::after{content:" ";display:table}
 .clearfix::after,.float-group::after{clear:both}
-:not(pre):not([class^=L])>code{font-size:.9375em;font-style:normal!important;letter-spacing:0;padding:.1em .5ex;word-spacing:-.15em;background:#f7f7f8;-webkit-border-radius:4px;border-radius:4px;line-height:1.45;text-rendering:optimizeSpeed;word-wrap:break-word}
-:not(pre)>code.nobreak{word-wrap:normal}
-:not(pre)>code.nowrap{white-space:nowrap}
+:not(pre).nobreak{word-wrap:normal}
+:not(pre).nowrap{white-space:nowrap}
+:not(pre).pre-wrap{white-space:pre-wrap}
+:not(pre):not([class^=L])>code{font-size:.9375em;font-style:normal!important;letter-spacing:0;padding:.1em .5ex;word-spacing:-.15em;background:#f7f7f8;border-radius:4px;line-height:1.45;text-rendering:optimizeSpeed}
 pre{color:rgba(0,0,0,.9);font-family:"Droid Sans Mono","DejaVu Sans Mono",monospace;line-height:1.45;text-rendering:optimizeSpeed}
 pre code,pre pre{color:inherit;font-size:inherit;line-height:inherit}
 pre>code{display:block}
@@ -125,7 +121,7 @@ pre.nowrap,pre.nowrap pre{white-space:pre;word-wrap:normal}
 em em{font-style:normal}
 strong strong{font-weight:400}
 .keyseq{color:rgba(51,51,51,.8)}
-kbd{font-family:"Droid Sans Mono","DejaVu Sans Mono",monospace;display:inline-block;color:rgba(0,0,0,.8);font-size:.65em;line-height:1.45;background:#f7f7f7;border:1px solid #ccc;-webkit-border-radius:3px;border-radius:3px;-webkit-box-shadow:0 1px 0 rgba(0,0,0,.2),0 0 0 .1em white inset;box-shadow:0 1px 0 rgba(0,0,0,.2),0 0 0 .1em #fff inset;margin:0 .15em;padding:.2em .5em;vertical-align:middle;position:relative;top:-.1em;white-space:nowrap}
+kbd{font-family:"Droid Sans Mono","DejaVu Sans Mono",monospace;display:inline-block;color:rgba(0,0,0,.8);font-size:.65em;line-height:1.45;background:#f7f7f7;border:1px solid #ccc;border-radius:3px;box-shadow:0 1px 0 rgba(0,0,0,.2),inset 0 0 0 .1em #fff;margin:0 .15em;padding:.2em .5em;vertical-align:middle;position:relative;top:-.1em;white-space:nowrap}
 .keyseq kbd:first-child{margin-left:0}
 .keyseq kbd:last-child{margin-right:0}
 .menuseq,.menuref{color:#000}
@@ -137,7 +133,7 @@ b.button::before,b.button::after{position:relative;top:-1px;font-weight:400}
 b.button::before{content:"[";padding:0 3px 0 2px}
 b.button::after{content:"]";padding:0 2px 0 3px}
 p a>code:hover{color:rgba(0,0,0,.9)}
-#header,#content,#footnotes,#footer{width:100%;margin-left:auto;margin-right:auto;margin-top:0;margin-bottom:0;max-width:62.5em;*zoom:1;position:relative;padding-left:.9375em;padding-right:.9375em}
+#header,#content,#footnotes,#footer{width:100%;margin:0 auto;max-width:62.5em;*zoom:1;position:relative;padding-left:.9375em;padding-right:.9375em}
 #header::before,#header::after,#content::before,#content::after,#footnotes::before,#footnotes::after,#footer::before,#footer::after{content:" ";display:table}
 #header::after,#content::after,#footnotes::after,#footer::after{clear:both}
 #content{margin-top:1.25em}
@@ -145,7 +141,7 @@ p a>code:hover{color:rgba(0,0,0,.9)}
 #header>h1:first-child{color:rgba(0,0,0,.85);margin-top:2.25rem;margin-bottom:0}
 #header>h1:first-child+#toc{margin-top:8px;border-top:1px solid #dddddf}
 #header>h1:only-child,body.toc2 #header>h1:nth-last-child(2){border-bottom:1px solid #dddddf;padding-bottom:8px}
-#header .details{border-bottom:1px solid #dddddf;line-height:1.45;padding-top:.25em;padding-bottom:.25em;padding-left:.25em;color:rgba(0,0,0,.6);display:-ms-flexbox;display:-webkit-flex;display:flex;-ms-flex-flow:row wrap;-webkit-flex-flow:row wrap;flex-flow:row wrap}
+#header .details{border-bottom:1px solid #dddddf;line-height:1.45;padding-top:.25em;padding-bottom:.25em;padding-left:.25em;color:rgba(0,0,0,.6);display:flex;flex-flow:row wrap}
 #header .details span:first-child{margin-left:-.125em}
 #header .details span.email a{color:rgba(0,0,0,.85)}
 #header .details br{display:none}
@@ -179,11 +175,11 @@ body.toc2.toc-right #toc.toc2{border-right-width:0;border-left:1px solid #e7e7e9
 #toc.toc2>ul{font-size:.95em}
 #toc.toc2 ul ul{padding-left:1.25em}
 body.toc2.toc-right{padding-left:0;padding-right:20em}}
-#content #toc{border-style:solid;border-width:1px;border-color:#e0e0dc;margin-bottom:1.25em;padding:1.25em;background:#f8f8f7;-webkit-border-radius:4px;border-radius:4px}
+#content #toc{border:1px solid #e0e0dc;margin-bottom:1.25em;padding:1.25em;background:#f8f8f7;border-radius:4px}
 #content #toc>:first-child{margin-top:0}
 #content #toc>:last-child{margin-bottom:0}
-#footer{max-width:100%;background:rgba(0,0,0,.8);padding:1.25em}
-#footer-text{color:rgba(255,255,255,.8);line-height:1.44}
+#footer{max-width:none;background:rgba(0,0,0,.8);padding:1.25em}
+#footer-text{color:hsla(0,0%,100%,.8);line-height:1.44}
 #content{margin-bottom:.625em}
 .sect1{padding-bottom:.625em}
 @media screen and (min-width:768px){#content{margin-bottom:1.25em}
@@ -196,29 +192,32 @@ body.toc2.toc-right{padding-left:0;padding-right:20em}}
 #content h1>a.link,h2>a.link,h3>a.link,#toctitle>a.link,.sidebarblock>.content>.title>a.link,h4>a.link,h5>a.link,h6>a.link{color:#ba3925;text-decoration:none}
 #content h1>a.link:hover,h2>a.link:hover,h3>a.link:hover,#toctitle>a.link:hover,.sidebarblock>.content>.title>a.link:hover,h4>a.link:hover,h5>a.link:hover,h6>a.link:hover{color:#a53221}
 details,.audioblock,.imageblock,.literalblock,.listingblock,.stemblock,.videoblock{margin-bottom:1.25em}
-details>summary:first-of-type{cursor:pointer;display:list-item;outline:none;margin-bottom:.75em}
+details{margin-left:1.25rem}
+details>summary{cursor:pointer;display:block;position:relative;line-height:1.6;margin-bottom:.625rem;-webkit-tap-highlight-color:transparent}
+details>summary::before{content:"";border:solid transparent;border-left:solid;border-width:.3em 0 .3em .5em;position:absolute;top:.5em;left:-1.25rem;transform:translateX(15%)}
+details[open]>summary::before{border:solid transparent;border-top:solid;border-width:.5em .3em 0;transform:translateY(15%)}
+details>summary::after{content:"";width:1.25rem;height:1em;position:absolute;top:.3em;left:-1.25rem}
 .admonitionblock td.content>.title,.audioblock>.title,.exampleblock>.title,.imageblock>.title,.listingblock>.title,.literalblock>.title,.stemblock>.title,.openblock>.title,.paragraph>.title,.quoteblock>.title,table.tableblock>.title,.verseblock>.title,.videoblock>.title,.dlist>.title,.olist>.title,.ulist>.title,.qlist>.title,.hdlist>.title{text-rendering:optimizeLegibility;text-align:left;font-family:"Noto Serif","DejaVu Serif",serif;font-size:1rem;font-style:italic}
 table.tableblock.fit-content>caption.title{white-space:nowrap;width:0}
-.paragraph.lead>p,#preamble>.sectionbody>[class="paragraph"]:first-of-type p{font-size:1.21875em;line-height:1.6;color:rgba(0,0,0,.85)}
-table.tableblock #preamble>.sectionbody>[class="paragraph"]:first-of-type p{font-size:inherit}
+.paragraph.lead>p,#preamble>.sectionbody>[class=paragraph]:first-of-type p{font-size:1.21875em;line-height:1.6;color:rgba(0,0,0,.85)}
 .admonitionblock>table{border-collapse:separate;border:0;background:none;width:100%}
 .admonitionblock>table td.icon{text-align:center;width:80px}
 .admonitionblock>table td.icon img{max-width:none}
 .admonitionblock>table td.icon .title{font-weight:bold;font-family:"Open Sans","DejaVu Sans",sans-serif;text-transform:uppercase}
-.admonitionblock>table td.content{padding-left:1.125em;padding-right:1.25em;border-left:1px solid #dddddf;color:rgba(0,0,0,.6)}
+.admonitionblock>table td.content{padding-left:1.125em;padding-right:1.25em;border-left:1px solid #dddddf;color:rgba(0,0,0,.6);word-wrap:anywhere}
 .admonitionblock>table td.content>:last-child>:last-child{margin-bottom:0}
-.exampleblock>.content{border-style:solid;border-width:1px;border-color:#e6e6e6;margin-bottom:1.25em;padding:1.25em;background:#fff;-webkit-border-radius:4px;border-radius:4px}
+.exampleblock>.content{border:1px solid #e6e6e6;margin-bottom:1.25em;padding:1.25em;background:#fff;border-radius:4px}
 .exampleblock>.content>:first-child{margin-top:0}
 .exampleblock>.content>:last-child{margin-bottom:0}
-.sidebarblock{border-style:solid;border-width:1px;border-color:#dbdbd6;margin-bottom:1.25em;padding:1.25em;background:#f3f3f2;-webkit-border-radius:4px;border-radius:4px}
+.sidebarblock{border:1px solid #dbdbd6;margin-bottom:1.25em;padding:1.25em;background:#f3f3f2;border-radius:4px}
 .sidebarblock>:first-child{margin-top:0}
 .sidebarblock>:last-child{margin-bottom:0}
 .sidebarblock>.content>.title{color:#7a2518;margin-top:0;text-align:center}
 .exampleblock>.content>:last-child>:last-child,.exampleblock>.content .olist>ol>li:last-child>:last-child,.exampleblock>.content .ulist>ul>li:last-child>:last-child,.exampleblock>.content .qlist>ol>li:last-child>:last-child,.sidebarblock>.content>:last-child>:last-child,.sidebarblock>.content .olist>ol>li:last-child>:last-child,.sidebarblock>.content .ulist>ul>li:last-child>:last-child,.sidebarblock>.content .qlist>ol>li:last-child>:last-child{margin-bottom:0}
-.literalblock pre,.listingblock>.content>pre{-webkit-border-radius:4px;border-radius:4px;word-wrap:break-word;overflow-x:auto;padding:1em;font-size:.8125em}
+.literalblock pre,.listingblock>.content>pre{border-radius:4px;overflow-x:auto;padding:1em;font-size:.8125em}
 @media screen and (min-width:768px){.literalblock pre,.listingblock>.content>pre{font-size:.90625em}}
 @media screen and (min-width:1280px){.literalblock pre,.listingblock>.content>pre{font-size:1em}}
-.literalblock pre,.listingblock>.content>pre:not(.highlight),.listingblock>.content>pre[class="highlight"],.listingblock>.content>pre[class^="highlight "]{background:#f7f7f8}
+.literalblock pre,.listingblock>.content>pre:not(.highlight),.listingblock>.content>pre[class=highlight],.listingblock>.content>pre[class^="highlight "]{background:#f7f7f8}
 .literalblock.output pre{color:#f7f7f8;background:rgba(0,0,0,.9)}
 .listingblock>.content{position:relative}
 .listingblock code[data-lang]::before{display:none;content:attr(data-lang);position:absolute;font-size:.75em;top:.425rem;right:.5rem;line-height:1;text-transform:uppercase;color:inherit;opacity:.5}
@@ -226,7 +225,7 @@ table.tableblock #preamble>.sectionbody>[class="paragraph"]:first-of-type p{font
 .listingblock.terminal pre .command::before{content:attr(data-prompt);padding-right:.5em;color:inherit;opacity:.5}
 .listingblock.terminal pre .command:not([data-prompt])::before{content:"$"}
 .listingblock pre.highlightjs{padding:0}
-.listingblock pre.highlightjs>code{padding:1em;-webkit-border-radius:4px;border-radius:4px}
+.listingblock pre.highlightjs>code{padding:1em;border-radius:4px}
 .listingblock pre.prettyprint{border-width:0}
 .prettyprint{background:#f7f7f8}
 pre.prettyprint .linenums{line-height:1.45;margin-left:2em}
@@ -236,8 +235,8 @@ pre.prettyprint li:not(:first-child) code[data-lang]::before{display:none}
 table.linenotable{border-collapse:separate;border:0;margin-bottom:0;background:none}
 table.linenotable td[class]{color:inherit;vertical-align:top;padding:0;line-height:inherit;white-space:normal}
 table.linenotable td.code{padding-left:.75em}
-table.linenotable td.linenos{border-right:1px solid currentColor;opacity:.35;padding-right:.5em}
-pre.pygments .lineno{border-right:1px solid currentColor;opacity:.35;display:inline-block;margin-right:.75em}
+table.linenotable td.linenos{border-right:1px solid;opacity:.35;padding-right:.5em}
+pre.pygments .lineno{border-right:1px solid;opacity:.35;display:inline-block;margin-right:.75em}
 pre.pygments .lineno::before{content:"";margin-right:-.125em}
 .quoteblock{margin:0 1em 1.25em 1.5em;display:table}
 .quoteblock:not(.excerpt)>.title{margin-left:-1.5em;margin-bottom:.75em}
@@ -247,7 +246,7 @@ pre.pygments .lineno::before{content:"";margin-right:-.125em}
 .quoteblock blockquote>.paragraph:last-child p{margin-bottom:0}
 .quoteblock .attribution{margin-top:.75em;margin-right:.5ex;text-align:right}
 .verseblock{margin:0 1em 1.25em}
-.verseblock pre{font-family:"Open Sans","DejaVu Sans",sans;font-size:1.15rem;color:rgba(0,0,0,.85);font-weight:300;text-rendering:optimizeLegibility}
+.verseblock pre{font-family:"Open Sans","DejaVu Sans",sans-serif;font-size:1.15rem;color:rgba(0,0,0,.85);font-weight:300;text-rendering:optimizeLegibility}
 .verseblock pre strong{font-weight:400}
 .verseblock .attribution{margin-top:1.25rem;margin-left:.5ex}
 .quoteblock .attribution,.verseblock .attribution{font-size:.9375em;line-height:1.45;font-style:italic}
@@ -260,22 +259,21 @@ pre.pygments .lineno::before{content:"";margin-right:-.125em}
 .quoteblock.excerpt>blockquote,.quoteblock .quoteblock{padding:0 0 .25em 1em;border-left:.25em solid #dddddf}
 .quoteblock.excerpt,.quoteblock .quoteblock{margin-left:0}
 .quoteblock.excerpt blockquote,.quoteblock.excerpt p,.quoteblock .quoteblock blockquote,.quoteblock .quoteblock p{color:inherit;font-size:1.0625rem}
-.quoteblock.excerpt .attribution,.quoteblock .quoteblock .attribution{color:inherit;text-align:left;margin-right:0}
-table.tableblock{max-width:100%;border-collapse:separate}
+.quoteblock.excerpt .attribution,.quoteblock .quoteblock .attribution{color:inherit;font-size:.85rem;text-align:left;margin-right:0}
 p.tableblock:last-child{margin-bottom:0}
+td.tableblock>.content{margin-bottom:1.25em;word-wrap:anywhere}
 td.tableblock>.content>:last-child{margin-bottom:-1.25em}
-td.tableblock>.content>:last-child.sidebarblock{margin-bottom:0}
 table.tableblock,th.tableblock,td.tableblock{border:0 solid #dedede}
-table.grid-all>thead>tr>.tableblock,table.grid-all>tbody>tr>.tableblock{border-width:0 1px 1px 0}
-table.grid-all>tfoot>tr>.tableblock{border-width:1px 1px 0 0}
-table.grid-cols>*>tr>.tableblock{border-width:0 1px 0 0}
-table.grid-rows>thead>tr>.tableblock,table.grid-rows>tbody>tr>.tableblock{border-width:0 0 1px}
-table.grid-rows>tfoot>tr>.tableblock{border-width:1px 0 0}
-table.grid-all>*>tr>.tableblock:last-child,table.grid-cols>*>tr>.tableblock:last-child{border-right-width:0}
-table.grid-all>tbody>tr:last-child>.tableblock,table.grid-all>thead:last-child>tr>.tableblock,table.grid-rows>tbody>tr:last-child>.tableblock,table.grid-rows>thead:last-child>tr>.tableblock{border-bottom-width:0}
+table.grid-all>*>tr>*{border-width:1px}
+table.grid-cols>*>tr>*{border-width:0 1px}
+table.grid-rows>*>tr>*{border-width:1px 0}
 table.frame-all{border-width:1px}
+table.frame-ends{border-width:1px 0}
 table.frame-sides{border-width:0 1px}
-table.frame-topbot,table.frame-ends{border-width:1px 0}
+table.frame-none>colgroup+*>:first-child>*,table.frame-sides>colgroup+*>:first-child>*{border-top-width:0}
+table.frame-none>:last-child>:last-child>*,table.frame-sides>:last-child>:last-child>*{border-bottom-width:0}
+table.frame-none>*>tr>:first-child,table.frame-ends>*>tr>:first-child{border-left-width:0}
+table.frame-none>*>tr>:last-child,table.frame-ends>*>tr>:last-child{border-right-width:0}
 table.stripes-all tr,table.stripes-odd tr:nth-of-type(odd),table.stripes-even tr:nth-of-type(even),table.stripes-hover tr:hover{background:#f8f8f7}
 th.halign-left,td.halign-left{text-align:left}
 th.halign-right,td.halign-right{text-align:right}
@@ -284,7 +282,7 @@ th.valign-top,td.valign-top{vertical-align:top}
 th.valign-bottom,td.valign-bottom{vertical-align:bottom}
 th.valign-middle,td.valign-middle{vertical-align:middle}
 table thead th,table tfoot th{font-weight:bold}
-tbody tr th{display:table-cell;line-height:1.6;background:#f7f8f7}
+tbody tr th{background:#f7f8f7}
 tbody tr th,tbody tr th p,tfoot tr th,tfoot tr th p{color:rgba(0,0,0,.8);font-weight:bold}
 p.tableblock>code:only-child{background:none;padding:0}
 p.tableblock{font-size:1em}
@@ -296,10 +294,10 @@ ol>li p,ul>li p,ul dd,ol dd,.olist .olist,.ulist .ulist,.ulist .olist,.olist .ul
 ul.checklist,ul.none,ol.none,ul.no-bullet,ol.no-bullet,ol.unnumbered,ul.unstyled,ol.unstyled{list-style-type:none}
 ul.no-bullet,ol.no-bullet,ol.unnumbered{margin-left:.625em}
 ul.unstyled,ol.unstyled{margin-left:0}
-ul.checklist{margin-left:.625em}
-ul.checklist li>p:first-child>.fa-square-o:first-child,ul.checklist li>p:first-child>.fa-check-square-o:first-child{width:1.25em;font-size:.8em;position:relative;bottom:.125em}
-ul.checklist li>p:first-child>input[type="checkbox"]:first-child{margin-right:.25em}
-ul.inline{display:-ms-flexbox;display:-webkit-box;display:flex;-ms-flex-flow:row wrap;-webkit-flex-flow:row wrap;flex-flow:row wrap;list-style:none;margin:0 0 .625em -1.25em}
+ul.checklist>li>p:first-child{margin-left:-1em}
+ul.checklist>li>p:first-child>.fa-square-o:first-child,ul.checklist>li>p:first-child>.fa-check-square-o:first-child{width:1.25em;font-size:.8em;position:relative;bottom:.125em}
+ul.checklist>li>p:first-child>input[type=checkbox]:first-child{margin-right:.25em}
+ul.inline{display:flex;flex-flow:row wrap;list-style:none;margin:0 0 .625em -1.25em}
 ul.inline>li{margin-left:1.25em}
 .unstyled dl dt{font-weight:400;font-style:normal}
 ol.arabic{list-style-type:decimal}
@@ -313,11 +311,12 @@ ol.lowergreek{list-style-type:lower-greek}
 .hdlist>table>tbody>tr,.colist>table>tbody>tr{background:none}
 td.hdlist1,td.hdlist2{vertical-align:top;padding:0 .625em}
 td.hdlist1{font-weight:bold;padding-bottom:1.25em}
+td.hdlist2{word-wrap:anywhere}
 .literalblock+.colist,.listingblock+.colist{margin-top:-.5em}
 .colist td:not([class]):first-child{padding:.4em .75em 0;line-height:1;vertical-align:top}
 .colist td:not([class]):first-child img{max-width:none}
 .colist td:not([class]):last-child{padding:.25em 0}
-.thumb,.th{line-height:0;display:inline-block;border:solid 4px #fff;-webkit-box-shadow:0 0 0 1px #ddd;box-shadow:0 0 0 1px #ddd}
+.thumb,.th{line-height:0;display:inline-block;border:4px solid #fff;box-shadow:0 0 0 1px #ddd}
 .imageblock.left{margin:.25em .625em 1.25em 0}
 .imageblock.right{margin:.25em 0 1.25em .625em}
 .imageblock>.title{margin-bottom:0}
@@ -385,7 +384,7 @@ a span.icon>.fa{cursor:inherit}
 .admonitionblock td.icon .icon-warning::before{content:"\f071";color:#bf6900}
 .admonitionblock td.icon .icon-caution::before{content:"\f06d";color:#bf3400}
 .admonitionblock td.icon .icon-important::before{content:"\f06a";color:#bf0000}
-.conum[data-value]{display:inline-block;color:#fff!important;background:rgba(0,0,0,.8);-webkit-border-radius:100px;border-radius:100px;text-align:center;font-size:.75em;width:1.67em;height:1.67em;line-height:1.67em;font-family:"Open Sans","DejaVu Sans",sans-serif;font-style:normal;font-weight:bold}
+.conum[data-value]{display:inline-block;color:#fff!important;background:rgba(0,0,0,.8);border-radius:50%;text-align:center;font-size:.75em;width:1.67em;height:1.67em;line-height:1.67em;font-family:"Open Sans","DejaVu Sans",sans-serif;font-style:normal;font-weight:bold}
 .conum[data-value] *{color:#fff!important}
 .conum[data-value]+b{display:none}
 .conum[data-value]::after{content:attr(data-value)}
@@ -393,25 +392,27 @@ pre .conum[data-value]{position:relative;top:-.125em}
 b.conum *{color:inherit!important}
 .conum:not([data-value]):empty{display:none}
 dt,th.tableblock,td.content,div.footnote{text-rendering:optimizeLegibility}
-h1,h2,p,td.content,span.alt{letter-spacing:-.01em}
+h1,h2,p,td.content,span.alt,summary{letter-spacing:-.01em}
 p strong,td.content strong,div.footnote strong{letter-spacing:-.005em}
-p,blockquote,dt,td.content,span.alt{font-size:1.0625rem}
+p,blockquote,dt,td.content,span.alt,summary{font-size:1.0625rem}
 p{margin-bottom:1.25rem}
 .sidebarblock p,.sidebarblock dt,.sidebarblock td.content,p.tableblock{font-size:1em}
-.exampleblock>.content{background:#fffef7;border-color:#e0e0dc;-webkit-box-shadow:0 1px 4px #e0e0dc;box-shadow:0 1px 4px #e0e0dc}
+.exampleblock>.content{background:#fffef7;border-color:#e0e0dc;box-shadow:0 1px 4px #e0e0dc}
 .print-only{display:none!important}
 @page{margin:1.25cm .75cm}
-@media print{*{-webkit-box-shadow:none!important;box-shadow:none!important;text-shadow:none!important}
+@media print{*{box-shadow:none!important;text-shadow:none!important}
 html{font-size:80%}
 a{color:inherit!important;text-decoration:underline!important}
 a.bare,a[href^="#"],a[href^="mailto:"]{text-decoration:none!important}
 a[href^="http:"]:not(.bare)::after,a[href^="https:"]:not(.bare)::after{content:"(" attr(href) ")";display:inline-block;font-size:.875em;padding-left:.25em}
+abbr[title]{border-bottom:1px dotted}
 abbr[title]::after{content:" (" attr(title) ")"}
 pre,blockquote,tr,img,object,svg{page-break-inside:avoid}
 thead{display:table-header-group}
 svg{max-width:100%}
 p,blockquote,dt,td.content{font-size:1em;orphans:3;widows:3}
 h2,h3,#toctitle,.sidebarblock>.content>.title{page-break-after:avoid}
+#header,#content,#footnotes,#footer{max-width:none}
 #toc,.sidebarblock,.exampleblock>.content{background:none!important}
 #toc{border-bottom:1px solid #dddddf!important;padding-bottom:0!important}
 body.book #header{text-align:center}
@@ -428,7 +429,7 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 .print-only{display:block!important}
 .hide-for-print{display:none!important}
 .show-for-print{display:inherit!important}}
-@media print,amzn-kf8{#header>h1:first-child{margin-top:1.25rem}
+@media amzn-kf8,print{#header>h1:first-child{margin-top:1.25rem}
 .sect1{padding:0!important}
 .sect1+.sect1{border:0}
 #footer{background:none}
@@ -444,24 +445,21 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 <ul class="sectlevel1">
 <li><a href="#_research"><strong>Research</strong></a>
 <ul class="sectlevel2">
-<li><a href="#_grep_genomics_of_recurrent_pregnancy_loss"><strong>GReP</strong> - Genomics of Recurrent Pregnancy Loss</a></li>
- <li><a href="#_deliver_decipher unExplored genetic variation inreproductive failure"><strong>DELIVER</strong> - Decipher unExpLored genetIc Variation inrEproductive failuRe</a></li>
-
-We aim at understanding the contribution of genomic variants to the failure of early human embryonic development. Past and current research in this context investigates mostly aneuploidies or insertion/deletions of few up to 10Mb, leaving unexplored the two extremes of this range, i.e. small-size and very large structural variants. We focus on this unexplored variation analyzing DNA sequence data from euploid miscarried embryos produced with third generation sequencing and analyzed with pangenomic techniques. The third-generation sequencing produces reads of length suitable to confidently discover large structural variants, while the pangenome analysis enables the discovery of variants not present in the reference sequence, and highly likely to be detrimental.
-
-<li><a href="#_vgpop_population_genetics_from_variation_graphs"><strong>vgpop</strong> - Population genetics from variation graphs</a></li>
-<li><a href="#_hd_dittograph_a_digital_human_embryonic_stem_cell_platform_for_hungtintons_repeats"><strong>HD-DittoGraph</strong> - a digital human Embryonic Stem Cell platform for Hungtinton’s repeats</a></li>
-<li><a href="#_sars_cov_2_genomics_of_covid19"><strong>SARS-CoV-2</strong> - Genomics of COVID19</a></li>
+<li><a href="#_deliver_decipher_unexplored_genetic_variation_inreproductive_failure"><strong>DELIVER</strong> - Decipher unExpLored genetIc Variation inrEproductive failuRe</a></li>
+<li><a href="#_mouse_pangenomics">Mouse Pangenomics</a></li>
 <li><a href="#_pardom_domestications_of_phaseolus"><strong>PARDOM</strong> - Domestications of  <em>Phaseolus</em></a></li>
 </ul>
 </li>
 <li><a href="#_people"><strong>People</strong></a>
 <ul class="sectlevel2">
 <li><a href="#_vincenza_colonna"><strong>Vincenza Colonna</strong></a></li>
-<li><a href="#_silvia_buonaiuto_phd_student"><strong>Silvia Buonaiuto</strong>, PhD student</a></li>
+<li><a href="#_silvia_buonaiuto_postdoctoral_fellow"><strong>Silvia Buonaiuto</strong>, Postdoctoral fellow</a></li>
+<li><a href="#_madeleine_emms_postdoctoral_fellow"><strong>Madeleine Emms</strong>, Postdoctoral fellow</a></li>
 <li><a href="#_gianluca_damaggio_phd_student"><strong>Gianluca Damaggio</strong>, PhD Student</a></li>
-<li><a href="#_flavia_villani_research_associate"><strong>Flavia Villani</strong>, Research Associate</a></li>
-<li><a href="#_giuliana_dangelo_master_student"><strong>Giuliana D&#8217;Angelo</strong>, Master Student</a></li>
+<li><a href="#_flavia_villani_phd_student"><strong>Flavia Villani</strong>, PhD Student</a></li>
+<li><a href="#_marialaura_zitiello_master_student"><strong>Marialaura Zitiello</strong>, Master Student</a></li>
+<li><a href="#_antonella_mecca_master_student"><strong>Antonella Mecca</strong>, Master Student</a></li>
+<li><a href="#_angela_sequino_master_student"><strong>Angela Sequino</strong>, Master Student</a></li>
 <li><a href="#_former_members">Former members</a></li>
 </ul>
 </li>
@@ -495,21 +493,12 @@ We are interested in understanding causes and consequences of genetic diversity 
 <h2 id="_research"><strong>Research</strong></h2>
 <div class="sectionbody">
 <div class="sect2">
-<h3 id="_grep_genomics_of_recurrent_pregnancy_loss"><strong>GReP</strong> - Genomics of Recurrent Pregnancy Loss</h3>
+<h3 id="_deliver_decipher_unexplored_genetic_variation_inreproductive_failure"><strong>DELIVER</strong> - Decipher unExpLored genetIc Variation inrEproductive failuRe</h3>
 <div class="paragraph">
-<p>Approximately 70% of all human fertilizations are naturally aborted, with most occurring before the mother knows she is pregnant. Miscarriages that occur later in pregnancy are often due to non-viable genetic variation and this is very likely in the case of Recurrent Pregnancy Losses (RPL).</p>
-</div>
-<div class="paragraph">
-<p>Numerical and structural chromosomal abnormalities are routinely investigated to understand causes of RPL, while the study of small-size sequence variants that can impact gene function has been neglected, leaving a whole range of possible causes unexplored.</p>
-</div>
-<div class="paragraph">
-<p>With this project we want to identify variants severely disrupting genes and regulatory functions, therefore incompatible with life, using whole genome sequence of DNA extracted from chorionic villi of miscarriages collected from women with RPL.</p>
+<p>We aim at understanding the contribution of genomic variants to the failure of early human embryonic development. Past and current research in this context investigates mostly aneuploidies or insertion/deletions of few up to 10Mb, leaving unexplored the two extremes of this range, i.e. small-size and very large structural variants. We focus on this unexplored variation analyzing DNA sequence data from euploid miscarried embryos produced with third generation sequencing and analyzed with pangenomic techniques. The third-generation sequencing produces reads of length suitable to confidently discover large structural variants, while the pangenome analysis enables the discovery of variants not present in the reference sequence, and highly likely to be detrimental.</p>
 </div>
 <div class="paragraph">
 <p><strong>Our medRxiv preprint on this project can be find <a href="https://t.co/PpYOa00ipi">here</a></strong></p>
-</div>
-<div class="paragraph">
-<p><strong>GReP code</strong> is shared <a href="https://github.com/ezcn/grep">here</a> <span class="image"><img src="images/Octicons-mark-github.svg" alt="git" width="30"></span></p>
 </div>
 <div class="imageblock">
 <div class="content">
@@ -517,24 +506,9 @@ We are interested in understanding causes and consequences of genetic diversity 
 </div>
 <div class="title"><span class="purple"><em>We are interested in sequencing euploid embryos from miscarriages, therefore we do a pre-sequencing screening to exclude aneuploidies and comorbidities. Euploid embryos are sequenced and sequences are used to identify mutations. We expect that highly deleterious dominant mutations as well as rare moderately to highly deleterious recessive mutations contribute to miscarriage. Participant inclusion criteria (e.g. recurrence, consanguinity, selection of comorbidities) will ensure the prevalence of genetic over environmental causes.</em></span></div>
 </div>
-<div class="sect3">
-<h4 id="_collaborations"><strong>Collaborations</strong></h4>
-<div class="ulist none">
-<ul class="none">
-<li>
-<p><a href="https://www.merigen.it/">Imma and Sebastiano Di Biase</a>, MeriGen Research, Italy</p>
-</li>
-<li>
-<p><a href="https://www.igenomix.it/">Antonio Capalbo</a>, Igenomix Italy</p>
-</li>
-<li>
-<p><a href="http://docente.unife.it/michele.rubini">Michele Rubini</a>, University of Ferrara</p>
-</li>
-<li>
-<p><a href="https://www.monash.edu.my/science/staff/academic/qasim-ayub">Qasim Ayub</a>, Monash University, Malaysia</p>
-</li>
-</ul>
-</div>
+<div class="paragraph">
+<p>This project is in collaboration with - <a href="https://www.merigen.it/">Imma and Sebastiano Di Biase</a>, MeriGen Research, Italy
+- <a href="https://www.igenomix.it/">Antonio Capalbo</a>, Igenomix Italy - <a href="http://docente.unife.it/michele.rubini">Michele Rubini</a>, University of Ferrara - <a href="https://www.monash.edu.my/science/staff/academic/qasim-ayub">Qasim Ayub</a>, Monash University, Malaysia</p>
 </div>
 <div class="sect3">
 <h4 id="_funding"><strong>Funding</strong></h4>
@@ -557,97 +531,24 @@ We are interested in understanding causes and consequences of genetic diversity 
 </div>
 </div>
 <div class="sect2">
-<h3 id="_vgpop_population_genetics_from_variation_graphs"><strong>vgpop</strong> - Population genetics from variation graphs</h3>
+<h3 id="_mouse_pangenomics">Mouse Pangenomics</h3>
 <div class="paragraph">
-<p>Variation graphs are a pangenomic model based on a compact representation of the mutual alignment of many genomes. They are used to compress information from vast sequence sets and support the explicit representation of both simple and complex genomic variants.</p>
+<p>The members of BXDs family have been inbred for 20-200 generations. They are of great value for mapping complex traits and phenome-wide association analysis. Current genomic studies on BXD assume a single linear reference genome, making it difficult to observe sequences diverging from the reference, therefore limiting the accuracy and completeness of analyses. Pangenome models overcome this limitation as they contain the full genomic information of a species.</p>
+</div>
+<div class="paragraph">
+<p>We are building a reference pangenome for all extant members of all BXD families leveraging third generation and 10X sequence data. We will analyze the genetic variation in relation to thousands of phenotypes in the GeneNetwork.</p>
+</div>
+<div class="paragraph">
+<p>This project is in collaboration with - <a href="https://scholar.google.com/citations?user=OYJMYwIAAAAJ&amp;hl=en">Robert Williams</a>,  <a href="https://davidashbrook.wordpress.com/">David Ashbrook</a>, <a href="https://thebird.nl/">Pjotr Prins</a>, <a href="http://www.hypervolu.me/~erik/erik_garrison.html">Erik Garrison</a>, Department of Genetics, Genomics and Informatics, University of Tennessee Health Science Center,Memphis, TN.</p>
+</div>
+<div class="paragraph">
+<p><strong>Our biorxiv preprint on this project can be find <a href="https://www.biorxiv.org/content/10.1101/2022.04.21.489063v1.full">here</a> and <a href="https://www.biorxiv.org/content/10.1101/2022.03.02.482700v1.full">here</a></strong></p>
 </div>
 <div class="imageblock text-center">
 <div class="content">
-<img src="images/GRaphchrX.png" alt="GRaphchrX" width="600">
+<img src="images/pangenome.png" alt="loghi_pang" width="500">
 </div>
-<div class="title"><span class="purple"><em>A graph is made up of vertices which are connected by edges. It can represent alignment and variation among sequences. This graph shows an A/T single nucleotide polymorphisms. The path below with red peppers shows on of teh two possible paths through the graph.</em></span></div>
-</div>
-<div class="paragraph">
-<p>We are intersted in developing methods to compute population genetic statistics directly from variation graphs. Such approaches will allow us to explore complex genomic variants which are often excluded from most of the existing population genetic methods. As our first goal we would like to adapt existing code for population genetic analyses to variation graphs, and in the future we would like to explore new methods to answer basic population genetic questions based on information contained in complex genetic variants.</p>
-</div>
-<div class="paragraph">
-<p>vgpop code is shared <a href="https://github.com/Flavia95/VGpop">here</a> <span class="image"><img src="images/Octicons-mark-github.svg" alt="git" width="30"></span></p>
-</div>
-<div class="sect3">
-<h4 id="_collaborations_2"><strong>Collaborations</strong></h4>
-<div class="ulist">
-<ul>
-<li>
-<p><a href="https://scholar.google.com/citations?user=OYJMYwIAAAAJ&amp;hl=en">Robert Williams</a>, <a href="https://davidashbrook.wordpress.com/">David Ashbrook</a>, <a href="https://thebird.nl/">Pjotr Prins</a>, <a href="http://www.hypervolu.me/~erik/erik_garrison.html">Erik Garrison</a>, University of Tennessee Health Science Center</p>
-</li>
-</ul>
-</div>
-<hr>
-</div>
-</div>
-<div class="sect2">
-<h3 id="_hd_dittograph_a_digital_human_embryonic_stem_cell_platform_for_hungtintons_repeats"><strong>HD-DittoGraph</strong> - a digital human Embryonic Stem Cell platform for Hungtinton’s repeats</h3>
-<div class="paragraph">
-<p>This project aims to identify the genetic factors that are implicated in instability of the CAG repeats in the Hungtinton&#8217;s gene <em>HTT</em>, both during mitotic cell replication and in post-mitotic neurons. We use a human embryonic stem (hES) cellC-based cell platform, barcoded DNA libraries, CRISPR technologies and long-read third generation DNA sequencing.</p>
-</div>
-<div class="imageblock center">
-<div class="content">
-<img src="images/strique_count.png" alt="preSeq_screening" width="800" height="600">
-</div>
-</div>
-<div class="paragraph">
-<p><span class="purple"><em>CAG sizing using STRIque on Nanopore sequencing data obtained from libraries generated starting from a donor plasmid carrying the sequence [CAG]48-CAA-CAG. Several combinations of parameters (prefix/suffix size, Qscore, lenght of the reference sequence) were used. Accurate CAG size was detected under most of the combinations used.</em></span></p>
-</div>
-<div class="sect3">
-<h4 id="_collaborations_3"><strong>Collaborations</strong></h4>
-<div class="ulist none">
-<ul class="none">
-<li>
-<p><a href="http://www.cattaneolab.it/?page_id=42&amp;lang=en">Elena Cattaneo</a> - University of Milano, Italy</p>
-</li>
-<li>
-<p><a href="https://air.unimi.it/cris/rp/rp11682#.YEDR4C1Q2p0">Dario Besusso</a> - University of Milano, Italy</p>
-</li>
-<li>
-<p><a href="https://elixir-iib-training.github.io/website/instructors/allegra_via.html">Allegra Via</a> - ELIXIR-IIB Training Platform</p>
-</li>
-<li>
-<p><a href="https://www.recas-bari.it/index.php/it/">ReCaS</a> - data center</p>
-</li>
-</ul>
-</div>
-<hr>
-</div>
-</div>
-<div class="sect2">
-<h3 id="_sars_cov_2_genomics_of_covid19"><strong>SARS-CoV-2</strong> - Genomics of COVID19</h3>
-<div class="paragraph">
-<p>With the emerging of the COVID19+ pandemic we feel motivated to give our contribution as geneticists. Among the many aspects worth working on, we chose to deal with the paucity of SARS-CoV-2 genomic sequences from Italy publicly available.</p>
-</div>
-<div id="img-wolrd" class="imageblock text-center left">
-<div class="content">
-<img src="images/wolrd_covid19.png" alt="wolrd_covid19" width="700">
-</div>
-<div class="title"><span class="purple">Despite Italy being one of the earliest countries hit by the pandemic, as we write (04/05/20) there are only seven sequences from samples collected in Italy in GenBank.</span></div>
-</div>
-<div class="paragraph">
-<p>We are committed to collect, sequence and openly publish as many samples as we can. Knowledge of the SARS-CoV-2 genomic sequence will enable basic research on COVID19, including monitoring the pandemic diffusion, improving genetic testing and develop effective vaccines.</p>
-</div>
-<div class="paragraph">
-<p><strong>These consideration were presented at the Commissione sanità of the Italian Senate of the Republic in May 2020. Slides can be find <a href="https://github.com/ColonnaLab/laboratory_WebPage/blob/master/docs/2020_Covid19Senato.pdf">here</a></strong></p>
-</div>
-<div class="paragraph">
-<p>We are working on SARS-CoV-2 genomics along two research lines:</p>
-</div>
-<div class="olist arabic">
-<ol class="arabic">
-<li>
-<p>In collaboration with CEINGE we are sequencing SARS-CoV-2 genomes using third-generation sequencing.</p>
-</li>
-<li>
-<p>We are part of a network that aim to develop a platform for sharing and analyzing genomic sequence information from samples collected in the Region Campania in Italy. This research is supported by Regione Campania – Recover – Covid 19 -DPGR n. 45 (06/03/2020). Prot. 2020, 0213629 del 05/05/2020.</p>
-</li>
-</ol>
+<div class="title"><span class="purple"><em>(A) odgi-vizlinear visualization of the pangenome of chromosome 19. Each line represents a haplotype. Line interruptions (white) are insertions in one or more strains, therefore deletions in the others (vertical white stripes). The left side is the centromere, the right side is the telomere.In these two regions sequences are fragmented. (B) Extract of the pangenome from the Zfp91gene showing a 2,006 bp insertion found in DBA/2J and 48% of the BXD strains(green nodes in the graph). The insertion is in complete linkage with two other insertions of 4 bp and 135 bp in a region spanning 2.8 kbp. &#169; Strain-specific haplotypes (gray segments are not in scale)</em></span></div>
 </div>
 <hr>
 </div>
@@ -657,12 +558,12 @@ We are interested in understanding causes and consequences of genetic diversity 
 <p><em>Phaseolus</em> is a unique example of multiple parallel domestication events that provide a natural experiment to study convergent phenotypic evolution associated with convergent genomic and/or transcriptomic changes. With the project PARDOM (Parallel Domestications: the <em>Phaseolus</em> replicated experiment to understand genome evolution and adaptation), we want to study convergent evolution in four replicates of the domestication process in <em>P</em>. <em>vulgaris</em> (PV) and <em>P</em>. <em>lunatus</em> (PL), two highly collinear species each domesticated independently in Mesoamerica and the Andes, resulting in at least four independent domestication events.</p>
 </div>
 <div class="paragraph">
-<p>This project is in collaboration with:
-- <a href="http://www.univpm.it/roberto.papa">Roberto Papa</a></p>
+<p>This project is in collaboration with <a href="http://www.univpm.it/roberto.papa">Roberto Papa</a></p>
 </div>
 <div class="paragraph">
-<p>PARDOM is funded by PRIN 2017 20177RL4KL</p>
+<p>PARDOM is funded by PRIN 2017 20177RL4KL.</p>
 </div>
+<hr>
 </div>
 </div>
 </div>
@@ -676,20 +577,19 @@ We are interested in understanding causes and consequences of genetic diversity 
 <p><span class="image right"><img src="images/vcolonna.jpg" alt="vcolonna" width="200"></span></p>
 </div>
 <div class="paragraph">
+<p>I am a genomicist and an expert in human evolutionary and population genomics and bioinformatics.</p>
+</div>
+<div class="paragraph">
+<p>I graduated in Evolutionary Biology from the University of Naples Federico II and did postdoctoral research at the University of Ferrara (Italy) and at Wellcome Trust Sanger Institute in Cambridge (UK). I am now leading the Population genomics laboratory  at the IGB-CNR (Naples, Italy) and I am Assistant Professor at the University of Tennessee, College of Medicine, in the Department of Genetics, Genomics and Informatics</p>
+</div>
+<div class="paragraph">
+<p>In my postdoctoral research I was part of the international consortium 1000 Genomes[PMID: 26432245; 23128226] where I led contributions to two specific aspects. First, I contributed to develop FunSeq [PMID: 24092746], a tool that integrates non-coding information from relevant biological databases for the functional characterization of non-coding variants. Second, I lead a genome-wide scan to identify genomic regions with exceptionally high levels of population differentiation [PMID: 24980144] demonstrating that these regions are enriched for positive selection events and that one half may be the result of classic selective sweeps. Findings from both sub-projects have since been applied to demographic inference and the molecular diagnosis of cancer and myeloid malignancies [PMID: 27121471, 22446628], and to deeper studies on positive selection at the ABCA12 gene [PMID: 30890716].</p>
+</div>
+<div class="paragraph">
+<p>During my PhD I worked on human isolated populations contributing to characterize several isolated populations, describing the genomic consequences of isolation [PMID: 17476112, 19550436, 22713810], contributing to genetic association studies [PMID: 16611673, 18162505] and to characterize rare variation [PMID: 28643794]</p>
+</div>
+<div class="paragraph">
 <p>+ <span class="gray">See my full C.V. <a href="https://github.com/ColonnaLab/laboratory_WebPage/tree/master/docs/CV_EnzaColonna.pdf">here</a>.</span></p>
-</div>
-<div class="paragraph">
-<p>I am a population geneticist and an expert in bioinformatics, working mainly with human data.</p>
-</div>
-<div class="paragraph">
-<p>I led research projects on: analysis of genomic sequences (assembly, variant calling) and genomic inference (functional interpretation of genetic variants);population genetic analyses for inference on demography and natural selection; genetics of isolated populations; evolutionary medicine; genetics of rare genomic variants.</p>
-</div>
-<div class="paragraph">
-<p>I have actively collaborated on projects involving RNAseq data analysis and general statistical inference. During my undergraduate training, I worked on projects on molecular biology.</p>
-</div>
-<div class="paragraph">
-<p>I am an experienced trainer in teaching basic lab skills
-for research computing (e.g. programming languages, version control, statistical analyses).</p>
 </div>
 <div class="paragraph">
 <p>I founded and led <a href="http://www.igb.cnr.it/obilab">OBiLab</a>, a project on training in Bioinformatics</p>
@@ -700,12 +600,9 @@ for research computing (e.g. programming languages, version control, statistical
 <hr>
 </div>
 <div class="sect2">
-<h3 id="_silvia_buonaiuto_phd_student"><strong>Silvia Buonaiuto</strong>, PhD student</h3>
+<h3 id="_silvia_buonaiuto_postdoctoral_fellow"><strong>Silvia Buonaiuto</strong>, Postdoctoral fellow</h3>
 <div class="paragraph">
-<p><span class="image right"><img src="images/silvia.jpg" alt="silvia" width="200"></span> I am a Phd Student at National Research Council and Università della Campania Luigi Vanvitelli. I work on a project that studies idiopathic recurrent miscarriage and aims at identifying genetic variants likely to cause miscarriages to ultimately improve prenatal diagnosis.</p>
-</div>
-<div class="paragraph">
-<p>I have a master’s degree in Biology from the University of Napoli Federico II. I did a master thesis in molecular biology at the Department of Biology.</p>
+<p><span class="image right"><img src="images/silvia.jpg" alt="silvia" width="200"></span> <strong>Project Title: DELIVER - Decipher unExpLored genetIc Variation inrEproductive failuRe</strong>. My project studies idiopathic recurrent miscarriage to identify genetic variants likely to be causative and ultimately improve prenatal diagnosis. I have a PhD degree From the university Luigi Vanvitelli, a master’s degree in Biology from the University of Napoli Federico II. I did a master thesis in molecular biology at the Department of Biology.</p>
 </div>
 <div class="paragraph">
 <p><span class="image"><img src="images/Octicons-mark-github.svg" alt="git" width="30"></span> <a href="https://github.com/SilviaBuonaiuto">My GitHub</a></p>
@@ -713,12 +610,19 @@ for research computing (e.g. programming languages, version control, statistical
 <hr>
 </div>
 <div class="sect2">
-<h3 id="_gianluca_damaggio_phd_student"><strong>Gianluca Damaggio</strong>, PhD Student</h3>
+<h3 id="_madeleine_emms_postdoctoral_fellow"><strong>Madeleine Emms</strong>, Postdoctoral fellow</h3>
 <div class="paragraph">
-<p><span class="image right"><img src="images/gianluca.jpg" alt="gianluca" width="200"></span> I received a bachelor&#8217;s degree in Molecular Biology and a master&#8217;s degree in Biology at the University of Napoli Federico II (Italy), my past research was based on the analysis of embryonic whole-genome sequences from recurrent miscarriages in humans. My interest is to investigate the enrichment of deleterious consequences in our cases compared to a control population.</p>
+<p><span class="image right"><img src="images/Maddie-768x718.jpg" alt="maddie" width="200"></span> <strong>Project Title: PARDOM, Parallel Domestications: the Phaseolus replicated experiment to understand genome evolution and adaptation</strong>. Two species in the genus Phaseolus have been domesticated independently in both Mesoamerica and the Andes, representing multiple parallel domestication events and so providing a natural experiment to study convergent evolution using population genetics. I am also finishing my PhD in Zoology at the University of Cambridge, UK, where I used population genetics to determine the population response of coral reef fishes to climate-induced habitat loss by looking back to the Last Glacial Maximum. I have an MSc in Marine Science from King Abdullah University of Science and Technology (KAUST), Saudi Arabia, and a BSc in Marine Biology from the University of St. Andrews (Scotland). I also worked for several NGOs in coral reef conservation and education prior to starting my PhD.</p>
 </div>
 <div class="paragraph">
-<p>Currently, I am a PhD student and visiting at the Institue of Genetics and Biophysics of the Italian National Research Council in Naples. I am also a Junior Research Fellow for University of Milano Statale ( UNIMI ) in the Laboratory of Elena Cattaneo and my contribution is to set up a pipeline to count the number of repeats in the Huntington&#8217;s gene.</p>
+<p><span class="image"><img src="images/Octicons-mark-github.svg" alt="git" width="30"></span> <a href="https://github.com/mae47">My GitHub</a></p>
+</div>
+<hr>
+</div>
+<div class="sect2">
+<h3 id="_gianluca_damaggio_phd_student"><strong>Gianluca Damaggio</strong>, PhD Student</h3>
+<div class="paragraph">
+<p><span class="image right"><img src="images/gianluca.jpg" alt="gianluca" width="200"></span> <strong>Project Title: HD-DittoGraph - a digital human Embryonic Stem Cell platform for Hungtinton’s repeats</strong>. My project aims at acquiring the ability to  precisely detect perturbations of short tandem repeats of the Huntington’s gene in proliferative cells, leveraging third-generation sequencing data. Currently, I am a PhD student at the University of Naples Federico II,  visiting student at the IGB-CNR in Naples, and a Junior Research Fellow at the University of Milano Statale in the Laboratory of Elena Cattaneo.</p>
 </div>
 <div class="paragraph">
 <p><span class="image"><img src="images/Octicons-mark-github.svg" alt="git" width="30"></span> <a href="https://github.com/GianlucaDamaggio">My GitHub</a></p>
@@ -726,12 +630,9 @@ for research computing (e.g. programming languages, version control, statistical
 <hr>
 </div>
 <div class="sect2">
-<h3 id="_flavia_villani_research_associate"><strong>Flavia Villani</strong>, Research Associate</h3>
+<h3 id="_flavia_villani_phd_student"><strong>Flavia Villani</strong>, PhD Student</h3>
 <div class="paragraph">
-<p><span class="image right"><img src="images/Flavia.JPG" alt="flavia" width="200"></span> I am a master’s student at the Institue of Genetics and Biophysics of the Italian National Research Council. I graduated in Biology at the University of Salerno (Italy).</p>
-</div>
-<div class="paragraph">
-<p>I contributed to a project that studies idiopathic recurrent miscarriage. Currently, I am working to build a library using the Python programming language for the statistical analysis of negative selection using sequence data. In particular, I am focusing on the use of pangenomic sequence data.</p>
+<p><span class="image right"><img src="images/Flavia.JPG" alt="flavia" width="200"></span> <strong>Project Title: Mouse Pangenomics</strong>. I have a master degree in Medical Biotechnology from the University of Naples Federico II. Currently, I am a PhD student at the University of Tennessee Health Science Center. I am building the pangenome of model organisms (inbred mice and rats) using a combination of second and third generation sequence data.</p>
 </div>
 <div class="paragraph">
 <p><span class="image"><img src="images/Octicons-mark-github.svg" alt="git" width="30"></span> <a href="https://github.com/Flavia95">My GitHub</a></p>
@@ -739,15 +640,28 @@ for research computing (e.g. programming languages, version control, statistical
 <hr>
 </div>
 <div class="sect2">
-<h3 id="_giuliana_dangelo_master_student"><strong>Giuliana D&#8217;Angelo</strong>, Master Student</h3>
+<h3 id="_marialaura_zitiello_master_student"><strong>Marialaura Zitiello</strong>, Master Student</h3>
 <div class="paragraph">
-<p><span class="image right"><img src="images/giuliana.jpg" alt="flavia" width="200"></span> I am a molecular biology student at University of Naples Federico II currently working on my master&#8217;s degree thesis at the Institue of Genetics and Biophysics of the Italian National Research Council.</p>
+<p><span class="image right"><img src="images/Marialaura.jpeg" alt="Marialaura" width="200"></span> <strong>Project Title: Gene expression regulation through methylation in the genome of human embryos (in collaboration with Antonella Mecca)</strong>
+Our project aims to understand how methylation contribute to miscarriages. To do so, we look for differences in methylation profile between miscarried and normal embryos. We analyze genome sequence data of two human embryos, one miscarried and one voluntary aborted, to identify and compare their methylation profiles. We use the long reads obtained from Nanopore sequencing technology.</p>
+</div>
+<hr>
+</div>
+<div class="sect2">
+<h3 id="_antonella_mecca_master_student"><strong>Antonella Mecca</strong>, Master Student</h3>
+<div class="paragraph">
+<p><span class="image right"><img src="images/Antonella.jpeg" alt="Antonella" width="200"></span> <strong>Project Title: Gene expression regulation through methylation in the genome of human embryos (in collaboration with Marialaura Zitiello)</strong>
+Our project aims to understand how methylation contribute to miscarriages. To do so, we look for differences in methylation profile between miscarried and normal embryos. We analyze genome sequence data of two human embryos, one miscarried and one voluntary aborted, to identify and compare their methylation profiles. We use the long reads obtained from Nanopore sequencing technology.</p>
+</div>
+<hr>
+</div>
+<div class="sect2">
+<h3 id="_angela_sequino_master_student"><strong>Angela Sequino</strong>, Master Student</h3>
+<div class="paragraph">
+<p><span class="image right"><img src="images/Angela.jpg" alt="Angela" width="200"></span> <strong>Project Title: Deciphering the role of structural variation in miscarried embryos</strong></p>
 </div>
 <div class="paragraph">
-<p>For my thesis, I am studying embryonic mitochondrial sequences from recurrent miscarriages in humans. In particular, I am doing the variant calling, determining haplogroups, and studying the incidence of deleterious mutations in mitochondrial genes and regulatory regions.</p>
-</div>
-<div class="paragraph">
-<p><span class="image"><img src="images/Octicons-mark-github.svg" alt="git" width="30"></span> <a href="https://github.com/GiulianaDangelo">My GitHub</a></p>
+<p>The aim of my project is to investigate the contribution of structural variation to the genetic causes of euploid miscarriages. I use short-reads sequence data from ten miscarried embryos to call structural variants (SV) using the method developed by Sirén et al. (Science 374.6574 (2021): abg8871). To complete the analysis, I will integrate functional information from genomic annotations to understand to which extent SV can cause miscarriages.</p>
 </div>
 <hr>
 </div>
@@ -755,6 +669,9 @@ for research computing (e.g. programming languages, version control, statistical
 <h3 id="_former_members">Former members</h3>
 <div class="ulist">
 <ul>
+<li>
+<p>Giuliana D&#8217;Angelo, Master Student, 2019-2020</p>
+</li>
 <li>
 <p>Roberto Sirica, PhD student, 2015-2018</p>
 </li>
@@ -954,7 +871,7 @@ via Pietro Castellino 111 - 80131 Napoli - Italy - <a href="https://www.google.c
 </div>
 <div id="footer">
 <div id="footer-text">
-Last updated 2021-03-20 18:14:48 +0100
+Last updated 2023-02-17 09:16:52 -0600
 </div>
 </div>
 </body>
