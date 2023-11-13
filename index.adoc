@@ -43,7 +43,7 @@ This project is in collaboration with
 - http://docente.unife.it/michele.rubini[Michele Rubini], University of Ferrara 
 - https://www.monash.edu.my/science/staff/academic/qasim-ayub[Qasim Ayub], Monash University, Malaysia
 
-==== *Funding*
+//==== *Funding*
 
 - PRIN 2020J84FAM Ministero dell'Universita e della Ricerca
 - PRIN 2022WEHP7M Ministero dell'Universita e della Ricerca
