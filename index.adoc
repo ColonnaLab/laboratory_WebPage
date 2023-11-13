@@ -43,13 +43,12 @@ This project is in collaboration with
 - http://docente.unife.it/michele.rubini[Michele Rubini], University of Ferrara 
 - https://www.monash.edu.my/science/staff/academic/qasim-ayub[Qasim Ayub], Monash University, Malaysia
 
-//==== *Funding*
-
-- PRIN 2020J84FAM Ministero dell'Universita e della Ricerca
-- PRIN 2022WEHP7M Ministero dell'Universita e della Ricerca
-- PRIN P2022ZE75A Ministero dell'Universita e della Ricerca
-- https://www.merigen.it/[Merigen Research s.r.l]
-- POR Campania FSE 2014-2020 ASSE III – Ob. Sp. 14
+==== *Funding*
+- PRIN 2020J84FAM Ministero dell'Universita e della Ricerca 
+- PRIN 2022WEHP7M Ministero dell'Universita e della Ricerca 
+- PRIN P2022ZE75A Ministero dell'Universita e della Ricerca 
+- https://www.merigen.it/[Merigen Research s.r.l] 
+- POR Campania FSE 2014-2020 ASSE III – Ob. Sp. 14 
 
 image::images/loghi_grep.png[loghi_grep,400,align="left"]
 image::images/miur.jpg[miur,400,align="left"]
