@@ -34,8 +34,14 @@ DELIVER / NEONATE we want to identify genetic factors contributing to reproducti
 In CANDLE we want to uncover gene expression patterns associated with _APOL1_ risk alleles and preeclampsia in African American women. We will examine the role of ancestry in mediating the relationship between _APOL1_ genotype and preeclampsia risk. The results can provide insights into genetic and molecular basis of preeclampsia.
 
 
-This project is in collaboration with - https://www.merigen.it/[Imma and Sebastiano Di Biase], MeriGen Research, Italy
-- https://www.igenomix.it/[Antonio Capalbo], Igenomix Italy - http://docente.unife.it/michele.rubini[Michele Rubini], University of Ferrara - https://www.monash.edu.my/science/staff/academic/qasim-ayub[Qasim Ayub], Monash University, Malaysia
+This project is in collaboration with 
+- Francesca Antonacci University of Bari Aldo Moro
+- Carlo Alviggi, University of Naples Federico II 
+- Antonio Lamarca, University of Modena and Reggio Emilia   
+- https://www.merigen.it/[Imma and Sebastiano Di Biase], MeriGen Research, Italy
+- Antonio Capalbo, Juno genomics  
+- http://docente.unife.it/michele.rubini[Michele Rubini], University of Ferrara 
+- https://www.monash.edu.my/science/staff/academic/qasim-ayub[Qasim Ayub], Monash University, Malaysia
 
 ==== *Funding*
 [none]
