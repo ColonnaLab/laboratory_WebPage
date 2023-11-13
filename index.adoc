@@ -21,16 +21,15 @@ image::images/loghi_cnr_igb.png[400]
 === *Genomics of early embryonic development* 
 :hardbreaks-option:
 
-
+[.lead]
 Our research aims to uncover how natural selection acts on early human development. We investigate adverse outcomes of embryonic development like recurrent pregnancy loss and preeclampsia to identify the genetic factors that influence reproductive outcomes and pregnancy complications. 
 This knowledge furthers our understanding of human evolution and informs efforts to improve pregnancy outcomes.
 
 image::images/embryo.png[embryo,1000,500]
 
+[.lead]
 In CABERNET we aim to determine the extent of chromosomal mosaicism between embryonic and extraembryonic tissues using single cell DNA sequencing.
-
-DELIVER / NEONATE we want to identify genetic factors contributing to reproductive failure and recurrent miscarriage. We will use single cell strand sequencing to map balanced rearrangements and whole genome sequencing of euploid miscarried embryos to identify causative variants.
-
+In DELIVER / NEONATE we want to identify genetic factors contributing to reproductive failure and recurrent miscarriage. We will use single cell strand sequencing to map balanced rearrangements and whole genome sequencing of euploid miscarried embryos to identify causative variants.
 In CANDLE we want to uncover gene expression patterns associated with _APOL1_ risk alleles and preeclampsia in African American women. We will examine the role of ancestry in mediating the relationship between _APOL1_ genotype and preeclampsia risk. The results can provide insights into genetic and molecular basis of preeclampsia.
 
 
