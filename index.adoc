@@ -20,7 +20,12 @@ image::images/loghi_cnr_igb.png[400]
 
 === *Genomics of early embryonic development* 
 :hardbreaks-option:
-We leverage innovative genomic technologies to uncover genetic factors influencing reproductive outcomes and pregnancy complications. The results can enable better screening, diagnosis, and treatment approaches for couples struggling with infertility, miscarriage, and preeclampsia. The results will help improve preimplantation genetic testing for IVF and provide insights into mechanisms of embryo arrest and miscarriage.  The results can improve genetic screening for couples planning pregnancy.
+
+
+Our research aims to uncover how natural selection acts on early human development. We investigate adverse outcomes of embryonic development like recurrent pregnancy loss and preeclampsia to identify the genetic factors that influence reproductive outcomes and pregnancy complications. 
+This knowledge furthers our understanding of human evolution and informs efforts to improve pregnancy outcomes.
+
+image::images/embryo.png[embryo,1000,500]
 
 In CABERNET we aim to determine the extent of chromosomal mosaicism between embryonic and extraembryonic tissues using single cell DNA sequencing.
 
@@ -29,30 +34,18 @@ DELIVER / NEONATE we want to identify genetic factors contributing to reproducti
 In CANDLE we want to uncover gene expression patterns associated with _APOL1_ risk alleles and preeclampsia in African American women. We will examine the role of ancestry in mediating the relationship between _APOL1_ genotype and preeclampsia risk. The results can provide insights into genetic and molecular basis of preeclampsia.
 
 
-==== *DELIVER* - Decipher unExpLored genetIc Variation inrEproductive failuRe
-
-We aim at understanding the contribution of genomic variants to the failure of human embryonic development. Past and current research in this context investigates mostly aneuploidies or insertion/deletions of few up to 10Mb, leaving unexplored the two extremes of this range, i.e. small-size and very large structural variants. We focus on this unexplored variation analyzing DNA sequence data from euploid miscarried embryos produced with third generation sequencing and analyzed with pangenomic techniques. The third-generation sequencing produces reads of length suitable to confidently discover large structural variants, while the pangenome analysis enables the discovery of variants not present in the reference sequence, and highly likely to be detrimental.
-
-
-*Our medRxiv preprint on this project can be find https://t.co/PpYOa00ipi[here]*
-
-
-.[purple]#_We are interested in sequencing euploid embryos from miscarriages, therefore we do a pre-sequencing screening to exclude aneuploidies and comorbidities. Euploid embryos are sequenced and sequences are used to identify mutations. We expect that highly deleterious dominant mutations as well as rare moderately to highly deleterious recessive mutations contribute to miscarriage. Participant inclusion criteria (e.g. recurrence, consanguinity, selection of comorbidities) will ensure the prevalence of genetic over environmental causes._#
-[link=https://t.co/PpYOa00ipi]
-//image::images/ibelieveModel.png[preSeq_screening,1000,500]
-image::images/embryo.png[embryo,1000,500]
-
-
 This project is in collaboration with - https://www.merigen.it/[Imma and Sebastiano Di Biase], MeriGen Research, Italy
 - https://www.igenomix.it/[Antonio Capalbo], Igenomix Italy - http://docente.unife.it/michele.rubini[Michele Rubini], University of Ferrara - https://www.monash.edu.my/science/staff/academic/qasim-ayub[Qasim Ayub], Monash University, Malaysia
 
 ==== *Funding*
 [none]
+- PRIN 2020J84FAM Ministero dell'Universita e della Ricerca
+- PRIN 2022WEHP7M Ministero dell'Universita e della Ricerca
+- PRIN P2022ZE75A Ministero dell'Universita e della Ricerca
 - https://www.merigen.it/[Merigen Research s.r.l]
 - POR Campania FSE 2014-2020 ASSE III – Ob. Sp. 14
-
 image::images/loghi_grep.png[loghi_grep,400,align="left"]
-
+image::images/miur.jpg[miur,400,align="left"]
 '''
 
 === Mouse Pangenomics 
