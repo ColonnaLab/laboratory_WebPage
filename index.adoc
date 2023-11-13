@@ -6,9 +6,12 @@
 
 
 
+
+:hardbreaks-option:
 Welcome to the *Population Genomics Laboratory* of the http://www.igb.cnr.it/[Institute of Genetics and Biophysics] of the https://www.cnr.it/en[National Research Council].
-We are interested in understanding causes and consequences of genetic diversity and how natural selection in humans affects loci related to diseases.
-.text-center
+We are interested in understanding causes and consequences of genetic diversity and how natural selection in humans affects loci related to diseases. 
+
+:text-center
 ``"_Fascinating_" _(Lieutenant Spock)_``
 
 image::images/loghi_cnr_igb.png[400]
@@ -16,7 +19,7 @@ image::images/loghi_cnr_igb.png[400]
 == *Research*
 
 === *Genomics of early embryonic development* 
-
+:hardbreaks-option:
 We leverage innovative genomic technologies to uncover genetic factors influencing reproductive outcomes and pregnancy complications. The results can enable better screening, diagnosis, and treatment approaches for couples struggling with infertility, miscarriage, and preeclampsia. The results will help improve preimplantation genetic testing for IVF and provide insights into mechanisms of embryo arrest and miscarriage.  The results can improve genetic screening for couples planning pregnancy.
 
 In CABERNET we aim to determine the extent of chromosomal mosaicism between embryonic and extraembryonic tissues using single cell DNA sequencing.
