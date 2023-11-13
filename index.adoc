@@ -18,6 +18,7 @@ image::images/loghi_cnr_igb.png[400]
 
 == *Research*
 
+'''
 === *Genomics of early embryonic development* 
 :hardbreaks-option:
 
@@ -28,8 +29,8 @@ This knowledge furthers our understanding of human evolution and informs efforts
 image::images/embryo.png[embryo,1000,500]
 
 [.lead]
-In CABERNET we aim to determine the extent of chromosomal mosaicism between embryonic and extraembryonic tissues using single cell DNA sequencing.
-In DELIVER / NEONATE we want to identify genetic factors contributing to reproductive failure and recurrent miscarriage. We will use single cell strand sequencing to map balanced rearrangements and whole genome sequencing of euploid miscarried embryos to identify causative variants.
+In _CABERNET_ we aim to determine the extent of chromosomal mosaicism between embryonic and extraembryonic tissues using single cell DNA sequencing.
+In *DELIVER / NEONATE* we want to identify genetic factors contributing to reproductive failure and recurrent miscarriage. We will use single cell strand sequencing to map balanced rearrangements and whole genome sequencing of euploid miscarried embryos to identify causative variants.
 In CANDLE we want to uncover gene expression patterns associated with _APOL1_ risk alleles and preeclampsia in African American women. We will examine the role of ancestry in mediating the relationship between _APOL1_ genotype and preeclampsia risk. The results can provide insights into genetic and molecular basis of preeclampsia.
 
 
@@ -43,7 +44,6 @@ This project is in collaboration with
 - https://www.monash.edu.my/science/staff/academic/qasim-ayub[Qasim Ayub], Monash University, Malaysia
 
 ==== *Funding*
-[none]
 - PRIN 2020J84FAM Ministero dell'Universita e della Ricerca
 - PRIN 2022WEHP7M Ministero dell'Universita e della Ricerca
 - PRIN P2022ZE75A Ministero dell'Universita e della Ricerca
