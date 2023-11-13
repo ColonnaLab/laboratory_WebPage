@@ -8,17 +8,27 @@
 
 Welcome to the *Population Genomics Laboratory* of the http://www.igb.cnr.it/[Institute of Genetics and Biophysics] of the https://www.cnr.it/en[National Research Council].
 We are interested in understanding causes and consequences of genetic diversity and how natural selection in humans affects loci related to diseases.
-[.text-right]
+.text-center
 ``"_Fascinating_" _(Lieutenant Spock)_``
 
 image::images/loghi_cnr_igb.png[400]
 
-
 == *Research*
 
-=== *DELIVER* - Decipher unExpLored genetIc Variation inrEproductive failuRe
+=== *Genomics of early embryonic development* 
 
-We aim at understanding the contribution of genomic variants to the failure of early human embryonic development. Past and current research in this context investigates mostly aneuploidies or insertion/deletions of few up to 10Mb, leaving unexplored the two extremes of this range, i.e. small-size and very large structural variants. We focus on this unexplored variation analyzing DNA sequence data from euploid miscarried embryos produced with third generation sequencing and analyzed with pangenomic techniques. The third-generation sequencing produces reads of length suitable to confidently discover large structural variants, while the pangenome analysis enables the discovery of variants not present in the reference sequence, and highly likely to be detrimental.
+We leverage innovative genomic technologies to uncover genetic factors influencing reproductive outcomes and pregnancy complications. The results can enable better screening, diagnosis, and treatment approaches for couples struggling with infertility, miscarriage, and preeclampsia. The results will help improve preimplantation genetic testing for IVF and provide insights into mechanisms of embryo arrest and miscarriage.  The results can improve genetic screening for couples planning pregnancy.
+
+In CABERNET we aim to determine the extent of chromosomal mosaicism between embryonic and extraembryonic tissues using single cell DNA sequencing.
+
+DELIVER / NEONATE we want to identify genetic factors contributing to reproductive failure and recurrent miscarriage. We will use single cell strand sequencing to map balanced rearrangements and whole genome sequencing of euploid miscarried embryos to identify causative variants.
+
+In CANDLE we want to uncover gene expression patterns associated with _APOL1_ risk alleles and preeclampsia in African American women. We will examine the role of ancestry in mediating the relationship between _APOL1_ genotype and preeclampsia risk. The results can provide insights into genetic and molecular basis of preeclampsia.
+
+
+==== *DELIVER* - Decipher unExpLored genetIc Variation inrEproductive failuRe
+
+We aim at understanding the contribution of genomic variants to the failure of human embryonic development. Past and current research in this context investigates mostly aneuploidies or insertion/deletions of few up to 10Mb, leaving unexplored the two extremes of this range, i.e. small-size and very large structural variants. We focus on this unexplored variation analyzing DNA sequence data from euploid miscarried embryos produced with third generation sequencing and analyzed with pangenomic techniques. The third-generation sequencing produces reads of length suitable to confidently discover large structural variants, while the pangenome analysis enables the discovery of variants not present in the reference sequence, and highly likely to be detrimental.
 
 
 *Our medRxiv preprint on this project can be find https://t.co/PpYOa00ipi[here]*
@@ -26,7 +36,9 @@ We aim at understanding the contribution of genomic variants to the failure of e
 
 .[purple]#_We are interested in sequencing euploid embryos from miscarriages, therefore we do a pre-sequencing screening to exclude aneuploidies and comorbidities. Euploid embryos are sequenced and sequences are used to identify mutations. We expect that highly deleterious dominant mutations as well as rare moderately to highly deleterious recessive mutations contribute to miscarriage. Participant inclusion criteria (e.g. recurrence, consanguinity, selection of comorbidities) will ensure the prevalence of genetic over environmental causes._#
 [link=https://t.co/PpYOa00ipi]
-image::images/ibelieveModel.png[preSeq_screening,1000,500]
+//image::images/ibelieveModel.png[preSeq_screening,1000,500]
+image::images/embryo.png[embryo,1000,500]
+
 
 This project is in collaboration with - https://www.merigen.it/[Imma and Sebastiano Di Biase], MeriGen Research, Italy
 - https://www.igenomix.it/[Antonio Capalbo], Igenomix Italy - http://docente.unife.it/michele.rubini[Michele Rubini], University of Ferrara - https://www.monash.edu.my/science/staff/academic/qasim-ayub[Qasim Ayub], Monash University, Malaysia
@@ -91,7 +103,7 @@ In my postdoctoral research I was part of the international consortium 1000 Geno
 During my PhD I worked on human isolated populations contributing to characterize several isolated populations, describing the genomic consequences of isolation [PMID: 17476112, 19550436, 22713810], contributing to genetic association studies [PMID: 16611673, 18162505] and to characterize rare variation [PMID: 28643794]
 
 
-+ [gray]#See my full C.V. https://github.com/ColonnaLab/laboratory_WebPage/tree/master/docs/CV_EnzaColonna.pdf[here].#
+//+ [gray]#See my full C.V. https://github.com/ColonnaLab/laboratory_WebPage/tree/master/docs/CV_EnzaColonna.pdf[here].#
 
 I founded and led http://www.igb.cnr.it/obilab[OBiLab], a project on training in Bioinformatics
 
@@ -105,12 +117,6 @@ image:images/silvia.jpg[silvia,200,role="right"] *Project Title: DELIVER - Decip
 
 image:images/Octicons-mark-github.svg[git,30] https://github.com/SilviaBuonaiuto[My GitHub]
 
-'''
-=== *Madeleine Emms*, Postdoctoral fellow
-
-image:images/Maddie-768x718.jpg[maddie,200,role="right"] *Project Title: PARDOM, Parallel Domestications: the Phaseolus replicated experiment to understand genome evolution and adaptation*. Two species in the genus Phaseolus have been domesticated independently in both Mesoamerica and the Andes, representing multiple parallel domestication events and so providing a natural experiment to study convergent evolution using population genetics. I am also finishing my PhD in Zoology at the University of Cambridge, UK, where I used population genetics to determine the population response of coral reef fishes to climate-induced habitat loss by looking back to the Last Glacial Maximum. I have an MSc in Marine Science from King Abdullah University of Science and Technology (KAUST), Saudi Arabia, and a BSc in Marine Biology from the University of St. Andrews (Scotland). I also worked for several NGOs in coral reef conservation and education prior to starting my PhD.
-
-image:images/Octicons-mark-github.svg[git,30] https://github.com/mae47[My GitHub]
 
 '''
 
@@ -129,34 +135,12 @@ image:images/Octicons-mark-github.svg[git,30] https://github.com/Flavia95[My Git
 
 '''
 
-=== *Marialaura Zitiello*, Master Student
-
-image:images/Marialaura.jpeg[Marialaura,200,role="right"] *Project Title: Gene expression regulation through methylation in the genome of human embryos (in collaboration with Antonella Mecca)*
-Our project aims to understand how methylation contribute to miscarriages. To do so, we look for differences in methylation profile between miscarried and normal embryos. We analyze genome sequence data of two human embryos, one miscarried and one voluntary aborted, to identify and compare their methylation profiles. We use the long reads obtained from Nanopore sequencing technology.
- 
-
-'''
-
-=== *Antonella Mecca*, Master Student
-
-image:images/Antonella.jpeg[Antonella,200,role="right"] *Project Title: Gene expression regulation through methylation in the genome of human embryos (in collaboration with Marialaura Zitiello)* 
-Our project aims to understand how methylation contribute to miscarriages. To do so, we look for differences in methylation profile between miscarried and normal embryos. We analyze genome sequence data of two human embryos, one miscarried and one voluntary aborted, to identify and compare their methylation profiles. We use the long reads obtained from Nanopore sequencing technology.
- 
-
-'''
-
-=== *Angela Sequino*, Master Student
-
-image:images/Angela.jpg[Angela,200,role="right"] *Project Title: Deciphering the role of structural variation in miscarried embryos*
-
-The aim of my project is to investigate the contribution of structural variation to the genetic causes of euploid miscarriages. I use short-reads sequence data from ten miscarried embryos to call structural variants (SV) using the method developed by Sirén et al. (Science 374.6574 (2021): abg8871). To complete the analysis, I will integrate functional information from genomic annotations to understand to which extent SV can cause miscarriages.
- 
-
-'''
 
 === Former members
-
-
+* Madeleine Emms*, Postdoctoral fellow, 2022-2023
+* Marialaura Zitiello*, Master Student, 2022-2023
+* Antonella Mecca*, Master Student, 2022-2023
+* Angela Sequino*, Master Student, 2022-2023
 * Giuliana D'Angelo, Master Student, 2019-2020
 * Roberto Sirica, PhD student, 2015-2018
 * Gaia Leandra Cecere, undergraduate student, 2018
@@ -174,7 +158,7 @@ See them on https://scholar.google.it/citations?user=ufP1EYgAAAAJ&hl=en&oi=ao[Go
 
 Peer-reviewed Journals
 
-[%reversed]
+
 . Anagnostou P, Dominici V, Battaggia C, Lisi A, Sarno S, Boattini A, Calò C, Francalacci P, Vona G, Tofanelli S, Vilar MG, Colonna V, Pagani L, Destro Bisol G. Inter-individual genomic heterogeneity within European population isolates. PLoS One. 2019 Oct 9;14(10):e0214564. doi: 10.1371/journal.pone.0214564. eCollection 2019. PubMed PMID: 31596857
 
 . Colonna V, D'Agostino N, Garrison E, Albrechtsen A, Jonas Meisner J, Facchiano A, Cardi T, Tripodi P Genomic diversity and novel genome-wide association with fruit morphology in Capsicum, from 746k polymorphic sites. Sci Rep. 2019 Jul 11;9(1):10067. doi: 10.1038/s41598-019-46136-5. PubMed PMID: 31296904
