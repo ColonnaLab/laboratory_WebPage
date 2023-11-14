@@ -22,12 +22,11 @@ image::images/loghi_cnr_igb.png[400]
 === *Genomics of early embryonic development* 
 :hardbreaks-option:
 
-[.lead]
 Our research aims to uncover how natural selection acts on early human development. We investigate adverse outcomes of embryonic development like recurrent pregnancy loss and preeclampsia to identify the genetic factors that influence reproductive outcomes and pregnancy complications. This knowledge furthers our understanding of human evolution and informs efforts to improve pregnancy outcomes.
 
 image::images/embryo.png[embryo,1000,500]
 
-[.lead]
+
 In _CABERNET_ we aim to determine the extent of chromosomal mosaicism between embryonic and extraembryonic tissues using single cell DNA sequencing.
 In _DELIVER / NEONATE_ we want to identify genetic factors contributing to reproductive failure and recurrent miscarriage. We will use single cell strand sequencing to map balanced rearrangements and whole genome sequencing of euploid miscarried embryos to identify causative variants.
 In _CANDLE_ we want to uncover gene expression patterns associated with _APOL1_ risk alleles and preeclampsia in African American women. We will examine the role of ancestry in mediating the relationship between _APOL1_ genotype and preeclampsia risk. The results can provide insights into genetic and molecular basis of preeclampsia.
@@ -70,7 +69,7 @@ This project is in collaboration with - https://scholar.google.com/citations?use
 https://scholar.google.com/citations?user=965VipkAAAAJ [Robert Davis ]
 https://scholar.google.com/citations?user=DuzpZDEAAAAJ [Akram Mohammed]
 
-image::images/UTHSC-primary-stacked-logo-4c.jpg[align="center"]
+image::images/UTHSC-primary-stacked-logo-4c.jpg[ut,200,align="center"]
 
 '''
 
@@ -97,7 +96,7 @@ This project is in collaboration with - https://scholar.google.com/citations?use
 Our contribution to pangenomics ... 
 
 
-image::images/UTHSC-primary-stacked-logo-4c.jpg
+image::images/UTHSC-primary-stacked-logo-4c.jpg[ut,200, align='center']
 
 
 
