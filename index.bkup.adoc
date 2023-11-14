@@ -3,19 +3,16 @@
 :toc-title: Page Content
 :toc: left
 :toclevels: 2
+
+
 :hide-uri-scheme: 
+
 :hardbreaks-option:
-
-
-----
-:quote
 Welcome to the *Population Genomics Laboratory* of the http://www.igb.cnr.it/[Institute of Genetics and Biophysics] of the https://www.cnr.it/en[National Research Council].
 We are interested in understanding causes and consequences of genetic diversity and how natural selection in humans affects loci related to diseases. 
 
 :center
 "_Fascinating_" _(Lieutenant Spock)_
-----
-
 
 image::images/loghi_cnr_igb.png[400]
 
@@ -25,7 +22,7 @@ image::images/loghi_cnr_igb.png[400]
 === *Genomics of early embryonic development* 
 :hardbreaks-option:
 
-Our research aims to understand how natural selection acts on early human development. We investigate adverse outcomes of embryonic development like recurrent pregnancy loss and preeclampsia to identify the genetic factors that influence reproductive outcomes and pregnancy complications. This knowledge furthers our understanding of human evolution and informs efforts to improve pregnancy outcomes.
+Our research aims to uncover how natural selection acts on early human development. We investigate adverse outcomes of embryonic development like recurrent pregnancy loss and preeclampsia to identify the genetic factors that influence reproductive outcomes and pregnancy complications. This knowledge furthers our understanding of human evolution and informs efforts to improve pregnancy outcomes.
 
 image::images/embryo.png[embryo,1000,500]
 
@@ -144,16 +141,6 @@ image:images/Octicons-mark-github.svg[git,30] https://github.com/SilviaBuonaiuto
 
 '''
 
-'''
-=== *Franco Marsico*, Postdoctoral fellow
-
-image:images/silvia.jpg[silvia,200,role="right"] *Project Title: DELIVER - Decipher unExpLored genetIc Variation inrEproductive failuRe*. My project studies idiopathic recurrent miscarriage to identify genetic variants likely to be causative and ultimately improve prenatal diagnosis. I have a PhD degree From the university Luigi Vanvitelli, a master’s degree in Biology from the University of Napoli Federico II. I did a master thesis in molecular biology at the Department of Biology.
-
-image:images/Octicons-mark-github.svg[git,30] https://github.com/SilviaBuonaiuto[My GitHub]
-
-
-'''
-
 === *Gianluca Damaggio*, PhD Student
 
 image:images/gianluca.jpg[gianluca,200,role="right"] *Project Title: HD-DittoGraph - a digital human Embryonic Stem Cell platform for Hungtinton’s repeats*. My project aims at acquiring the ability to  precisely detect perturbations of short tandem repeats of the Huntington’s gene in proliferative cells, leveraging third-generation sequencing data. Currently, I am a PhD student at the University of Naples Federico II,  visiting student at the IGB-CNR in Naples, and a Junior Research Fellow at the University of Milano Statale in the Laboratory of Elena Cattaneo.
@@ -168,27 +155,18 @@ image:images/Flavia.JPG[flavia,200,role="right"] *Project Title: Mouse Pangenomi
 image:images/Octicons-mark-github.svg[git,30] https://github.com/Flavia95[My GitHub]
 
 '''
-'''
-=== *Rosanna Maione *, Research Associate 
-
-image:images/Flavia.JPG[flavia,200,role="right"] *Project Title: Mouse Pangenomics*. I have a master degree in Medical Biotechnology from the University of Naples Federico II. Currently, I am a PhD student at the University of Tennessee Health Science Center. I am building the pangenome of model organisms (inbred mice and rats) using a combination of second and third generation sequence data.
-
-image:images/Octicons-mark-github.svg[git,30] https://github.com/Flavia95[My GitHub]
-
-'''
 
 
 === Former members
-* Madeleine Emms, Postdoctoral fellow, 2022-2023
-* Marialaura Zitiello, Master Student, 2022-2023
-* Antonella Mecca, Master Student, 2022-2023
-* Angela Sequino, Master Student, 2022-2023
-* Davide D'angelo, Visiting master student, 2022 
+* Madeleine Emms*, Postdoctoral fellow, 2022-2023
+* Marialaura Zitiello*, Master Student, 2022-2023
+* Antonella Mecca*, Master Student, 2022-2023
+* Angela Sequino*, Master Student, 2022-2023
 * Giuliana D'Angelo, Master Student, 2019-2020
 * Roberto Sirica, PhD student, 2015-2018
 * Gaia Leandra Cecere, undergraduate student, 2018
 * Marianna Buonaiuto, visiting Postdoc, 2017
-* Lucia De Martino, visiting master Student, 2016
+* Lucia De Martino, visiting Graduate Student, 2016
 
 {empty} +
 {empty} +
