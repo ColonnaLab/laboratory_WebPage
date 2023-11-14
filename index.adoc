@@ -23,8 +23,7 @@ image::images/loghi_cnr_igb.png[400]
 :hardbreaks-option:
 
 [.lead]
-Our research aims to uncover how natural selection acts on early human development. We investigate adverse outcomes of embryonic development like recurrent pregnancy loss and preeclampsia to identify the genetic factors that influence reproductive outcomes and pregnancy complications. 
-This knowledge furthers our understanding of human evolution and informs efforts to improve pregnancy outcomes.
+Our research aims to uncover how natural selection acts on early human development. We investigate adverse outcomes of embryonic development like recurrent pregnancy loss and preeclampsia to identify the genetic factors that influence reproductive outcomes and pregnancy complications. This knowledge furthers our understanding of human evolution and informs efforts to improve pregnancy outcomes.
 
 image::images/embryo.png[embryo,1000,500]
 
@@ -52,6 +51,27 @@ This project is in collaboration with
 
 image::images/loghi_grep.png[loghi_grep,400,align="left"]
 image::images/miur.jpg[miur,400,align="left"]
+'
+
+'''
+=== Admixture Mapping and Pangenomics Analysis in the Biorepository and Integrative Genomics (BIG) Initiative Cohort
+
+_Improving Phenotype-Genotype Linkages through Ancestry Patterns_
+
+The BIG initiative is currently recruiting 30k participants from Memphis (TN), mostly children, with plans to include a total of 100,000 samples over the next five years. Nearly 45% of current participants are of African ancestry, and the cohort is partnering with the Genomic Information Commons, a consortium of top children's hospitals, to conduct genomics research aimed at discovering the genetic foundations of human disease in diverse populations. 
+
+We want to understand the extent and origin of admixture patterns in the Biorepository and Integrative Genomics (BIG) Initiative cohort and to develop pipelines for admixture mapping of phenotypic traits related to diseases and natural selection phenotypes.
+
+We are using existing exome sequence data and electronic health records from 10k children to obtain an improved set of genetic variants, including structural variants through mapping against reference pangenomes and imputation. 
+We will reconstruct the demographic history of the individuals in the cohort at individual and population levels, determine the identity of the ancestral populations and deconvolute their contribution to the genome of single individuals. The ancestry information will be used to identify patterns of natural selection and map phenotypic traits.
+
+This project is in collaboration with - https://scholar.google.com/citations?user=OYJMYwIAAAAJ&hl=en[Robert Williams], 
+
+https://scholar.google.com/citations?user=965VipkAAAAJ [Robert Davis ]
+https://scholar.google.com/citations?user=DuzpZDEAAAAJ [Akram Mohammed]
+
+image::images/UTHSC-primary-stacked-logo-4c.jpg[align="center"]
+
 '''
 
 === Mouse Pangenomics 
@@ -79,20 +99,7 @@ Our contribution to pangenomics ...
 
 image::images/UTHSC-primary-stacked-logo-4c.jpg
 
-'''
-=== Admixture Mapping and Pangenomics Analysis in the Biorepository and Integrative Genomics (BIG) Initiative Cohort
 
-Improving Phenotype-Genotype Linkages through Ancestry Patterns.
-
-We want to understand the extent and origin of admixture patterns in the Biorepository and Integrative Genomics (BIG) Initiative cohort and to develop pipelines for admixture mapping of phenotypic traits related to diseases and natural selection phenotypes.
-The BIG initiative is currently recruiting 30k participants, mostly children, with plans to include adults in 2022 and to collect a total of 100,000 samples over the next five years. Nearly 45% of current participants are of African ancestry, and the cohort is partnering with the Genomic Information Commons, a consortium of top children's hospitals, to conduct genomics research aimed at discovering the genetic foundations of human disease in diverse populations.
-
-The project has two broad aims. Aim 1 is to use existing exome sequence data to obtain an improved set of genetic variants, including structural variants through mapping against reference pangenomes and imputation. Aim 2 is to perform population and statistical genetic analyses. We will reconstruct the demographic history of the individuals in the cohort at individual and population levels, determine the identity of the ancestral populations and deconvolute their contribution to the genome of single individuals, and identify patterns of natural selection and map phenotypic traits.
-We believe that this project has the potential to significantly advance our understanding of admixture patterns and their implications for phenotypic traits related to diseases and natural selection. By developing pipelines for admixture mapping of these traits, we hope to contribute to the development of precision medicine approaches that are more effective for diverse populations.
-
-
-
-'''
 
 
 //== *Training in Bioinformatics*
