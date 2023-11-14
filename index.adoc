@@ -79,17 +79,14 @@ We are building a reference pangenome for all extant members of all BXD families
 
 
 .[purple]#_(A) odgi-vizlinear visualization of the pangenome of chromosome 19. Each line represents a haplotype. Line interruptions (white) are insertions in one or more strains, therefore deletions in the others (vertical white stripes). The left side is the centromere, the right side is the telomere.In these two regions sequences are fragmented. (B) Extract of the pangenome from the Zfp91gene showing a 2,006 bp insertion found in DBA/2J and 48% of the BXD strains(green nodes in the graph). The insertion is in complete linkage with two other insertions of 4 bp and 135 bp in a region spanning 2.8 kbp. (C) Strain-specific haplotypes (gray segments are not in scale)_#
-
 image::images/pangenome.png[loghi_pang,500,align="center"]
 
 
-
-
-.This project is in collaboration with the Department of Genetics, Genomics and Informatics, University of Tennessee Health Science Center,Memphis, TN: 
-- https://scholar.google.com/citations?user=OYJMYwIAAAAJ&hl=en[Robert Williams]
-- https://davidashbrook.wordpress.com/[David Ashbrook]
-- https://thebird.nl/[Pjotr Prins]
-- http://www.hypervolu.me/~erik/erik_garrison.html[Erik Garrison], 
+.This project is in collaboration with the Department of Genetics, Genomics and Informatics, University of Tennessee Health Science Center,Memphis, TN
+* https://scholar.google.com/citations?user=OYJMYwIAAAAJ&hl=en[Robert Williams]
+* https://davidashbrook.wordpress.com/[David Ashbrook]
+* https://thebird.nl/[Pjotr Prins]
+* http://www.hypervolu.me/~erik/erik_garrison.html[Erik Garrison] 
 
 *Our biorxiv preprint on this project can be find https://www.biorxiv.org/content/10.1101/2022.04.21.489063v1.full[here] and https://www.biorxiv.org/content/10.1101/2022.03.02.482700v1.full[here]*
 
