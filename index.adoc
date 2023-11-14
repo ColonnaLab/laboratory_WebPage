@@ -74,9 +74,22 @@ This project is in collaboration with - https://scholar.google.com/citations?use
 
 *Our biorxiv preprint on this project can be find https://www.biorxiv.org/content/10.1101/2022.04.21.489063v1.full[here] and https://www.biorxiv.org/content/10.1101/2022.03.02.482700v1.full[here]*
 
+Our contribution to pangenomics ... 
+
+
 image::images/UTHSC-primary-stacked-logo-4c.jpg
 
 '''
+=== Admixture Mapping and Pangenomics Analysis in the Biorepository and Integrative Genomics (BIG) Initiative Cohort
+
+Improving Phenotype-Genotype Linkages through Ancestry Patterns.
+
+We want to understand the extent and origin of admixture patterns in the Biorepository and Integrative Genomics (BIG) Initiative cohort and to develop pipelines for admixture mapping of phenotypic traits related to diseases and natural selection phenotypes.
+The BIG initiative is currently recruiting 30k participants, mostly children, with plans to include adults in 2022 and to collect a total of 100,000 samples over the next five years. Nearly 45% of current participants are of African ancestry, and the cohort is partnering with the Genomic Information Commons, a consortium of top children's hospitals, to conduct genomics research aimed at discovering the genetic foundations of human disease in diverse populations.
+
+The project has two broad aims. Aim 1 is to use existing exome sequence data to obtain an improved set of genetic variants, including structural variants through mapping against reference pangenomes and imputation. Aim 2 is to perform population and statistical genetic analyses. We will reconstruct the demographic history of the individuals in the cohort at individual and population levels, determine the identity of the ancestral populations and deconvolute their contribution to the genome of single individuals, and identify patterns of natural selection and map phenotypic traits.
+We believe that this project has the potential to significantly advance our understanding of admixture patterns and their implications for phenotypic traits related to diseases and natural selection. By developing pipelines for admixture mapping of these traits, we hope to contribute to the development of precision medicine approaches that are more effective for diverse populations.
+
 
 
 '''
