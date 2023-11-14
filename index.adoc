@@ -5,7 +5,7 @@
 :toclevels: 2
 
 
-
+:hide-uri-scheme: 
 
 :hardbreaks-option:
 Welcome to the *Population Genomics Laboratory* of the http://www.igb.cnr.it/[Institute of Genetics and Biophysics] of the https://www.cnr.it/en[National Research Council].
@@ -56,28 +56,28 @@ image::images/miur.jpg[miur,400,align="left"]
 
 === Mouse Pangenomics 
 
-The members of BXDs family have been inbred for 20-200 generations. They are of great value for mapping complex traits and phenome-wide association analysis. Current genomic studies on BXD assume a single linear reference genome, making it difficult to observe sequences diverging from the reference, therefore limiting the accuracy and completeness of analyses. Pangenome models overcome this limitation as they contain the full genomic information of a species.
+Mice members of BXDs family have been inbred for 20-200 generations. They are of great value for mapping complex traits and phenome-wide association analyses. Current genomic studies on BXD assume a single linear reference genome, making it difficult to observe sequences diverging from the reference, therefore limiting the accuracy and completeness of analyses. Pangenome models overcome this limitation as they contain the full genomic information of a species.
 
-We are building a reference pangenome for all extant members of all BXD families leveraging third generation and 10X sequence data. We will analyze the genetic variation in relation to thousands of phenotypes in the GeneNetwork.
+We are building a reference pangenome for all extant members of all BXD families leveraging third generation and 10X sequence data. We will analyze the genetic variation in relation to thousands of phenotypes in the https://genenetwork.org/ database. 
+
+
+
+
+.[purple]#_(A) odgi-vizlinear visualization of the pangenome of chromosome 19. Each line represents a haplotype. Line interruptions (white) are insertions in one or more strains, therefore deletions in the others (vertical white stripes). The left side is the centromere, the right side is the telomere.In these two regions sequences are fragmented. (B) Extract of the pangenome from the Zfp91gene showing a 2,006 bp insertion found in DBA/2J and 48% of the BXD strains(green nodes in the graph). The insertion is in complete linkage with two other insertions of 4 bp and 135 bp in a region spanning 2.8 kbp. (C) Strain-specific haplotypes (gray segments are not in scale)_#
+
+image::images/pangenome.png[loghi_pang,500,align="center"]
+
+
 
 
 This project is in collaboration with - https://scholar.google.com/citations?user=OYJMYwIAAAAJ&hl=en[Robert Williams],  https://davidashbrook.wordpress.com/[David Ashbrook], https://thebird.nl/[Pjotr Prins], http://www.hypervolu.me/~erik/erik_garrison.html[Erik Garrison], Department of Genetics, Genomics and Informatics, University of Tennessee Health Science Center,Memphis, TN.
 
 *Our biorxiv preprint on this project can be find https://www.biorxiv.org/content/10.1101/2022.04.21.489063v1.full[here] and https://www.biorxiv.org/content/10.1101/2022.03.02.482700v1.full[here]*
 
-.[purple]#_(A) odgi-vizlinear visualization of the pangenome of chromosome 19. Each line represents a haplotype. Line interruptions (white) are insertions in one or more strains, therefore deletions in the others (vertical white stripes). The left side is the centromere, the right side is the telomere.In these two regions sequences are fragmented. (B) Extract of the pangenome from the Zfp91gene showing a 2,006 bp insertion found in DBA/2J and 48% of the BXD strains(green nodes in the graph). The insertion is in complete linkage with two other insertions of 4 bp and 135 bp in a region spanning 2.8 kbp. (C) Strain-specific haplotypes (gray segments are not in scale)_#
-
-image::images/pangenome.png[loghi_pang,500,align="center"]
+image::images/UTHSC-primary-stacked-logo-4c.jpg
 
 '''
 
-=== *PARDOM* - Domestications of  _Phaseolus_
-
-_Phaseolus_ is a unique example of multiple parallel domestication events that provide a natural experiment to study convergent phenotypic evolution associated with convergent genomic and/or transcriptomic changes. With the project PARDOM (Parallel Domestications: the _Phaseolus_ replicated experiment to understand genome evolution and adaptation), we want to study convergent evolution in four replicates of the domestication process in _P_. _vulgaris_ (PV) and _P_. _lunatus_ (PL), two highly collinear species each domesticated independently in Mesoamerica and the Andes, resulting in at least four independent domestication events.
-
-This project is in collaboration with http://www.univpm.it/roberto.papa[Roberto Papa]
-
-PARDOM is funded by PRIN 2017 20177RL4KL.
 
 '''
 
