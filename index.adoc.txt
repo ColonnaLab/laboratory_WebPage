@@ -12,11 +12,12 @@
 "_Fascinating_" _(Lieutenant Spock)_
 
 
-image::images/loghi_cnr_igb.png[200]
+image::images/loghi_cnr_igb.png[400]
 
 == *Research*
 
 === *Genomics of early embryonic development* 
+//:hardbreaks-option:
 
 Our research aims to understand how natural selection acts on early human development. We investigate adverse outcomes of embryonic development like recurrent pregnancy loss and preeclampsia to identify the genetic factors that influence reproductive outcomes and pregnancy complications. This knowledge furthers our understanding of human evolution and informs efforts to improve pregnancy outcomes.
 
@@ -60,12 +61,12 @@ We want to understand the extent and origin of admixture patterns in the Biorepo
 We are using existing exome sequence data and electronic health records from 10k children to obtain an improved set of genetic variants, including structural variants through mapping against reference pangenomes and imputation. 
 We will reconstruct the demographic history of the individuals in the cohort at individual and population levels, determine the identity of the ancestral populations and deconvolute their contribution to the genome of single individuals. The ancestry information will be used to identify patterns of natural selection and map phenotypic traits.
 
-.This project is in collaboration with 
-* https://scholar.google.com/citations?user=OYJMYwIAAAAJ&hl=en[Robert Williams], 
-* https://scholar.google.com/citations?user=965VipkAAAAJ [Robert Davis ]
-* https://scholar.google.com/citations?user=DuzpZDEAAAAJ [Akram Mohammed]
+This project is in collaboration with - https://scholar.google.com/citations?user=OYJMYwIAAAAJ&hl=en[Robert Williams], 
 
-image::images/UTHSC-primary-stacked-logo-4c.jpg[ut,50,align="center"]
+https://scholar.google.com/citations?user=965VipkAAAAJ [Robert Davis ]
+https://scholar.google.com/citations?user=DuzpZDEAAAAJ [Akram Mohammed]
+
+image::images/UTHSC-primary-stacked-logo-4c.jpg[ut,200,align="center"]
 
 '''
 === Mouse Pangenomics 
@@ -75,8 +76,10 @@ Mice members of BXDs family have been inbred for 20-200 generations. They are of
 We are building a reference pangenome for all extant members of all BXD families leveraging third generation and 10X sequence data. We will analyze the genetic variation in relation to thousands of phenotypes in the https://genenetwork.org/ database. 
 
 
+
+
 .[purple]#_(A) odgi-vizlinear visualization of the pangenome of chromosome 19. Each line represents a haplotype. Line interruptions (white) are insertions in one or more strains, therefore deletions in the others (vertical white stripes). The left side is the centromere, the right side is the telomere.In these two regions sequences are fragmented. (B) Extract of the pangenome from the Zfp91gene showing a 2,006 bp insertion found in DBA/2J and 48% of the BXD strains(green nodes in the graph). The insertion is in complete linkage with two other insertions of 4 bp and 135 bp in a region spanning 2.8 kbp. (C) Strain-specific haplotypes (gray segments are not in scale)_#
-image::images/pangenome.png[loghi_pang,50,align="center"]
+image::images/pangenome.png[loghi_pang,500,align="center"]
 
 
 image::images/UTHSC-primary-stacked-logo-4c.jpg[ut,200, align='center']
