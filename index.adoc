@@ -1,18 +1,12 @@
 = *Colonna Lab*
 :figure-caption!:
-
-****
 :toc-title: Page Content
 :toc: left
 :toclevels: 2
-****
-
-
 :hide-uri-scheme: 
 :hardbreaks-option:
 
-Welcome to the *Population Genomics Laboratory* of the http://www.igb.cnr.it/[Institute of Genetics and Biophysics] of the https://www.cnr.it/en[National Research Council].
-We are interested in understanding causes and consequences of genetic diversity and how natural selection in humans affects loci related to diseases. 
+Welcome to the *Population Genomics Laboratory* of the http://www.igb.cnr.it/[Institute of Genetics and Biophysics] of the https://www.cnr.it/en[National Research Council]. We are interested in understanding causes and consequences of genetic diversity and how natural selection in humans affects loci related to diseases. 
 
 [quote]
 "_Fascinating_" _(Lieutenant Spock)_
@@ -22,7 +16,6 @@ image::images/loghi_cnr_igb.png[400]
 
 == *Research*
 
-'''
 === *Genomics of early embryonic development* 
 :hardbreaks-option:
 
@@ -54,7 +47,7 @@ This project is in collaboration with
 
 image::images/loghi_grep.png[loghi_grep,400,align="left"]
 image::images/miur.jpg[miur,400,align="left"]
-'
+
 
 '''
 === Admixture Mapping and Pangenomics Analysis in the Biorepository and Integrative Genomics (BIG) Initiative Cohort
@@ -76,7 +69,6 @@ https://scholar.google.com/citations?user=DuzpZDEAAAAJ [Akram Mohammed]
 image::images/UTHSC-primary-stacked-logo-4c.jpg[ut,200,align="center"]
 
 '''
-
 === Mouse Pangenomics 
 
 Mice members of BXDs family have been inbred for 20-200 generations. They are of great value for mapping complex traits and phenome-wide association analyses. Current genomic studies on BXD assume a single linear reference genome, making it difficult to observe sequences diverging from the reference, therefore limiting the accuracy and completeness of analyses. Pangenome models overcome this limitation as they contain the full genomic information of a species.
@@ -93,7 +85,11 @@ image::images/pangenome.png[loghi_pang,500,align="center"]
 
 
 
-This project is in collaboration with - https://scholar.google.com/citations?user=OYJMYwIAAAAJ&hl=en[Robert Williams],  https://davidashbrook.wordpress.com/[David Ashbrook], https://thebird.nl/[Pjotr Prins], http://www.hypervolu.me/~erik/erik_garrison.html[Erik Garrison], Department of Genetics, Genomics and Informatics, University of Tennessee Health Science Center,Memphis, TN.
+.This project is in collaboration with the Department of Genetics, Genomics and Informatics, University of Tennessee Health Science Center,Memphis, TN: 
+- https://scholar.google.com/citations?user=OYJMYwIAAAAJ&hl=en[Robert Williams]
+- https://davidashbrook.wordpress.com/[David Ashbrook]
+- https://thebird.nl/[Pjotr Prins]
+- http://www.hypervolu.me/~erik/erik_garrison.html[Erik Garrison], 
 
 *Our biorxiv preprint on this project can be find https://www.biorxiv.org/content/10.1101/2022.04.21.489063v1.full[here] and https://www.biorxiv.org/content/10.1101/2022.03.02.482700v1.full[here]*
 
@@ -102,7 +98,7 @@ Our contribution to pangenomics ...
 
 image::images/UTHSC-primary-stacked-logo-4c.jpg[ut,200, align='center']
 
-
+'''
 
 
 //== *Training in Bioinformatics*
