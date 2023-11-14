@@ -6,7 +6,7 @@
 :hide-uri-scheme: 
 :hardbreaks-option:
 
-Welcome to the *Population Genomics Laboratory* of the http://www.igb.cnr.it/[Institute of Genetics and Biophysics] of the https://www.cnr.it/en[National Research Council]. We are interested in understanding causes and consequences of genetic diversity and how natural selection in humans affects loci related to diseases. 
++Welcome to the *Population Genomics Laboratory* of the http://www.igb.cnr.it/[Institute of Genetics and Biophysics] of the https://www.cnr.it/en[National Research Council]. We are interested in understanding causes and consequences of genetic diversity and how natural selection in humans affects loci related to diseases.+
 
 [quote]
 "_Fascinating_" _(Lieutenant Spock)_
@@ -17,7 +17,7 @@ image::images/loghi_cnr_igb.png[400]
 == *Research*
 
 === *Genomics of early embryonic development* 
-:hardbreaks-option:
+//:hardbreaks-option:
 
 Our research aims to understand how natural selection acts on early human development. We investigate adverse outcomes of embryonic development like recurrent pregnancy loss and preeclampsia to identify the genetic factors that influence reproductive outcomes and pregnancy complications. This knowledge furthers our understanding of human evolution and informs efforts to improve pregnancy outcomes.
 
@@ -29,14 +29,14 @@ In _DELIVER / NEONATE_ we want to identify genetic factors contributing to repro
 In _CANDLE_ we want to uncover gene expression patterns associated with _APOL1_ risk alleles and preeclampsia in African American women. We will examine the role of ancestry in mediating the relationship between _APOL1_ genotype and preeclampsia risk. The results can provide insights into genetic and molecular basis of preeclampsia.
 
 
-This project is in collaboration with 
-- Francesca Antonacci University of Bari Aldo Moro
-- Carlo Alviggi, University of Naples Federico II 
-- Antonio Lamarca, University of Modena and Reggio Emilia   
-- https://www.merigen.it/[Imma and Sebastiano Di Biase], MeriGen Research, Italy
-- Antonio Capalbo, Juno genomics  
-- http://docente.unife.it/michele.rubini[Michele Rubini], University of Ferrara 
-- https://www.monash.edu.my/science/staff/academic/qasim-ayub[Qasim Ayub], Monash University, Malaysia
+.This project is in collaboration with 
+* Francesca Antonacci University of Bari Aldo Moro
+* Carlo Alviggi, University of Naples Federico II 
+* Antonio Lamarca, University of Modena and Reggio Emilia   
+* https://www.merigen.it/[Imma and Sebastiano Di Biase], MeriGen Research, Italy
+* Antonio Capalbo, Juno genomics  
+* http://docente.unife.it/michele.rubini[Michele Rubini], University of Ferrara 
+* https://www.monash.edu.my/science/staff/academic/qasim-ayub[Qasim Ayub], Monash University, Malaysia
 
 ==== *Funding*
 - PRIN 2020J84FAM Ministero dell'Universita e della Ricerca 
@@ -82,6 +82,7 @@ We are building a reference pangenome for all extant members of all BXD families
 image::images/pangenome.png[loghi_pang,500,align="center"]
 
 
+image::images/UTHSC-primary-stacked-logo-4c.jpg[ut,200, align='center']
 .This project is in collaboration with the Department of Genetics, Genomics and Informatics, University of Tennessee Health Science Center,Memphis, TN
 * https://scholar.google.com/citations?user=OYJMYwIAAAAJ&hl=en[Robert Williams]
 * https://davidashbrook.wordpress.com/[David Ashbrook]
@@ -93,7 +94,6 @@ image::images/pangenome.png[loghi_pang,500,align="center"]
 Our contribution to pangenomics ... 
 
 
-image::images/UTHSC-primary-stacked-logo-4c.jpg[ut,200, align='center']
 
 '''
 
