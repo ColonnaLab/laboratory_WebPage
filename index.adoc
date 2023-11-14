@@ -1,19 +1,22 @@
 = *Colonna Lab*
 :figure-caption!:
+
+****
 :toc-title: Page Content
 :toc: left
 :toclevels: 2
+****
+
+
 :hide-uri-scheme: 
 :hardbreaks-option:
 
-
-****
 Welcome to the *Population Genomics Laboratory* of the http://www.igb.cnr.it/[Institute of Genetics and Biophysics] of the https://www.cnr.it/en[National Research Council].
 We are interested in understanding causes and consequences of genetic diversity and how natural selection in humans affects loci related to diseases. 
 
-:center
+[quote]
 "_Fascinating_" _(Lieutenant Spock)_
-****
+
 
 image::images/loghi_cnr_igb.png[400]
 
