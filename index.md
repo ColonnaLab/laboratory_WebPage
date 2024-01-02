@@ -1,3 +1,6 @@
+---
+title: "labwebpage"
+---
 
 # *The Colonna Lab - Population Genomics*
 
