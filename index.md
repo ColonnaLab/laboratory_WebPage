@@ -2,11 +2,11 @@
 title: "labwebpage"
 ---
 
-# *The Colonna Lab - Population Genomics*
+<h1> <b>The Colonna Lab - Population Genomics</b></h1>
 
 
 <center>
-*Welcome to the *Population Genomics Laboratory* of the [Institute of Genetics and Biophysics]http://www.igb.cnr.it/) of the [National Research Council](https://www.cnr.it/en). We are interested in understanding causes and consequences of genetic diversity and how natural selection in humans affects loci related to diseases*
+<i>Welcome to the <em>Population Genomics</em> Laboratory* of the <a href="http://www.igb.cnr.it/">Institute of Genetics and Biophysics</a> of the  <a href="https://www.cnr.it/en">National Research Council</a>. We are interested in understanding causes and consequences of genetic diversity and how natural selection in humans affects loci related to diseases</i>
 </center>
 
 
