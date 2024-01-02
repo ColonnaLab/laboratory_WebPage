@@ -1,8 +1,6 @@
 ---
-title: "labwebpage"
+title: "The Colonna Lab - Population Genomics"
 ---
-
-<h1> <b>The Colonna Lab - Population Genomics</b></h1>
 
 
 <center>
