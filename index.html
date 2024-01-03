@@ -4,7 +4,7 @@
 <meta charset="UTF-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="generator" content="Asciidoctor 2.0.18">
+<meta name="generator" content="Asciidoctor 2.0.16">
 <title>Colonna Lab</title>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,300italic,400,400italic,600,600italic%7CNoto+Serif:400,400italic,700,700italic%7CDroid+Sans+Mono:400,700">
 <style>
@@ -84,10 +84,10 @@ code{font-family:"Droid Sans Mono","DejaVu Sans Mono",monospace;font-weight:400;
 ul,ol,dl{line-height:1.6;margin-bottom:1.25em;list-style-position:outside;font-family:inherit}
 ul,ol{margin-left:1.5em}
 ul li ul,ul li ol{margin-left:1.25em;margin-bottom:0}
+ul.square li ul,ul.circle li ul,ul.disc li ul{list-style:inherit}
+ul.square{list-style-type:square}
 ul.circle{list-style-type:circle}
 ul.disc{list-style-type:disc}
-ul.square{list-style-type:square}
-ul.circle ul:not([class]),ul.disc ul:not([class]),ul.square ul:not([class]){list-style:inherit}
 ol li ul,ol li ol{margin-left:1.25em;margin-bottom:0}
 dl dt{margin-bottom:.3125em;font-weight:bold}
 dl dd{margin-bottom:1.25em}
@@ -193,8 +193,7 @@ body.toc2.toc-right{padding-left:0;padding-right:20em}}
 #content h1>a.link:hover,h2>a.link:hover,h3>a.link:hover,#toctitle>a.link:hover,.sidebarblock>.content>.title>a.link:hover,h4>a.link:hover,h5>a.link:hover,h6>a.link:hover{color:#a53221}
 details,.audioblock,.imageblock,.literalblock,.listingblock,.stemblock,.videoblock{margin-bottom:1.25em}
 details{margin-left:1.25rem}
-details>summary{cursor:pointer;display:block;position:relative;line-height:1.6;margin-bottom:.625rem;outline:none;-webkit-tap-highlight-color:transparent}
-details>summary::-webkit-details-marker{display:none}
+details>summary{cursor:pointer;display:block;position:relative;line-height:1.6;margin-bottom:.625rem;-webkit-tap-highlight-color:transparent}
 details>summary::before{content:"";border:solid transparent;border-left:solid;border-width:.3em 0 .3em .5em;position:absolute;top:.5em;left:-1.25rem;transform:translateX(15%)}
 details[open]>summary::before{border:solid transparent;border-top:solid;border-width:.5em .3em 0;transform:translateY(15%)}
 details>summary::after{content:"";width:1.25rem;height:1em;position:absolute;top:.3em;left:-1.25rem}
@@ -236,8 +235,9 @@ pre.prettyprint li:not(:first-child) code[data-lang]::before{display:none}
 table.linenotable{border-collapse:separate;border:0;margin-bottom:0;background:none}
 table.linenotable td[class]{color:inherit;vertical-align:top;padding:0;line-height:inherit;white-space:normal}
 table.linenotable td.code{padding-left:.75em}
-table.linenotable td.linenos,pre.pygments .linenos{border-right:1px solid;opacity:.35;padding-right:.5em;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none}
-pre.pygments span.linenos{display:inline-block;margin-right:.75em}
+table.linenotable td.linenos{border-right:1px solid;opacity:.35;padding-right:.5em}
+pre.pygments .lineno{border-right:1px solid;opacity:.35;display:inline-block;margin-right:.75em}
+pre.pygments .lineno::before{content:"";margin-right:-.125em}
 .quoteblock{margin:0 1em 1.25em 1.5em;display:table}
 .quoteblock:not(.excerpt)>.title{margin-left:-1.5em;margin-bottom:.75em}
 .quoteblock blockquote,.quoteblock p{color:rgba(0,0,0,.85);font-size:1.15rem;line-height:1.75;word-spacing:.1em;letter-spacing:0;font-style:italic;text-align:justify}
@@ -274,7 +274,7 @@ table.frame-none>colgroup+*>:first-child>*,table.frame-sides>colgroup+*>:first-c
 table.frame-none>:last-child>:last-child>*,table.frame-sides>:last-child>:last-child>*{border-bottom-width:0}
 table.frame-none>*>tr>:first-child,table.frame-ends>*>tr>:first-child{border-left-width:0}
 table.frame-none>*>tr>:last-child,table.frame-ends>*>tr>:last-child{border-right-width:0}
-table.stripes-all>*>tr,table.stripes-odd>*>tr:nth-of-type(odd),table.stripes-even>*>tr:nth-of-type(even),table.stripes-hover>*>tr:hover{background:#f8f8f7}
+table.stripes-all tr,table.stripes-odd tr:nth-of-type(odd),table.stripes-even tr:nth-of-type(even),table.stripes-hover tr:hover{background:#f8f8f7}
 th.halign-left,td.halign-left{text-align:left}
 th.halign-right,td.halign-right{text-align:right}
 th.halign-center,td.halign-center{text-align:center}
@@ -290,11 +290,10 @@ ol{margin-left:1.75em}
 ul li ol{margin-left:1.5em}
 dl dd{margin-left:1.125em}
 dl dd:last-child,dl dd:last-child>:last-child{margin-bottom:0}
-li p,ul dd,ol dd,.olist .olist,.ulist .ulist,.ulist .olist,.olist .ulist{margin-bottom:.625em}
+ol>li p,ul>li p,ul dd,ol dd,.olist .olist,.ulist .ulist,.ulist .olist,.olist .ulist{margin-bottom:.625em}
 ul.checklist,ul.none,ol.none,ul.no-bullet,ol.no-bullet,ol.unnumbered,ul.unstyled,ol.unstyled{list-style-type:none}
 ul.no-bullet,ol.no-bullet,ol.unnumbered{margin-left:.625em}
 ul.unstyled,ol.unstyled{margin-left:0}
-li>p:empty:only-child::before{content:"";display:inline-block}
 ul.checklist>li>p:first-child{margin-left:-1em}
 ul.checklist>li>p:first-child>.fa-square-o:first-child,ul.checklist>li>p:first-child>.fa-check-square-o:first-child{width:1.25em;font-size:.8em;position:relative;bottom:.125em}
 ul.checklist>li>p:first-child>input[type=checkbox]:first-child{margin-right:.25em}
@@ -337,6 +336,8 @@ sup.footnote a:active,sup.footnoteref a:active{text-decoration:underline}
 #footnotes .footnote a:first-of-type{font-weight:bold;text-decoration:none;margin-left:-1.05em}
 #footnotes .footnote:last-of-type{margin-bottom:0}
 #content #footnotes{margin-top:-.625em;margin-bottom:0;padding:.75em 0}
+.gist .file-data>table{border:0;background:#fff;width:100%;margin-bottom:0}
+.gist .file-data>table td.line-data{width:99%}
 div.unbreakable{page-break-inside:avoid}
 .big{font-size:larger}
 .small{font-size:smaller}
@@ -456,6 +457,7 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 <li><a href="#_franco_marsico_postdoctoral_fellow"><strong>Franco Marsico</strong>, Postdoctoral fellow</a></li>
 <li><a href="#_gianluca_damaggio_postdoctoral_fellow"><strong>Gianluca Damaggio</strong>, Postdoctoral fellow</a></li>
 <li><a href="#_flavia_villani_phd_student"><strong>Flavia Villani</strong>, PhD Student</a></li>
+<li><a href="#_rosanna_maione_research_associate">*Rosanna Maione *, Research Associate</a></li>
 <li><a href="#_former_members">Former members</a></li>
 </ul>
 </li>
@@ -492,7 +494,10 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 <div class="sect2">
 <h3 id="_genomics_of_early_embryonic_development"><strong>Genomics of early embryonic development</strong></h3>
 <div class="paragraph">
-<p>Our research aims to understand how natural selection acts on early human development. We investigate adverse outcomes of embryonic development like recurrent pregnancy loss and preeclampsia to identify the genetic factors that influence reproductive outcomes and pregnancy complications. This knowledge furthers our understanding of human evolution and informs efforts to improve pregnancy outcomes.</p>
+<p><em>How natural selection acts on early human development</em></p>
+</div>
+<div class="paragraph">
+<p>We investigate adverse outcomes of embryonic development like recurrent pregnancy loss and preeclampsia to identify the genetic factors that influence reproductive outcomes and pregnancy complications. This knowledge furthers our understanding of human evolution and informs efforts to improve pregnancy outcomes.</p>
 </div>
 <div class="imageblock">
 <div class="content">
@@ -500,30 +505,36 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 </div>
 </div>
 <div class="paragraph">
-<p>In <em>CABERNET</em> we aim to determine the extent of chromosomal mosaicism between embryonic and extraembryonic tissues using single cell DNA sequencing.<br>
-In <em>DELIVER / NEONATE</em> we want to identify genetic factors contributing to reproductive failure and recurrent miscarriage. We will use single cell strand sequencing to map balanced rearrangements and whole genome sequencing of euploid miscarried embryos to identify causative variants.<br>
-In <em>CANDLE</em> we want to uncover gene expression patterns associated with <em>APOL1</em> risk alleles and preeclampsia in African American women. We will examine the role of ancestry in mediating the relationship between <em>APOL1</em> genotype and preeclampsia risk. The results can provide insights into genetic and molecular basis of preeclampsia.</p>
+<p>In <strong>CABERNET</strong> we aim to determine the extent of chromosomal mosaicism between embryonic and extraembryonic tissues using single cell DNA sequencing.<br>
+In <strong>DELIVER / NEONATE</strong> we want to identify genetic factors contributing to reproductive failure and recurrent miscarriage. We will use single cell strand sequencing to map balanced rearrangements and whole genome sequencing of euploid miscarried embryos to identify causative variants.<br>
+In <strong>CANDLE</strong> we want to uncover gene expression patterns associated with <em>APOL1</em> risk alleles and preeclampsia in African American women. We will examine the role of ancestry in mediating the relationship between <em>APOL1</em> genotype and preeclampsia risk. The results can provide insights into genetic and molecular basis of preeclampsia.</p>
 </div>
 <div class="ulist">
 <div class="title">This project is in collaboration with</div>
 <ul>
 <li>
-<p>Francesca Antonacci University of Bari Aldo Moro</p>
+<p><a href="https://scholar.google.at/citations?user=ceRslzAAAAAJ&amp;hl=en">Francesca Antonacci</a> University of Bari Aldo Moro</p>
 </li>
 <li>
-<p>Carlo Alviggi, University of Naples Federico II</p>
+<p><a href="https://scholar.google.at/citations?user=02eKUFwAAAAJ&amp;hl=en&amp;oi=ao">Carlo Alviggi</a>, University of Naples Federico II</p>
 </li>
 <li>
-<p>Antonio Lamarca, University of Modena and Reggio Emilia</p>
+<p><a href="https://scholar.google.at/citations?user=iukICNwAAAAJ&amp;hl=en&amp;oi=ao">Antonio Lamarca</a>, University of Modena and Reggio Emilia</p>
+</li>
+<li>
+<p>Marcella Vacca, National Research Council</p>
+</li>
+<li>
+<p><a href="https://scholar.google.at/citations?user=L1PKDnYAAAAJ&amp;hl=en&amp;oi=ao">Gabriella Lania</a>, National Research Council</p>
 </li>
 <li>
 <p><a href="https://www.merigen.it/">Imma and Sebastiano Di Biase</a>, MeriGen Research, Italy</p>
 </li>
 <li>
-<p>Antonio Capalbo, Juno genomics</p>
+<p>Antonio Capalbo, Juno Genomics</p>
 </li>
 <li>
-<p><a href="http://docente.unife.it/michele.rubini">Michele Rubini</a>, University of Ferrara</p>
+<p><a href="http://docente.unife.it/michele.rubini">Michele Rubini</a> University of Ferrara</p>
 </li>
 <li>
 <p><a href="https://www.monash.edu.my/science/staff/academic/qasim-ayub">Qasim Ayub</a>, Monash University, Malaysia</p>
@@ -574,6 +585,11 @@ In <em>CANDLE</em> we want to uncover gene expression patterns associated with <
 </div>
 <div class="paragraph">
 <p>We want to understand the extent and origin of admixture patterns in the Biorepository and Integrative Genomics (BIG) Initiative cohort and to develop pipelines for admixture mapping of phenotypic traits related to diseases and natural selection phenotypes.</p>
+</div>
+<div class="imageblock text-center">
+<div class="content">
+<img src="images/UTHSC-primary-stacked-logo-4c.jpg" alt="panmix" width="200">
+</div>
 </div>
 <div class="paragraph">
 <p>We are using existing exome sequence data and electronic health records from 10k children to obtain an improved set of genetic variants, including structural variants through mapping against reference pangenomes and imputation.<br>
@@ -681,7 +697,8 @@ We will reconstruct the demographic history of the individuals in the cohort at 
 <div class="sect2">
 <h3 id="_silvia_buonaiuto_postdoctoral_fellow"><strong>Silvia Buonaiuto</strong>, Postdoctoral fellow</h3>
 <div class="paragraph">
-<p><span class="image right"><img src="images/silvia.jpg" alt="silvia" width="200"></span> I have a PhD degree From the university Luigi Vanvitelli, a master’s degree in Biology from the University of Napoli Federico II. I did a master thesis in molecular biology at the Department of Biology.</p>
+<p><span class="image right"><img src="images/silvia.jpg" alt="silvia" width="200"></span><br>
+.[purple]#<em>I have a PhD degree From the university Luigi Vanvitelli, a master’s degree in Biology from the University of Napoli Federico II. I did a master thesis in molecular biology at the Department of Biology.</em></p>
 </div>
 <div class="paragraph">
 <p>I work on project <strong>DELIVER Decipher unExpLored genetIc Variation inrEproductive failuRe</strong>. My project studies idiopathic recurrent miscarriage to identify genetic variants likely to be causative and ultimately improve prenatal diagnosis.</p>
@@ -698,7 +715,8 @@ We will reconstruct the demographic history of the individuals in the cohort at 
 <div class="sect2">
 <h3 id="_franco_marsico_postdoctoral_fellow"><strong>Franco Marsico</strong>, Postdoctoral fellow</h3>
 <div class="paragraph">
-<p><span class="image right"><img src="images/franco.jpeg" alt="franco" width="200"></span> I earned my degree in Biology from the University of Buenos Aires, Argentina, where I also completed my PhD in Computational Biology at the Calculus Institute. My research primarily focused on developing mathematical models for kinship inference, employing a Bayesian Approach. I am a postdoc in the Colonna lab, where my work centers on population genomics.*</p>
+<p><span class="image right"><img src="images/franco.jpeg" alt="franco" width="200"></span><br>
+.[purple]#<em>I earned my degree in Biology from the University of Buenos Aires, Argentina, where I also completed my PhD in Computational Biology at the Calculus Institute. My research primarily focused on developing mathematical models for kinship inference, employing a Bayesian Approach. I am a postdoc in the Colonna lab, where my work centers on population genomics.</em></p>
 </div>
 <div class="paragraph">
 <p>I am currently working on <strong>Admixture Mapping and Pangenomics Analysis in the Biorepository and Integrative Genomics (BIG) Initiative Cohort</strong> project. My focus is on studying recent natural selection signals in admixed populations. Additionally, I have a deep interest in evolution and how to compute processes that shape the history of life.</p>
@@ -714,7 +732,8 @@ We will reconstruct the demographic history of the individuals in the cohort at 
 <div class="sect2">
 <h3 id="_gianluca_damaggio_postdoctoral_fellow"><strong>Gianluca Damaggio</strong>, Postdoctoral fellow</h3>
 <div class="paragraph">
-<p><span class="image right"><img src="images/gianluca.jpg" alt="gianluca" width="200"></span>  I have just completed my Ph.D. in Biology at the University of Napoli Federico II and obtained a master’s degree in Molecular Biology from the same university.</p>
+<p><span class="image right"><img src="images/gianluca.jpg" alt="gianluca" width="200"></span><br>
+.[purple]#<em>I have just completed my Ph.D. in Biology at the University of Napoli Federico II and obtained a master’s degree in Molecular Biology from the same university.</em></p>
 </div>
 <div class="paragraph">
 <p>My project, <strong>HD-DittoGraph - a digital human Embryonic Stem Cell platform for Hungtinton’s repeats</strong>, aims to develop the capability to accurately detect perturbations in short tandem repeats of the Huntington’s gene within proliferative cells, utilizing third-generation sequencing data. Throughout my Ph.D., I have also gained expertise in analyzing data from single-cell RNA-seq and ATAC-seq. Currently, I am a visiting student at the IGB-CNR in Naples and a Junior Research Fellow at the University of Milano Statale in Elena Cattaneo&#8217;s Laboratory.</p>
@@ -730,7 +749,8 @@ We will reconstruct the demographic history of the individuals in the cohort at 
 <div class="sect2">
 <h3 id="_flavia_villani_phd_student"><strong>Flavia Villani</strong>, PhD Student</h3>
 <div class="paragraph">
-<p><span class="image right"><img src="images/Flavia.JPG" alt="flavia" width="200"></span> I obtained a Master&#8217;s degree in Medical Biotechnology from the University of Naples Federico II in Italy. Currently, I am a PhD candidate at the University of Tennessee Health Science Center in the Colonna lab.</p>
+<p><span class="image right"><img src="images/Flavia.JPG" alt="flavia" width="200"></span><br>
+.[purple]#<em>I obtained a Master&#8217;s degree in Medical Biotechnology from the University of Naples Federico II in Italy. Currently, I am a PhD candidate at the University of Tennessee Health Science Center in the Colonna lab.</em></p>
 </div>
 <div class="paragraph">
 <p>I am working on the <strong>Mouse Pangenomics</strong> Project. My research aims to construct the pangenome graph of model organisms, specifically inbred mice and rats, using a combination of short and long-read sequence data. This will enable genome-wide association studies to be performed directly on the pangenome. Additionally, I have a strong interest in understanding how mobile genetic elements have driven genome evolution through various mechanisms.</p>
@@ -742,6 +762,13 @@ We will reconstruct the demographic history of the individuals in the cohort at 
 <p><a href="https://scholar.google.com/citations?user=CrklVWcAAAAJ&amp;hl=en">Google Scholar</a></p>
 </div>
 <hr>
+</div>
+<div class="sect2">
+<h3 id="_rosanna_maione_research_associate">*Rosanna Maione *, Research Associate</h3>
+<div class="paragraph">
+<div class="title">[purple]#<em>I have a master degree in M</em></div>
+<p>My project</p>
+</div>
 </div>
 <div class="sect2">
 <h3 id="_former_members">Former members</h3>
@@ -792,143 +819,7 @@ We will reconstruct the demographic history of the individuals in the cohort at 
 <h2 id="_publications"><strong>Publications</strong></h2>
 <div class="sectionbody">
 <div class="paragraph">
-<p>See them on <a href="https://scholar.google.it/citations?user=ufP1EYgAAAAJ&amp;hl=en&amp;oi=ao">Google Scholar</a> or in <a href="http://publicationslist.org/vincenza.colonna">Publication</a></p>
-</div>
-<div class="paragraph">
-<p>Peer-reviewed Journals</p>
-</div>
-<div class="olist arabic">
-<ol class="arabic">
-<li>
-<p>Anagnostou P, Dominici V, Battaggia C, Lisi A, Sarno S, Boattini A, Calò C, Francalacci P, Vona G, Tofanelli S, Vilar MG, Colonna V, Pagani L, Destro Bisol G. Inter-individual genomic heterogeneity within European population isolates. PLoS One. 2019 Oct 9;14(10):e0214564. doi: 10.1371/journal.pone.0214564. eCollection 2019. PubMed PMID: 31596857</p>
-</li>
-<li>
-<p>Colonna V, D&#8217;Agostino N, Garrison E, Albrechtsen A, Jonas Meisner J, Facchiano A, Cardi T, Tripodi P Genomic diversity and novel genome-wide association with fruit morphology in Capsicum, from 746k polymorphic sites. Sci Rep. 2019 Jul 11;9(1):10067. doi: 10.1038/s41598-019-46136-5. PubMed PMID: 31296904</p>
-</li>
-<li>
-<p>Petrella V, Aceto S, Colonna V, Saccone G, Sanges R, Polanska N, Volf P, Gradoni L, Bongiorno G, Salvemini M Identification of sex determination genes and their evolution in Phlebotominae sand flies (Diptera, Nematocera) . BMC Genomics 2019 in press</p>
-</li>
-<li>
-<p>Sirica R, Buonaiuto M, Petrella V, Sticco L, Tramontano D, Antonini D, Missero C, Guardiola O, Andolfi G, Kumar H, Ayub Q, Xue Y, Tyler-Smith C, Salvemini M, D&#8217;Angelo G, Colonna V. Positive selection in Europeans and East-Asians at the ABCA12 gene. Sci Rep. 2019 Mar 19;9(1):4843. doi: 10.1038/s41598-019-40360-9. PubMed PMID: 30890716</p>
-</li>
-<li>
-<p>Gardner EJ, Lam VK, Harris DN, Chuang NT, Scott EC, Pittard WS, Mills RE; 1000 Genomes Project Consortium, Devine SE. The Mobile Element Locator Tool (MELT): population-scale mobile element discovery and biology. Genome Res. 2017 Nov;27(11):1916-1929. doi: 10.1101/gr.218032.116. Epub 2017 Aug 30. PubMed PMID: 28855259</p>
-</li>
-<li>
-<p>Xue Y, Mezzavilla M, Haber M, McCarthy S, Chen Y, Narasimhan V, Gilly A, Ayub Q, Colonna V, Southam L, Finan C, Massaia A, Chheda H, Palta P, Ritchie G, Asimit J, Dedoussis G, Gasparini P, Palotie A, Ripatti S, Soranzo N, Toniolo D, Wilson JF, Durbin R, Tyler-Smith C, Zeggini E. Enrichment of low-frequency functional variants revealed by whole-genome sequencing of multiple isolated European populations. Nat Commun. 2017 Jun 23;8:15927. doi: 10.1038/ncomms15927. PubMed PMID: 28643794</p>
-</li>
-<li>
-<p>Pagani L, Colonna V, Tyler-Smith C, Ayub Q. An Ethnolinguistic and Genetic Perspective on the Origins of the Dravidian-Speaking Brahui in Pakistan. Man India. 2017;97(1):267-278. PubMed PMID: 28381901</p>
-</li>
-<li>
-<p>Anagnostou P, Dominici V, Battaggia C, Pagani L, Vilar M, Wells RS, Pettener D, Sarno S, Boattini A, Francalacci P, Colonna V, Vona G, Calò C, Destro Bisol G, Tofanelli S. Overcoming the dichotomy between open and isolated populations using<br>
-genomic data from a large European dataset. Sci Rep. 2017 Feb 1;7:41614. doi:10.1038/srep41614. PubMed PMID: 28145502</p>
-</li>
-<li>
-<p>Terreri S, Durso M, Colonna V, Romanelli A, Terracciano D, Ferro M, Perdonà S, Castaldo L, Febbraio F, de Nigris F, Cimmino A. New Cross-Talk Layer between Ultraconserved Non-Coding RNAs, MicroRNAs and Polycomb Protein YY1 in Bladder Cancer. Genes (Basel). 2016 Dec 14;7(12). pii: E127. PubMed PMID: 27983635</p>
-</li>
-<li>
-<p>Lania G, Bresciani A, Bisbocci M, Francone A, Colonna V, Altamura S, Baldini A. Vitamin B12 ameliorates the phenotype of a mouse model of DiGeorge syndrome. Hum Mol Genet. 2016 Aug 9. pii: ddw267.PubMed PMID: 27506981</p>
-</li>
-<li>
-<p>McKerrell T, Moreno T, Ponstingl H, Bolli N, Dias JM, Tischler G, Colonna V, Manasse B, Bench A, Bloxham D, Herman B, Fletcher D, Park N, Quail MA, Manes N, Hodkinson C, Baxter J, Sierra J, Foukaneli T, Warren AJ, Chi J, Costeas P, Rad R, Huntly B, Grove C, Ning Z, Tyler-Smith C, Varela I, Scott M, Nomdedeu J, Mustonen V, Vassiliou GS. Development and validation of a comprehensive genomic diagnostic tool for myeloid malignancies. Blood 2016 Apr 27. pii: blood-2015-11-683334. PubMed PMID: 27121471</p>
-</li>
-<li>
-<p>Olivieri M, Ferro M, Terreri S, Durso M, Romanelli A, Avitabile C, De Cobelli O, Messere A, Bruzzese D, Vannini I, Marinelli L, Novellino E, Zhang W, Incoronato M, Ilardi G, Staibano S, Marra L, Franco R, Perdonà S, Terracciano D, Czerniak B, Liguori GL, Colonna V, Fabbri M, Febbraio F, Calin GA, Cimmino A. Long non-coding RNA containing ultraconserved genomic region 8 promotes bladder cancer tumorigenesis. Oncotarget. 2016 Mar 1. PubMed PMID: 26943042</p>
-</li>
-<li>
-<p>Petrella V, Aceto S, Musacchia F, Colonna V, Robinson M, Benes V, Cicotti G, Bongiorno G, Gradoni L, Volf P, Salvemini M. De novo assembly and sex-specific transcriptome profiling in the sand fly Phlebotomus perniciosus (Diptera, Phlebotominae), a major Old World vector of Leishmania infantum. BMC Genomics. 2015 Oct 23;16(1):847. PubMed PMID: 26493315</p>
-</li>
-<li>
-<p>1000 Genomes Project Consortium, Auton A, Brooks LD, Durbin RM, Garrison EP, Kang HM, Korbel JO, Marchini JL, McCarthy S, McVean GA, Abecasis GR. A global reference for human genetic variation. Nature. 2015 Oct 1;526(7571):68-74. PubMed PMID: 26432245</p>
-</li>
-<li>
-<p>Shah SS, Mohyuddin A, Colonna V, Mehdi SQ, Ayub Q. Monoamine Oxidase A gene polymorphisms and self reported aggressive behaviour in a Pakistani ethnic group. J Pak Med Assoc. 2015 Aug;65(8):818-24. PubMed PMID: 26228323</p>
-</li>
-<li>
-<p>Delaneau O, Marchini J; 1000 Genomes Project Consortium; 1000 Genomes Project Consortium. Integrating sequence and array data to create an improved 1000 Genomes Project haplotype reference panel. Nat Commun. 2014 Jun 13;5:3934. doi: 10.1038/ncomms4934. PubMed PMID: 25653097</p>
-</li>
-<li>
-<p>Mezzavilla M, Vozzi D, Pirastu N, Girotto G, d&#8217;Adamo P, Gasparini P, Colonna V. Genetic landscape of populations along the Silk Road: admixture and migration patterns. BMC Genet. 2014 Dec 5;15:131. PubMed PMID: 25476266</p>
-</li>
-<li>
-<p>Panoutsopoulou K, Hatzikotoulas K, Xifara DK, Colonna V, Farmaki AE, Ritchie GR, Southam L, Gilly A, Tachmazidou I, Fatumo S, Matchan A, Rayner NW, Ntalla I, Mezzavilla M, Chen Y, Kiagiadaki C, Zengini E, Mamakou V, Athanasiadis A, Giannakopoulou M, Kariakli VE, Nsubuga RN, Karabarinde A, Sandhu M, McVean G, Tyler-Smith C, Tsafantakis E, Karaleftheri M, Xue Y, Dedoussis G, Zeggini E. Genetic characterization of Greek population isolates reveals strong genetic drift at missense and trait-associated variants. Nat Commun. 2014 Nov 6;5:5345. doi: 10.1038/ncomms6345. PubMed PMID: 25373335</p>
-</li>
-<li>
-<p>Colonna V, Ayub Q, Chen Y, Pagani L, Luisi P, Pybus M, Garrison E, Xue Y, Tyler-Smith C; 1000 Genomes Project Consortium, Abecasis GR, Auton A, Brooks LD, DePristo MA, Durbin RM, Handsaker RE, Kang HM, Marth GT, McVean GA. Human genomic regions with exceptionally high levels of population differentiation identified from 911 whole-genome sequences. Genome Biol. 2014 Jun 30;15(6):R88. doi: 10.1186/gb-2014-15-6-r88. PubMed PMID: 24980144</p>
-</li>
-<li>
-<p>Ayub Q, Moutsianas L, Chen Y, Panoutsopoulou K, Colonna V, Pagani L, Prokopenko I, Ritchie GR, Tyler-Smith C, McCarthy MI, Zeggini E, Xue Y. Revisiting the thrifty gene hypothesis via 65 loci associated with susceptibility to type 2 diabetes. Am J Hum Genet. 2014 Feb 6;94(2):176-85. doi: 10.1016/j.ajhg.2013.12.010. Epub 2014 Jan 9. PubMed PMID: 24412096</p>
-</li>
-<li>
-<p>Sikora MJ, Colonna V, Xue Y, Tyler-Smith C. Modeling the contrasting Neolithic male lineage expansions in Europe and Africa. Investig Genet. 2013 Nov 21;4(1):25. doi: 10.1186/2041-2223-4-25. PubMed PMID: 24262073</p>
-</li>
-<li>
-<p>Khurana E*, Fu Y*, Colonna V*, Mu XJ*, Kang HM, Lappalainen T, Sboner A, Lochovsky L, Chen J, Harmanci A, Das J, Abyzov A, Balasubramanian S, Beal K, Chakravarty D, Challis D, Chen Y, Clarke D, Clarke L, Cunningham F, Evani US, Flicek P, Fragoza R, Garrison E, Gibbs R, Gümüs ZH, Herrero J, Kitabayashi N, Kong Y, Lage K, Liluashvili V, Lipkin SM, MacArthur DG, Marth G, Muzny D, Pers TH, Ritchie GR, Rosenfeld JA, Sisu C, Wei X, Wilson M, Xue Y, Yu F; 1000 Genomes Project Consortium, Dermitzakis ET, Yu H, Rubin MA, Tyler-Smith C, Gerstein M. Integrative annotation of variants from 1092 humans: application to cancer genomics. Science. 2013 Oct 4;342(6154):1235587. doi: 10.1126/science.1235587. PubMed PMID: 24092746<br>
-*equal contribution</p>
-</li>
-<li>
-<p>Ghirotto S, Tassi F, Fumagalli E, Colonna V, Sandionigi A, Lari M, Vai S, Petiti E, Corti G, Rizzi E, De Bellis G, Caramelli D, Barbujani G. Origins and evolution of the Etruscans' mtDNA. PLoS One. 2013;8(2):e55519. PubMed PMID: 23405165</p>
-</li>
-<li>
-<p>1000 Genomes Project Consortium, Abecasis GR, Auton A, Brooks LD, DePristo MA, Durbin RM, Handsaker RE, Kang HM, Marth GT, McVean GA. An integrated map of genetic variation from 1,092 human genomes. Nature. 2012 Nov 1;491(7422):56-65. PubMed PMID: 23128226</p>
-</li>
-<li>
-<p>Boraska V, Jerončić A, Colonna V, Southam L, Nyholt DR, Rayner NW, Perry JR, Toniolo D, Albrecht E, Ang W, Bandinelli S, Barbalic M, Barroso I, Beckmann JS, Biffar R, Boomsma D, Campbell H, Corre T, Erdmann J, Esko T, Fischer K, Franceschini N, Frayling TM, Girotto G, Gonzalez JR, Harris TB, Heath AC, Heid IM, Hoffmann W, Hofman A, Horikoshi M, Zhao JH, Jackson AU, Hottenga JJ, Jula A, Kähönen M, Khaw KT, Kiemeney LA, Klopp N, Kutalik Z, Lagou V, Launer LJ, Lehtimäki T, Lemire M, Lokki ML, Loley C, Luan J, Mangino M, Mateo Leach I, Medland SE, Mihailov E, Montgomery GW, Navis G, Newnham J, Nieminen MS, Palotie A, Panoutsopoulou K, Peters A, Pirastu N, Polasek O, Rehnström K, Ripatti S, Ritchie GR, Rivadeneira F, Robino A, Samani NJ, Shin SY, Sinisalo J, Smit JH, Soranzo N, Stolk L, Swinkels DW, Tanaka T, Teumer A, Tönjes A, Traglia M, Tuomilehto J, Valsesia A, van Gilst WH, van Meurs JB, Smith AV, Viikari J, Vink JM, Waeber G, Warrington NM, Widen E, Willemsen G, Wright AF, Zanke BW, Zgaga L; Wellcome Trust Case Control Consortium, Boehnke M, d&#8217;Adamo AP, de Geus E, Demerath EW, den Heijer M, Eriksson JG, Ferrucci L, Gieger C, Gudnason V, Hayward C, Hengstenberg C, Hudson TJ, Järvelin MR, Kogevinas M, Loos RJ, Martin NG, Metspalu A, Pennell CE, Penninx BW, Perola M, Raitakari O, Salomaa V, Schreiber S, Schunkert H, Spector TD, Stumvoll M, Uitterlinden AG, Ulivi S, van der Harst P, Vollenweider P, Völzke H, Wareham NJ, Wichmann HE, Wilson JF, Rudan I, Xue Y, Zeggini E. Genome-wide meta-analysis of common variant differences between men and women. Hum Mol Genet. 2012 Nov 1;21(21):4805-15. PubMed PMID: 22843499</p>
-</li>
-<li>
-<p>Colonna V, Pistis G, Bomba L, Mona S, Matullo G, Boano R, Sala C, Viganò F, Torroni A, Achilli A, Hooshiar Kashani B, Malerba G, Gambaro G, Soranzo N, Toniolo D. Small effective population size and genetic homogeneity in the Val Borbera isolate. Eur J Hum Genet. 2013 Jan;21(1):89-94. PubMed PMID: 22713810</p>
-</li>
-<li>
-<p>Everitt AR, Clare S, Pertel T, John SP, Wash RS, Smith SE, Chin CR, Feeley EM, Sims JS, Adams DJ, Wise HM, Kane L, Goulding D, Digard P, Anttila V, Baillie JK, Walsh TS, Hume DA, Palotie A, Xue Y, Colonna V, Tyler-Smith C, Dunning J, Gordon SB; GenISIS Investigators; MOSAIC Investigators, Smyth RL, Openshaw PJ, Dougan G, Brass AL, Kellam P. IFITM3 restricts the morbidity and mortality associated with influenza. Nature. 2012 Mar 25;484(7395):519-23. PubMed PMID: 22446628</p>
-</li>
-<li>
-<p>Colonna V, Pagani L, Xue Y, Tyler-Smith C. A world in a grain of sand: human history from genetic data. Genome Biol. 2011 Nov 21;12(11):234. PubMed PMID: 22104725</p>
-</li>
-<li>
-<p>Kutanan W, Kampuansai J, Colonna V, Nakbunlung S, Lertvicha P, Seielstad M, Bertorelle G, Kangwanpong D. Genetic affinity and admixture of northern Thai people along their migration route in northern Thailand: evidence from autosomal STR loci. J Hum Genet. 2011 Feb;56(2):130-7. PubMed PMID: 21107341</p>
-</li>
-<li>
-<p>Colonna V, Boattini A, Guardiano C, Dall&#8217;ara I, Pettener D, Longobardi G, Barbujani G. Long-range comparison between genes and languages based on syntactic distances. Hum Hered. 2010;70(4):245-54. PubMed PMID: 20948220</p>
-</li>
-<li>
-<p>Barbujani G, Colonna V. Human genome diversity: frequently asked questions. Trends Genet. 2010 Jul;26(7):285-95. PubMed PMID: 20471132</p>
-</li>
-<li>
-<p>Bronberg RA, Dipierri JE, Alfaro EL, Barrai I, Rodríguez-Larralde A, Castilla EE, Colonna V, Rodríguez-Arroyo G, Bailliet G. Isonymy structure of Buenos Aires city. Hum Biol. 2009 Aug;81(4):447-61. PubMed PMID: 20067369</p>
-</li>
-<li>
-<p>Colonna V, Nutile T, Ferrucci RR, Fardella G, Aversano M, Barbujani G, Ciullo M. Comparing population structure as inferred from genealogical versus genetic information. Eur J Hum Genet. 2009 Dec;17(12):1635-41.PubMed PMID: 19550436</p>
-</li>
-<li>
-<p>Belle EM, Benazzo A, Ghirotto S, Colonna V, Barbujani G. Comparing models on the genealogical relationships among Neandertal, Cro-Magnoid and modern Europeans by serial coalescent simulations. Heredity (Edinb). 2009 Mar;102(3):218-25. PubMed PMID: 18971954</p>
-</li>
-<li>
-<p>Ciullo M, Nutile T, Dalmasso C, Sorice R, Bellenguez C, Colonna V, Persico MG, Bourgain C. Identification and replication of a novel obesity locus on chromosome 1q24 in isolated populations of Cilento. Diabetes. 2008 Mar;57(3):783-90. PubMed PMID:</p>
-</li>
-<li>
-<p>Colonna V, Nutile T, Astore M, Guardiola O, Antoniol G, Ciullo M, Persico MG. Campora: a young genetic isolate in South Italy. Hum Hered. 2007;64(2):123-35. PubMed PMID: 17476112</p>
-</li>
-<li>
-<p>Ciullo M, Bellenguez C, Colonna V, Nutile T, Calabria A, Pacente R, Iovino G, Trimarco B, Bourgain C, Persico MG. New susceptibility locus for hypertension on chromosome 8q by efficient pedigree-breaking in an Italian isolate. Hum Mol Genet. 2006 May 15;15(10):1735-43. PubMed PMID: 16611673</p>
-</li>
-<li>
-<p>Tarsitano M, De Falco S, Colonna V, McGhee JD, Persico MG. The C. elegans pvf-1 gene encodes a PDGF/VEGF-like factor able to bind mammalian VEGF receptors and to induce angiogenesis. FASEB J. 2006 Feb;20(2):227-33. PubMed PMID: 16449794</p>
-</li>
-</ol>
-</div>
-<div class="paragraph">
-<p>Book chapters</p>
-</div>
-<div class="ulist">
-<ul>
-<li>
-<p>2011 Barbujani G., Colonna V. (2011). Genetic bases of human biodiversity: an update. . In: Zachos F.E., Habel J.C. . Biodiversity Hotspots . p. 97-120, berlino:springer, ISBN: 9783642209918</p>
-</li>
-<li>
-<p>2010 BARBUJANI G, COLONNA V (2010). Genetic bases of human biodiversity: an update. In: ZACHOS F. BIODIVERSITY HOTSPOTS. BERLIN:Springer</p>
-</li>
-</ul>
+<p>See them on <a href="https://scholar.google.it/citations?user=ufP1EYgAAAAJ&amp;hl=en&amp;oi=ao">Google Scholar</a></p>
 </div>
 <div class="sect2">
 <h3 id="_past_research"><strong>Past Research</strong></h3>
@@ -954,17 +845,14 @@ piano R, stanza 11<br>
 via Pietro Castellino 111 - 80131 Napoli - Italy - <a href="https://www.google.co.uk/maps/place/Cnr+Consiglio+Nazionale+Delle+Ricerche/@40.8545777,14.2250388,17z/data=!4m6!1m3!3m2!1s0x133b08ed1ffff6c1:0xede26e8ccb5ccb3b!2sCnr+Consiglio+Nazionale+Delle+Ricerche!3m1!1s0x133b08ed1ffff6c1:0xede26e8ccb5ccb3b">map</a></p>
 </div>
 <div class="paragraph">
-<p>tel. +39 081 6132 254</p>
-</div>
-<div class="paragraph">
-<p>Email: <a href="mailto:vincenza.colonna@igb.cnr.it">vincenza.colonna@igb.cnr.it</a></p>
+<p>Email: <a href="mailto:enza.colonna@gmail.com">enza.colonna@gmail.com</a>  - <a href="mailto:vcolonna@uthsc.eud">vcolonna@uthsc.eud</a> - <a href="mailto:vincenza.colonna@igb.cnr.it">vincenza.colonna@igb.cnr.it</a></p>
 </div>
 </div>
 </div>
 </div>
 <div id="footer">
 <div id="footer-text">
-Last updated 2024-01-03 17:13:20 +0100
+Last updated 2024-01-03 10:36:39 -0600
 </div>
 </div>
 </body>
