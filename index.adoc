@@ -99,13 +99,13 @@ We are building a reference pangenome for all extant members of all BXD families
 image::images/pangenome.png[loghi_pang,800,align="center"]
 
 
-image::images/UTHSC-primary-stacked-logo-4c.jpg[ut,200, align='center']
-
 .The projects on pangenomics are in collaboration with the Department of Genetics, Genomics and Informatics, at the University of Tennessee Health Science Center, in Memphis, TN
 * https://scholar.google.com/citations?user=OYJMYwIAAAAJ&hl=en[Robert Williams]
 * https://davidashbrook.wordpress.com/[David Ashbrook]
 * https://thebird.nl/[Pjotr Prins]
 * http://www.hypervolu.me/~erik/erik_garrison.html[Erik Garrison] 
+
+image::images/UTHSC-primary-stacked-logo-4c.jpg[ut,200, align='center']
 
 '''
 
