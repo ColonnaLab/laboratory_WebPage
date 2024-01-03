@@ -62,10 +62,10 @@ We will reconstruct the demographic history of the individuals in the cohort at 
 
 .This project is in collaboration with 
 * https://scholar.google.com/citations?user=OYJMYwIAAAAJ&hl=en[Robert Williams], 
-* https://scholar.google.com/citations?user=965VipkAAAAJ [Robert Davis ]
-* https://scholar.google.com/citations?user=DuzpZDEAAAAJ [Akram Mohammed]
+* https://scholar.google.com/citations?user=965VipkAAAAJ[Robert Davis],
+* https://scholar.google.com/citations?user=DuzpZDEAAAAJ[Akram Mohammed]
 
-image::images/UTHSC-primary-stacked-logo-4c.jpg[ut,50,align="center"]
+image::images/UTHSC-primary-stacked-logo-4c.jpg[ut,200,align='center']
 
 '''
 === Mouse Pangenomics 
@@ -76,7 +76,7 @@ We are building a reference pangenome for all extant members of all BXD families
 
 
 .[purple]#_(A) odgi-vizlinear visualization of the pangenome of chromosome 19. Each line represents a haplotype. Line interruptions (white) are insertions in one or more strains, therefore deletions in the others (vertical white stripes). The left side is the centromere, the right side is the telomere.In these two regions sequences are fragmented. (B) Extract of the pangenome from the Zfp91gene showing a 2,006 bp insertion found in DBA/2J and 48% of the BXD strains(green nodes in the graph). The insertion is in complete linkage with two other insertions of 4 bp and 135 bp in a region spanning 2.8 kbp. (C) Strain-specific haplotypes (gray segments are not in scale)_#
-image::images/pangenome.png[loghi_pang,50,align="center"]
+image::images/pangenome.png[loghi_pang,800,align="center"]
 
 
 image::images/UTHSC-primary-stacked-logo-4c.jpg[ut,200, align='center']
@@ -124,49 +124,65 @@ I founded and led http://www.igb.cnr.it/obilab[OBiLab], a project on training in
 
 image:images/Octicons-mark-github.svg[git,30] https://github.com/ezcn[My GitHub]
 
+https://scholar.google.com/citations?user=ufP1EYgAAAAJ&hl=en&oi=ao[Google Scholar]
+
 '''
 
 === *Silvia Buonaiuto*, Postdoctoral fellow
 
-image:images/silvia.jpg[silvia,200,role="right"] *Project Title: DELIVER - Decipher unExpLored genetIc Variation inrEproductive failuRe*. My project studies idiopathic recurrent miscarriage to identify genetic variants likely to be causative and ultimately improve prenatal diagnosis. I have a PhD degree From the university Luigi Vanvitelli, a master’s degree in Biology from the University of Napoli Federico II. I did a master thesis in molecular biology at the Department of Biology.
+image:images/silvia.jpg[silvia,200,role="right"] I have a PhD degree From the university Luigi Vanvitelli, a master’s degree in Biology from the University of Napoli Federico II. I did a master thesis in molecular biology at the Department of Biology.
+
+I work on project *DELIVER Decipher unExpLored genetIc Variation inrEproductive failuRe*. My project studies idiopathic recurrent miscarriage to identify genetic variants likely to be causative and ultimately improve prenatal diagnosis.
 
 image:images/Octicons-mark-github.svg[git,30] https://github.com/SilviaBuonaiuto[My GitHub]
 
+https://scholar.google.com/citations?user=oGGUawcAAAAJ&hl=it&oi=ao[Google Scholar]
 
 '''
 
 '''
 === *Franco Marsico*, Postdoctoral fellow
 
-image:images/silvia.jpg[silvia,200,role="right"] *Project Title: DELIVER - Decipher unExpLored genetIc Variation inrEproductive failuRe*. My project studies idiopathic recurrent miscarriage to identify genetic variants likely to be causative and ultimately improve prenatal diagnosis. I have a PhD degree From the university Luigi Vanvitelli, a master’s degree in Biology from the University of Napoli Federico II. I did a master thesis in molecular biology at the Department of Biology.
+image:images/franco.jpeg[franco,200,role="right"] I earned my degree in Biology from the University of Buenos Aires, Argentina, where I also completed my PhD in Computational Biology at the Calculus Institute. My research primarily focused on developing mathematical models for kinship inference, employing a Bayesian Approach. I am a postdoc in the Colonna lab, where my work centers on population genomics.*
 
-image:images/Octicons-mark-github.svg[git,30] https://github.com/SilviaBuonaiuto[My GitHub]
+I am currently working on *Admixture Mapping and Pangenomics Analysis in the Biorepository and Integrative Genomics (BIG) Initiative Cohort* project. My focus is on studying recent natural selection signals in admixed populations. Additionally, I have a deep interest in evolution and how to compute processes that shape the history of life. 
 
+image:images/Octicons-mark-github.svg[git,30] https://github.com/MarsicoFL[Github profile]
+
+https://scholar.google.ca/citations?user=Vd4yh9wAAAAJ&hl=en[Google Scholar]
 
 '''
 
-=== *Gianluca Damaggio*, PhD Student
+=== *Gianluca Damaggio*, Postdoctoral fellow
 
-image:images/gianluca.jpg[gianluca,200,role="right"] *Project Title: HD-DittoGraph - a digital human Embryonic Stem Cell platform for Hungtinton’s repeats*. My project aims at acquiring the ability to  precisely detect perturbations of short tandem repeats of the Huntington’s gene in proliferative cells, leveraging third-generation sequencing data. Currently, I am a PhD student at the University of Naples Federico II,  visiting student at the IGB-CNR in Naples, and a Junior Research Fellow at the University of Milano Statale in the Laboratory of Elena Cattaneo.
+image:images/gianluca.jpg[gianluca,200,role="right"]  I have just completed my Ph.D. in Biology at the University of Napoli Federico II and obtained a master’s degree in Molecular Biology from the same university.
+
+My project, *HD-DittoGraph - a digital human Embryonic Stem Cell platform for Hungtinton’s repeats*, aims to develop the capability to accurately detect perturbations in short tandem repeats of the Huntington’s gene within proliferative cells, utilizing third-generation sequencing data. Throughout my Ph.D., I have also gained expertise in analyzing data from single-cell RNA-seq and ATAC-seq. Currently, I am a visiting student at the IGB-CNR in Naples and a Junior Research Fellow at the University of Milano Statale in Elena Cattaneo's Laboratory.
 
 image:images/Octicons-mark-github.svg[git,30] https://github.com/GianlucaDamaggio[My GitHub]
+
+https://scholar.google.se/citations?user=23D5l4cAAAAJ&hl=it[Google Scholar]
 
 '''
 === *Flavia Villani*, PhD Student
 
-image:images/Flavia.JPG[flavia,200,role="right"] *Project Title: Mouse Pangenomics*. I have a master degree in Medical Biotechnology from the University of Naples Federico II. Currently, I am a PhD student at the University of Tennessee Health Science Center. I am building the pangenome of model organisms (inbred mice and rats) using a combination of second and third generation sequence data.
+image:images/Flavia.JPG[flavia,200,role="right"] I obtained a Master's degree in Medical Biotechnology from the University of Naples Federico II in Italy. Currently, I am a PhD candidate at the University of Tennessee Health Science Center in the Colonna lab.
+
+I am working on the *Mouse Pangenomics* Project. My research aims to construct the pangenome graph of model organisms, specifically inbred mice and rats, using a combination of short and long-read sequence data. This will enable genome-wide association studies to be performed directly on the pangenome. Additionally, I have a strong interest in understanding how mobile genetic elements have driven genome evolution through various mechanisms.
 
 image:images/Octicons-mark-github.svg[git,30] https://github.com/Flavia95[My GitHub]
 
-'''
-'''
-=== *Rosanna Maione *, Research Associate 
-
-image:images/Flavia.JPG[flavia,200,role="right"] *Project Title: Mouse Pangenomics*. I have a master degree in Medical Biotechnology from the University of Naples Federico II. Currently, I am a PhD student at the University of Tennessee Health Science Center. I am building the pangenome of model organisms (inbred mice and rats) using a combination of second and third generation sequence data.
-
-image:images/Octicons-mark-github.svg[git,30] https://github.com/Flavia95[My GitHub]
+https://scholar.google.com/citations?user=CrklVWcAAAAJ&hl=en[Google Scholar]
 
 '''
+// '''
+// === *Rosanna Maione *, Research Associate 
+
+// image:images/Flavia.JPG[flavia,200,role="right"] *Project Title: Mouse Pangenomics*. I have a master degree in Medical Biotechnology from the University of Naples Federico II. Currently, I am a PhD student at the University of Tennessee Health Science Center. I am building the pangenome of model organisms (inbred mice and rats) using a combination of second and third generation sequence data.
+
+// image:images/Octicons-mark-github.svg[git,30] https://github.com/Flavia95[My GitHub]
+
+// '''
 
 
 === Former members
