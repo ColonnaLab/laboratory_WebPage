@@ -138,13 +138,12 @@ I work on project DELIVER Decipher unExpLored genetIc Variation inrEproductive f
 
 <hr> 
 
-|Franco Marsico | <img src="images/franco.jpg" alt="franco" width="40%"/> |I am a postdoc ... .|
+|Franco Marsico | <img src="images/franco.jpg" alt="franco" width="40%"/> |I am a postdoctoral researcher with expertise in mathematical modeling applied to genetics.|
 |---|---|---| 
 
-*I have a PhD degree From ...*
+*I earned my degree in Biology from the University of Buenos Aires, Argentina, where I also completed my PhD in Computational Biology at the Calculus Institute. My research primarily focused on developing mathematical models for kinship inference, employing a Bayesian Approach. Currently, I am a postdoc in the Colonna lab, where my work centers on population genomics.*
 
-my projects my interests 
-
+I am currently working on "Admixture Mapping and Pangenomics Analysis in the Biorepository and Integrative Genomics (BIG) Initiative Cohort project". My focus is on studying recent natural selection signals in admixed populations. Additionally, I have a deep interest in evolution and how to compute processes that shape the history of life. 
 
 <hr> 
 
