@@ -6,10 +6,11 @@
 :hide-uri-scheme: 
 :hardbreaks-option:
 
+image::images/spock.jpg[spock,200,role='right']
 Welcome to the *Population Genomics Laboratory* of the https://www.igb.cnr.it/[Institute of Genetics and Biophysics] of the https://www.cnr.it/en[National Research Council]. We are interested in understanding causes and consequences of genetic diversity and how natural selection in humans affects loci related to diseases.
 
 [quote]
-_Fascinating_[quote]  _(Lieutenant Spock)_
+_Fascinating (Lieutenant Spock)_
 
 
 image::images/loghi_cnr_igb.png[200]
@@ -18,7 +19,7 @@ image::images/loghi_cnr_igb.png[200]
 
 === *Genomics of early embryonic development* 
 
-_How natural selection acts on early human development_
+==== _How natural selection acts on early human development_
 
 We investigate adverse outcomes of embryonic development like recurrent pregnancy loss and preeclampsia to identify the genetic factors that influence reproductive outcomes and pregnancy complications. This knowledge furthers our understanding of human evolution and informs efforts to improve pregnancy outcomes.
 
@@ -48,8 +49,8 @@ In *CANDLE* we want to uncover gene expression patterns associated with _APOL1_ 
 - https://www.merigen.it/[Merigen Research s.r.l] 
 - POR Campania FSE 2014-2020 ASSE III – Ob. Sp. 14 
 
-image::images/loghi_grep.png[loghi_grep,400,align="left"]
-image::images/miur.jpg[miur,400,align="left"]
+image::images/loghi_grep.png[loghi_grep,200,align="left"]
+image::images/miur.jpg[miur,200,align="left"]
 
 
 '''
@@ -105,8 +106,6 @@ image::images/UTHSC-primary-stacked-logo-4c.jpg[ut,200, align='center']
 * https://davidashbrook.wordpress.com/[David Ashbrook]
 * https://thebird.nl/[Pjotr Prins]
 * http://www.hypervolu.me/~erik/erik_garrison.html[Erik Garrison] 
-
-*Our biorxiv preprint on this project can be find https://www.biorxiv.org/content/10.1101/2022.04.21.489063v1.full[here] and https://www.biorxiv.org/content/10.1101/2022.03.02.482700v1.full[here]*
 
 '''
 
