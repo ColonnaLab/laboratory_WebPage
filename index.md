@@ -129,7 +129,7 @@ I founded and led [OBiLab](http://www.igb.cnr.it/obilab), a project on training 
 
 <hr>
 
-|Silvia Buonaiuto | <img src="images/silvia" alt="silvia" width="40%"/> |I am a postdoc ... .|
+|Silvia Buonaiuto | <img src="images/silvia.jpg" alt="silvia" width="40%"/> |I am a postdoc ... .|
 |---|---|---| 
 
 *I have a PhD degree From the university Luigi Vanvitelli, a master’s degree in Biology from the University of Napoli Federico II. I did a master thesis in molecular biology at the Department of Biology.*
@@ -152,7 +152,7 @@ I am currently working on "Admixture Mapping and Pangenomics Analysis in the Bio
 
 <hr> 
 
-|Gianluca Damaggio | <img src="images/franco.jpg" alt="GL" width="40%"/> |I am a PhD student |
+|Gianluca Damaggio | <img src="images/gianluca.jpg" alt="GL" width="40%"/> |I am a PhD student |
 |---|---|---| 
 
 *I am a PhD student at the University of Naples Federico II,  visiting student at the IGB-CNR in Naples, and a Junior Research Fellow at the University of Milano Statale in the Laboratory of Elena Cattaneo.*
@@ -162,12 +162,16 @@ my projects my interests Project Title: HD-DittoGraph - a digital human Embryoni
 
 <hr> 
 
-|Flavia Villani | <img src="images/flavia.jpg" alt="flavia" width="40%"/> |I am a PhD student ...  ... .|
+|Flavia Villani | <img src="images/Flavia.JPG" alt="flavia" width="40%"/> |I am a Ph.D. student with expertise in pangenomics and comparative genomics|
 |---|---|---| 
 
-*I have a master degree in Medical Biotechnology from the University of Naples Federico II. Currently, I am a PhD student at the University of Tennessee Health Science Center.*
+*I obtained a Master's degree in Medical Biotechnology from the University of Naples Federico II in Italy. Currently, I am a PhD candidate at the University of Tennessee Health Science Center in the Colonna lab.*
 
-Project Title: Mouse Pangenomics* I am building the pangenome of model organisms (inbred mice and rats) using a combination of second and third generation sequence data.
+I am working on the "Mouse Pangenomics Project". My research aims to construct the pangenome graph of model organisms, specifically inbred mice and rats, using a combination of short and long-read sequence data. This will enable genome-wide association studies to be performed directly on the pangenome. Additionally, I have a strong interest in understanding how mobile genetic elements have driven genome evolution through various mechanisms.
+
+##### Link to my [Github profile](https://github.com/Flavia95)
+
+##### Link to my [Google Scholar](https://scholar.google.com/citations?user=CrklVWcAAAAJ&hl=en)
 
 
 <hr> 
