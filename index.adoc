@@ -9,7 +9,7 @@
 Welcome to the *Population Genomics Laboratory* of the https://www.igb.cnr.it/[Institute of Genetics and Biophysics] of the https://www.cnr.it/en[National Research Council]. We are interested in understanding causes and consequences of genetic diversity and how natural selection in humans affects loci related to diseases.
 
 [quote]
-"_Fascinating_" _(Lieutenant Spock)_
+_Fascinating_[quote]  _(Lieutenant Spock)_
 
 
 image::images/loghi_cnr_igb.png[200]
@@ -34,8 +34,8 @@ In *CANDLE* we want to uncover gene expression patterns associated with _APOL1_ 
 * https://scholar.google.at/citations?user=ceRslzAAAAAJ&hl=en[Francesca Antonacci] University of Bari Aldo Moro
 * https://scholar.google.at/citations?user=02eKUFwAAAAJ&hl=en&oi=ao[Carlo Alviggi], University of Naples Federico II 
 * https://scholar.google.at/citations?user=iukICNwAAAAJ&hl=en&oi=ao[Antonio Lamarca], University of Modena and Reggio Emilia
-* Marcella Vacca, National Research Council
-* https://scholar.google.at/citations?user=L1PKDnYAAAAJ&hl=en&oi=ao[Gabriella Lania], National Research Council
+* https://www.igb.cnr.it/index.php/marcella-vacca/[Marcella Vacca], National Research Council
+* https://www.igb.cnr.it/index.php/gabriella-lania/[Gabriella Lania], National Research Council
 * https://www.merigen.it/[Imma and Sebastiano Di Biase], MeriGen Research, Italy
 * Antonio Capalbo, Juno Genomics  
 * http://docente.unife.it/michele.rubini[Michele Rubini] University of Ferrara 
@@ -61,13 +61,13 @@ The BIG initiative is currently recruiting 30k participants from Memphis (TN), m
 
 We want to understand the extent and origin of admixture patterns in the Biorepository and Integrative Genomics (BIG) Initiative cohort and to develop pipelines for admixture mapping of phenotypic traits related to diseases and natural selection phenotypes.
 
-
-image::images/UTHSC-primary-stacked-logo-4c.jpg[panmix,200,align='center']
+.[purple]#_Global ancestry estimations for approximately 10,000 individuals in the BIG cohort (upper panel). Each vertical line represents an individual, and the colors indicate the proportion of different ancestries: African (blue), European (green), American (violet), and Asian (yellow). Based on visual inspection, five groups can be defined: individuals with exclusively African ancestry (a), those with European-African admixture (b), those with only European ancestry (c), those with American-European admixture (d), and those with predominantly Asian ancestry (e). Additionally, individuals with three- and four-way admixture are identified (f). For each group, a set of ten haplotypes is shown as an example, where local ancestry deconvolution has been performed, displaying ancestry tracts on chromosome 15. This information could be utilized for downstream analysis_#
+image::images/panmix.png[panmix,600,align='center']
 
 We are using existing exome sequence data and electronic health records from 10k children to obtain an improved set of genetic variants, including structural variants through mapping against reference pangenomes and imputation. 
 We will reconstruct the demographic history of the individuals in the cohort at individual and population levels, determine the identity of the ancestral populations and deconvolute their contribution to the genome of single individuals. The ancestry information will be used to identify patterns of natural selection and map phenotypic traits.
 
-.This project is in collaboration with 
+.This project is in collaboration with the Departments  of Genetics, Genomics and Informatics, and Pediatrics at the University of Tennessee Health Science Center, in Memphis, TN
 * https://scholar.google.com/citations?user=OYJMYwIAAAAJ&hl=en[Robert Williams], 
 * https://scholar.google.com/citations?user=965VipkAAAAJ[Robert Davis],
 * https://scholar.google.com/citations?user=DuzpZDEAAAAJ[Akram Mohammed]
@@ -75,7 +75,7 @@ We will reconstruct the demographic history of the individuals in the cohort at 
 image::images/UTHSC-primary-stacked-logo-4c.jpg[ut,200,align='center']
 
 '''
-=== Pangenomics 
+=== Human Pangenomics
 
 A pangenome is a comprehensive collection of all the genetic variation present in a species, which overcomes the limitations of reference-based genomics by including both common and rare genetic variations in a single reference genome. 
 
@@ -94,13 +94,13 @@ Mice members of BXDs family have been inbred for 20-200 generations. They are of
 We are building a reference pangenome for all extant members of all BXD families leveraging third generation and 10X sequence data. We will analyze the genetic variation in relation to thousands of phenotypes in the https://genenetwork.org/ database. 
 
 
-.[purple]#_(A) odgi-vizlinear visualization of the pangenome of chromosome 19. Each line represents a haplotype. Line interruptions (white) are insertions in one or more strains, therefore deletions in the others (vertical white stripes). The left side is the centromere, the right side is the telomere.In these two regions sequences are fragmented. (B) Extract of the pangenome from the Zfp91gene showing a 2,006 bp insertion found in DBA/2J and 48% of the BXD strains(green nodes in the graph). The insertion is in complete linkage with two other insertions of 4 bp and 135 bp in a region spanning 2.8 kbp. (C) Strain-specific haplotypes (gray segments are not in scale)_#
+.[purple]#_(A.) odgi-vizlinear visualization of the pangenome of chromosome 19. Each line represents a haplotype. Line interruptions (white) are insertions in one or more strains, therefore deletions in the others (vertical white stripes). The left side is the centromere, the right side is the telomere.In these two regions sequences are fragmented. (B.) Extract of the pangenome from the Zfp91gene showing a 2,006 bp insertion found in DBA/2J and 48% of the BXD strains(green nodes in the graph). The insertion is in complete linkage with two other insertions of 4 bp and 135 bp in a region spanning 2.8 kbp. (C.) Strain-specific haplotypes (gray segments are not in scale)_#
 image::images/pangenome.png[loghi_pang,800,align="center"]
 
 
 image::images/UTHSC-primary-stacked-logo-4c.jpg[ut,200, align='center']
 
-.This project is in collaboration with the Department of Genetics, Genomics and Informatics, University of Tennessee Health Science Center,Memphis, TN
+.The projects on pangenomics are in collaboration with the Department of Genetics, Genomics and Informatics, at the University of Tennessee Health Science Center, in Memphis, TN
 * https://scholar.google.com/citations?user=OYJMYwIAAAAJ&hl=en[Robert Williams]
 * https://davidashbrook.wordpress.com/[David Ashbrook]
 * https://thebird.nl/[Pjotr Prins]
@@ -207,7 +207,7 @@ https://scholar.google.com/citations?user=CrklVWcAAAAJ&hl=en[Google Scholar]
 
 === *Rosanna Maione* , Research Associate 
 
-image:images/no.jpg[no,200,role="right"] 
+image:images/no.jpg[ross,200,role="right"] 
 
 .[purple]#_I have a master degree in Medical Biotechnology from the University of Naples Federico II and a master  in Embryology. I am an expert in embryology and assisted human reproduction._#
 
