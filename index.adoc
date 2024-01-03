@@ -108,12 +108,7 @@ image::images/UTHSC-primary-stacked-logo-4c.jpg[ut,200, align='center']
 
 *Our biorxiv preprint on this project can be find https://www.biorxiv.org/content/10.1101/2022.04.21.489063v1.full[here] and https://www.biorxiv.org/content/10.1101/2022.03.02.482700v1.full[here]*
 
-Our contribution to pangenomics ... 
-
-
-
 '''
-
 
 //== *Training in Bioinformatics*
 
@@ -125,13 +120,10 @@ Our contribution to pangenomics ...
 
 === *Vincenza Colonna*
 
-.[purple]#_I am a researcher at the Institue of Genetics and Biophysics of the Italian National Research Council. I graduated in Evolutionary Biology from University of Napoli Federico II (Italy), did postdoctoral work at University of Ferrara (Italy) and at the Wellcome Trust Sanger Institute (UK). I was lectures in Genetics and Bioinformatics at the University of Ferrara (Italy)._#
+.[purple]#_I graduated in Evolutionary Biology from the University of Naples Federico II and did postdoctoral research at the University of Ferrara (Italy) and at Wellcome Trust Sanger Institute in Cambridge (UK). I was lectures in Genetics and Bioinformatics at the University of Ferrara (Italy). I am now leading the Population genomics laboratory at the IGB-CNR (Naples, Italy) and I am visiting Assistant Professor at the University of Tennessee, College of Medicine, in the Department of Genetics, Genomics and Informatics._#
 image:images/vcolonna.jpg[vcolonna,200,role="right"]
 
-
-I am a genomicist and an expert in human evolutionary and population genomics and bioinformatics. 
-
-I graduated in Evolutionary Biology from the University of Naples Federico II and did postdoctoral research at the University of Ferrara (Italy) and at Wellcome Trust Sanger Institute in Cambridge (UK). I am now leading the Population genomics laboratory  at the IGB-CNR (Naples, Italy) and I am Assistant Professor at the University of Tennessee, College of Medicine, in the Department of Genetics, Genomics and Informatics 
+I am a genomicist and an expert in human evolutionary and population genomics and bioinformatics.
 
 In my postdoctoral research I was part of the international consortium 1000 Genomes[PMID: https://pubmed.ncbi.nlm.nih.gov/26432245/[26432245]; https://pubmed.ncbi.nlm.nih.gov/23128226/[23128226]] where I led contributions to two specific aspects. First, I contributed to develop FunSeq [PMID: https://pubmed.ncbi.nlm.nih.gov/24092746/[24092746]], a tool that integrates non-coding information from relevant biological databases for the functional characterization of non-coding variants. Second, I lead a genome-wide scan to identify genomic regions with exceptionally high levels of population differentiation [PMID: https://pubmed.ncbi.nlm.nih.gov/24980144/[24980144]] demonstrating that these regions are enriched for positive selection events and that one half may be the result of classic selective sweeps. Findings from both sub-projects have since been applied to demographic inference and the molecular diagnosis of cancer and myeloid malignancies [PMID: https://pubmed.ncbi.nlm.nih.gov/27121471/[27121471], https://pubmed.ncbi.nlm.nih.gov/22446628/[22446628]], and to deeper studies on positive selection at the ABCA12 gene [PMID: https://pubmed.ncbi.nlm.nih.gov/30890716/[30890716]]. 
 
