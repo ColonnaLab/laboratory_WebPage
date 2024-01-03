@@ -12,4 +12,4 @@ index.md and index.adoc are updated at Jan 3 2024.
 2. compile .adoc file
 ```asciidoctor index.adoc```
 
-3. Comming changes on github
+3. Commit changes on github
