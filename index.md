@@ -145,6 +145,11 @@ I work on project DELIVER Decipher unExpLored genetIc Variation inrEproductive f
 
 I am currently working on "Admixture Mapping and Pangenomics Analysis in the Biorepository and Integrative Genomics (BIG) Initiative Cohort project". My focus is on studying recent natural selection signals in admixed populations. Additionally, I have a deep interest in evolution and how to compute processes that shape the history of life. 
 
+##### Link to my [Github profile](https://github.com/MarsicoFL)
+
+##### Link to [my Google Scholar](https://scholar.google.ca/citations?user=Vd4yh9wAAAAJ&hl=en)
+
+
 <hr> 
 
 |Gianluca Damaggio | <img src="images/franco.jpg" alt="GL" width="40%"/> |I am a PhD student |
