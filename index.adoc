@@ -75,6 +75,18 @@ We will reconstruct the demographic history of the individuals in the cohort at 
 image::images/UTHSC-primary-stacked-logo-4c.jpg[ut,200,align='center']
 
 '''
+=== Pangenomics 
+
+A pangenome is a comprehensive collection of all the genetic variation present in a species, which overcomes the limitations of reference-based genomics by including both common and rare genetic variations in a single reference genome. 
+
+The https://humanpangenome.org/[Human Pangenome Reference Project] aims to sequence 300 people to create a pangenome of 600 haplotypes and has currently released a first draft of the human pangenome reference based on 47 phased diploid assemblies from a group of genetically diverse individuals 
+
+.[purple]#_Well-known population stratification is not visible in the p-arms of acrocentric chromosomes. This observation is compatible with recombination occurring between the p-arms of heterologous acrocentric chromosomes. Here is an example of chromosome 15.  AFR: Africans; AMR: Native Americans; EAS: East-Asians; SAS: South-East Asians._#
+image::images/pangenome_pca.png[pangenome_pca,600,align='center']
+
+My team contributed to evaluate, for the first time, human population structure using markers from short arms of the acrocentric chromosomes [PMID: https://pubmed.ncbi.nlm.nih.gov/37165242/[37165242]]. We found that markers from these regions have less power to distinguish populations compared to other regions. This is consistent with the understanding that short arms of acrocentric chromosomes undergo recombination between non-homologous chromosomes, similar to the X and Y pseudohomologous regions [PMID: https://pubmed.ncbi.nlm.nih.gov/37165241/[37165241]]. Our findings on the patterns of linkage disequilibrium in these regions support this idea. 
+
+'''
 === Mouse Pangenomics 
 
 Mice members of BXDs family have been inbred for 20-200 generations. They are of great value for mapping complex traits and phenome-wide association analyses. Current genomic studies on BXD assume a single linear reference genome, making it difficult to observe sequences diverging from the reference, therefore limiting the accuracy and completeness of analyses. Pangenome models overcome this limitation as they contain the full genomic information of a species.
@@ -121,9 +133,9 @@ I am a genomicist and an expert in human evolutionary and population genomics an
 
 I graduated in Evolutionary Biology from the University of Naples Federico II and did postdoctoral research at the University of Ferrara (Italy) and at Wellcome Trust Sanger Institute in Cambridge (UK). I am now leading the Population genomics laboratory  at the IGB-CNR (Naples, Italy) and I am Assistant Professor at the University of Tennessee, College of Medicine, in the Department of Genetics, Genomics and Informatics 
 
-In my postdoctoral research I was part of the international consortium 1000 Genomes[PMID: 26432245; 23128226] where I led contributions to two specific aspects. First, I contributed to develop FunSeq [PMID: 24092746], a tool that integrates non-coding information from relevant biological databases for the functional characterization of non-coding variants. Second, I lead a genome-wide scan to identify genomic regions with exceptionally high levels of population differentiation [PMID: 24980144] demonstrating that these regions are enriched for positive selection events and that one half may be the result of classic selective sweeps. Findings from both sub-projects have since been applied to demographic inference and the molecular diagnosis of cancer and myeloid malignancies [PMID: 27121471, 22446628], and to deeper studies on positive selection at the ABCA12 gene [PMID: 30890716]. 
+In my postdoctoral research I was part of the international consortium 1000 Genomes[PMID: https://pubmed.ncbi.nlm.nih.gov/26432245/[26432245]; https://pubmed.ncbi.nlm.nih.gov/23128226/[23128226]] where I led contributions to two specific aspects. First, I contributed to develop FunSeq [PMID: https://pubmed.ncbi.nlm.nih.gov/24092746/[24092746]], a tool that integrates non-coding information from relevant biological databases for the functional characterization of non-coding variants. Second, I lead a genome-wide scan to identify genomic regions with exceptionally high levels of population differentiation [PMID: https://pubmed.ncbi.nlm.nih.gov/24980144/[24980144]] demonstrating that these regions are enriched for positive selection events and that one half may be the result of classic selective sweeps. Findings from both sub-projects have since been applied to demographic inference and the molecular diagnosis of cancer and myeloid malignancies [PMID: https://pubmed.ncbi.nlm.nih.gov/27121471/[27121471], https://pubmed.ncbi.nlm.nih.gov/22446628/[22446628]], and to deeper studies on positive selection at the ABCA12 gene [PMID: https://pubmed.ncbi.nlm.nih.gov/30890716/[30890716]]. 
 
-During my PhD I worked on human isolated populations contributing to characterize several isolated populations, describing the genomic consequences of isolation [PMID: 17476112, 19550436, 22713810], contributing to genetic association studies [PMID: 16611673, 18162505] and to characterize rare variation [PMID: 28643794]
+During my PhD I worked on human isolated populations contributing to characterize several isolated populations, describing the genomic consequences of isolation [PMID: https://pubmed.ncbi.nlm.nih.gov/17476112[17476112], https://pubmed.ncbi.nlm.nih.gov/19550436[19550436], https://pubmed.ncbi.nlm.nih.gov/22713810[22713810]], contributing to genetic association studies [PMID: https://pubmed.ncbi.nlm.nih.gov/16611673[16611673], https://pubmed.ncbi.nlm.nih.gov/18162505[18162505]] and to characterize rare variation [PMID: https://pubmed.ncbi.nlm.nih.gov/28643794[28643794]]
 
 
 //+ [gray]#See my full C.V. https://github.com/ColonnaLab/laboratory_WebPage/tree/master/docs/CV_EnzaColonna.pdf[here].#
@@ -140,8 +152,9 @@ https://scholar.google.com/citations?user=ufP1EYgAAAAJ&hl=en&oi=ao[Google Schola
 
 image:images/silvia.jpg[silvia,200,role="right"] 
 
-.[purple]#_I have a PhD degree From the university Luigi Vanvitelli, a master’s degree in Biology from the University of Napoli Federico II. I did a master thesis in molecular biology at the Department of Biology. I am currently involved in the DELIVER project, which aims to unravel unexplored genetic variations related to reproductive failure. In this project, my primary objective is to pinpoint genetic variants that may be responsible for recurrent spontaneous miscarriages, with the ultimate goal of enhancing prenatal diagnosis._#
+.[purple]#_I have a PhD degree From the university Luigi Vanvitelli, a master’s degree in Biology from the University of Napoli Federico II. I did a master thesis in molecular biology at the Department of Biology._#
 
+I am currently involved in the DELIVER project, which aims to unravel unexplored genetic variations related to reproductive failure. In this project, my primary objective is to pinpoint genetic variants that may be responsible for recurrent spontaneous miscarriages, with the ultimate goal of enhancing prenatal diagnosis.
 Additionally, I am contributing to the *Admixture Mapping and Pangenomics Analysis in the Biorepository and Integrative Genomics (BIG) Initiative Cohort project*. In this initiative, my role involves establishing connections between genotypes and phenotypes through the execution of burden analysis for rare variants and admixture mapping analysis.
 
 image:images/Octicons-mark-github.svg[git,30] https://github.com/SilviaBuonaiuto[My GitHub]
@@ -194,11 +207,11 @@ https://scholar.google.com/citations?user=CrklVWcAAAAJ&hl=en[Google Scholar]
 
 === *Rosanna Maione* , Research Associate 
 
-image:images/rosanna.jpg[rosanna,200,role="right"] 
+image:images/no.jpg[no,200,role="right"] 
 
 .[purple]#_I have a master degree in Medical Biotechnology from the University of Naples Federico II and a master  in Embryology. I am an expert in embryology and assisted human reproduction._#
 
-I am in charge of recruitment, sample collection and processing for the projects  related to the genomics of early embryonic development. I am responsible for building the DNA and tissue collection.  
+I am in charge of recruitment, sample collection and processing for the projects  related to the genomics of early embryonic development. I am responsible for building the DNA and tissue collections.  
 
 '''
 
