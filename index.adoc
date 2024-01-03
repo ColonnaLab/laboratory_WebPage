@@ -56,7 +56,7 @@ image::images/miur.jpg[miur,200,align="left"]
 '''
 === Admixture Mapping and Pangenomics Analysis in the Biorepository and Integrative Genomics (BIG) Initiative Cohort
 
-_Improving Phenotype-Genotype Linkages through Ancestry Patterns_
+==== _Improving Phenotype-Genotype Linkages through Ancestry Patterns_
 
 The BIG initiative is currently recruiting 30k participants from Memphis (TN), mostly children, with plans to include a total of 100,000 samples over the next five years. Nearly 45% of current participants are of African ancestry, and the cohort is partnering with the Genomic Information Commons, a consortium of top children's hospitals, to conduct genomics research aimed at discovering the genetic foundations of human disease in diverse populations. 
 
