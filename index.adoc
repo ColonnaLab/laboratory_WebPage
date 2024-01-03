@@ -139,7 +139,8 @@ https://scholar.google.com/citations?user=ufP1EYgAAAAJ&hl=en&oi=ao[Google Schola
 === *Silvia Buonaiuto*, Postdoctoral fellow
 
 image:images/silvia.jpg[silvia,200,role="right"] 
-.[purple]#_I have a PhD degree From the university Luigi Vanvitelli, a master’s degree in Biology from the University of Napoli Federico II. I did a master thesis in molecular biology at the Department of Biology._
+
+.[purple]#_I have a PhD degree From the university Luigi Vanvitelli, a master’s degree in Biology from the University of Napoli Federico II. I did a master thesis in molecular biology at the Department of Biology._#
 
 I work on project *DELIVER Decipher unExpLored genetIc Variation inrEproductive failuRe*. My project studies idiopathic recurrent miscarriage to identify genetic variants likely to be causative and ultimately improve prenatal diagnosis.
 
@@ -153,7 +154,8 @@ https://scholar.google.com/citations?user=oGGUawcAAAAJ&hl=it&oi=ao[Google Schola
 === *Franco Marsico*, Postdoctoral fellow
 
 image:images/franco.jpeg[franco,200,role="right"] 
-.[purple]#_I earned my degree in Biology from the University of Buenos Aires, Argentina, where I also completed my PhD in Computational Biology at the Calculus Institute. My research primarily focused on developing mathematical models for kinship inference, employing a Bayesian Approach. I am a postdoc in the Colonna lab, where my work centers on population genomics._
+
+.[purple]#_I earned my degree in Biology from the University of Buenos Aires, Argentina, where I also completed my PhD in Computational Biology at the Calculus Institute. My research primarily focused on developing mathematical models for kinship inference, employing a Bayesian Approach. I am a postdoc in the Colonna lab, where my work centers on population genomics._#
 
 I am currently working on *Admixture Mapping and Pangenomics Analysis in the Biorepository and Integrative Genomics (BIG) Initiative Cohort* project. My focus is on studying recent natural selection signals in admixed populations. Additionally, I have a deep interest in evolution and how to compute processes that shape the history of life. 
 
@@ -166,7 +168,8 @@ https://scholar.google.ca/citations?user=Vd4yh9wAAAAJ&hl=en[Google Scholar]
 === *Gianluca Damaggio*, Postdoctoral fellow
 
 image:images/gianluca.jpg[gianluca,200,role="right"]  
-.[purple]#_I have just completed my Ph.D. in Biology at the University of Napoli Federico II and obtained a master’s degree in Molecular Biology from the same university._
+
+.[purple]#_I have just completed my Ph.D. in Biology at the University of Napoli Federico II and obtained a master’s degree in Molecular Biology from the same university._#
 
 My project, *HD-DittoGraph - a digital human Embryonic Stem Cell platform for Hungtinton’s repeats*, aims to develop the capability to accurately detect perturbations in short tandem repeats of the Huntington’s gene within proliferative cells, utilizing third-generation sequencing data. Throughout my Ph.D., I have also gained expertise in analyzing data from single-cell RNA-seq and ATAC-seq. Currently, I am a visiting student at the IGB-CNR in Naples and a Junior Research Fellow at the University of Milano Statale in Elena Cattaneo's Laboratory.
 
@@ -178,7 +181,8 @@ https://scholar.google.se/citations?user=23D5l4cAAAAJ&hl=it[Google Scholar]
 === *Flavia Villani*, PhD Student
 
 image:images/Flavia.JPG[flavia,200,role="right"] 
-.[purple]#_I obtained a Master's degree in Medical Biotechnology from the University of Naples Federico II in Italy. Currently, I am a PhD candidate at the University of Tennessee Health Science Center in the Colonna lab._
+
+.[purple]#_I obtained a Master's degree in Medical Biotechnology from the University of Naples Federico II in Italy. Currently, I am a PhD candidate at the University of Tennessee Health Science Center in the Colonna lab._#
 
 I am working on the *Mouse Pangenomics* Project. My research aims to construct the pangenome graph of model organisms, specifically inbred mice and rats, using a combination of short and long-read sequence data. This will enable genome-wide association studies to be performed directly on the pangenome. Additionally, I have a strong interest in understanding how mobile genetic elements have driven genome evolution through various mechanisms.
 
@@ -188,18 +192,18 @@ https://scholar.google.com/citations?user=CrklVWcAAAAJ&hl=en[Google Scholar]
 
 '''
 
-=== *Rosanna Maione *, Research Associate 
+=== *Rosanna Maione* , Research Associate 
 
-// image:images/Flavia.JPG[flavia,200,role="right"] 
+image:images/rosanna.jpg[rosanna,200,role="right"] 
 
-.[purple]#_I have a master degree in M_
+.[purple]#_I have a master degree in Medical Biotechnology from the University of Naples Federico II and a master  in Embryology. I am an expert in embryology and assisted human reproduction._#
 
-My project 
+I am in charge of recruitment, sample collection and processing for the projects  related to the genomics of early embryonic development. I am responsible for building the DNA and tissue collection.  
 
-// '''
+'''
 
 
-=== Former members
+== *Former members*
 * Madeleine Emms, Postdoctoral fellow, 2022-2023
 * Marialaura Zitiello, Master Student, 2022-2023
 * Antonella Mecca, Master Student, 2022-2023
@@ -211,11 +215,6 @@ My project
 * Marianna Buonaiuto, visiting Postdoc, 2017
 * Lucia De Martino, visiting master Student, 2016
 
-{empty} +
-{empty} +
-{empty} +
-{empty} +
-
 == *Publications*
 
 See them on https://scholar.google.it/citations?user=ufP1EYgAAAAJ&hl=en&oi=ao[Google Scholar] 
@@ -223,10 +222,6 @@ See them on https://scholar.google.it/citations?user=ufP1EYgAAAAJ&hl=en&oi=ao[Go
 === *Past Research*
 
 At this https://github.com/ColonnaLab/laboratory_WebPage/blob/master/docs/pastResearc.adoc[link] is possible to found our past Research
-{empty} +
-{empty} +
-{empty} +
-{empty} +
 
 == *Contacts*
 
