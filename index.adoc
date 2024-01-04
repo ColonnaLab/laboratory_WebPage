@@ -17,7 +17,7 @@ image::images/loghi_cnr_igb.png[200]
 
 == *Research*
 
-=== *Genomics of early embryonic development* 
+=== Genomics of early embryonic development 
 
 ==== _How natural selection acts on early human development_
 
@@ -235,4 +235,4 @@ Istituto di Genetica e Biofisica "Adriano Buzzati-Traverso"
 piano R, stanza 11
 via Pietro Castellino 111 - 80131 Napoli - Italy - https://www.google.co.uk/maps/place/Cnr+Consiglio+Nazionale+Delle+Ricerche/@40.8545777,14.2250388,17z/data=!4m6!1m3!3m2!1s0x133b08ed1ffff6c1:0xede26e8ccb5ccb3b!2sCnr+Consiglio+Nazionale+Delle+Ricerche!3m1!1s0x133b08ed1ffff6c1:0xede26e8ccb5ccb3b[map]
 
-Email: enza.colonna@gmail.com  - vcolonna@uthsc.eud - vincenza.colonna@igb.cnr.it
+Email: enza.colonna@gmail.com  - vcolonna@uthsc.edu - vincenza.colonna@igb.cnr.it
