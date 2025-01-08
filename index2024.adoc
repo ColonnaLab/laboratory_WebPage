@@ -12,12 +12,46 @@ Welcome to the *Population Genomics Laboratory* of the https://www.igb.cnr.it/[I
 [quote]
 _Fascinating (Lieutenant Spock)_
 
+
 image::images/UTHSC-primary-stacked-logo-4c.jpg[200]
 image::images/loghi_cnr_igb.png[200]
 
 == *Research*
 
+=== Genomics of early embryonic development 
 
+==== _How natural selection acts on early human development_
+
+We investigate adverse outcomes of embryonic development like recurrent pregnancy loss and preeclampsia to identify the genetic factors that influence reproductive outcomes and pregnancy complications. This knowledge furthers our understanding of human evolution and informs efforts to improve pregnancy outcomes.
+
+image::images/embryo.png[embryo,1000,500]
+
+
+In *CABERNET* we aim to determine the extent of chromosomal mosaicism between embryonic and extraembryonic tissues using single cell DNA sequencing.
+In *DELIVER / NEONATE* we want to identify genetic factors contributing to reproductive failure and recurrent miscarriage. We will use single cell strand sequencing to map balanced rearrangements and whole genome sequencing of euploid miscarried embryos to identify causative variants.
+In *CANDLE* we want to uncover gene expression patterns associated with _APOL1_ risk alleles and preeclampsia in African American women. We will examine the role of ancestry in mediating the relationship between _APOL1_ genotype and preeclampsia risk. The results can provide insights into genetic and molecular basis of preeclampsia.
+
+
+.This project is in collaboration with 
+* https://scholar.google.at/citations?user=ceRslzAAAAAJ&hl=en[Francesca Antonacci] University of Bari Aldo Moro
+* https://scholar.google.at/citations?user=02eKUFwAAAAJ&hl=en&oi=ao[Carlo Alviggi], University of Naples Federico II 
+* https://scholar.google.at/citations?user=iukICNwAAAAJ&hl=en&oi=ao[Antonio Lamarca], University of Modena and Reggio Emilia
+* https://www.igb.cnr.it/index.php/marcella-vacca/[Marcella Vacca], National Research Council
+* https://www.igb.cnr.it/index.php/gabriella-lania/[Gabriella Lania], National Research Council
+* https://www.merigen.it/[Imma and Sebastiano Di Biase], MeriGen Research, Italy
+* Antonio Capalbo, Juno Genomics  
+* http://docente.unife.it/michele.rubini[Michele Rubini] University of Ferrara 
+* https://www.monash.edu.my/science/staff/academic/qasim-ayub[Qasim Ayub], Monash University, Malaysia
+
+==== *Funding*
+- PRIN 2020J84FAM Ministero dell'Universita e della Ricerca 
+- PRIN 2022WEHP7M Ministero dell'Universita e della Ricerca 
+- PRIN P2022ZE75A Ministero dell'Universita e della Ricerca 
+- https://www.merigen.it/[Merigen Research s.r.l] 
+- POR Campania FSE 2014-2020 ASSE III – Ob. Sp. 14 
+
+image::images/loghi_grep.png[loghi_grep,200,align="left"]
+image::images/miur.jpg[miur,200,align="left"]
 
 
 '''
@@ -75,42 +109,6 @@ image::images/pangenome.png[loghi_pang,800,align="center"]
 image::images/UTHSC-primary-stacked-logo-4c.jpg[ut,200, align='center']
 
 '''
-=== Genomics of early embryonic development 
-
-==== _How natural selection acts on early human development_
-
-We investigate adverse outcomes of embryonic development like recurrent pregnancy loss and preeclampsia to identify the genetic factors that influence reproductive outcomes and pregnancy complications. This knowledge furthers our understanding of human evolution and informs efforts to improve pregnancy outcomes.
-
-image::images/embryo.png[embryo,1000,500]
-
-
-In *CABERNET* we aim to determine the extent of chromosomal mosaicism between embryonic and extraembryonic tissues using single cell DNA sequencing.
-In *DELIVER / NEONATE* we want to identify genetic factors contributing to reproductive failure and recurrent miscarriage. We will use single cell strand sequencing to map balanced rearrangements and whole genome sequencing of euploid miscarried embryos to identify causative variants.
-In *CANDLE* we want to uncover gene expression patterns associated with _APOL1_ risk alleles and preeclampsia in African American women. We will examine the role of ancestry in mediating the relationship between _APOL1_ genotype and preeclampsia risk. The results can provide insights into genetic and molecular basis of preeclampsia.
-
-
-.This project is in collaboration with 
-* https://scholar.google.at/citations?user=ceRslzAAAAAJ&hl=en[Francesca Antonacci] University of Bari Aldo Moro
-* https://scholar.google.at/citations?user=02eKUFwAAAAJ&hl=en&oi=ao[Carlo Alviggi], University of Naples Federico II 
-* https://scholar.google.at/citations?user=iukICNwAAAAJ&hl=en&oi=ao[Antonio Lamarca], University of Modena and Reggio Emilia
-* https://www.igb.cnr.it/index.php/marcella-vacca/[Marcella Vacca], National Research Council
-* https://www.igb.cnr.it/index.php/gabriella-lania/[Gabriella Lania], National Research Council
-* https://www.merigen.it/[Imma and Sebastiano Di Biase], MeriGen Research, Italy
-* Antonio Capalbo, Juno Genomics  
-* http://docente.unife.it/michele.rubini[Michele Rubini] University of Ferrara 
-* https://www.monash.edu.my/science/staff/academic/qasim-ayub[Qasim Ayub], Monash University, Malaysia
-
-==== *Funding*
-- PRIN 2020J84FAM Ministero dell'Universita e della Ricerca 
-- PRIN 2022WEHP7M Ministero dell'Universita e della Ricerca 
-- PRIN P2022ZE75A Ministero dell'Universita e della Ricerca 
-- https://www.merigen.it/[Merigen Research s.r.l] 
-- POR Campania FSE 2014-2020 ASSE III – Ob. Sp. 14 
-
-image::images/loghi_grep.png[loghi_grep,200,align="left"]
-image::images/miur.jpg[miur,200,align="left"]
-
-'''
 
 //== *Training in Bioinformatics*
 
@@ -121,13 +119,6 @@ image::images/miur.jpg[miur,200,align="left"]
 == *People*
 
 === *Vincenza Colonna*
-
-Associate Professor, Department of Genetics, Genomics and Informatics 
-University of Tennessee Health Science Center, TSRB room 405, 71 S Manassas St, Memphis TN 38163 
-
-Director, Integrative Genomics Biorpository, Department of Pediatrics
-Children's Foundation Research Institute, 50 N. Dunlap St. Memphis, TN 38105.
-
 
 .[purple]#_I graduated in Evolutionary Biology from the University of Naples Federico II and did postdoctoral research at the University of Ferrara (Italy) and at Wellcome Trust Sanger Institute in Cambridge (UK). I was lectures in Genetics and Bioinformatics at the University of Ferrara (Italy). I am now leading the Population genomics laboratory at the IGB-CNR (Naples, Italy) and I am visiting Assistant Professor at the University of Tennessee, College of Medicine, in the Department of Genetics, Genomics and Informatics._#
 image:images/vcolonna.jpg[vcolonna,200,role="right"]

@@ -4,7 +4,7 @@
 <meta charset="UTF-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="generator" content="Asciidoctor 2.0.18">
+<meta name="generator" content="Asciidoctor 2.0.16">
 <title>Colonna Lab</title>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,300italic,400,400italic,600,600italic%7CNoto+Serif:400,400italic,700,700italic%7CDroid+Sans+Mono:400,700">
 <style>
@@ -84,10 +84,10 @@ code{font-family:"Droid Sans Mono","DejaVu Sans Mono",monospace;font-weight:400;
 ul,ol,dl{line-height:1.6;margin-bottom:1.25em;list-style-position:outside;font-family:inherit}
 ul,ol{margin-left:1.5em}
 ul li ul,ul li ol{margin-left:1.25em;margin-bottom:0}
+ul.square li ul,ul.circle li ul,ul.disc li ul{list-style:inherit}
+ul.square{list-style-type:square}
 ul.circle{list-style-type:circle}
 ul.disc{list-style-type:disc}
-ul.square{list-style-type:square}
-ul.circle ul:not([class]),ul.disc ul:not([class]),ul.square ul:not([class]){list-style:inherit}
 ol li ul,ol li ol{margin-left:1.25em;margin-bottom:0}
 dl dt{margin-bottom:.3125em;font-weight:bold}
 dl dd{margin-bottom:1.25em}
@@ -193,8 +193,7 @@ body.toc2.toc-right{padding-left:0;padding-right:20em}}
 #content h1>a.link:hover,h2>a.link:hover,h3>a.link:hover,#toctitle>a.link:hover,.sidebarblock>.content>.title>a.link:hover,h4>a.link:hover,h5>a.link:hover,h6>a.link:hover{color:#a53221}
 details,.audioblock,.imageblock,.literalblock,.listingblock,.stemblock,.videoblock{margin-bottom:1.25em}
 details{margin-left:1.25rem}
-details>summary{cursor:pointer;display:block;position:relative;line-height:1.6;margin-bottom:.625rem;outline:none;-webkit-tap-highlight-color:transparent}
-details>summary::-webkit-details-marker{display:none}
+details>summary{cursor:pointer;display:block;position:relative;line-height:1.6;margin-bottom:.625rem;-webkit-tap-highlight-color:transparent}
 details>summary::before{content:"";border:solid transparent;border-left:solid;border-width:.3em 0 .3em .5em;position:absolute;top:.5em;left:-1.25rem;transform:translateX(15%)}
 details[open]>summary::before{border:solid transparent;border-top:solid;border-width:.5em .3em 0;transform:translateY(15%)}
 details>summary::after{content:"";width:1.25rem;height:1em;position:absolute;top:.3em;left:-1.25rem}
@@ -236,8 +235,9 @@ pre.prettyprint li:not(:first-child) code[data-lang]::before{display:none}
 table.linenotable{border-collapse:separate;border:0;margin-bottom:0;background:none}
 table.linenotable td[class]{color:inherit;vertical-align:top;padding:0;line-height:inherit;white-space:normal}
 table.linenotable td.code{padding-left:.75em}
-table.linenotable td.linenos,pre.pygments .linenos{border-right:1px solid;opacity:.35;padding-right:.5em;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none}
-pre.pygments span.linenos{display:inline-block;margin-right:.75em}
+table.linenotable td.linenos{border-right:1px solid;opacity:.35;padding-right:.5em}
+pre.pygments .lineno{border-right:1px solid;opacity:.35;display:inline-block;margin-right:.75em}
+pre.pygments .lineno::before{content:"";margin-right:-.125em}
 .quoteblock{margin:0 1em 1.25em 1.5em;display:table}
 .quoteblock:not(.excerpt)>.title{margin-left:-1.5em;margin-bottom:.75em}
 .quoteblock blockquote,.quoteblock p{color:rgba(0,0,0,.85);font-size:1.15rem;line-height:1.75;word-spacing:.1em;letter-spacing:0;font-style:italic;text-align:justify}
@@ -274,7 +274,7 @@ table.frame-none>colgroup+*>:first-child>*,table.frame-sides>colgroup+*>:first-c
 table.frame-none>:last-child>:last-child>*,table.frame-sides>:last-child>:last-child>*{border-bottom-width:0}
 table.frame-none>*>tr>:first-child,table.frame-ends>*>tr>:first-child{border-left-width:0}
 table.frame-none>*>tr>:last-child,table.frame-ends>*>tr>:last-child{border-right-width:0}
-table.stripes-all>*>tr,table.stripes-odd>*>tr:nth-of-type(odd),table.stripes-even>*>tr:nth-of-type(even),table.stripes-hover>*>tr:hover{background:#f8f8f7}
+table.stripes-all tr,table.stripes-odd tr:nth-of-type(odd),table.stripes-even tr:nth-of-type(even),table.stripes-hover tr:hover{background:#f8f8f7}
 th.halign-left,td.halign-left{text-align:left}
 th.halign-right,td.halign-right{text-align:right}
 th.halign-center,td.halign-center{text-align:center}
@@ -290,11 +290,10 @@ ol{margin-left:1.75em}
 ul li ol{margin-left:1.5em}
 dl dd{margin-left:1.125em}
 dl dd:last-child,dl dd:last-child>:last-child{margin-bottom:0}
-li p,ul dd,ol dd,.olist .olist,.ulist .ulist,.ulist .olist,.olist .ulist{margin-bottom:.625em}
+ol>li p,ul>li p,ul dd,ol dd,.olist .olist,.ulist .ulist,.ulist .olist,.olist .ulist{margin-bottom:.625em}
 ul.checklist,ul.none,ol.none,ul.no-bullet,ol.no-bullet,ol.unnumbered,ul.unstyled,ol.unstyled{list-style-type:none}
 ul.no-bullet,ol.no-bullet,ol.unnumbered{margin-left:.625em}
 ul.unstyled,ol.unstyled{margin-left:0}
-li>p:empty:only-child::before{content:"";display:inline-block}
 ul.checklist>li>p:first-child{margin-left:-1em}
 ul.checklist>li>p:first-child>.fa-square-o:first-child,ul.checklist>li>p:first-child>.fa-check-square-o:first-child{width:1.25em;font-size:.8em;position:relative;bottom:.125em}
 ul.checklist>li>p:first-child>input[type=checkbox]:first-child{margin-right:.25em}
@@ -337,6 +336,8 @@ sup.footnote a:active,sup.footnoteref a:active{text-decoration:underline}
 #footnotes .footnote a:first-of-type{font-weight:bold;text-decoration:none;margin-left:-1.05em}
 #footnotes .footnote:last-of-type{margin-bottom:0}
 #content #footnotes{margin-top:-.625em;margin-bottom:0;padding:.75em 0}
+.gist .file-data>table{border:0;background:#fff;width:100%;margin-bottom:0}
+.gist .file-data>table td.line-data{width:99%}
 div.unbreakable{page-break-inside:avoid}
 .big{font-size:larger}
 .small{font-size:smaller}
@@ -444,10 +445,10 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 <ul class="sectlevel1">
 <li><a href="#_research"><strong>Research</strong></a>
 <ul class="sectlevel2">
-<li><a href="#_genomics_of_early_embryonic_development">Genomics of early embryonic development</a></li>
 <li><a href="#_admixture_mapping_and_pangenomics_analysis_in_the_biorepository_and_integrative_genomics_big_initiative_cohort">Admixture Mapping and Pangenomics Analysis in the Biorepository and Integrative Genomics (BIG) Initiative Cohort</a></li>
 <li><a href="#_human_pangenomics">Human Pangenomics</a></li>
 <li><a href="#_mouse_pangenomics">Mouse Pangenomics</a></li>
+<li><a href="#_genomics_of_early_embryonic_development">Genomics of early embryonic development</a></li>
 </ul>
 </li>
 <li><a href="#_people"><strong>People</strong></a>
@@ -488,6 +489,11 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 </div>
 <div class="imageblock">
 <div class="content">
+<img src="images/UTHSC-primary-stacked-logo-4c.jpg" alt="200">
+</div>
+</div>
+<div class="imageblock">
+<div class="content">
 <img src="images/loghi_cnr_igb.png" alt="200">
 </div>
 </div>
@@ -496,90 +502,7 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 <div class="sect1">
 <h2 id="_research"><strong>Research</strong></h2>
 <div class="sectionbody">
-<div class="sect2">
-<h3 id="_genomics_of_early_embryonic_development">Genomics of early embryonic development</h3>
-<div class="sect3">
-<h4 id="_how_natural_selection_acts_on_early_human_development"><em>How natural selection acts on early human development</em></h4>
-<div class="paragraph">
-<p>We investigate adverse outcomes of embryonic development like recurrent pregnancy loss and preeclampsia to identify the genetic factors that influence reproductive outcomes and pregnancy complications. This knowledge furthers our understanding of human evolution and informs efforts to improve pregnancy outcomes.</p>
-</div>
-<div class="imageblock">
-<div class="content">
-<img src="images/embryo.png" alt="embryo" width="1000" height="500">
-</div>
-</div>
-<div class="paragraph">
-<p>In <strong>CABERNET</strong> we aim to determine the extent of chromosomal mosaicism between embryonic and extraembryonic tissues using single cell DNA sequencing.<br>
-In <strong>DELIVER / NEONATE</strong> we want to identify genetic factors contributing to reproductive failure and recurrent miscarriage. We will use single cell strand sequencing to map balanced rearrangements and whole genome sequencing of euploid miscarried embryos to identify causative variants.<br>
-In <strong>CANDLE</strong> we want to uncover gene expression patterns associated with <em>APOL1</em> risk alleles and preeclampsia in African American women. We will examine the role of ancestry in mediating the relationship between <em>APOL1</em> genotype and preeclampsia risk. The results can provide insights into genetic and molecular basis of preeclampsia.</p>
-</div>
-<div class="ulist">
-<div class="title">This project is in collaboration with</div>
-<ul>
-<li>
-<p><a href="https://scholar.google.at/citations?user=ceRslzAAAAAJ&amp;hl=en">Francesca Antonacci</a> University of Bari Aldo Moro</p>
-</li>
-<li>
-<p><a href="https://scholar.google.at/citations?user=02eKUFwAAAAJ&amp;hl=en&amp;oi=ao">Carlo Alviggi</a>, University of Naples Federico II</p>
-</li>
-<li>
-<p><a href="https://scholar.google.at/citations?user=iukICNwAAAAJ&amp;hl=en&amp;oi=ao">Antonio Lamarca</a>, University of Modena and Reggio Emilia</p>
-</li>
-<li>
-<p><a href="https://www.igb.cnr.it/index.php/marcella-vacca/">Marcella Vacca</a>, National Research Council</p>
-</li>
-<li>
-<p><a href="https://www.igb.cnr.it/index.php/gabriella-lania/">Gabriella Lania</a>, National Research Council</p>
-</li>
-<li>
-<p><a href="https://www.merigen.it/">Imma and Sebastiano Di Biase</a>, MeriGen Research, Italy</p>
-</li>
-<li>
-<p>Antonio Capalbo, Juno Genomics</p>
-</li>
-<li>
-<p><a href="http://docente.unife.it/michele.rubini">Michele Rubini</a> University of Ferrara</p>
-</li>
-<li>
-<p><a href="https://www.monash.edu.my/science/staff/academic/qasim-ayub">Qasim Ayub</a>, Monash University, Malaysia</p>
-</li>
-</ul>
-</div>
-</div>
-<div class="sect3">
-<h4 id="_funding"><strong>Funding</strong></h4>
-<div class="ulist">
-<ul>
-<li>
-<p>PRIN 2020J84FAM Ministero dell&#8217;Universita e della Ricerca</p>
-</li>
-<li>
-<p>PRIN 2022WEHP7M Ministero dell&#8217;Universita e della Ricerca</p>
-</li>
-<li>
-<p>PRIN P2022ZE75A Ministero dell&#8217;Universita e della Ricerca</p>
-</li>
-<li>
-<p><a href="https://www.merigen.it/">Merigen Research s.r.l</a></p>
-</li>
-<li>
-<p>POR Campania FSE 2014-2020 ASSE III – Ob. Sp. 14</p>
-</li>
-</ul>
-</div>
-<div class="imageblock text-left">
-<div class="content">
-<img src="images/loghi_grep.png" alt="loghi_grep" width="200">
-</div>
-</div>
-<div class="imageblock text-left">
-<div class="content">
-<img src="images/miur.jpg" alt="miur" width="200">
-</div>
-</div>
 <hr>
-</div>
-</div>
 <div class="sect2">
 <h3 id="_admixture_mapping_and_pangenomics_analysis_in_the_biorepository_and_integrative_genomics_big_initiative_cohort">Admixture Mapping and Pangenomics Analysis in the Biorepository and Integrative Genomics (BIG) Initiative Cohort</h3>
 <div class="sect3">
@@ -679,6 +602,90 @@ We will reconstruct the demographic history of the individuals in the cohort at 
 </div>
 <hr>
 </div>
+<div class="sect2">
+<h3 id="_genomics_of_early_embryonic_development">Genomics of early embryonic development</h3>
+<div class="sect3">
+<h4 id="_how_natural_selection_acts_on_early_human_development"><em>How natural selection acts on early human development</em></h4>
+<div class="paragraph">
+<p>We investigate adverse outcomes of embryonic development like recurrent pregnancy loss and preeclampsia to identify the genetic factors that influence reproductive outcomes and pregnancy complications. This knowledge furthers our understanding of human evolution and informs efforts to improve pregnancy outcomes.</p>
+</div>
+<div class="imageblock">
+<div class="content">
+<img src="images/embryo.png" alt="embryo" width="1000" height="500">
+</div>
+</div>
+<div class="paragraph">
+<p>In <strong>CABERNET</strong> we aim to determine the extent of chromosomal mosaicism between embryonic and extraembryonic tissues using single cell DNA sequencing.<br>
+In <strong>DELIVER / NEONATE</strong> we want to identify genetic factors contributing to reproductive failure and recurrent miscarriage. We will use single cell strand sequencing to map balanced rearrangements and whole genome sequencing of euploid miscarried embryos to identify causative variants.<br>
+In <strong>CANDLE</strong> we want to uncover gene expression patterns associated with <em>APOL1</em> risk alleles and preeclampsia in African American women. We will examine the role of ancestry in mediating the relationship between <em>APOL1</em> genotype and preeclampsia risk. The results can provide insights into genetic and molecular basis of preeclampsia.</p>
+</div>
+<div class="ulist">
+<div class="title">This project is in collaboration with</div>
+<ul>
+<li>
+<p><a href="https://scholar.google.at/citations?user=ceRslzAAAAAJ&amp;hl=en">Francesca Antonacci</a> University of Bari Aldo Moro</p>
+</li>
+<li>
+<p><a href="https://scholar.google.at/citations?user=02eKUFwAAAAJ&amp;hl=en&amp;oi=ao">Carlo Alviggi</a>, University of Naples Federico II</p>
+</li>
+<li>
+<p><a href="https://scholar.google.at/citations?user=iukICNwAAAAJ&amp;hl=en&amp;oi=ao">Antonio Lamarca</a>, University of Modena and Reggio Emilia</p>
+</li>
+<li>
+<p><a href="https://www.igb.cnr.it/index.php/marcella-vacca/">Marcella Vacca</a>, National Research Council</p>
+</li>
+<li>
+<p><a href="https://www.igb.cnr.it/index.php/gabriella-lania/">Gabriella Lania</a>, National Research Council</p>
+</li>
+<li>
+<p><a href="https://www.merigen.it/">Imma and Sebastiano Di Biase</a>, MeriGen Research, Italy</p>
+</li>
+<li>
+<p>Antonio Capalbo, Juno Genomics</p>
+</li>
+<li>
+<p><a href="http://docente.unife.it/michele.rubini">Michele Rubini</a> University of Ferrara</p>
+</li>
+<li>
+<p><a href="https://www.monash.edu.my/science/staff/academic/qasim-ayub">Qasim Ayub</a>, Monash University, Malaysia</p>
+</li>
+</ul>
+</div>
+</div>
+<div class="sect3">
+<h4 id="_funding"><strong>Funding</strong></h4>
+<div class="ulist">
+<ul>
+<li>
+<p>PRIN 2020J84FAM Ministero dell&#8217;Universita e della Ricerca</p>
+</li>
+<li>
+<p>PRIN 2022WEHP7M Ministero dell&#8217;Universita e della Ricerca</p>
+</li>
+<li>
+<p>PRIN P2022ZE75A Ministero dell&#8217;Universita e della Ricerca</p>
+</li>
+<li>
+<p><a href="https://www.merigen.it/">Merigen Research s.r.l</a></p>
+</li>
+<li>
+<p>POR Campania FSE 2014-2020 ASSE III – Ob. Sp. 14</p>
+</li>
+</ul>
+</div>
+<div class="imageblock text-left">
+<div class="content">
+<img src="images/loghi_grep.png" alt="loghi_grep" width="200">
+</div>
+</div>
+<div class="imageblock text-left">
+<div class="content">
+<img src="images/miur.jpg" alt="miur" width="200">
+</div>
+</div>
+<hr>
+</div>
+</div>
 </div>
 </div>
 <div class="sect1">
@@ -686,6 +693,14 @@ We will reconstruct the demographic history of the individuals in the cohort at 
 <div class="sectionbody">
 <div class="sect2">
 <h3 id="_vincenza_colonna"><strong>Vincenza Colonna</strong></h3>
+<div class="paragraph">
+<p>Associate Professor, Department of Genetics, Genomics and Informatics<br>
+University of Tennessee Health Science Center, TSRB room 405, 71 S Manassas St, Memphis TN 38163</p>
+</div>
+<div class="paragraph">
+<p>Director, Integrative Genomics Biorpository, Department of Pediatrics<br>
+Children&#8217;s Foundation Research Institute, 50 N. Dunlap St. Memphis, TN 38105.</p>
+</div>
 <div class="paragraph">
 <div class="title"><span class="purple"><em>I graduated in Evolutionary Biology from the University of Naples Federico II and did postdoctoral research at the University of Ferrara (Italy) and at Wellcome Trust Sanger Institute in Cambridge (UK). I was lectures in Genetics and Bioinformatics at the University of Ferrara (Italy). I am now leading the Population genomics laboratory at the IGB-CNR (Naples, Italy) and I am visiting Assistant Professor at the University of Tennessee, College of Medicine, in the Department of Genetics, Genomics and Informatics.</em></span></div>
 <p><span class="image right"><img src="images/vcolonna.jpg" alt="vcolonna" width="200"></span></p>
@@ -865,7 +880,7 @@ via Pietro Castellino 111 - 80131 Napoli - Italy - <a href="https://www.google.c
 </div>
 <div id="footer">
 <div id="footer-text">
-Last updated 2024-01-04 15:53:33 +0100
+Last updated 2025-01-08 13:41:43 +0100
 </div>
 </div>
 </body>
