@@ -12,10 +12,7 @@ Welcome to the *Population Genomics Laboratory* of Department of Genetics, Genom
 [quote]
 _Fascinating (Lieutenant Spock)_
 
-image::images/UTHSC-primary-stacked-logo-4c.jpg[[width=50%]
-//image::images/loghi_cnr_igb.png[200]
-
-
+image::images/UTHSC-primary-stacked-logo-4c.jpg[uthsc,200,align="center"]
 
 == *Research*
 
@@ -24,23 +21,16 @@ image::images/UTHSC-primary-stacked-logo-4c.jpg[[width=50%]
 
 ==== _Improving Phenotype-Genotype Linkages through Ancestry Patterns_
 
+image::images/website2025/BIG-notes-for-figures.svg[BIG, 200,align=center,role='right']
 The Biorepository and Integrative Genomics (BIG) initiative is currently recruiting participants from Memphis (TN), mostly children, with plans to include a total of 100,000 samples over the next five years. and the cohort is partnering with the https://www.genomicinformationcommons.org/[Genomic Information Commons], a consortium of top children's hospitals, to conduct genomics research aimed at discovering the genetic foundations of human disease in diverse populations. 
-
-//image::images/website2025/BIG-notes-for-figures.svg[panmix,600,align='center']
-image::images/website2025/BIG-notes-for-figures.svg[width=100%,align=center,role='right']
 
 We inferred that nearly 50% of participants in the BIG cohort have a non-European or several types of admixed ancestry.
 .[purple]#_Global ancestry deconvolution of 13,152 sequenced individuals, based on reference populations in the 1000 Genomes and HGDP data sets. Each vertical bar represents one individual, colors are proportional to inferred ancestry. For further analyses, individuals were grouped based on the ancestry proportions in seven categories (colored bar, number of individuals per category in parentheses), and classified as admixed or not (black and gray bar). Full preprint on https://www.medrxiv.org/content/10.1101/2025.01.03.25319944v1[medrxiv]_#
-image::images/website2025/big_admix.png[panmix,600,align='center'][width=75%,align=center,role='right']
+image::images/website2025/big_admix.png[panmix,600,align='center']
 
 We are using existing exome sequence data and electronic health records to obtain an improved set of genetic variants, including structural variants through mapping against reference pangenomes and imputation.  We want to develop pipelines for admixture mapping of phenotypic traits related to diseases and natural selection phenotypes.
 
-.This project is in collaboration with the Departments  of Genetics, Genomics and Informatics, and Pediatrics at the University of Tennessee Health Science Center, in Memphis, TN
-* https://scholar.google.com/citations?user=OYJMYwIAAAAJ&hl=en[Robert Williams], 
-* https://scholar.google.com/citations?user=965VipkAAAAJ[Robert Davis],
-* https://scholar.google.com/citations?user=DuzpZDEAAAAJ[Akram Mohammed]
-
-
+.This project is a collaboration between the Departments  of Genetics, Genomics and Informatics, and Pediatrics at the University of Tennessee Health Science Center, in Memphis, TN
 
 '''
 === Human Pangenomics
@@ -69,7 +59,7 @@ We are building a reference pangenome for all extant members of all BXD families
 image::images/pangenome.png[loghi_pang,800,align="center"]
 
 
-.The projects on pangenomics are in collaboration with the Department of Genetics, Genomics and Informatics, at the University of Tennessee Health Science Center, in Memphis, TN
+.The projects on pangenomics are in collaboration with: 
 * https://scholar.google.com/citations?user=OYJMYwIAAAAJ&hl=en[Robert Williams]
 * https://davidashbrook.wordpress.com/[David Ashbrook]
 * https://thebird.nl/[Pjotr Prins]
@@ -120,22 +110,20 @@ image::images/miur.jpg[miur,200,align="left"]
 
 === *Vincenza Colonna*
 
-*_Associate Professor, https://www.uthsc.edu/faculty/profile/?netid=vcolonna[Department of Genetics, Genomics and Informatics]_*
-_University of Tennessee Health Science Center, TSRB room 405, 71 S Manassas St, Memphis TN 38163_
+*_Associate Professor, Department of Genetics, Genomics and Informatics https://www.uthsc.edu/faculty/profile/?netid=vcolonna[website]_*
+_University of Tennessee Health Science Center, Memphis, TN_
 
 *_Director, Integrative Genomics Biorpository, Department of Pediatrics_*
-_Children's Foundation Research Institute, 50 N. Dunlap St. Memphis, TN 38105_
+_Children's Foundation Research Institute, Memphis, TN _
 
-*_Researcher (on leave of absence), https://www.igb.cnr.it/[Institute of Genetics and Biophysics] of the https://www.cnr.it/en[National Research Council]_*. This is my https://www.igb.cnr.it/index.php/vincenza-colonna/[website at CNR]
+*_Researcher (on leave of absence), National Research Council https://www.igb.cnr.it/index.php/vincenza-colonna/[website] _*
+_Institute of Genetics and Biophysics, Naples, Italy_
 
-https://orcid.org/0000-0002-3966-0474[ORCID]
 
 .[purple]#_I graduated in Evolutionary Biology from the University of Naples Federico II and did postdoctoral research at the University of Ferrara (Italy) and at Wellcome Trust Sanger Institute in Cambridge (UK). I was lectures in Genetics and Bioinformatics at the University of Ferrara (Italy). I am now leading the Population genomics laboratory at the University of Tennessee, College of Medicine, in the Department of Genetics, Genomics and Informatics._#
 image:images/website2025/enza_2025.jpg[vcolonna,200,role="right"]
 
-I am a genomicist and an expert in human evolutionary and population genomics and bioinformatics.
-
-In my postdoctoral research I was part of the international consortium 1000 Genomes[PMID: https://pubmed.ncbi.nlm.nih.gov/26432245/[26432245]; https://pubmed.ncbi.nlm.nih.gov/23128226/[23128226]] where I led contributions to two specific aspects. First, I contributed to develop FunSeq [PMID: https://pubmed.ncbi.nlm.nih.gov/24092746/[24092746]], a tool that integrates non-coding information from relevant biological databases for the functional characterization of non-coding variants. Second, I lead a genome-wide scan to identify genomic regions with exceptionally high levels of population differentiation [PMID: https://pubmed.ncbi.nlm.nih.gov/24980144/[24980144]] demonstrating that these regions are enriched for positive selection events and that one half may be the result of classic selective sweeps. Findings from both sub-projects have since been applied to demographic inference and the molecular diagnosis of cancer and myeloid malignancies [PMID: https://pubmed.ncbi.nlm.nih.gov/27121471/[27121471], https://pubmed.ncbi.nlm.nih.gov/22446628/[22446628]], and to deeper studies on positive selection at the ABCA12 gene [PMID: https://pubmed.ncbi.nlm.nih.gov/30890716/[30890716]]. 
+I am a genomicist and an expert in human evolutionary and population genomics and bioinformatics. In my postdoctoral research I was part of the international consortium 1000 Genomes[PMID: https://pubmed.ncbi.nlm.nih.gov/26432245/[26432245]; https://pubmed.ncbi.nlm.nih.gov/23128226/[23128226]] where I led contributions to two specific aspects. First, I contributed to develop FunSeq [PMID: https://pubmed.ncbi.nlm.nih.gov/24092746/[24092746]], a tool that integrates non-coding information from relevant biological databases for the functional characterization of non-coding variants. Second, I lead a genome-wide scan to identify genomic regions with exceptionally high levels of population differentiation [PMID: https://pubmed.ncbi.nlm.nih.gov/24980144/[24980144]] demonstrating that these regions are enriched for positive selection events and that one half may be the result of classic selective sweeps. Findings from both sub-projects have since been applied to demographic inference and the molecular diagnosis of cancer and myeloid malignancies [PMID: https://pubmed.ncbi.nlm.nih.gov/27121471/[27121471], https://pubmed.ncbi.nlm.nih.gov/22446628/[22446628]], and to deeper studies on positive selection at the ABCA12 gene [PMID: https://pubmed.ncbi.nlm.nih.gov/30890716/[30890716]]. 
 
 During my PhD I worked on human isolated populations contributing to characterize several isolated populations, describing the genomic consequences of isolation [PMID: https://pubmed.ncbi.nlm.nih.gov/17476112[17476112], https://pubmed.ncbi.nlm.nih.gov/19550436[19550436], https://pubmed.ncbi.nlm.nih.gov/22713810[22713810]], contributing to genetic association studies [PMID: https://pubmed.ncbi.nlm.nih.gov/16611673[16611673], https://pubmed.ncbi.nlm.nih.gov/18162505[18162505]] and to characterize rare variation [PMID: https://pubmed.ncbi.nlm.nih.gov/28643794[28643794]]
 
@@ -143,6 +131,8 @@ During my PhD I worked on human isolated populations contributing to characteriz
 //+ [gray]#See my full C.V. https://github.com/ColonnaLab/laboratory_WebPage/tree/master/docs/CV_EnzaColonna.pdf[here].#
 
 I founded and led http://www.igb.cnr.it/obilab[OBiLab], a project on training in Bioinformatics
+
+https://orcid.org/0000-0002-3966-0474[ORCID]
 
 image:images/Octicons-mark-github.svg[git,30] https://github.com/ezcn[My GitHub]
 
@@ -193,13 +183,13 @@ image:images/Octicons-mark-github.svg[git,30] https://github.com/Flavia95[My Git
 https://scholar.google.com/citations?user=CrklVWcAAAAJ&hl=en[Google Scholar]
 
 '''
-=== *Ernestine Amos-Abanyie*, PhD Student (co-supervised with Dr. Ashbrook)
+=== *Ernestine Amos-Abanyie*, PhD Student 
 
 image:images/Flavia.JPG[flavia,200,role="right"] 
 
 .[purple]#_brief cv _#
 
-I am working on
+(co-supervised with Dr. Ashbrook) I am working on
 
 image:images/Octicons-mark-github.svg[git,30] https://github.com/Flavia95[My GitHub]
 
