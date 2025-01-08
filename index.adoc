@@ -27,10 +27,9 @@ image::images/UTHSC-primary-stacked-logo-4c.jpg[[width=50%]
 The Biorepository and Integrative Genomics (BIG) initiative is currently recruiting participants from Memphis (TN), mostly children, with plans to include a total of 100,000 samples over the next five years. and the cohort is partnering with the https://www.genomicinformationcommons.org/[Genomic Information Commons], a consortium of top children's hospitals, to conduct genomics research aimed at discovering the genetic foundations of human disease in diverse populations. 
 
 //image::images/website2025/BIG-notes-for-figures.svg[panmix,600,align='center']
-image::images/website2025/BIG-notes-for-figures.svg[width=75%,align=center,role='right']
+image::images/website2025/BIG-notes-for-figures.svg[width=100%,align=center,role='right']
 
 We inferred that nearly 50% of participants in the BIG cohort have a non-European or several types of admixed ancestry.
-
 .[purple]#_Global ancestry deconvolution of 13,152 sequenced individuals, based on reference populations in the 1000 Genomes and HGDP data sets. Each vertical bar represents one individual, colors are proportional to inferred ancestry. For further analyses, individuals were grouped based on the ancestry proportions in seven categories (colored bar, number of individuals per category in parentheses), and classified as admixed or not (black and gray bar). Full preprint on https://www.medrxiv.org/content/10.1101/2025.01.03.25319944v1[medrxiv]_#
 image::images/website2025/big_admix.png[panmix,600,align='center'][width=75%,align=center,role='right']
 
@@ -121,16 +120,18 @@ image::images/miur.jpg[miur,200,align="left"]
 
 === *Vincenza Colonna*
 
-Associate Professor, Department of Genetics, Genomics and Informatics 
-University of Tennessee Health Science Center, TSRB room 405, 71 S Manassas St, Memphis TN 38163 
+*_Associate Professor, https://www.uthsc.edu/faculty/profile/?netid=vcolonna[Department of Genetics, Genomics and Informatics]_*
+_University of Tennessee Health Science Center, TSRB room 405, 71 S Manassas St, Memphis TN 38163_
 
-Director, Integrative Genomics Biorpository, Department of Pediatrics
-Children's Foundation Research Institute, 50 N. Dunlap St. Memphis, TN 38105.
+*_Director, Integrative Genomics Biorpository, Department of Pediatrics_*
+_Children's Foundation Research Institute, 50 N. Dunlap St. Memphis, TN 38105_
 
-I am currently on leave of absence from the https://www.igb.cnr.it/[Institute of Genetics and Biophysics] of the https://www.cnr.it/en[National Research Council].
+*_Researcher (on leave of absence), https://www.igb.cnr.it/[Institute of Genetics and Biophysics] of the https://www.cnr.it/en[National Research Council]_*. This is my https://www.igb.cnr.it/index.php/vincenza-colonna/[website at CNR]
 
-.[purple]#_I graduated in Evolutionary Biology from the University of Naples Federico II and did postdoctoral research at the University of Ferrara (Italy) and at Wellcome Trust Sanger Institute in Cambridge (UK). I was lectures in Genetics and Bioinformatics at the University of Ferrara (Italy). I am now leading the Population genomics laboratory at the IGB-CNR (Naples, Italy) and I am visiting Assistant Professor at the University of Tennessee, College of Medicine, in the Department of Genetics, Genomics and Informatics._#
-image:images/vcolonna.jpg[vcolonna,200,role="right"]
+https://orcid.org/0000-0002-3966-0474[ORCID]
+
+.[purple]#_I graduated in Evolutionary Biology from the University of Naples Federico II and did postdoctoral research at the University of Ferrara (Italy) and at Wellcome Trust Sanger Institute in Cambridge (UK). I was lectures in Genetics and Bioinformatics at the University of Ferrara (Italy). I am now leading the Population genomics laboratory at the University of Tennessee, College of Medicine, in the Department of Genetics, Genomics and Informatics._#
+image:images/website2025/enza_2025.jpg[vcolonna,200,role="right"]
 
 I am a genomicist and an expert in human evolutionary and population genomics and bioinformatics.
 
@@ -179,19 +180,6 @@ https://scholar.google.ca/citations?user=Vd4yh9wAAAAJ&hl=en[Google Scholar]
 
 '''
 
-=== *Gianluca Damaggio*, Postdoctoral fellow
-
-image:images/gianluca.jpg[gianluca,200,role="right"]  
-
-.[purple]#_I have just completed my Ph.D. in Biology at the University of Napoli Federico II and obtained a master’s degree in Molecular Biology from the same university._#
-
-My project, *HD-DittoGraph - a digital human Embryonic Stem Cell platform for Hungtinton’s repeats*, aims to develop the capability to accurately detect perturbations in short tandem repeats of the Huntington’s gene within proliferative cells, utilizing third-generation sequencing data. Throughout my Ph.D., I have also gained expertise in analyzing data from single-cell RNA-seq and ATAC-seq. Currently, I am a visiting student at the IGB-CNR in Naples and a Junior Research Fellow at the University of Milano Statale in Elena Cattaneo's Laboratory.
-
-image:images/Octicons-mark-github.svg[git,30] https://github.com/GianlucaDamaggio[My GitHub]
-
-https://scholar.google.se/citations?user=23D5l4cAAAAJ&hl=it[Google Scholar]
-
-'''
 === *Flavia Villani*, PhD Student
 
 image:images/Flavia.JPG[flavia,200,role="right"] 
@@ -205,19 +193,78 @@ image:images/Octicons-mark-github.svg[git,30] https://github.com/Flavia95[My Git
 https://scholar.google.com/citations?user=CrklVWcAAAAJ&hl=en[Google Scholar]
 
 '''
+=== *Ernestine Amos-Abanyie*, PhD Student (co-supervised with Dr. Ashbrook)
 
-=== *Rosanna Maione* , Research Associate 
+image:images/Flavia.JPG[flavia,200,role="right"] 
 
-image:images/no.jpg[ross,200,role="right"] 
+.[purple]#_brief cv _#
 
-.[purple]#_I have a master degree in Medical Biotechnology from the University of Naples Federico II and a master  in Embryology. I am an expert in embryology and assisted human reproduction._#
+I am working on
 
-I am in charge of recruitment, sample collection and processing for the projects  related to the genomics of early embryonic development. I am responsible for building the DNA and tissue collections.  
+image:images/Octicons-mark-github.svg[git,30] https://github.com/Flavia95[My GitHub]
+
+https://scholar.google.com/citations?user=CrklVWcAAAAJ&hl=en[Google Scholar]
+
+'''
+=== *Donna Vo*, Research associate 
+
+image:images/Flavia.JPG[flavia,200,role="right"] 
+
+.[purple]#_brief cv ._#
+
+I am in charge of sample collection and processing for the Integrative Genomics Biorepository that supports the BIG project. 
+
+'''
+
+== *Visiting*
+
+=== *Laura Pignata*, Postdoctoral fellow 
+
+image:images/Flavia.JPG[flavia,200,role="right"] 
+
+.[purple]#_brief cv _#
+
+I am working on
+
+image:images/Octicons-mark-github.svg[git,30] https://github.com/Flavia95[My GitHub]
+
+https://scholar.google.com/citations?user=CrklVWcAAAAJ&hl=en[Google Scholar]
 
 '''
 
 
+=== *Dario Cannella*,  PhD Student
+
+image:images/Flavia.JPG[flavia,200,role="right"] 
+
+.[purple]#_brief cv _#
+
+I am working on
+
+image:images/Octicons-mark-github.svg[git,30] https://github.com/Flavia95[My GitHub]
+
+https://scholar.google.com/citations?user=CrklVWcAAAAJ&hl=en[Google Scholar]
+
+'''
+
+
+=== *Angela Carfora*,  PhD Student
+
+image:images/Flavia.JPG[flavia,200,role="right"] 
+
+.[purple]#_brief cv _#
+
+I am working on
+
+image:images/Octicons-mark-github.svg[git,30] https://github.com/Flavia95[My GitHub]
+
+https://scholar.google.com/citations?user=CrklVWcAAAAJ&hl=en[Google Scholar]
+
+'''
+
 == *Former members*
+* Gianluca Damaggio, Master student, PhD student, 2019-2023
+* Rosanna Maione, Research associate 2023 
 * Madeleine Emms, Postdoctoral fellow, 2022-2023
 * Marialaura Zitiello, Master Student, 2022-2023
 * Antonella Mecca, Master Student, 2022-2023
@@ -241,8 +288,13 @@ At this https://github.com/ColonnaLab/laboratory_WebPage/blob/master/docs/pastRe
 
 Vincenza Colonna, PhD
 
-Istituto di Genetica e Biofisica "Adriano Buzzati-Traverso"
-piano R, stanza 11
-via Pietro Castellino 111 - 80131 Napoli - Italy - https://www.google.co.uk/maps/place/Cnr+Consiglio+Nazionale+Delle+Ricerche/@40.8545777,14.2250388,17z/data=!4m6!1m3!3m2!1s0x133b08ed1ffff6c1:0xede26e8ccb5ccb3b!2sCnr+Consiglio+Nazionale+Delle+Ricerche!3m1!1s0x133b08ed1ffff6c1:0xede26e8ccb5ccb3b[map]
+- University of Tennessee Health Science Center, TSRB room 405
+ 71 S Manassas St, Memphis TN 38163 https://maps.app.goo.gl/XnjsEmoGLyGBTd7b7[map]
+
+- Children's Foundation Research Institute
+50 N. Dunlap St. Memphis, TN 38105 https://maps.app.goo.gl/ATEtD8DFUi7oFWeC8[map]
+
+- Istituto di Genetica e Biofisica "Adriano Buzzati-Traverso" piano R, stanza 11
+via Pietro Castellino 111 - 80131 Napoli - Italy https://maps.app.goo.gl/xD6UzBYSzX45cBSq7[map]
 
 Email: enza.colonna@gmail.com  - vcolonna@uthsc.edu - vincenza.colonna@igb.cnr.it
