@@ -12,8 +12,8 @@ Welcome to the *Population Genomics Laboratory* of Department of Genetics, Genom
 [quote]
 _Fascinating (Lieutenant Spock)_
 
-image::images/UTHSC-primary-stacked-logo-4c.jpg[200]
-image::images/loghi_cnr_igb.png[200]
+image::images/UTHSC-primary-stacked-logo-4c.jpg[[width=50%]
+//image::images/loghi_cnr_igb.png[200]
 
 
 
@@ -24,16 +24,17 @@ image::images/loghi_cnr_igb.png[200]
 
 ==== _Improving Phenotype-Genotype Linkages through Ancestry Patterns_
 
-The BIG initiative is currently recruiting 30k participants from Memphis (TN), mostly children, with plans to include a total of 100,000 samples over the next five years. Nearly 45% of current participants are of African ancestry, and the cohort is partnering with the Genomic Information Commons, a consortium of top children's hospitals, to conduct genomics research aimed at discovering the genetic foundations of human disease in diverse populations. 
+The BIG initiative is currently recruiting participants from Memphis (TN), mostly children, with plans to include a total of 100,000 samples over the next five years. and the cohort is partnering with the https://www.genomicinformationcommons.org/[Genomic Information Commons], a consortium of top children's hospitals, to conduct genomics research aimed at discovering the genetic foundations of human disease in diverse populations. 
 
-image::images/website2025/BIG-notes-for-figures.svg[panmix,600,align='center']
-We want to understand the extent and origin of admixture patterns in the Biorepository and Integrative Genomics (BIG) Initiative cohort and to develop pipelines for admixture mapping of phenotypic traits related to diseases and natural selection phenotypes.
+//image::images/website2025/BIG-notes-for-figures.svg[panmix,600,align='center']
+image::images/website2025/BIG-notes-for-figures.svg[width=75%,align=center,role='right']
 
-.[purple]#_Global ancestry estimations for approximately 10,000 individuals in the BIG cohort (upper panel). Each vertical line represents an individual, and the colors indicate the proportion of different ancestries: African (blue), European (green), American (violet), and Asian (yellow). Based on visual inspection, five groups can be defined: individuals with exclusively African ancestry (a), those with European-African admixture (b), those with only European ancestry (c), those with American-European admixture (d), and those with predominantly Asian ancestry (e). Additionally, individuals with three- and four-way admixture are identified (f). For each group, a set of ten haplotypes is shown as an example, where local ancestry deconvolution has been performed, displaying ancestry tracts on chromosome 15. This information could be utilized for downstream analysis_#
-image::images/website2025/big_admix.png[panmix,600,align='center']
+We inferred that nearly 50% of participants in the BIG cohort have a non-European or several types of admixed ancestry.
 
-We are using existing exome sequence data and electronic health records from 10k children to obtain an improved set of genetic variants, including structural variants through mapping against reference pangenomes and imputation. 
-We will reconstruct the demographic history of the individuals in the cohort at individual and population levels, determine the identity of the ancestral populations and deconvolute their contribution to the genome of single individuals. The ancestry information will be used to identify patterns of natural selection and map phenotypic traits.
+.[purple]#_Global ancestry deconvolution of 13,152 sequenced individuals, based on reference populations in the 1000 Genomes and HGDP data sets. Each vertical bar represents one individual, colors are proportional to inferred ancestry. For further analyses, individuals were grouped based on the ancestry proportions in seven categories (colored bar, number of individuals per category in parentheses), and classified as admixed or not (black and gray bar). Full preprint on https://www.medrxiv.org/content/10.1101/2025.01.03.25319944v1[medrxiv]_#
+image::images/website2025/big_admix.png[panmix,600,align='center'][width=75%,align=center,role='right']
+
+We are using existing exome sequence data and electronic health records to obtain an improved set of genetic variants, including structural variants through mapping against reference pangenomes and imputation.  We want to develop pipelines for admixture mapping of phenotypic traits related to diseases and natural selection phenotypes.
 
 .This project is in collaboration with the Departments  of Genetics, Genomics and Informatics, and Pediatrics at the University of Tennessee Health Science Center, in Memphis, TN
 * https://scholar.google.com/citations?user=OYJMYwIAAAAJ&hl=en[Robert Williams], 
