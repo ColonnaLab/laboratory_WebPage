@@ -7,7 +7,7 @@
 :hardbreaks-option:
 
 image::images/spock.jpg[spock,200,role='right']
-Welcome to the *Population Genomics Laboratory* of the https://www.igb.cnr.it/[Institute of Genetics and Biophysics] of the https://www.cnr.it/en[National Research Council]. We are interested in understanding causes and consequences of genetic diversity and how natural selection in humans affects loci related to diseases.
+Welcome to the *Population Genomics Laboratory* of Department of Genetics, Genomics and Informatics at the University of Tennessee Health Science Center. We are interested in understanding causes and consequences of genetic diversity and how natural selection in humans affects loci related to diseases.
 
 [quote]
 _Fascinating (Lieutenant Spock)_
@@ -15,10 +15,9 @@ _Fascinating (Lieutenant Spock)_
 image::images/UTHSC-primary-stacked-logo-4c.jpg[200]
 image::images/loghi_cnr_igb.png[200]
 
+
+
 == *Research*
-
-
-
 
 '''
 === Admixture Mapping and Pangenomics Analysis in the Biorepository and Integrative Genomics (BIG) Initiative Cohort
@@ -27,10 +26,11 @@ image::images/loghi_cnr_igb.png[200]
 
 The BIG initiative is currently recruiting 30k participants from Memphis (TN), mostly children, with plans to include a total of 100,000 samples over the next five years. Nearly 45% of current participants are of African ancestry, and the cohort is partnering with the Genomic Information Commons, a consortium of top children's hospitals, to conduct genomics research aimed at discovering the genetic foundations of human disease in diverse populations. 
 
+image::images/website2025/BIG-notes-for-figures.svg[panmix,600,align='center']
 We want to understand the extent and origin of admixture patterns in the Biorepository and Integrative Genomics (BIG) Initiative cohort and to develop pipelines for admixture mapping of phenotypic traits related to diseases and natural selection phenotypes.
 
 .[purple]#_Global ancestry estimations for approximately 10,000 individuals in the BIG cohort (upper panel). Each vertical line represents an individual, and the colors indicate the proportion of different ancestries: African (blue), European (green), American (violet), and Asian (yellow). Based on visual inspection, five groups can be defined: individuals with exclusively African ancestry (a), those with European-African admixture (b), those with only European ancestry (c), those with American-European admixture (d), and those with predominantly Asian ancestry (e). Additionally, individuals with three- and four-way admixture are identified (f). For each group, a set of ten haplotypes is shown as an example, where local ancestry deconvolution has been performed, displaying ancestry tracts on chromosome 15. This information could be utilized for downstream analysis_#
-image::images/panmix.png[panmix,600,align='center']
+image::images/website2025/big_admix.png[panmix,600,align='center']
 
 We are using existing exome sequence data and electronic health records from 10k children to obtain an improved set of genetic variants, including structural variants through mapping against reference pangenomes and imputation. 
 We will reconstruct the demographic history of the individuals in the cohort at individual and population levels, determine the identity of the ancestral populations and deconvolute their contribution to the genome of single individuals. The ancestry information will be used to identify patterns of natural selection and map phenotypic traits.
@@ -40,7 +40,7 @@ We will reconstruct the demographic history of the individuals in the cohort at 
 * https://scholar.google.com/citations?user=965VipkAAAAJ[Robert Davis],
 * https://scholar.google.com/citations?user=DuzpZDEAAAAJ[Akram Mohammed]
 
-image::images/UTHSC-primary-stacked-logo-4c.jpg[ut,200,align='center']
+
 
 '''
 === Human Pangenomics
@@ -128,6 +128,7 @@ University of Tennessee Health Science Center, TSRB room 405, 71 S Manassas St, 
 Director, Integrative Genomics Biorpository, Department of Pediatrics
 Children's Foundation Research Institute, 50 N. Dunlap St. Memphis, TN 38105.
 
+I am currently on leave of absence from the https://www.igb.cnr.it/[Institute of Genetics and Biophysics] of the https://www.cnr.it/en[National Research Council].
 
 .[purple]#_I graduated in Evolutionary Biology from the University of Naples Federico II and did postdoctoral research at the University of Ferrara (Italy) and at Wellcome Trust Sanger Institute in Cambridge (UK). I was lectures in Genetics and Bioinformatics at the University of Ferrara (Italy). I am now leading the Population genomics laboratory at the IGB-CNR (Naples, Italy) and I am visiting Assistant Professor at the University of Tennessee, College of Medicine, in the Department of Genetics, Genomics and Informatics._#
 image:images/vcolonna.jpg[vcolonna,200,role="right"]
