@@ -20,11 +20,11 @@ image::images/UTHSC-primary-stacked-logo-4c.jpg[[width=50%]
 == *Research*
 
 '''
-=== Admixture Mapping and Pangenomics Analysis in the Biorepository and Integrative Genomics (BIG) Initiative Cohort
+=== Admixture Mapping and Pangenomics Analysis in the BIG Initiative Cohort
 
 ==== _Improving Phenotype-Genotype Linkages through Ancestry Patterns_
 
-The BIG initiative is currently recruiting participants from Memphis (TN), mostly children, with plans to include a total of 100,000 samples over the next five years. and the cohort is partnering with the https://www.genomicinformationcommons.org/[Genomic Information Commons], a consortium of top children's hospitals, to conduct genomics research aimed at discovering the genetic foundations of human disease in diverse populations. 
+The Biorepository and Integrative Genomics (BIG) initiative is currently recruiting participants from Memphis (TN), mostly children, with plans to include a total of 100,000 samples over the next five years. and the cohort is partnering with the https://www.genomicinformationcommons.org/[Genomic Information Commons], a consortium of top children's hospitals, to conduct genomics research aimed at discovering the genetic foundations of human disease in diverse populations. 
 
 //image::images/website2025/BIG-notes-for-figures.svg[panmix,600,align='center']
 image::images/website2025/BIG-notes-for-figures.svg[width=75%,align=center,role='right']
@@ -55,6 +55,9 @@ image::images/pangenome_pca.png[pangenome_pca,600,align='center']
 
 My team contributed to evaluate, for the first time, human population structure using markers from short arms of the acrocentric chromosomes [PMID: https://pubmed.ncbi.nlm.nih.gov/37165242/[37165242]]. We found that markers from these regions have less power to distinguish populations compared to other regions. This is consistent with the understanding that short arms of acrocentric chromosomes undergo recombination between non-homologous chromosomes, similar to the X and Y pseudohomologous regions [PMID: https://pubmed.ncbi.nlm.nih.gov/37165241/[37165241]]. Our findings on the patterns of linkage disequilibrium in these regions support this idea. 
 
+==== *Funding*
+- NIH U01HG013760 - Building Tools and Community to Make Pangenomes Accessible
+
 '''
 === Mouse Pangenomics 
 
@@ -73,7 +76,6 @@ image::images/pangenome.png[loghi_pang,800,align="center"]
 * https://thebird.nl/[Pjotr Prins]
 * http://www.hypervolu.me/~erik/erik_garrison.html[Erik Garrison] 
 
-image::images/UTHSC-primary-stacked-logo-4c.jpg[ut,200, align='center']
 
 '''
 === Genomics of early embryonic development 
@@ -96,10 +98,6 @@ In *CANDLE* we want to uncover gene expression patterns associated with _APOL1_ 
 * https://scholar.google.at/citations?user=iukICNwAAAAJ&hl=en&oi=ao[Antonio Lamarca], University of Modena and Reggio Emilia
 * https://www.igb.cnr.it/index.php/marcella-vacca/[Marcella Vacca], National Research Council
 * https://www.igb.cnr.it/index.php/gabriella-lania/[Gabriella Lania], National Research Council
-* https://www.merigen.it/[Imma and Sebastiano Di Biase], MeriGen Research, Italy
-* Antonio Capalbo, Juno Genomics  
-* http://docente.unife.it/michele.rubini[Michele Rubini] University of Ferrara 
-* https://www.monash.edu.my/science/staff/academic/qasim-ayub[Qasim Ayub], Monash University, Malaysia
 
 ==== *Funding*
 - PRIN 2020J84FAM Ministero dell'Universita e della Ricerca 
