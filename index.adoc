@@ -39,7 +39,7 @@ A pangenome is a comprehensive collection of all the genetic variation present i
 
 The https://humanpangenome.org/[Human Pangenome Reference Project] aims to sequence 300 people to create a pangenome of 600 haplotypes and has currently released a first draft of the human pangenome reference based on 47 phased diploid assemblies from a group of genetically diverse individuals 
 
-.[deep blue]#_Well-known population stratification is not visible in the p-arms of acrocentric chromosomes. This observation is compatible with recombination occurring between the p-arms of heterologous acrocentric chromosomes. Here is an example of chromosome 15.  AFR: Africans; AMR: Native Americans; EAS: East-Asians; SAS: South-East Asians._#
+.[maroon]#_Well-known population stratification is not visible in the p-arms of acrocentric chromosomes. This observation is compatible with recombination occurring between the p-arms of heterologous acrocentric chromosomes. Here is an example of chromosome 15.  AFR: Africans; AMR: Native Americans; EAS: East-Asians; SAS: South-East Asians._#
 image::images/pangenome_pca.png[pangenome_pca,600,align='center']
 
 My team contributed to evaluate, for the first time, human population structure using markers from short arms of the acrocentric chromosomes [PMID: https://pubmed.ncbi.nlm.nih.gov/37165242/[37165242]]. We found that markers from these regions have less power to distinguish populations compared to other regions. This is consistent with the understanding that short arms of acrocentric chromosomes undergo recombination between non-homologous chromosomes, similar to the X and Y pseudohomologous regions [PMID: https://pubmed.ncbi.nlm.nih.gov/37165241/[37165241]]. Our findings on the patterns of linkage disequilibrium in these regions support this idea. 
@@ -55,7 +55,7 @@ Mice members of BXDs family have been inbred for 20-200 generations. They are of
 We are building a reference pangenome for all extant members of all BXD families leveraging third generation and 10X sequence data. We will analyze the genetic variation in relation to thousands of phenotypes in the https://genenetwork.org/ database. 
 
 
-.[purple]#_(A.) odgi-vizlinear visualization of the pangenome of chromosome 19. Each line represents a haplotype. Line interruptions (white) are insertions in one or more strains, therefore deletions in the others (vertical white stripes). The left side is the centromere, the right side is the telomere.In these two regions sequences are fragmented. (B.) Extract of the pangenome from the Zfp91gene showing a 2,006 bp insertion found in DBA/2J and 48% of the BXD strains(green nodes in the graph). The insertion is in complete linkage with two other insertions of 4 bp and 135 bp in a region spanning 2.8 kbp. (C.) Strain-specific haplotypes (gray segments are not in scale)_#
+.[maroon]#_(A.) odgi-vizlinear visualization of the pangenome of chromosome 19. Each line represents a haplotype. Line interruptions (white) are insertions in one or more strains, therefore deletions in the others (vertical white stripes). The left side is the centromere, the right side is the telomere.In these two regions sequences are fragmented. (B.) Extract of the pangenome from the Zfp91gene showing a 2,006 bp insertion found in DBA/2J and 48% of the BXD strains(green nodes in the graph). The insertion is in complete linkage with two other insertions of 4 bp and 135 bp in a region spanning 2.8 kbp. (C.) Strain-specific haplotypes (gray segments are not in scale)_#
 image::images/pangenome.png[loghi_pang,800,align="center"]
 
 
@@ -120,7 +120,7 @@ _Children's Foundation Research Institute, Memphis, TN_
 _Institute of Genetics and Biophysics, Naples, Italy_
 
 
-.[purple]#_I graduated in Evolutionary Biology from the University of Naples Federico II and did postdoctoral research at the University of Ferrara (Italy) and at Wellcome Trust Sanger Institute in Cambridge (UK). I was lectures in Genetics and Bioinformatics at the University of Ferrara (Italy). I am now leading the Population genomics laboratory at the University of Tennessee, College of Medicine, in the Department of Genetics, Genomics and Informatics._#
+.[teal]#_I graduated in Evolutionary Biology from the University of Naples Federico II and did postdoctoral research at the University of Ferrara (Italy) and at Wellcome Trust Sanger Institute in Cambridge (UK). I was lectures in Genetics and Bioinformatics at the University of Ferrara (Italy). I am now leading the Population genomics laboratory at the University of Tennessee, College of Medicine, in the Department of Genetics, Genomics and Informatics._#
 image:images/website2025/enza_2025.jpg[vcolonna,200,role="right"]
 
 I am a genomicist and an expert in human evolutionary and population genomics and bioinformatics. In my postdoctoral research I was part of the international consortium 1000 Genomes[PMID: https://pubmed.ncbi.nlm.nih.gov/26432245/[26432245]; https://pubmed.ncbi.nlm.nih.gov/23128226/[23128226]] where I led contributions to two specific aspects. First, I contributed to develop FunSeq [PMID: https://pubmed.ncbi.nlm.nih.gov/24092746/[24092746]], a tool that integrates non-coding information from relevant biological databases for the functional characterization of non-coding variants. Second, I lead a genome-wide scan to identify genomic regions with exceptionally high levels of population differentiation [PMID: https://pubmed.ncbi.nlm.nih.gov/24980144/[24980144]] demonstrating that these regions are enriched for positive selection events and that one half may be the result of classic selective sweeps. Findings from both sub-projects have since been applied to demographic inference and the molecular diagnosis of cancer and myeloid malignancies [PMID: https://pubmed.ncbi.nlm.nih.gov/27121471/[27121471], https://pubmed.ncbi.nlm.nih.gov/22446628/[22446628]], and to deeper studies on positive selection at the ABCA12 gene [PMID: https://pubmed.ncbi.nlm.nih.gov/30890716/[30890716]]. 
@@ -144,7 +144,7 @@ https://scholar.google.com/citations?user=ufP1EYgAAAAJ&hl=en&oi=ao[Google Schola
 
 image:images/silvia.jpg[silvia,200,role="right"] 
 
-.[purple]#_I have a PhD degree From the university Luigi Vanvitelli, a master’s degree in Biology from the University of Napoli Federico II. I did a master thesis in molecular biology at the Department of Biology._#
+.[teal]#_I have a PhD degree From the university Luigi Vanvitelli, a master’s degree in Biology from the University of Napoli Federico II. I did a master thesis in molecular biology at the Department of Biology._#
 
 I am currently involved in the DELIVER project, which aims to unravel unexplored genetic variations related to reproductive failure. In this project, my primary objective is to pinpoint genetic variants that may be responsible for recurrent spontaneous miscarriages, with the ultimate goal of enhancing prenatal diagnosis.
 Additionally, I am contributing to the *Admixture Mapping and Pangenomics Analysis in the Biorepository and Integrative Genomics (BIG) Initiative Cohort project*. In this initiative, my role involves establishing connections between genotypes and phenotypes through the execution of burden analysis for rare variants and admixture mapping analysis.
@@ -160,7 +160,7 @@ https://scholar.google.com/citations?user=oGGUawcAAAAJ&hl=it&oi=ao[Google Schola
 
 image:images/franco.jpeg[franco,200,role="right"] 
 
-.[purple]#_I earned my degree in Biology from the University of Buenos Aires, Argentina, where I also completed my PhD in Computational Biology at the Calculus Institute. My research primarily focused on developing mathematical models for kinship inference, employing a Bayesian Approach. I am a postdoc in the Colonna lab, where my work centers on population genomics._#
+.[teal]#_I earned my degree in Biology from the University of Buenos Aires, Argentina, where I also completed my PhD in Computational Biology at the Calculus Institute. My research primarily focused on developing mathematical models for kinship inference, employing a Bayesian Approach. I am a postdoc in the Colonna lab, where my work centers on population genomics._#
 
 I am currently working on *Admixture Mapping and Pangenomics Analysis in the Biorepository and Integrative Genomics (BIG) Initiative Cohort* project. My focus is on studying recent natural selection signals in admixed populations. Additionally, I have a deep interest in evolution and how to compute processes that shape the history of life. 
 
@@ -187,7 +187,7 @@ https://scholar.google.com/citations?user=CrklVWcAAAAJ&hl=en[Google Scholar]
 
 image:images/Flavia.JPG[flavia,200,role="right"] 
 
-.[purple]#_brief cv _#
+.[teal]#_brief cv _#
 
 (co-supervised with Dr. Ashbrook) I am working on
 
@@ -212,7 +212,7 @@ I am in charge of sample collection and processing for the Integrative Genomics 
 
 image:images/Flavia.JPG[flavia,200,role="right"] 
 
-.[purple]#_brief cv _#
+.[teal]#_brief cv _#
 
 I am working on
 
@@ -227,7 +227,7 @@ https://scholar.google.com/citations?user=CrklVWcAAAAJ&hl=en[Google Scholar]
 
 image:images/Flavia.JPG[flavia,200,role="right"] 
 
-.[purple]#_brief cv _#
+.[teal]#_brief cv _#
 
 I am working on
 
@@ -242,7 +242,7 @@ https://scholar.google.com/citations?user=CrklVWcAAAAJ&hl=en[Google Scholar]
 
 image:images/Flavia.JPG[flavia,200,role="right"] 
 
-.[purple]#_brief cv _#
+.[teal]#_brief cv _#
 
 I am working on
 
