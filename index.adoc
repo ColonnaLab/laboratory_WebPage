@@ -24,6 +24,7 @@ image::images/UTHSC-primary-stacked-logo-4c.jpg[uthsc, 400,align="left"]
 The Biorepository and Integrative Genomics (BIG) Initiative in Tennessee has developed a pioneering resource to address gaps in genomic research by linking genomic, phenotypic, and environmental data from a diverse Mid-South population, including underrepresented groups.   
 
 BIG is recruiting participants from Memphis, TN, with plans to include a total of 100,000 samples over the next five years and it is partnering with the https://www.genomicinformationcommons.org/[Genomic Information Commons], a consortium of top children's hospitals, to conduct genomics research aimed at discovering the genetic foundations of human disease in diverse populations.
+
 image::images/website2025/BIG-notes-for-figures.png[BIG, 400,align=center,role='right']
 
 Analysis of 13,152 genomes from BIG revealed significant genetic diversity, with 50% of participants inferred to have non-European or various types of admixed ancestry, highlighting the importance of inclusive genomics in understanding health disparities.
