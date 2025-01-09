@@ -133,9 +133,7 @@ I founded and led http://www.igb.cnr.it/obilab[OBiLab], a project on training in
 
 https://orcid.org/0000-0002-3966-0474[ORCID]
 
-image:images/Octicons-mark-github.svg[git,30] https://github.com/ezcn[My GitHub]
-
-https://scholar.google.com/citations?user=ufP1EYgAAAAJ&hl=en&oi=ao[Google Scholar]
+image:images/Octicons-mark-github.svg[git,30] https://github.com/ezcn[My GitHub] | https://scholar.google.com/citations?user=ufP1EYgAAAAJ&hl=en&oi=ao[Google Scholar]
 
 '''
 
@@ -148,9 +146,7 @@ image:images/silvia.jpg[silvia,200,role="right"]
 I am currently involved in the DELIVER project, which aims to unravel unexplored genetic variations related to reproductive failure. In this project, my primary objective is to pinpoint genetic variants that may be responsible for recurrent spontaneous miscarriages, with the ultimate goal of enhancing prenatal diagnosis.
 Additionally, I am contributing to the *Admixture Mapping and Pangenomics Analysis in the Biorepository and Integrative Genomics (BIG) Initiative Cohort project*. In this initiative, my role involves establishing connections between genotypes and phenotypes through the execution of burden analysis for rare variants and admixture mapping analysis.
 
-image:images/Octicons-mark-github.svg[git,30] https://github.com/SilviaBuonaiuto[My GitHub]
-
-https://scholar.google.com/citations?user=oGGUawcAAAAJ&hl=it&oi=ao[Google Scholar]
+image:images/Octicons-mark-github.svg[git,30] https://github.com/SilviaBuonaiuto[My GitHub] | https://scholar.google.com/citations?user=oGGUawcAAAAJ&hl=it&oi=ao[Google Scholar]
 
 '''
 
@@ -163,9 +159,7 @@ image:images/franco.jpeg[franco,200,role="right"]
 
 I am currently working on *Admixture Mapping and Pangenomics Analysis in the Biorepository and Integrative Genomics (BIG) Initiative Cohort* project. My focus is on studying recent natural selection signals in admixed populations. Additionally, I have a deep interest in evolution and how to compute processes that shape the history of life. 
 
-image:images/Octicons-mark-github.svg[git,30] https://github.com/MarsicoFL[Github profile]
-
-https://scholar.google.ca/citations?user=Vd4yh9wAAAAJ&hl=en[Google Scholar]
+image:images/Octicons-mark-github.svg[git,30] https://github.com/MarsicoFL[Github profile] | https://scholar.google.ca/citations?user=Vd4yh9wAAAAJ&hl=en[Google Scholar]
 
 '''
 
@@ -177,9 +171,7 @@ image:images/Flavia.JPG[flavia,200,role="right"]
 
 I am working on the *Mouse Pangenomics* Project. My research aims to construct the pangenome graph of model organisms, specifically inbred mice and rats, using a combination of short and long-read sequence data. This will enable genome-wide association studies to be performed directly on the pangenome. Additionally, I have a strong interest in understanding how mobile genetic elements have driven genome evolution through various mechanisms.
 
-image:images/Octicons-mark-github.svg[git,30] https://github.com/Flavia95[My GitHub]
-
-https://scholar.google.com/citations?user=CrklVWcAAAAJ&hl=en[Google Scholar]
+image:images/Octicons-mark-github.svg[git,30] https://github.com/Flavia95[My GitHub] | https://scholar.google.com/citations?user=CrklVWcAAAAJ&hl=en[Google Scholar]
 
 '''
 === *Ernestine Amos-Abanyie*, PhD Student 
