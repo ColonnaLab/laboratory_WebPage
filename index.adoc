@@ -131,9 +131,7 @@ During my PhD I worked on human isolated populations contributing to characteriz
 
 I founded and led http://www.igb.cnr.it/obilab[OBiLab], a project on training in Bioinformatics
 
-https://orcid.org/0000-0002-3966-0474[ORCID]
-
-image:images/Octicons-mark-github.svg[git,30] https://github.com/ezcn[My GitHub] | https://scholar.google.com/citations?user=ufP1EYgAAAAJ&hl=en&oi=ao[Google Scholar]
+https://orcid.org/0000-0002-3966-0474[ORCID] | image:images/Octicons-mark-github.svg[git,30] https://github.com/ezcn[My GitHub] | https://scholar.google.com/citations?user=ufP1EYgAAAAJ&hl=en&oi=ao[Google Scholar]
 
 '''
 
@@ -141,14 +139,11 @@ image:images/Octicons-mark-github.svg[git,30] https://github.com/ezcn[My GitHub]
 
 image:images/silvia.jpg[silvia,200,role="right"] 
 
-.[teal]#_I have a PhD degree From the university Luigi Vanvitelli, a master’s degree in Biology from the University of Napoli Federico II. I did a master thesis in molecular biology at the Department of Biology._#
+.[teal]#_ I am a postdoctoral researcher at the University of Tennessee Health Science Center in the Department of Genetics, Genomics, and Informatics. Prior to this, I worked as a postdoctoral researcher at the National Research Council in Italy. I earned a Ph.D. in Molecular Bioscience from the University of Campania "Luigi Vanvitelli." Before that, I completed my Master’s degree in Biology at the University of Naples Federico II, where I conducted my thesis in molecular biology at the Department of Biology._#
 
-I am currently involved in the DELIVER project, which aims to unravel unexplored genetic variations related to reproductive failure. In this project, my primary objective is to pinpoint genetic variants that may be responsible for recurrent spontaneous miscarriages, with the ultimate goal of enhancing prenatal diagnosis.
-Additionally, I am contributing to the *Admixture Mapping and Pangenomics Analysis in the Biorepository and Integrative Genomics (BIG) Initiative Cohort project*. In this initiative, my role involves establishing connections between genotypes and phenotypes through the execution of burden analysis for rare variants and admixture mapping analysis.
+I work on the admixture mapping and pangenomics analysis in the BIG project. My role involves establishing connections between genotypes and phenotypes especially in admixed individuals through admixture mapping analysis. Additionally, I am leading sequence analysis for the projects related to early embryonic development.
 
 image:images/Octicons-mark-github.svg[git,30] https://github.com/SilviaBuonaiuto[My GitHub] | https://scholar.google.com/citations?user=oGGUawcAAAAJ&hl=it&oi=ao[Google Scholar]
-
-'''
 
 '''
 === *Franco Marsico*, Postdoctoral fellow
@@ -182,16 +177,14 @@ image:images/Flavia.JPG[flavia,200,role="right"]
 
 (co-supervised with Dr. Ashbrook) I am working on
 
-image:images/Octicons-mark-github.svg[git,30] https://github.com/Flavia95[My GitHub]
-
-https://scholar.google.com/citations?user=CrklVWcAAAAJ&hl=en[Google Scholar]
+image:images/Octicons-mark-github.svg[git,30] https://github.com/Flavia95[My GitHub] | https://scholar.google.com/citations?user=CrklVWcAAAAJ&hl=en[Google Scholar]
 
 '''
 === *Donna Vo*, Research associate 
 
 image:images/Flavia.JPG[flavia,200,role="right"] 
 
-.[purple]#_brief cv ._#
+.[teal]#_brief cv ._#
 
 I am in charge of sample collection and processing for the Integrative Genomics Biorepository that supports the BIG project. 
 
@@ -201,13 +194,11 @@ I am in charge of sample collection and processing for the Integrative Genomics 
 
 === *Laura Pignata*, Postdoctoral fellow 
 
-image:images/Flavia.JPG[flavia,200,role="right"] 
+image:images/laura.jpeg[flavia,200,role="right"] 
 
-.[teal]#_brief cv _#
+.[teal]#_I graduated in Molecular Biology at the University of Campania Luigi Vanvitelli, where I also completed my PhD program in Molecular Life Sciences.  After the PhD I continued my work as researcher, focusing on the analysis of DNA methylation in imprinting disorders. I am visiting Dr. Colonna laboratory at the University of Tennessee, College of Medicine, in the Department of Genetics, Genomics and Informatics. _#
 
-I am working on
-
-image:images/Octicons-mark-github.svg[git,30] https://github.com/Flavia95[My GitHub]
+I am working on the analysis of long-read sequencing data on human samples with mosaic methylation defects. The aim of this study is to identify the mechanisms underlying the methylation defects by examining the role of de novo mutations in cis and somatic recombination events, possibly arisen during early embryogenesis. 
 
 https://scholar.google.com/citations?user=CrklVWcAAAAJ&hl=en[Google Scholar]
 
@@ -222,9 +213,7 @@ image:images/Flavia.JPG[flavia,200,role="right"]
 
 I am working on
 
-image:images/Octicons-mark-github.svg[git,30] https://github.com/Flavia95[My GitHub]
-
-https://scholar.google.com/citations?user=CrklVWcAAAAJ&hl=en[Google Scholar]
+image:images/Octicons-mark-github.svg[git,30] https://github.com/Flavia95[My GitHub] | https://scholar.google.com/citations?user=CrklVWcAAAAJ&hl=en[Google Scholar]
 
 '''
 
@@ -235,11 +224,7 @@ image:images/Flavia.JPG[flavia,200,role="right"]
 
 .[teal]#_brief cv _#
 
-I am working on
 
-image:images/Octicons-mark-github.svg[git,30] https://github.com/Flavia95[My GitHub]
-
-https://scholar.google.com/citations?user=CrklVWcAAAAJ&hl=en[Google Scholar]
 
 '''
 
