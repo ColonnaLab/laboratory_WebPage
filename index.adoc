@@ -162,7 +162,7 @@ image:images/Octicons-mark-github.svg[git,30] https://github.com/MarsicoFL[Githu
 
 image:images/Flavia.JPG[flavia,200,role="right"] 
 
-.[teal]#_I obtained a Master's degree in Medical Biotechnology from the University of Naples Federico II in Italy. Currently, I am a PhD candidate at the University of Tennessee Health Science Center in the Colonna lab._#
+.[teal]#_I obtained a Master's degree in Medical Biotechnology from the University of Naples Federico II in Italy. Currently, I am a PhD candidate in the  Biomedical Science program of the Department of Genetics Genomics and Informatics_#
 
 I am working on the *Mouse Pangenomics* Project. My research aims to construct the pangenome graph of model organisms, specifically inbred mice and rats, using a combination of short and long-read sequence data. This will enable genome-wide association studies to be performed directly on the pangenome. Additionally, I have a strong interest in understanding how mobile genetic elements have driven genome evolution through various mechanisms.
 
@@ -173,7 +173,7 @@ image:images/Octicons-mark-github.svg[git,30] https://github.com/Flavia95[My Git
 
 image:images/website2025/ernestine.jpgflavia,200,role="right"] 
 
-.[teal]#_I have a master degree in Molecular Biology from the university of Ghana, I am a PhD student i the  Biomedical Science program of the Department of Genetics Genomics and Informatics in co-supervision with Dr. Colonna and Dr. Ashbrook_#
+.[teal]#_I have a master degree in Molecular Biology from the university of Ghana, I am a PhD candidate in the  Biomedical Science program of the Department of Genetics Genomics and Informatics in co-supervision with Dr. Ashbrook_#
 
 I am studying mitochondrial DNA Variation in disease susceptibility in the BXD Mice and the BIG cohort. 
 
@@ -196,7 +196,7 @@ I am in charge of sample collection and processing for the Integrative Genomics 
 
 image:images/website2025/laura.jpeg[flavia,200,role="right"] 
 
-.[teal]#_I graduated in Molecular Biology at the University of Campania Luigi Vanvitelli, where I also completed my PhD program in Molecular Life Sciences.  After the PhD I continued my work as researcher, focusing on the analysis of DNA methylation in imprinting disorders. I am visiting Dr. Colonna laboratory at the University of Tennessee, College of Medicine, in the Department of Genetics, Genomics and Informatics. _#
+.[teal]#_I graduated in Molecular Biology at the University of Campania Luigi Vanvitelli, where I also completed my PhD program in Molecular Life Sciences.  After the PhD I continued my work as researcher, focusing on the analysis of DNA methylation in imprinting disorders. I am visiting Dr. Colonna laboratory at the University of Tennessee, College of Medicine, in the Department of Genetics, Genomics and Informatics_#
 
 I am working on the analysis of long-read sequencing data on human samples with mosaic methylation defects. The aim of this study is to identify the mechanisms underlying the methylation defects by examining the role of de novo mutations in cis and somatic recombination events, possibly arisen during early embryogenesis. 
 
@@ -220,7 +220,7 @@ image:images/website2025/dario[dario,200,role="right"]
 
 image:images/website2025/angela.jpeg[flavia,200,role="right"] 
 
-.[teal]#_I have a Master’s degree in Environmental Biology from the University of Naples Federico II, where I completed an experimental thesis in Genetics.  I am currently a PhD candidate in Biology as part of the PNRR Urban Biodiversity project at the same university. _#
+.[teal]#_I have a Master’s degree in Environmental Biology from the University of Naples Federico II, where I completed an experimental thesis in Genetics.  I am currently a PhD candidate in Biology as part of the PNRR Urban Biodiversity project at the same university_#
 
 My doctoral research focuses on the genetic adaptations of plants in urban environments, with _Raphanus raphanistrum_ (wild radish) as a model species. Initially, I investigated differential gene expression between urban and extra-urban populations. Currently, my work involves the study of genomic variations through developing a pangenome for _R. raphanistrum_. This research is being conducted in collaboration with Dr. Colonna's laboratory at the University of Tennessee Health Science Center in Memphis, where I will undertake part of my studies.
 
