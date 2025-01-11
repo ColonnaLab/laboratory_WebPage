@@ -171,9 +171,9 @@ image:images/Octicons-mark-github.svg[git,30] https://github.com/Flavia95[My Git
 '''
 === *Ernestine Amos-Abanyie*, PhD Student 
 
-image:images/Flavia.JPG[flavia,200,role="right"] 
+image:images/website2025/ernestine.jpgflavia,200,role="right"] 
 
-.[teal]#_I have a master degree in Molecular Biology from the university of Ghana, I am a PhD student i the  Biomedical Science program of the Department of Genetics Genomics and Informatics in co-supervision with Dr. Colonna and Dr. Ashbrook _#
+.[teal]#_I have a master degree in Molecular Biology from the university of Ghana, I am a PhD student i the  Biomedical Science program of the Department of Genetics Genomics and Informatics in co-supervision with Dr. Colonna and Dr. Ashbrook_#
 
 I am studying mitochondrial DNA Variation in disease susceptibility in the BXD Mice and the BIG cohort. 
 
@@ -182,9 +182,9 @@ image:images/Octicons-mark-github.svg[git,30] https://github.com/Flavia95[My Git
 '''
 === *Donna Vo*, Research associate 
 
-image:images/Flavia.JPG[flavia,200,role="right"] 
+image:images/website2025/donna.jpg[flavia,200,role="right"] 
 
-.[teal]#_brief cv ._#
+.[teal]#_I earned a Bachelor of Science in Microbiology at the University of Tennessee, Knoxville. I have a background in spoilage detection and mycology identification in the food and beverage industry_#
 
 I am in charge of sample collection and processing for the Integrative Genomics Biorepository that supports the BIG project. 
 
@@ -207,13 +207,10 @@ https://orcid.org/0000-0001-8835-5567?lang=en[ORCID]
 
 === *Dario Cannella*,  PhD Student
 
-image:images/Flavia.JPG[flavia,200,role="right"] 
+image:images/website2025/dario[dario,200,role="right"] 
 
 .[teal]#_brief cv _#
 
-I am working on
-
-image:images/Octicons-mark-github.svg[git,30] https://github.com/Flavia95[My GitHub] | https://scholar.google.com/citations?user=CrklVWcAAAAJ&hl=en[Google Scholar]
 
 '''
 
