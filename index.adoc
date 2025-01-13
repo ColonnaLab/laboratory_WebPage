@@ -171,7 +171,7 @@ image:images/Octicons-mark-github.svg[git,30] https://github.com/Flavia95[My Git
 '''
 === *Ernestine Amos-Abanyie*, PhD Student 
 
-image:images/website2025/ernestine.jpgflavia,200,role="right"] 
+image:images/website2025/ernestine.jpg[flavia,200,role="right"] 
 
 .[teal]#_I have a master degree in Molecular Biology from the university of Ghana, I am a PhD candidate in the  Biomedical Science program of the Department of Genetics Genomics and Informatics in co-supervision with Dr. Ashbrook_#
 
@@ -207,10 +207,11 @@ https://orcid.org/0000-0001-8835-5567?lang=en[ORCID]
 
 === *Dario Cannella*,  PhD Student
 
-image:images/website2025/dario[dario,200,role="right"] 
+image:images/website2025/dario.jpg[dario,200,role="right"] 
 
-.[teal]#_brief cv _#
+.[teal]#_I obtained a Master’s degree in Bioinformatics from Tor Vergata University in Italy, with a focus on chemoinformatics. Currently, I am a PhD candidate in Biochemistry at Sapienza University in Rome_#
 
+I am working on a project that leverages pangenomics to uncover the mechanisms behind the evolution and selection of structural genomic diversity across different loci. Additionally, my PhD project is focuses on understanding the relationship between Down Syndrome and its comorbidities, with the goal of enabling a deeper stratification of individuals affected by this common condition.  
 
 '''
 
