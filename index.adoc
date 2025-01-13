@@ -207,7 +207,7 @@ https://orcid.org/0000-0001-8835-5567?lang=en[ORCID]
 
 === *Dario Cannella*,  PhD Student
 
-image:images/website2025/dario.jpg[dario,200,role="right"] 
+image:images/website2025/Dario.jpg[dario,200,role="right"] 
 
 .[teal]#_I obtained a Master’s degree in Bioinformatics from Tor Vergata University in Italy, with a focus on chemoinformatics. Currently, I am a PhD candidate in Biochemistry at Sapienza University in Rome_#
 
