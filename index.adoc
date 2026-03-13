@@ -1,265 +1,368 @@
-= *Colonna Lab*
-:figure-caption!:
-:toc-title: Page Content
-:toc: left
-:toclevels: 2
-:hide-uri-scheme: 
-:hardbreaks-option:
+image:images/spock.jpg[spock]
 
-image::images/spock.jpg[spock,200,role='right']
-Welcome to the *Population Genomics Laboratory* of Department of Genetics, Genomics and Informatics at the University of Tennessee Health Science Center. We are interested in understanding causes and consequences of genetic diversity and how natural selection in humans affects loci related to diseases.
+Welcome to the *Population Genomics Laboratory* of Department of
+Genetics, Genomics and Informatics at the University of Tennessee Health
+Science Center. We are interested in understanding causes and
+consequences of genetic diversity and how natural selection in humans
+affects loci related to diseases.
 
-[quote]
+____
 _Fascinating (Lieutenant Spock)_
+____
 
-image::images/UTHSC-primary-stacked-logo-4c.jpg[uthsc, 400,align="left"]
+image:images/UTHSC-primary-stacked-logo-4c.jpg[uthsc]
 
 == *Research*
 
-'''
-=== Admixture Mapping and Pangenomics Analysis in the BIG Initiative Cohort
+=== Population Genomics and Health Disparities
 
-==== _Improving Phenotype-Genotype Linkages through Ancestry Patterns_
+==== The Biorepository and Integrative Genomics (BIG) Initiative in Tennessee
 
-The Biorepository and Integrative Genomics (BIG) Initiative in Tennessee has developed a pioneering resource to address gaps in genomic research by linking genomic, phenotypic, and environmental data from a diverse Mid-South population, including underrepresented groups.   
+The Biorepository and Integrative Genomics (BIG) Initiative in Tennessee
+has developed a pioneering resource to address gaps in genomic research
+by linking genomic, phenotypic, and environmental data from a diverse
+Mid-South population, in the USA.
 
-image::images/website2025/BIG-notes-for-figures.png[BIG, 500,align=center,role='right']
+image:images/website2025/BIG-notes-for-figures.png[BIG]
 
-BIG is recruiting participants from Memphis, TN, with plans to include a total of 100,000 samples over the next five years and it is partnering with the https://www.genomicinformationcommons.org/[Genomic Information Commons], a consortium of top children's hospitals, to conduct genomics research aimed at discovering the genetic foundations of human disease in diverse populations.
+BIG is recruiting participants from Memphis, TN, with plans to include a
+total of 100,000 samples over the next five years. BIG is partnering
+with
 
-Analysis of 13,152 genomes from BIG revealed significant genetic diversity, with 50% of participants inferred to have non-European or various types of admixed ancestry, highlighting the importance of inclusive genomics in understanding health disparities.
+* the https://www.genomicinformationcommons.org/[Genomic Information
+Commons], a consortium of top children’s hospitals, to conduct genomics
+research aimed at discovering the genetic foundations of human disease
+in diverse populations.
+* Togheter for Change inititive
 
-.[maroon]#_Global ancestry deconvolution of 13,152 sequenced individuals, based on reference populations in the 1000 Genomes and HGDP data sets. Each vertical bar represents one individual, colors are proportional to inferred ancestry. For further analyses, individuals were grouped based on the ancestry proportions in seven categories (colored bar, number of individuals per category in parentheses), and classified as admixed or not (black and gray bar). Full preprint on https://www.medrxiv.org/content/10.1101/2025.01.03.25319944v1[medrxiv]_#
-image::images/website2025/big_admix.png[panmix,800,align='center']
+==== Characterizing Genetic Diversity in the BIG Cohort
 
-'''
-=== Human Pangenomics
+Analysis of 13,152 genomes from BIG revealed significant genetic
+diversity, with 50% of participants inferred to have non-European or
+various types of admixed ancestry, highlighting the importance of
+inclusive genomics in understanding health disparities.
 
-A pangenome is a comprehensive collection of all the genetic variation present in a species, which overcomes the limitations of reference-based genomics by including both common and rare genetic variations in a single reference genome. 
+image:images/website2025/big_admix.png[BIG admixture analysis]
 
-The https://humanpangenome.org/[Human Pangenome Reference Project] aims to sequence 300 people to create a pangenome of 600 haplotypes and has currently released a first draft of the human pangenome reference based on 47 phased diploid assemblies from a group of genetically diverse individuals 
+_Global ancestry deconvolution of 13,152 sequenced individuals, based on
+reference populations in the 1000 Genomes and HGDP data sets. Each
+vertical bar represents one individual, colors are proportional to
+inferred ancestry. For further analyses, individuals were grouped based
+on the ancestry proportions in seven categories (colored bar, number of
+individuals per category in parentheses), and classified as admixed or
+not (black and gray bar). See the open access
+https://www.nature.com/articles/s41467-025-59375-0[paper]._
 
-.[maroon]#_Well-known population stratification is not visible in the p-arms of acrocentric chromosomes. This observation is compatible with recombination occurring between the p-arms of heterologous acrocentric chromosomes. Here is an example of chromosome 15.  AFR: Africans; AMR: Native Americans; EAS: East-Asians; SAS: South-East Asians._#
-image::images/pangenome_pca.png[pangenome_pca,600,align='center']
+==== Identity-by-Descent as a Window into Shared Environment and Health
 
-My team contributed to evaluate, for the first time, human population structure using markers from short arms of the acrocentric chromosomes [PMID: https://pubmed.ncbi.nlm.nih.gov/37165242/[37165242]]. We found that markers from these regions have less power to distinguish populations compared to other regions. This is consistent with the understanding that short arms of acrocentric chromosomes undergo recombination between non-homologous chromosomes, similar to the X and Y pseudohomologous regions [PMID: https://pubmed.ncbi.nlm.nih.gov/37165241/[37165241]]. Our findings on the patterns of linkage disequilibrium in these regions support this idea. 
+We use identity-by-descent (IBD) sharing patterns in the BIG cohort to
+identify recent shared ancestry and fine-scale population structure.
+These patterns help connect inherited genomic segments with shared
+environmental exposures and disease risk.
+
+=== Population Pangenomics
+
+A pangenome is a comprehensive collection of all the genetic variation
+present in a species, which overcomes the limitations of reference-based
+genomics by including both common and rare genetic variations in a
+single reference genome.
+
+The https://humanpangenome.org/[Human Pangenome Reference Project] aims
+to sequence 300 people to create a pangenome of 600 haplotypes and has
+currently released a first draft of the human pangenome reference based
+on 47 phased diploid assemblies from a group of genetically diverse
+individuals
+
+==== Uncharted Genomes
+
+image:images/pangenome_pca.png[Human pangenome PCA]
+
+_Well-known population stratification is not visible in the p-arms of
+acrocentric chromosomes. This observation is compatible with
+recombination occurring between the p-arms of heterologous acrocentric
+chromosomes. Here is an example of chromosome 15. AFR: Africans; AMR:
+Native Americans; EAS: East-Asians; SAS: South-East Asians._
+
+Our team evaluated, for the first time, human population structure using
+markers from short arms of the acrocentric chromosomes [PMID:
+https://pubmed.ncbi.nlm.nih.gov/37165242/[37165242]]. We found that
+markers from these regions have less power to distinguish populations
+compared to other regions. This is consistent with the understanding
+that short arms of acrocentric chromosomes undergo recombination between
+non-homologous chromosomes, similar to the X and Y pseudohomologous
+regions [PMID: https://pubmed.ncbi.nlm.nih.gov/37165241/[37165241]]. Our
+findings on the patterns of linkage disequilibrium in these regions
+support this idea.
+
+==== Pangenomics tools for population genetics
 
 ==== *Funding*
-- NIH U01HG013760 - Building Tools and Community to Make Pangenomes Accessible
 
-'''
-=== Mouse Pangenomics 
+* NIH U01HG013760 - Building Tools and Community to Make Pangenomes
+Accessible
 
-Mice members of BXDs family have been inbred for 20-200 generations. They are of great value for mapping complex traits and phenome-wide association analyses. Current genomic studies on BXD assume a single linear reference genome, making it difficult to observe sequences diverging from the reference, therefore limiting the accuracy and completeness of analyses. Pangenome models overcome this limitation as they contain the full genomic information of a species.
-
-We are building a reference pangenome for all extant members of all BXD families leveraging third generation and 10X sequence data. We will analyze the genetic variation in relation to thousands of phenotypes in the https://genenetwork.org/ database. 
-
-
-.[maroon]#_(A.) odgi-vizlinear visualization of the pangenome of chromosome 19. Each line represents a haplotype. Line interruptions (white) are insertions in one or more strains, therefore deletions in the others (vertical white stripes). The left side is the centromere, the right side is the telomere.In these two regions sequences are fragmented. (B.) Extract of the pangenome from the Zfp91gene showing a 2,006 bp insertion found in DBA/2J and 48% of the BXD strains(green nodes in the graph). The insertion is in complete linkage with two other insertions of 4 bp and 135 bp in a region spanning 2.8 kbp. (C.) Strain-specific haplotypes (gray segments are not in scale)_#
-image::images/pangenome.png[loghi_pang,800,align="center"]
-
-
-.The projects on pangenomics are in collaboration with: 
-* https://scholar.google.com/citations?user=OYJMYwIAAAAJ&hl=en[Robert Williams]
-* https://davidashbrook.wordpress.com/[David Ashbrook]
-* https://thebird.nl/[Pjotr Prins]
-* http://www.hypervolu.me/~erik/erik_garrison.html[Erik Garrison] 
-
-
-'''
-=== Genomics of early embryonic development 
+=== Genomics of early embryonic development
 
 ==== _How natural selection acts on early human development_
 
-We investigate adverse outcomes of embryonic development like recurrent pregnancy loss and preeclampsia to identify the genetic factors that influence reproductive outcomes and pregnancy complications. This knowledge furthers our understanding of human evolution and informs efforts to improve pregnancy outcomes.
+We investigate adverse outcomes of embryonic development like recurrent
+pregnancy loss and preeclampsia to identify the genetic factors that
+influence reproductive outcomes and pregnancy complications. This
+knowledge furthers our understanding of human evolution and informs
+efforts to improve pregnancy outcomes.
 
-image::images/embryo.png[embryo,1000,500]
+image:images/embryo.png[embryo]
 
+In *CABERNET* we aim to determine the extent of chromosomal mosaicism
+between embryonic and extraembryonic tissues using single cell DNA
+sequencing. +
+In *DELIVER / NEONATE* we want to identify genetic factors contributing
+to reproductive failure and recurrent miscarriage. We will use single
+cell strand sequencing to map balanced rearrangements and whole genome
+sequencing of euploid miscarried embryos to identify causative
+variants. +
+In *CANDLE* we want to uncover gene expression patterns associated with
+_APOL1_ risk alleles and preeclampsia in African American women. We will
+examine the role of ancestry in mediating the relationship between
+_APOL1_ genotype and preeclampsia risk. The results can provide insights
+into genetic and molecular basis of preeclampsia.
 
-In *CABERNET* we aim to determine the extent of chromosomal mosaicism between embryonic and extraembryonic tissues using single cell DNA sequencing.
-In *DELIVER / NEONATE* we want to identify genetic factors contributing to reproductive failure and recurrent miscarriage. We will use single cell strand sequencing to map balanced rearrangements and whole genome sequencing of euploid miscarried embryos to identify causative variants.
-In *CANDLE* we want to uncover gene expression patterns associated with _APOL1_ risk alleles and preeclampsia in African American women. We will examine the role of ancestry in mediating the relationship between _APOL1_ genotype and preeclampsia risk. The results can provide insights into genetic and molecular basis of preeclampsia.
-
-
-.This project is in collaboration with 
-* https://scholar.google.at/citations?user=ceRslzAAAAAJ&hl=en[Francesca Antonacci] University of Bari Aldo Moro
-* https://scholar.google.at/citations?user=02eKUFwAAAAJ&hl=en&oi=ao[Carlo Alviggi], University of Naples Federico II 
-* https://scholar.google.at/citations?user=iukICNwAAAAJ&hl=en&oi=ao[Antonio Lamarca], University of Modena and Reggio Emilia
-* https://www.igb.cnr.it/index.php/marcella-vacca/[Marcella Vacca], National Research Council
-* https://www.igb.cnr.it/index.php/gabriella-lania/[Gabriella Lania], National Research Council
+* https://scholar.google.at/citations?user=ceRslzAAAAAJ&hl=en[Francesca
+Antonacci] University of Bari Aldo Moro
+* https://scholar.google.at/citations?user=02eKUFwAAAAJ&hl=en&oi=ao[Carlo
+Alviggi], University of Naples Federico II
+* https://scholar.google.at/citations?user=iukICNwAAAAJ&hl=en&oi=ao[Antonio
+Lamarca], University of Modena and Reggio Emilia
+* https://www.igb.cnr.it/index.php/marcella-vacca/[Marcella Vacca],
+National Research Council
+* https://www.igb.cnr.it/index.php/gabriella-lania/[Gabriella Lania],
+National Research Council
 
 ==== *Funding*
-- PRIN 2020J84FAM Ministero dell'Universita e della Ricerca 
-- PRIN 2022WEHP7M Ministero dell'Universita e della Ricerca 
-- PRIN P2022ZE75A Ministero dell'Universita e della Ricerca 
-- https://www.merigen.it/[Merigen Research s.r.l] 
-- POR Campania FSE 2014-2020 ASSE III – Ob. Sp. 14 
 
-image::images/loghi_grep.png[loghi_grep,200,align="left"]
-image::images/miur.jpg[miur,200,align="left"]
+* PRIN 2020J84FAM Ministero dell’Universita e della Ricerca
+* PRIN 2022WEHP7M Ministero dell’Universita e della Ricerca
+* PRIN P2022ZE75A Ministero dell’Universita e della Ricerca
+* https://www.merigen.it/[Merigen Research s.r.l]
+* POR Campania FSE 2014-2020 ASSE III – Ob. Sp. 14
 
-'''
+image:images/loghi_grep.png[loghi_grep]
 
-//== *Training in Bioinformatics*
-
-//We are actively organizing and participating into bioinformatics training
-
-//== *Science communication*
+image:images/miur.jpg[miur]
 
 == *People*
 
 === *Vincenza Colonna*
 
-*_Associate Professor, Department of Genetics, Genomics and Informatics https://www.uthsc.edu/faculty/profile/?netid=vcolonna[website]_*
+*_Associate Professor, Department of Genetics, Genomics and Informatics
+https://www.uthsc.edu/faculty/profile/?netid=vcolonna[website]_* +
 _University of Tennessee Health Science Center, Memphis, TN_
 
-*_Director, Integrative Genomics Biorpository, Department of Pediatrics_*
-_Children's Foundation Research Institute, Memphis, TN_
+*_Director, Integrative Genomics Biorpository, Department of
+Pediatrics_* +
+_Children’s Foundation Research Institute, Memphis, TN_
 
-*_Researcher (on leave of absence), National Research Council https://www.igb.cnr.it/index.php/vincenza-colonna/[website]_*
-_Institute of Genetics and Biophysics, Naples, Italy_
-image:images/website2025/enza_2025.jpg[vcolonna,200,role="right"]
+*_Researcher (on leave of absence), National Research Council
+https://www.igb.cnr.it/index.php/vincenza-colonna/[website]_* +
+_Institute of Genetics and Biophysics, Naples, Italy_ +
+image:images/website2025/enza_2025.jpg[vcolonna]
 
-.[teal]#_I graduated in Evolutionary Biology from the University of Naples Federico II and did postdoctoral research at the University of Ferrara (Italy) and at Wellcome Trust Sanger Institute in Cambridge (UK). I was lectures in Genetics and Bioinformatics at the University of Ferrara (Italy). I am now leading the Population genomics laboratory at the University of Tennessee, College of Medicine, in the Department of Genetics, Genomics and Informatics._#
+*_I graduated in Evolutionary Biology from the University of Naples
+Federico II and did postdoctoral research at the University of Ferrara
+(Italy) and at Wellcome Trust Sanger Institute in Cambridge (UK). I was
+lectures in Genetics and Bioinformatics at the University of Ferrara
+(Italy). I am now leading the Population genomics laboratory at the
+University of Tennessee, College of Medicine, in the Department of
+Genetics, Genomics and Informatics._.*
 
-I am a genomicist and an expert in human evolutionary and population genomics and bioinformatics. In my postdoctoral research I was part of the international consortium 1000 Genomes[PMID: https://pubmed.ncbi.nlm.nih.gov/26432245/[26432245]; https://pubmed.ncbi.nlm.nih.gov/23128226/[23128226]] where I led contributions to two specific aspects. First, I contributed to develop FunSeq [PMID: https://pubmed.ncbi.nlm.nih.gov/24092746/[24092746]], a tool that integrates non-coding information from relevant biological databases for the functional characterization of non-coding variants. Second, I lead a genome-wide scan to identify genomic regions with exceptionally high levels of population differentiation [PMID: https://pubmed.ncbi.nlm.nih.gov/24980144/[24980144]] demonstrating that these regions are enriched for positive selection events and that one half may be the result of classic selective sweeps. Findings from both sub-projects have since been applied to demographic inference and the molecular diagnosis of cancer and myeloid malignancies [PMID: https://pubmed.ncbi.nlm.nih.gov/27121471/[27121471], https://pubmed.ncbi.nlm.nih.gov/22446628/[22446628]], and to deeper studies on positive selection at the ABCA12 gene [PMID: https://pubmed.ncbi.nlm.nih.gov/30890716/[30890716]]. 
+I am a genomicist and an expert in human evolutionary and population
+genomics and bioinformatics. In my postdoctoral research I was part of
+the international consortium 1000 Genomes[PMID:
+https://pubmed.ncbi.nlm.nih.gov/26432245/[26432245];
+https://pubmed.ncbi.nlm.nih.gov/23128226/[23128226]] where I led
+contributions to two specific aspects. First, I contributed to develop
+FunSeq [PMID: https://pubmed.ncbi.nlm.nih.gov/24092746/[24092746]], a
+tool that integrates non-coding information from relevant biological
+databases for the functional characterization of non-coding variants.
+Second, I lead a genome-wide scan to identify genomic regions with
+exceptionally high levels of population differentiation [PMID:
+https://pubmed.ncbi.nlm.nih.gov/24980144/[24980144]] demonstrating that
+these regions are enriched for positive selection events and that one
+half may be the result of classic selective sweeps. Findings from both
+sub-projects have since been applied to demographic inference and the
+molecular diagnosis of cancer and myeloid malignancies [PMID:
+https://pubmed.ncbi.nlm.nih.gov/27121471/[27121471],
+https://pubmed.ncbi.nlm.nih.gov/22446628/[22446628]], and to deeper
+studies on positive selection at the ABCA12 gene [PMID:
+https://pubmed.ncbi.nlm.nih.gov/30890716/[30890716]].
 
-During my PhD I worked on human isolated populations contributing to characterize several isolated populations, describing the genomic consequences of isolation [PMID: https://pubmed.ncbi.nlm.nih.gov/17476112[17476112], https://pubmed.ncbi.nlm.nih.gov/19550436[19550436], https://pubmed.ncbi.nlm.nih.gov/22713810[22713810]], contributing to genetic association studies [PMID: https://pubmed.ncbi.nlm.nih.gov/16611673[16611673], https://pubmed.ncbi.nlm.nih.gov/18162505[18162505]] and to characterize rare variation [PMID: https://pubmed.ncbi.nlm.nih.gov/28643794[28643794]]
+During my PhD I worked on human isolated populations contributing to
+characterize several isolated populations, describing the genomic
+consequences of isolation [PMID:
+https://pubmed.ncbi.nlm.nih.gov/17476112[17476112],
+https://pubmed.ncbi.nlm.nih.gov/19550436[19550436],
+https://pubmed.ncbi.nlm.nih.gov/22713810[22713810]], contributing to
+genetic association studies [PMID:
+https://pubmed.ncbi.nlm.nih.gov/16611673[16611673],
+https://pubmed.ncbi.nlm.nih.gov/18162505[18162505]] and to characterize
+rare variation [PMID:
+https://pubmed.ncbi.nlm.nih.gov/28643794[28643794]]
 
+I founded and led http://www.igb.cnr.it/obilab[OBiLab], a project on
+training in Bioinformatics
 
-//+ [gray]#See my full C.V. https://github.com/ColonnaLab/laboratory_WebPage/tree/master/docs/CV_EnzaColonna.pdf[here].#
-
-I founded and led http://www.igb.cnr.it/obilab[OBiLab], a project on training in Bioinformatics
-
-https://orcid.org/0000-0002-3966-0474[ORCID] | image:images/Octicons-mark-github.svg[git,30] https://github.com/ezcn[My GitHub] | https://scholar.google.com/citations?user=ufP1EYgAAAAJ&hl=en&oi=ao[Google Scholar]
-
-'''
+https://orcid.org/0000-0002-3966-0474[ORCID] |
+image:images/Octicons-mark-github.svg[git] https://github.com/ezcn[My
+GitHub] |
+https://scholar.google.com/citations?user=ufP1EYgAAAAJ&hl=en&oi=ao[Google
+Scholar]
 
 === *Silvia Buonaiuto*, Postdoctoral fellow
 
-image:images/silvia.jpg[silvia,200,role="right"] 
+image:images/silvia.jpg[silvia]
 
-.[teal]#_ I am a postdoctoral researcher at the University of Tennessee Health Science Center in the Department of Genetics, Genomics, and Informatics. Prior to this, I worked as a postdoctoral researcher at the National Research Council in Italy. I earned a Ph.D. in Molecular Bioscience from the University of Campania "Luigi Vanvitelli." Before that, I completed my Master’s degree in Biology at the University of Naples Federico II, where I conducted my thesis in molecular biology at the Department of Biology._#
+*_ I am a postdoctoral researcher at the University of Tennessee Health
+Science Center in the Department of Genetics, Genomics, and Informatics.
+Prior to this, I worked as a postdoctoral researcher at the National
+Research Council in Italy. I earned a Ph.D. in Molecular Bioscience from
+the University of Campania "Luigi Vanvitelli." Before that, I completed
+my Master’s degree in Biology at the University of Naples Federico II,
+where I conducted my thesis in molecular biology at the Department of
+Biology._.*
 
-I work on the admixture mapping and pangenomics analysis in the BIG project. My role involves establishing connections between genotypes and phenotypes especially in admixed individuals through admixture mapping analysis. Additionally, I am leading sequence analysis for the projects related to early embryonic development.
+I work on the admixture mapping and pangenomics analysis in the BIG
+project. My role involves establishing connections between genotypes and
+phenotypes especially in admixed individuals through admixture mapping
+analysis. Additionally, I am leading sequence analysis for the projects
+related to early embryonic development.
 
-image:images/Octicons-mark-github.svg[git,30] https://github.com/SilviaBuonaiuto[My GitHub] | https://scholar.google.com/citations?user=oGGUawcAAAAJ&hl=it&oi=ao[Google Scholar]
+image:images/Octicons-mark-github.svg[git]
+https://github.com/SilviaBuonaiuto[My GitHub] |
+https://scholar.google.com/citations?user=oGGUawcAAAAJ&hl=it&oi=ao[Google
+Scholar]
 
-'''
 === *Franco Marsico*, Postdoctoral fellow
 
-image:images/franco.jpeg[franco,200,role="right"] 
+image:images/franco.jpeg[franco]
 
-.[teal]#_I earned my degree in Biology from the University of Buenos Aires, Argentina, where I also completed my PhD in Computational Biology at the Calculus Institute. My research primarily focused on developing mathematical models for kinship inference, employing a Bayesian Approach. I am a postdoc in the Colonna lab, where my work centers on population genomics._#
+*_I earned my degree in Biology from the University of Buenos Aires,
+Argentina, where I also completed my PhD in Computational Biology at the
+Calculus Institute. My research primarily focused on developing
+mathematical models for kinship inference, employing a Bayesian
+Approach. I am a postdoc in the Colonna lab, where my work centers on
+population genomics._.*
 
-I am currently working on *Admixture Mapping and Pangenomics Analysis in the Biorepository and Integrative Genomics (BIG) Initiative Cohort* project. My focus is on studying recent natural selection signals in admixed populations. Additionally, I have a deep interest in evolution and how to compute processes that shape the history of life. 
+I am currently working on *Admixture Mapping and Pangenomics Analysis in
+the Biorepository and Integrative Genomics (BIG) Initiative Cohort*
+project. My focus is on studying recent natural selection signals in
+admixed populations. Additionally, I have a deep interest in evolution
+and how to compute processes that shape the history of life.
 
-image:images/Octicons-mark-github.svg[git,30] https://github.com/MarsicoFL[Github profile] | https://scholar.google.ca/citations?user=Vd4yh9wAAAAJ&hl=en[Google Scholar]
+image:images/Octicons-mark-github.svg[git]
+https://github.com/MarsicoFL[Github profile] |
+https://scholar.google.ca/citations?user=Vd4yh9wAAAAJ&hl=en[Google
+Scholar]
 
-'''
+=== *Laura Pignata*, Postdoctoral fellow
 
-=== *Flavia Villani*, PhD Student
+image:images/website2025/laura.jpeg[flavia]
 
-image:images/Flavia.JPG[flavia,200,role="right"] 
+*_I graduated in Molecular Biology at the University of Campania Luigi
+Vanvitelli, where I also completed my PhD program in Molecular Life
+Sciences. After the PhD I continued my work as researcher, focusing on
+the analysis of DNA methylation in imprinting disorders. I am visiting
+Dr. Colonna laboratory at the University of Tennessee, College of
+Medicine, in the Department of Genetics, Genomics and Informatics_.*
 
-.[teal]#_I obtained a Master's degree in Medical Biotechnology from the University of Naples Federico II in Italy. Currently, I am a PhD candidate in the  Biomedical Science program of the Department of Genetics Genomics and Informatics_#
-
-I am working on the *Mouse Pangenomics* Project. My research aims to construct the pangenome graph of model organisms, specifically inbred mice and rats, using a combination of short and long-read sequence data. This will enable genome-wide association studies to be performed directly on the pangenome. Additionally, I have a strong interest in understanding how mobile genetic elements have driven genome evolution through various mechanisms.
-
-image:images/Octicons-mark-github.svg[git,30] https://github.com/Flavia95[My GitHub] | https://scholar.google.com/citations?user=CrklVWcAAAAJ&hl=en[Google Scholar]
-
-'''
-=== *Ernestine Amos-Abanyie*, PhD Student 
-
-image:images/website2025/ernestine.jpg[flavia,200,role="right"] 
-
-.[teal]#_I have a master degree in Molecular Biology from the university of Ghana, I am a PhD candidate in the  Biomedical Science program of the Department of Genetics Genomics and Informatics in co-supervision with Dr. Ashbrook_#
-
-I am studying mitochondrial DNA Variation in disease susceptibility in the BXD Mice and the BIG cohort. 
-
-image:images/Octicons-mark-github.svg[git,30] https://github.com/Flavia95[My GitHub] | https://scholar.google.com/citations?user=CRXpC9gAAAAJ&hl=en&inst=1063551842422345302[Google Scholar]
-
-'''
-=== *Donna Vo*, Research associate 
-
-image:images/website2025/donna.jpg[flavia,200,role="right"] 
-
-.[teal]#_I earned a Bachelor of Science in Microbiology at the University of Tennessee, Knoxville. I have a background in spoilage detection and mycology identification in the food and beverage industry_#
-
-I am in charge of sample collection and processing for the Integrative Genomics Biorepository that supports the BIG project. 
-
-'''
-
-== *Visiting*
-
-=== *Laura Pignata*, Postdoctoral fellow 
-
-image:images/website2025/laura.jpeg[flavia,200,role="right"] 
-
-.[teal]#_I graduated in Molecular Biology at the University of Campania Luigi Vanvitelli, where I also completed my PhD program in Molecular Life Sciences.  After the PhD I continued my work as researcher, focusing on the analysis of DNA methylation in imprinting disorders. I am visiting Dr. Colonna laboratory at the University of Tennessee, College of Medicine, in the Department of Genetics, Genomics and Informatics_#
-
-I am working on the analysis of long-read sequencing data on human samples with mosaic methylation defects. The aim of this study is to identify the mechanisms underlying the methylation defects by examining the role of de novo mutations in cis and somatic recombination events, possibly arisen during early embryogenesis. 
+I am working on the analysis of long-read sequencing data on human
+samples with mosaic methylation defects. The aim of this study is to
+identify the mechanisms underlying the methylation defects by examining
+the role of de novo mutations in cis and somatic recombination events,
+possibly arisen during early embryogenesis.
 
 https://orcid.org/0000-0001-8835-5567?lang=en[ORCID]
 
-'''
+=== *Ernestine Amos-Abanyie*, PhD Student
 
+image:images/website2025/ernestine.jpg[flavia]
 
-=== *Dario Cannella*,  PhD Student
+*_I have a master degree in Molecular Biology from the university of
+Ghana, I am a PhD candidate in the Biomedical Science program of the
+Department of Genetics Genomics and Informatics in co-supervision with
+Dr. Ashbrook_.*
 
-image:images/website2025/Dario.jpg[dario,200,role="right"] 
+I am studying mitochondrial DNA Variation in disease susceptibility in
+the BXD Mice and the BIG cohort.
 
-.[teal]#_I obtained a Master’s degree in Bioinformatics from Tor Vergata University in Italy, with a focus on chemoinformatics. Currently, I am a PhD candidate in Biochemistry at Sapienza University in Rome_#
+image:images/Octicons-mark-github.svg[git]
+https://github.com/Flavia95[My GitHub] |
+https://scholar.google.com/citations?user=CRXpC9gAAAAJ&hl=en&inst=1063551842422345302[Google
+Scholar]
 
-I am working on a project that leverages pangenomics to uncover the mechanisms behind the evolution and selection of structural genomic diversity across different loci. Additionally, my PhD project is focuses on understanding the relationship between Down Syndrome and its comorbidities, with the goal of enabling a deeper stratification of individuals affected by this common condition.  
+=== *Donna Vo*, Research associate
 
-'''
+image:images/website2025/donna.jpg[flavia]
 
+*_I earned a Bachelor of Science in Microbiology at the University of
+Tennessee, Knoxville. I have a background in spoilage detection and
+mycology identification in the food and beverage industry_.*
 
-=== *Angela Carfora*,  PhD Student
+I am in charge of sample collection and processing for the Integrative
+Genomics Biorepository that supports the BIG project.
 
+== *Visiting*
 
-image:images/website2025/angela.jpeg[flavia,200,role="right"] 
-
-.[teal]#_I have a Master’s degree in Environmental Biology from the University of Naples Federico II, where I completed an experimental thesis in Genetics.  I am currently a PhD candidate in Biology as part of the PNRR Urban Biodiversity project at the same university_#
-
-My doctoral research focuses on the genetic adaptations of plants in urban environments, with _Raphanus raphanistrum_ (wild radish) as a model species. Initially, I investigated differential gene expression between urban and extra-urban populations. Currently, my work involves the study of genomic variations through developing a pangenome for _R. raphanistrum_. This research is being conducted in collaboration with Dr. Colonna's laboratory at the University of Tennessee Health Science Center in Memphis, where I will undertake part of my studies.
-
-'''
+=== *Giuseppe Comentale*, PhD Student
 
 == *Former members*
+
+=== *Lab members*
+
+* Flavia Villani, Master student, PhD student, 2019-2025
 * Gianluca Damaggio, Master student, PhD student, 2019-2023
-* Rosanna Maione, Research associate 2023 
+* Rosanna Maione, Research associate 2023
 * Madeleine Emms, Postdoctoral fellow, 2022-2023
 * Marialaura Zitiello, Master Student, 2022-2023
 * Antonella Mecca, Master Student, 2022-2023
 * Angela Sequino, Master Student, 2022-2023
-* Davide D'angelo, Visiting master student, 2022 
-* Giuliana D'Angelo, Master Student, 2019-2020
+* Giuliana D’Angelo, Master Student, 2019-2020
 * Roberto Sirica, PhD student, 2015-2018
 * Gaia Leandra Cecere, undergraduate student, 2018
+
+=== *Visiting*
+
+* Dario Cannella, PhD student, visiting student, 2025
+* Angela Carfora, PhD student, visiting student, 2025
+* Davide D’angelo, Visiting master student, 2022
 * Marianna Buonaiuto, visiting Postdoc, 2017
 * Lucia De Martino, visiting master Student, 2016
 
 == *Publications*
 
-See them on https://scholar.google.it/citations?user=ufP1EYgAAAAJ&hl=en&oi=ao[Google Scholar] 
+See them on
+https://scholar.google.it/citations?user=ufP1EYgAAAAJ&hl=en&oi=ao[Google
+Scholar]
 
 === *Past Research*
 
-At this https://github.com/ColonnaLab/laboratory_WebPage/blob/master/docs/pastResearc.adoc[link] is possible to found our past Research
+At this
+https://github.com/ColonnaLab/laboratory_WebPage/blob/master/docs/pastResearc.adoc[link]
+is possible to found our past Research
 
 == *Contacts*
 
 Vincenza Colonna, PhD
 
-- University of Tennessee Health Science Center, TSRB room 405
- 71 S Manassas St, Memphis TN 38163 https://maps.app.goo.gl/XnjsEmoGLyGBTd7b7[map]
+* University of Tennessee Health Science Center, TSRB room 405 +
+71 S Manassas St, Memphis TN 38163
+https://maps.app.goo.gl/XnjsEmoGLyGBTd7b7[map]
+* Children’s Foundation Research Institute +
+50 N. Dunlap St. Memphis, TN 38105
+https://maps.app.goo.gl/ATEtD8DFUi7oFWeC8[map]
+* Istituto di Genetica e Biofisica "Adriano Buzzati-Traverso" piano R,
+stanza 11 +
+via Pietro Castellino 111 - 80131 Napoli - Italy
+https://maps.app.goo.gl/xD6UzBYSzX45cBSq7[map]
 
-- Children's Foundation Research Institute
-50 N. Dunlap St. Memphis, TN 38105 https://maps.app.goo.gl/ATEtD8DFUi7oFWeC8[map]
-
-- Istituto di Genetica e Biofisica "Adriano Buzzati-Traverso" piano R, stanza 11
-via Pietro Castellino 111 - 80131 Napoli - Italy https://maps.app.goo.gl/xD6UzBYSzX45cBSq7[map]
-
-Email: enza.colonna@gmail.com  - vcolonna@uthsc.edu - vincenza.colonna@igb.cnr.it
+Email: enza.colonna@gmail.com - vcolonna@uthsc.edu -
+vincenza.colonna@igb.cnr.it

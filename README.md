@@ -1,15 +1,33 @@
 # Colonna Lab
 
-index.md and index.adoc are updated at Jan 3 2024.
+Website source and build workflow.
+
+## Recommended workflow (easy editing)
+
+Edit `index.md` only, then build with one command.
+
+### Requirements
+- `pandoc`
+- `asciidoctor`
 
 ### Update website
+```bash
+make update
+```
 
-0. Install asciidoctor
-```pip install asciidoctor```
+This generates:
+- `index.adoc`
+- `index.html`
 
-1. Make changes in index.adoc
+### Preview website locally
+```bash
+make preview
+```
 
-2. compile .adoc file
-```asciidoctor index.adoc```
+Then open `http://localhost:8000/index.html` in your browser.
+If your environment blocks local servers, use:
+```bash
+make preview-file
+```
 
-3. Commit changes on github
+See [EDITING.md](EDITING.md) for quick templates and examples.
