@@ -34,6 +34,14 @@ body.toc2 {
   background: url("images/used/UTHSC-primary-stacked-logo-4c-151.png") no-repeat left center / 412px auto;
 }
 
+#toc.toc2 .topbar-logo-link {
+  grid-column: 1;
+  grid-row: 1 / span 2;
+  display: block;
+  width: 412px;
+  height: 114px;
+}
+
 #toc.toc2 #toctitle { display: none; }
 
 #toc.toc2 .topbar-brand {
@@ -46,6 +54,11 @@ body.toc2 {
   font-weight: 700;
   color: #FFF8DE;
   line-height: 1;
+}
+
+#toc.toc2 .topbar-brand a {
+  color: inherit;
+  text-decoration: none;
 }
 
 #toc.toc2 > ul {
@@ -217,14 +230,17 @@ img[src$="spock.jpg"] {
 
 #_current_members ~ .sectionbody h3 + .paragraph .image img {
   width: 180px;
+  height: 180px;
   max-width: 180px;
-  height: auto;
   float: left;
   margin: 0 18px 10px 0;
+  object-fit: cover;
+  object-position: center top;
+  border-radius: 999px;
 }
 
 #_current_members ~ .sectionbody h3 {
-  color: #FF8200;
+  color: #FF7444;
   clear: both;
 }
 
@@ -235,16 +251,19 @@ img[src$="spock.jpg"] {
 }
 
 #_current_members ~ .sectionbody h4 {
-  color: #FF8200;
+  color: #FF7444;
   font-size: 0.98rem;
-  font-weight: 600;
+  font-weight: 400;
+  font-family: "Open Sans", "DejaVu Sans", sans-serif;
+  font-style: normal;
   line-height: 1.35;
   margin-top: 0.2rem;
   margin-bottom: 0.15rem;
+  text-decoration: none;
 }
 
 #_current_members ~ .sectionbody h5 {
-  color: #FF8200;
+  color: #FF7444;
   font-size: 0.98rem;
   font-weight: 600;
   line-height: 1.35;
@@ -256,6 +275,18 @@ img[src$="spock.jpg"] {
   font-size: 0.95rem;
   color: rgba(0, 0, 0, 0.72);
   margin-bottom: 0.55rem;
+}
+
+#_current_members ~ .sectionbody .sect2:first-of-type > .paragraph:nth-of-type(2) strong,
+#_current_members ~ .sectionbody .sect2:first-of-type > .paragraph:nth-of-type(3) strong,
+#_current_members ~ .sectionbody .sect2:first-of-type > .paragraph:nth-of-type(4) strong {
+  font-family: "Open Sans", "DejaVu Sans", sans-serif;
+  font-weight: 400;
+  color: #FF7444;
+}
+
+#_current_members ~ .sectionbody .sect2:first-of-type > .paragraph:nth-of-type(5) p {
+  color: #576A8F;
 }
 
 #_current_members ~ .sectionbody .sect2:not(:first-of-type) > .paragraph:nth-of-type(2) p,
@@ -274,6 +305,15 @@ img[src$="BIG-notes-for-figures.png"] {
   height: auto;
   display: block;
   margin: 0 auto;
+}
+
+#_characterizing_genetic_diversity_in_the_big_cohort + .paragraph + .paragraph + .paragraph p {
+  color: #576A8F;
+}
+
+#_uncharted_genomes + .paragraph + .paragraph p,
+.paragraph:has(img[src$="pangenome_pca.png"]) + .paragraph p {
+  color: #576A8F;
 }
 
 img[src$="big_admix.png"] {
@@ -326,25 +366,107 @@ img[src$="Octicons-mark-github.svg"] {
 }
 
 h1, h2, h3, h4, h5, h6, #toctitle, .sidebarblock > .content > .title {
-  color: #FF8200;
+  color: #FF7444;
+}
+
+#content h2[id],
+#content h3[id],
+#content h4[id],
+#content h5[id],
+#content h6[id] {
+  scroll-margin-top: 150px;
+}
+
+.sect2 + .sect2 {
+  border-top: 2px solid rgba(87, 106, 143, 0.28);
+  margin-top: 1.9rem;
+  padding-top: 1.6rem;
+}
+
+.sect2 > h3 {
+  color: #576A8F;
+  text-decoration: underline;
+  text-decoration-color: currentColor;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 0.18em;
+}
+
+#_current_members ~ .sectionbody .sect2 > h3,
+#_visiting ~ .sectionbody .sect2 > h3 {
+  text-decoration: none;
+}
+
+.sect3 + .sect3 {
+  border-top: 2px solid rgba(87, 106, 143, 0.32);
+  margin-top: 1.5rem;
+  padding-top: 1.35rem;
+}
+
+.sect3 > h4 {
+  text-decoration: underline;
+  text-decoration-color: currentColor;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 0.16em;
+}
+
+body.section-view-active #preamble,
+body.section-view-active .content-section-hidden {
+  display: none !important;
+}
+
+#_research {
+  margin-bottom: 1.2rem;
+}
+
+#_research ~ .sectionbody > .sect2 > :not(h3) {
+  display: none;
+}
+
+#_research ~ .sectionbody > .sect2.is-open > :not(h3) {
+  display: block;
+}
+
+#_research ~ .sectionbody > .sect2 > h3 {
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+}
+
+#_research ~ .sectionbody > .sect2 > h3::before {
+  content: "";
+  width: 48px;
+  height: 48px;
+  flex: 0 0 48px;
+  border-radius: 999px;
+  background: url("images/used/spock.jpg") no-repeat center center / cover;
+  box-shadow: 0 0 0 1px rgba(87, 106, 143, 0.18);
 }
 </style>
 <script>
 document.addEventListener("DOMContentLoaded", function () {
+  var body = document.body;
   var toc = document.getElementById("toc");
   if (!toc) return;
 
   if (!toc.querySelector(".topbar-logo")) {
+    var logoLink = document.createElement("a");
+    logoLink.className = "topbar-logo-link";
+    logoLink.href = "https://www.uthsc.edu/";
+    logoLink.target = "_blank";
+    logoLink.rel = "noopener noreferrer";
+
     var logo = document.createElement("div");
     logo.className = "topbar-logo";
     logo.setAttribute("aria-hidden", "true");
-    toc.insertBefore(logo, toc.firstChild);
+    logoLink.appendChild(logo);
+    toc.insertBefore(logoLink, toc.firstChild);
   }
 
   if (!toc.querySelector(".topbar-brand")) {
     var brand = document.createElement("div");
     brand.className = "topbar-brand";
-    brand.textContent = "Colonna Lab";
+    brand.innerHTML = '<a href="#_research">Colonna Lab</a>';
     var titleNode = toc.querySelector("#toctitle");
     toc.insertBefore(brand, titleNode ? titleNode.nextSibling : toc.firstChild);
   }
@@ -353,21 +475,159 @@ document.addEventListener("DOMContentLoaded", function () {
   if (!nav) return;
 
   nav.innerHTML = [
-    '<li class="has-menu"><button class="nav-toggle" type="button" aria-expanded="false" aria-controls="nav-research-menu">Research</button><ul class="nav-menu" id="nav-research-menu">',
-    '<li><a href="#_population_genomics_and_health_disparities">Population Genomics</a></li>',
+    '<li class="has-menu"><button class="nav-toggle" type="button" data-view="research" data-target="#_research" aria-expanded="false" aria-controls="nav-research-menu">Research</button><ul class="nav-menu" id="nav-research-menu">',
+    '<li><a href="#_population_genomics_and_health_equity">Population Genomics</a></li>',
     '<li><a href="#_population_pangenomics">Population Pangenomics</a></li>',
+    '<li><a href="#_genomics_of_early_embryonic_development">Embryonic Genomics</a></li>',
     '</ul></li>',
-    '<li class="has-menu"><button class="nav-toggle" type="button" aria-expanded="false" aria-controls="nav-team-menu">Team</button><ul class="nav-menu" id="nav-team-menu">',
+    '<li class="has-menu"><button class="nav-toggle" type="button" data-view="team" data-target="#_current_members" aria-expanded="false" aria-controls="nav-team-menu">Team</button><ul class="nav-menu" id="nav-team-menu">',
     '<li><a href="#_current_members">Current Members</a></li>',
     '<li><a href="#_visiting">Visiting</a></li>',
     '<li><a href="#_past_lab_members">Past Lab members</a></li>',
     '<li><a href="#_past_visiting">Past visiting</a></li>',
     '</ul></li>',
-    '<li class="nav-link"><a href="#_publications">Publications</a></li>',
-    '<li class="nav-link"><a href="#_contacts">Contact</a></li>'
+    '<li class="nav-link"><a href="#_publications" data-view="publications">Publications</a></li>',
+    '<li class="nav-link"><a href="#_contacts" data-view="contacts">Contact</a></li>'
   ].join("");
 
   var menuItems = nav.querySelectorAll("li.has-menu");
+  var topSections = Array.prototype.slice.call(document.querySelectorAll("#content > .sect1"));
+  var researchRootHeading = document.getElementById("_research");
+  var researchSection = researchRootHeading ? researchRootHeading.closest(".sect1") : null;
+  var researchItems = researchSection
+    ? Array.prototype.slice.call(researchSection.querySelectorAll(":scope > .sectionbody > .sect2"))
+    : [];
+
+  function closeResearchItems(exceptItem) {
+    researchItems.forEach(function (item) {
+      item.classList.toggle("is-open", item === exceptItem);
+    });
+  }
+
+  function findResearchItemForHash(hash) {
+    if (!hash || !researchSection) return null;
+    var target = document.getElementById(hash.slice(1));
+    if (!target || !researchSection.contains(target)) return null;
+    return target.closest(".sect2");
+  }
+
+  function syncResearchAccordion() {
+    if (!researchItems.length) return;
+
+    if (window.location.hash === "#_research") {
+      closeResearchItems(null);
+      return;
+    }
+
+    var matchedItem = findResearchItemForHash(window.location.hash);
+    if (matchedItem) {
+      closeResearchItems(matchedItem);
+    }
+  }
+
+  researchItems.forEach(function (item) {
+    var heading = item.querySelector(":scope > h3");
+    if (!heading) return;
+
+    heading.addEventListener("click", function () {
+      var willOpen = !item.classList.contains("is-open");
+      closeResearchItems(willOpen ? item : null);
+      if (willOpen && heading.id) {
+        window.location.hash = "#" + heading.id;
+      }
+    });
+  });
+
+  function setSectionVisibility(view) {
+    topSections.forEach(function (section) {
+      section.classList.remove("content-section-hidden");
+    });
+
+    if (!view) {
+      body.classList.remove("section-view-active");
+      return;
+    }
+
+    body.classList.add("section-view-active");
+
+    if (view === "research") {
+      topSections.forEach(function (section) {
+        if (!section.querySelector("#_research")) {
+          section.classList.add("content-section-hidden");
+        }
+      });
+      return;
+    }
+
+    if (view === "team") {
+      topSections.forEach(function (section) {
+        if (!section.querySelector("#_current_members") && !section.querySelector("#_visiting")) {
+          section.classList.add("content-section-hidden");
+        }
+      });
+      return;
+    }
+
+    if (view === "publications") {
+      topSections.forEach(function (section) {
+        if (!section.querySelector("#_publications")) {
+          section.classList.add("content-section-hidden");
+        }
+      });
+      return;
+    }
+
+    if (view === "contacts") {
+      topSections.forEach(function (section) {
+        if (!section.querySelector("#_contacts")) {
+          section.classList.add("content-section-hidden");
+        }
+      });
+    }
+  }
+
+  function inferViewFromHash(hash) {
+    if (!hash) return "";
+
+    if (
+      hash === "#_research" ||
+      hash === "#_population_genomics_and_health_equity" ||
+      hash === "#_identity_by_descent_as_a_window_into_shared_environment_and_health" ||
+      hash === "#_population_pangenomics" ||
+      hash === "#_uncharted_genomes" ||
+      hash === "#_pangenomics_tools_for_population_genetics" ||
+      hash === "#_genomics_of_early_embryonic_development" ||
+      hash === "#_how_natural_selection_acts_on_early_human_development"
+    ) {
+      return "research";
+    }
+
+    if (
+      hash === "#_current_members" ||
+      hash === "#_visiting" ||
+      hash === "#_past_lab_members" ||
+      hash === "#_past_visiting" ||
+      hash.indexOf("#_vincenza_colonna") === 0 ||
+      hash.indexOf("#_silvia_buonaiuto") === 0 ||
+      hash.indexOf("#_franco_marsico") === 0 ||
+      hash.indexOf("#_laura_pignata") === 0 ||
+      hash.indexOf("#_ernestine_amos_abanyie") === 0 ||
+      hash.indexOf("#_donna_vo") === 0 ||
+      hash.indexOf("#_giuseppe_comentale") === 0
+    ) {
+      return "team";
+    }
+
+    if (hash === "#_publications") return "publications";
+    if (hash === "#_contacts") return "contacts";
+
+    return "";
+  }
+
+  function applyViewFromHash() {
+    setSectionVisibility(inferViewFromHash(window.location.hash));
+    syncResearchAccordion();
+  }
 
   function closeMenus(exceptItem) {
     menuItems.forEach(function (item) {
@@ -387,8 +647,23 @@ document.addEventListener("DOMContentLoaded", function () {
     button.addEventListener("click", function (event) {
       event.preventDefault();
       event.stopPropagation();
-      var willOpen = !item.classList.contains("is-open");
-      closeMenus(willOpen ? item : null);
+      var view = button.getAttribute("data-view");
+      var target = button.getAttribute("data-target");
+      closeMenus(null);
+      setSectionVisibility(view);
+      if (view === "research" && target === "#_research") {
+        closeResearchItems(null);
+      }
+      if (target) {
+        window.location.hash = target;
+      }
+    });
+  });
+
+  nav.querySelectorAll("a[data-view]").forEach(function (link) {
+    link.addEventListener("click", function () {
+      setSectionVisibility(link.getAttribute("data-view"));
+      closeMenus(null);
     });
   });
 
@@ -403,5 +678,8 @@ document.addEventListener("DOMContentLoaded", function () {
       closeMenus(null);
     }
   });
+
+  window.addEventListener("hashchange", applyViewFromHash);
+  applyViewFromHash();
 });
 </script>

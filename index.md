@@ -12,73 +12,62 @@ We are interested in understanding causes and consequences of genetic diversity 
 
 # **Research**
 
-## Population Genomics and Health Disparities
+## **Population Genomics and Health Equity**
 
-### The Biorepository and Integrative Genomics (BIG) Initiative in Tennessee
+### **The Biorepository and Integrative Genomics (BIG) Initiative in Tennessee**
 
 The Biorepository and Integrative Genomics (BIG) Initiative in Tennessee
 has developed a pioneering resource to address gaps in genomic research
-by linking genomic, phenotypic, and environmental data from a diverse
-Mid-South population, in the USA.
+by linking genomic, phenotypic, and environmental data. BIG is recruiting participants mainly from Memphis, TN, with plans to include a total of 100,000 samples over the next five years. 
 
 ![BIG](images/used/website2025/BIG-notes-for-figures.png)
 
-BIG is recruiting participants from Memphis, TN, with plans to include a
-total of 100,000 samples over the next five years. 
-BIG is partnering with 
-- the [Genomic Information Commons](https://www.genomicinformationcommons.org/), a consortium of
+
+- BIG is partnering with the [Genomic Information Commons](https://www.genomicinformationcommons.org/), a consortium of
 top children's hospitals, to conduct genomics research aimed at
 discovering the genetic foundations of human disease in diverse
 populations.
-- Togheter for Change inititive 
+- BIG is part of the Togheter for Change initiative [(T4C)](https://thedhgi.org/en/about-t4c) 
 
-### Characterizing Genetic Diversity in the BIG Cohort
+### **Characterizing Genetic Diversity in the BIG Cohort**
 
 Analysis of 13,152 genomes from BIG revealed significant genetic
 diversity, with 50% of participants inferred to have non-European or
 various types of admixed ancestry, highlighting the importance of
-inclusive genomics in understanding health disparities.
+inclusive genomics in understanding health equity.
 
 ![BIG admixture analysis](images/used/website2025/big_admix.png)
 
 *Global ancestry deconvolution of 13,152 sequenced individuals, based
 on reference populations in the 1000 Genomes and HGDP data sets. Each
 vertical bar represents one individual, colors are proportional to
-inferred ancestry. For further analyses, individuals were grouped based
-on the ancestry proportions in seven categories (colored bar, number of
-individuals per category in parentheses), and classified as admixed or
-not (black and gray bar). See the open access 
+inferred ancestry. Individuals were further grouped based
+on the ancestry proportions in seven categories based on the likelihood of similarity to reference populations (AFR= Africans; EUR-AFR = Europeans Africans admixed; EUR = Europeans; EUR-AMR = Europeans Americans admixed; Multiway = more than two ancestries;  number of individuals per category in parentheses). See the open access 
 [paper](https://www.nature.com/articles/s41467-025-59375-0).*
 
-### Identity-by-Descent as a Window into Shared Environment and Health
+### **Identity-by-Descent as a Window into Shared Environment and Health**
 
-We use identity-by-descent (IBD) sharing patterns in the BIG cohort to
+We use identity-by-descent [(IBD)](https://en.wikipedia.org/wiki/Identity_by_descent) sharing patterns in the BIG cohort to
 identify recent shared ancestry and fine-scale population structure.
 These patterns help connect inherited genomic segments with shared
 environmental exposures and disease risk.
 
-## Population Pangenomics
+
+
+## **Population Pangenomics**
 
 A pangenome is a comprehensive collection of all the genetic variation
 present in a species, which overcomes the limitations of reference-based
 genomics by including both common and rare genetic variations in a
 single reference genome.
 
-The [Human Pangenome Reference Project](https://humanpangenome.org/)
+The [Human Pangenome Reference Consortium](https://humanpangenome.org/)
 aims to sequence 300 people to create a pangenome of 600 haplotypes and
 has currently released a first draft of the human pangenome reference
 based on 47 phased diploid assemblies from a group of genetically
 diverse individuals
 
-### Uncharted Genomes
-
-![Human pangenome PCA](images/used/pangenome_pca.png)
-
-*Well-known population stratification is not visible in the p-arms of
-acrocentric chromosomes. This observation is compatible with
-recombination occurring between the p-arms of heterologous acrocentric
-chromosomes. Here is an example of chromosome 15. AFR: Africans; AMR:
-Native Americans; EAS: East-Asians; SAS: South-East Asians.*
+### **Uncharted Genomes**
 
 Our team evaluated, for the first time, human population
 structure using markers from short arms of the acrocentric chromosomes
@@ -92,16 +81,23 @@ pseudohomologous regions \[PMID:
 the patterns of linkage disequilibrium in these regions support this
 idea.
 
-### Pangenomics tools for population genetics 
+![Human pangenome PCA](images/used/pangenome_pca.png)
 
-### **Funding**
+*Well-known population stratification is not visible in the p-arms of
+acrocentric chromosomes. This observation is compatible with
+recombination occurring between the p-arms of heterologous acrocentric
+chromosomes. Here is an example of chromosome 15, PCA with markers from the whole chromosome, only the q-arm, only the p-arm. AFR: Africans; AMR:
+Native Americans; EAS: East-Asians; SAS: South-East Asians.*
 
-  - NIH U01HG013760 - Building Tools and Community to Make Pangenomes
-    Accessible
 
-## Genomics of early embryonic development
+### **Pangenomics tools for population genetics** 
 
-### *How natural selection acts on early human development*
+
+### **Bat's pangenomics** 
+
+## **Genomics of early embryonic development**
+
+### **How natural selection acts on early human development**
 
 We investigate adverse outcomes of embryonic development like recurrent
 pregnancy loss and preeclampsia to identify the genetic factors that
@@ -125,26 +121,13 @@ will examine the role of ancestry in mediating the relationship between
 *APOL1* genotype and preeclampsia risk. The results can provide insights
 into genetic and molecular basis of preeclampsia.
 
-  - [Francesca
-    Antonacci](https://scholar.google.at/citations?user=ceRslzAAAAAJ&hl=en)
-    University of Bari Aldo Moro
 
-  - [Carlo
-    Alviggi](https://scholar.google.at/citations?user=02eKUFwAAAAJ&hl=en&oi=ao),
-    University of Naples Federico II
+This project is in collaboration with [Francesca Antonacci](https://scholar.google.at/citations?user=ceRslzAAAAAJ&hl=en)
+    University of Bari Aldo Moro; [Carlo Alviggi](https://scholar.google.at/citations?user=02eKUFwAAAAJ&hl=en&oi=ao),
+    University of Naples Federico II; [Marcella Vacca](https://www.igb.cnr.it/index.php/marcella-vacca/), and [Gabriella
+    Lania](https://www.igb.cnr.it/index.php/gabriella-lania/), National Research Council
 
-  - [Antonio
-    Lamarca](https://scholar.google.at/citations?user=iukICNwAAAAJ&hl=en&oi=ao),
-    University of Modena and Reggio Emilia
-
-  - [Marcella Vacca](https://www.igb.cnr.it/index.php/marcella-vacca/),
-    National Research Council
-
-  - [Gabriella
-    Lania](https://www.igb.cnr.it/index.php/gabriella-lania/), National
-    Research Council
-
-### **Funding**
+#### **Funding**
 
   - PRIN 2020J84FAM Ministero dell'Universita e della Ricerca
 
@@ -152,9 +135,10 @@ into genetic and molecular basis of preeclampsia.
 
   - PRIN P2022ZE75A Ministero dell'Universita e della Ricerca
 
-  - [Merigen Research s.r.l](https://www.merigen.it/)
-
-  - POR Campania FSE 2014-2020 ASSE III - Ob. Sp. 14
+<!-- Hidden funding lines kept for reference:
+- [Merigen Research s.r.l](https://www.merigen.it/)
+- POR Campania FSE 2014-2020 ASSE III - Ob. Sp. 14
+-->
 
 ![loghi\_grep](images/used/loghi_grep.png)
 
@@ -167,13 +151,13 @@ into genetic and molecular basis of preeclampsia.
 
 ![Vincenza Colonna](images/used/website2025/enza_2025.jpg)
 
-##### *Associate Professor, Department of Genetics, Genomics and Informatics [website](https://www.uthsc.edu/faculty/profile/?netid=vcolonna)*  
+**Associate Professor, Department of Genetics, Genomics and Informatics** [website](https://www.uthsc.edu/faculty/profile/?netid=vcolonna)  
   *University of Tennessee Health Science Center, Memphis, TN*  
 
-#####  *Director, Integrative Genomics Biorpository, Department of Pediatrics*  
+**Director, Integrative Genomics Biorpository, Department of Pediatrics**  
   *Children's Foundation Research Institute, Memphis, TN*  
 
-#####   *Researcher (on leave of absence), National Research Council [website](https://www.igb.cnr.it/index.php/vincenza-colonna/)*  
+**Senior Researcher (on leave of absence), National Research Council** [website](https://www.igb.cnr.it/index.php/vincenza-colonna/)  
   *Institute of Genetics and Biophysics, Naples, Italy*  
 
 *I graduated in Evolutionary Biology from the University of Naples Federico II and did postdoctoral research at the University of Ferrara (Italy) and at Wellcome Trust Sanger Institute in Cambridge (UK). I was lectures in Genetics and Bioinformatics at the University of Ferrara (Italy). I am now leading the Population genomics laboratory at the University of Tennessee, College of Medicine, in the Department of Genetics, Genomics and Informatics.*

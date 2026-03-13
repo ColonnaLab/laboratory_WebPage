@@ -472,6 +472,14 @@ body.toc2 {
   background: url("images/used/UTHSC-primary-stacked-logo-4c-151.png") no-repeat left center / 412px auto;
 }
 
+#toc.toc2 .topbar-logo-link {
+  grid-column: 1;
+  grid-row: 1 / span 2;
+  display: block;
+  width: 412px;
+  height: 114px;
+}
+
 #toc.toc2 #toctitle { display: none; }
 
 #toc.toc2 .topbar-brand {
@@ -484,6 +492,11 @@ body.toc2 {
   font-weight: 700;
   color: #FFF8DE;
   line-height: 1;
+}
+
+#toc.toc2 .topbar-brand a {
+  color: inherit;
+  text-decoration: none;
 }
 
 #toc.toc2 > ul {
@@ -655,14 +668,17 @@ img[src$="spock.jpg"] {
 
 #_current_members ~ .sectionbody h3 + .paragraph .image img {
   width: 180px;
+  height: 180px;
   max-width: 180px;
-  height: auto;
   float: left;
   margin: 0 18px 10px 0;
+  object-fit: cover;
+  object-position: center top;
+  border-radius: 999px;
 }
 
 #_current_members ~ .sectionbody h3 {
-  color: #FF8200;
+  color: #FF7444;
   clear: both;
 }
 
@@ -673,16 +689,19 @@ img[src$="spock.jpg"] {
 }
 
 #_current_members ~ .sectionbody h4 {
-  color: #FF8200;
+  color: #FF7444;
   font-size: 0.98rem;
-  font-weight: 600;
+  font-weight: 400;
+  font-family: "Open Sans", "DejaVu Sans", sans-serif;
+  font-style: normal;
   line-height: 1.35;
   margin-top: 0.2rem;
   margin-bottom: 0.15rem;
+  text-decoration: none;
 }
 
 #_current_members ~ .sectionbody h5 {
-  color: #FF8200;
+  color: #FF7444;
   font-size: 0.98rem;
   font-weight: 600;
   line-height: 1.35;
@@ -694,6 +713,18 @@ img[src$="spock.jpg"] {
   font-size: 0.95rem;
   color: rgba(0, 0, 0, 0.72);
   margin-bottom: 0.55rem;
+}
+
+#_current_members ~ .sectionbody .sect2:first-of-type > .paragraph:nth-of-type(2) strong,
+#_current_members ~ .sectionbody .sect2:first-of-type > .paragraph:nth-of-type(3) strong,
+#_current_members ~ .sectionbody .sect2:first-of-type > .paragraph:nth-of-type(4) strong {
+  font-family: "Open Sans", "DejaVu Sans", sans-serif;
+  font-weight: 400;
+  color: #FF7444;
+}
+
+#_current_members ~ .sectionbody .sect2:first-of-type > .paragraph:nth-of-type(5) p {
+  color: #576A8F;
 }
 
 #_current_members ~ .sectionbody .sect2:not(:first-of-type) > .paragraph:nth-of-type(2) p,
@@ -712,6 +743,15 @@ img[src$="BIG-notes-for-figures.png"] {
   height: auto;
   display: block;
   margin: 0 auto;
+}
+
+#_characterizing_genetic_diversity_in_the_big_cohort + .paragraph + .paragraph + .paragraph p {
+  color: #576A8F;
+}
+
+#_uncharted_genomes + .paragraph + .paragraph p,
+.paragraph:has(img[src$="pangenome_pca.png"]) + .paragraph p {
+  color: #576A8F;
 }
 
 img[src$="big_admix.png"] {
@@ -764,25 +804,107 @@ img[src$="Octicons-mark-github.svg"] {
 }
 
 h1, h2, h3, h4, h5, h6, #toctitle, .sidebarblock > .content > .title {
-  color: #FF8200;
+  color: #FF7444;
+}
+
+#content h2[id],
+#content h3[id],
+#content h4[id],
+#content h5[id],
+#content h6[id] {
+  scroll-margin-top: 150px;
+}
+
+.sect2 + .sect2 {
+  border-top: 2px solid rgba(87, 106, 143, 0.28);
+  margin-top: 1.9rem;
+  padding-top: 1.6rem;
+}
+
+.sect2 > h3 {
+  color: #576A8F;
+  text-decoration: underline;
+  text-decoration-color: currentColor;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 0.18em;
+}
+
+#_current_members ~ .sectionbody .sect2 > h3,
+#_visiting ~ .sectionbody .sect2 > h3 {
+  text-decoration: none;
+}
+
+.sect3 + .sect3 {
+  border-top: 2px solid rgba(87, 106, 143, 0.32);
+  margin-top: 1.5rem;
+  padding-top: 1.35rem;
+}
+
+.sect3 > h4 {
+  text-decoration: underline;
+  text-decoration-color: currentColor;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 0.16em;
+}
+
+body.section-view-active #preamble,
+body.section-view-active .content-section-hidden {
+  display: none !important;
+}
+
+#_research {
+  margin-bottom: 1.2rem;
+}
+
+#_research ~ .sectionbody > .sect2 > :not(h3) {
+  display: none;
+}
+
+#_research ~ .sectionbody > .sect2.is-open > :not(h3) {
+  display: block;
+}
+
+#_research ~ .sectionbody > .sect2 > h3 {
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+}
+
+#_research ~ .sectionbody > .sect2 > h3::before {
+  content: "";
+  width: 48px;
+  height: 48px;
+  flex: 0 0 48px;
+  border-radius: 999px;
+  background: url("images/used/spock.jpg") no-repeat center center / cover;
+  box-shadow: 0 0 0 1px rgba(87, 106, 143, 0.18);
 }
 </style>
 <script>
 document.addEventListener("DOMContentLoaded", function () {
+  var body = document.body;
   var toc = document.getElementById("toc");
   if (!toc) return;
 
   if (!toc.querySelector(".topbar-logo")) {
+    var logoLink = document.createElement("a");
+    logoLink.className = "topbar-logo-link";
+    logoLink.href = "https://www.uthsc.edu/";
+    logoLink.target = "_blank";
+    logoLink.rel = "noopener noreferrer";
+
     var logo = document.createElement("div");
     logo.className = "topbar-logo";
     logo.setAttribute("aria-hidden", "true");
-    toc.insertBefore(logo, toc.firstChild);
+    logoLink.appendChild(logo);
+    toc.insertBefore(logoLink, toc.firstChild);
   }
 
   if (!toc.querySelector(".topbar-brand")) {
     var brand = document.createElement("div");
     brand.className = "topbar-brand";
-    brand.textContent = "Colonna Lab";
+    brand.innerHTML = '<a href="#_research">Colonna Lab</a>';
     var titleNode = toc.querySelector("#toctitle");
     toc.insertBefore(brand, titleNode ? titleNode.nextSibling : toc.firstChild);
   }
@@ -791,21 +913,159 @@ document.addEventListener("DOMContentLoaded", function () {
   if (!nav) return;
 
   nav.innerHTML = [
-    '<li class="has-menu"><button class="nav-toggle" type="button" aria-expanded="false" aria-controls="nav-research-menu">Research</button><ul class="nav-menu" id="nav-research-menu">',
-    '<li><a href="#_population_genomics_and_health_disparities">Population Genomics</a></li>',
+    '<li class="has-menu"><button class="nav-toggle" type="button" data-view="research" data-target="#_research" aria-expanded="false" aria-controls="nav-research-menu">Research</button><ul class="nav-menu" id="nav-research-menu">',
+    '<li><a href="#_population_genomics_and_health_equity">Population Genomics</a></li>',
     '<li><a href="#_population_pangenomics">Population Pangenomics</a></li>',
+    '<li><a href="#_genomics_of_early_embryonic_development">Embryonic Genomics</a></li>',
     '</ul></li>',
-    '<li class="has-menu"><button class="nav-toggle" type="button" aria-expanded="false" aria-controls="nav-team-menu">Team</button><ul class="nav-menu" id="nav-team-menu">',
+    '<li class="has-menu"><button class="nav-toggle" type="button" data-view="team" data-target="#_current_members" aria-expanded="false" aria-controls="nav-team-menu">Team</button><ul class="nav-menu" id="nav-team-menu">',
     '<li><a href="#_current_members">Current Members</a></li>',
     '<li><a href="#_visiting">Visiting</a></li>',
     '<li><a href="#_past_lab_members">Past Lab members</a></li>',
     '<li><a href="#_past_visiting">Past visiting</a></li>',
     '</ul></li>',
-    '<li class="nav-link"><a href="#_publications">Publications</a></li>',
-    '<li class="nav-link"><a href="#_contacts">Contact</a></li>'
+    '<li class="nav-link"><a href="#_publications" data-view="publications">Publications</a></li>',
+    '<li class="nav-link"><a href="#_contacts" data-view="contacts">Contact</a></li>'
   ].join("");
 
   var menuItems = nav.querySelectorAll("li.has-menu");
+  var topSections = Array.prototype.slice.call(document.querySelectorAll("#content > .sect1"));
+  var researchRootHeading = document.getElementById("_research");
+  var researchSection = researchRootHeading ? researchRootHeading.closest(".sect1") : null;
+  var researchItems = researchSection
+    ? Array.prototype.slice.call(researchSection.querySelectorAll(":scope > .sectionbody > .sect2"))
+    : [];
+
+  function closeResearchItems(exceptItem) {
+    researchItems.forEach(function (item) {
+      item.classList.toggle("is-open", item === exceptItem);
+    });
+  }
+
+  function findResearchItemForHash(hash) {
+    if (!hash || !researchSection) return null;
+    var target = document.getElementById(hash.slice(1));
+    if (!target || !researchSection.contains(target)) return null;
+    return target.closest(".sect2");
+  }
+
+  function syncResearchAccordion() {
+    if (!researchItems.length) return;
+
+    if (window.location.hash === "#_research") {
+      closeResearchItems(null);
+      return;
+    }
+
+    var matchedItem = findResearchItemForHash(window.location.hash);
+    if (matchedItem) {
+      closeResearchItems(matchedItem);
+    }
+  }
+
+  researchItems.forEach(function (item) {
+    var heading = item.querySelector(":scope > h3");
+    if (!heading) return;
+
+    heading.addEventListener("click", function () {
+      var willOpen = !item.classList.contains("is-open");
+      closeResearchItems(willOpen ? item : null);
+      if (willOpen && heading.id) {
+        window.location.hash = "#" + heading.id;
+      }
+    });
+  });
+
+  function setSectionVisibility(view) {
+    topSections.forEach(function (section) {
+      section.classList.remove("content-section-hidden");
+    });
+
+    if (!view) {
+      body.classList.remove("section-view-active");
+      return;
+    }
+
+    body.classList.add("section-view-active");
+
+    if (view === "research") {
+      topSections.forEach(function (section) {
+        if (!section.querySelector("#_research")) {
+          section.classList.add("content-section-hidden");
+        }
+      });
+      return;
+    }
+
+    if (view === "team") {
+      topSections.forEach(function (section) {
+        if (!section.querySelector("#_current_members") && !section.querySelector("#_visiting")) {
+          section.classList.add("content-section-hidden");
+        }
+      });
+      return;
+    }
+
+    if (view === "publications") {
+      topSections.forEach(function (section) {
+        if (!section.querySelector("#_publications")) {
+          section.classList.add("content-section-hidden");
+        }
+      });
+      return;
+    }
+
+    if (view === "contacts") {
+      topSections.forEach(function (section) {
+        if (!section.querySelector("#_contacts")) {
+          section.classList.add("content-section-hidden");
+        }
+      });
+    }
+  }
+
+  function inferViewFromHash(hash) {
+    if (!hash) return "";
+
+    if (
+      hash === "#_research" ||
+      hash === "#_population_genomics_and_health_equity" ||
+      hash === "#_identity_by_descent_as_a_window_into_shared_environment_and_health" ||
+      hash === "#_population_pangenomics" ||
+      hash === "#_uncharted_genomes" ||
+      hash === "#_pangenomics_tools_for_population_genetics" ||
+      hash === "#_genomics_of_early_embryonic_development" ||
+      hash === "#_how_natural_selection_acts_on_early_human_development"
+    ) {
+      return "research";
+    }
+
+    if (
+      hash === "#_current_members" ||
+      hash === "#_visiting" ||
+      hash === "#_past_lab_members" ||
+      hash === "#_past_visiting" ||
+      hash.indexOf("#_vincenza_colonna") === 0 ||
+      hash.indexOf("#_silvia_buonaiuto") === 0 ||
+      hash.indexOf("#_franco_marsico") === 0 ||
+      hash.indexOf("#_laura_pignata") === 0 ||
+      hash.indexOf("#_ernestine_amos_abanyie") === 0 ||
+      hash.indexOf("#_donna_vo") === 0 ||
+      hash.indexOf("#_giuseppe_comentale") === 0
+    ) {
+      return "team";
+    }
+
+    if (hash === "#_publications") return "publications";
+    if (hash === "#_contacts") return "contacts";
+
+    return "";
+  }
+
+  function applyViewFromHash() {
+    setSectionVisibility(inferViewFromHash(window.location.hash));
+    syncResearchAccordion();
+  }
 
   function closeMenus(exceptItem) {
     menuItems.forEach(function (item) {
@@ -825,8 +1085,23 @@ document.addEventListener("DOMContentLoaded", function () {
     button.addEventListener("click", function (event) {
       event.preventDefault();
       event.stopPropagation();
-      var willOpen = !item.classList.contains("is-open");
-      closeMenus(willOpen ? item : null);
+      var view = button.getAttribute("data-view");
+      var target = button.getAttribute("data-target");
+      closeMenus(null);
+      setSectionVisibility(view);
+      if (view === "research" && target === "#_research") {
+        closeResearchItems(null);
+      }
+      if (target) {
+        window.location.hash = target;
+      }
+    });
+  });
+
+  nav.querySelectorAll("a[data-view]").forEach(function (link) {
+    link.addEventListener("click", function () {
+      setSectionVisibility(link.getAttribute("data-view"));
+      closeMenus(null);
     });
   });
 
@@ -841,6 +1116,9 @@ document.addEventListener("DOMContentLoaded", function () {
       closeMenus(null);
     }
   });
+
+  window.addEventListener("hashchange", applyViewFromHash);
+  applyViewFromHash();
 });
 </script>
 </head>
@@ -886,44 +1164,42 @@ diseases.</p>
 <h2 id="_research"><strong>Research</strong></h2>
 <div class="sectionbody">
 <div class="sect2">
-<h3 id="_population_genomics_and_health_disparities">Population Genomics and Health Disparities</h3>
+<h3 id="_population_genomics_and_health_equity"><strong>Population Genomics and Health Equity</strong></h3>
 <div class="sect3">
-<h4 id="_the_biorepository_and_integrative_genomics_big_initiative_in_tennessee">The Biorepository and Integrative Genomics (BIG) Initiative in Tennessee</h4>
+<h4 id="_the_biorepository_and_integrative_genomics_big_initiative_in_tennessee"><strong>The Biorepository and Integrative Genomics (BIG) Initiative in Tennessee</strong></h4>
 <div class="paragraph">
 <p>The Biorepository and Integrative Genomics (BIG) Initiative in Tennessee
 has developed a pioneering resource to address gaps in genomic research
-by linking genomic, phenotypic, and environmental data from a diverse
-Mid-South population, in the USA.</p>
+by linking genomic, phenotypic, and environmental data. BIG is
+recruiting participants mainly from Memphis, TN, with plans to include a
+total of 100,000 samples over the next five years.</p>
 </div>
 <div class="paragraph">
 <p><span class="image"><img src="images/used/website2025/BIG-notes-for-figures.png" alt="BIG"></span></p>
 </div>
-<div class="paragraph">
-<p>BIG is recruiting participants from Memphis, TN, with plans to include a
-total of 100,000 samples over the next five years. BIG is partnering
-with</p>
-</div>
 <div class="ulist">
 <ul>
 <li>
-<p>the <a href="https://www.genomicinformationcommons.org/">Genomic Information
-Commons</a>, a consortium of top children&#8217;s hospitals, to conduct genomics
-research aimed at discovering the genetic foundations of human disease
-in diverse populations.</p>
+<p>BIG is partnering with the
+<a href="https://www.genomicinformationcommons.org/">Genomic Information Commons</a>,
+a consortium of top children&#8217;s hospitals, to conduct genomics research
+aimed at discovering the genetic foundations of human disease in diverse
+populations.</p>
 </li>
 <li>
-<p>Togheter for Change inititive</p>
+<p>BIG is part of the Togheter for Change initiative
+<a href="https://thedhgi.org/en/about-t4c">(T4C)</a></p>
 </li>
 </ul>
 </div>
 </div>
 <div class="sect3">
-<h4 id="_characterizing_genetic_diversity_in_the_big_cohort">Characterizing Genetic Diversity in the BIG Cohort</h4>
+<h4 id="_characterizing_genetic_diversity_in_the_big_cohort"><strong>Characterizing Genetic Diversity in the BIG Cohort</strong></h4>
 <div class="paragraph">
 <p>Analysis of 13,152 genomes from BIG revealed significant genetic
 diversity, with 50% of participants inferred to have non-European or
 various types of admixed ancestry, highlighting the importance of
-inclusive genomics in understanding health disparities.</p>
+inclusive genomics in understanding health equity.</p>
 </div>
 <div class="paragraph">
 <p><span class="image"><img src="images/used/website2025/big_admix.png" alt="BIG admixture analysis"></span></p>
@@ -932,25 +1208,28 @@ inclusive genomics in understanding health disparities.</p>
 <p><em>Global ancestry deconvolution of 13,152 sequenced individuals, based on
 reference populations in the 1000 Genomes and HGDP data sets. Each
 vertical bar represents one individual, colors are proportional to
-inferred ancestry. For further analyses, individuals were grouped based
-on the ancestry proportions in seven categories (colored bar, number of
-individuals per category in parentheses), and classified as admixed or
-not (black and gray bar). See the open access
+inferred ancestry. Individuals were further grouped based on the
+ancestry proportions in seven categories based on the likelihood of
+similarity to reference populations (AFR= Africans; EUR-AFR = Europeans
+Africans admixed; EUR = Europeans; EUR-AMR = Europeans Americans
+admixed; Multiway = more than two ancestries; number of individuals per
+category in parentheses). See the open access
 <a href="https://www.nature.com/articles/s41467-025-59375-0">paper</a>.</em></p>
 </div>
 </div>
 <div class="sect3">
-<h4 id="_identity_by_descent_as_a_window_into_shared_environment_and_health">Identity-by-Descent as a Window into Shared Environment and Health</h4>
+<h4 id="_identity_by_descent_as_a_window_into_shared_environment_and_health"><strong>Identity-by-Descent as a Window into Shared Environment and Health</strong></h4>
 <div class="paragraph">
-<p>We use identity-by-descent (IBD) sharing patterns in the BIG cohort to
-identify recent shared ancestry and fine-scale population structure.
-These patterns help connect inherited genomic segments with shared
-environmental exposures and disease risk.</p>
+<p>We use identity-by-descent
+<a href="https://en.wikipedia.org/wiki/Identity_by_descent">(IBD)</a> sharing
+patterns in the BIG cohort to identify recent shared ancestry and
+fine-scale population structure. These patterns help connect inherited
+genomic segments with shared environmental exposures and disease risk.</p>
 </div>
 </div>
 </div>
 <div class="sect2">
-<h3 id="_population_pangenomics">Population Pangenomics</h3>
+<h3 id="_population_pangenomics"><strong>Population Pangenomics</strong></h3>
 <div class="paragraph">
 <p>A pangenome is a comprehensive collection of all the genetic variation
 present in a species, which overcomes the limitations of reference-based
@@ -958,24 +1237,14 @@ genomics by including both common and rare genetic variations in a
 single reference genome.</p>
 </div>
 <div class="paragraph">
-<p>The <a href="https://humanpangenome.org/">Human Pangenome Reference Project</a> aims
-to sequence 300 people to create a pangenome of 600 haplotypes and has
-currently released a first draft of the human pangenome reference based
-on 47 phased diploid assemblies from a group of genetically diverse
-individuals</p>
+<p>The <a href="https://humanpangenome.org/">Human Pangenome Reference Consortium</a>
+aims to sequence 300 people to create a pangenome of 600 haplotypes and
+has currently released a first draft of the human pangenome reference
+based on 47 phased diploid assemblies from a group of genetically
+diverse individuals</p>
 </div>
 <div class="sect3">
-<h4 id="_uncharted_genomes">Uncharted Genomes</h4>
-<div class="paragraph">
-<p><span class="image"><img src="images/used/pangenome_pca.png" alt="Human pangenome PCA"></span></p>
-</div>
-<div class="paragraph">
-<p><em>Well-known population stratification is not visible in the p-arms of
-acrocentric chromosomes. This observation is compatible with
-recombination occurring between the p-arms of heterologous acrocentric
-chromosomes. Here is an example of chromosome 15. AFR: Africans; AMR:
-Native Americans; EAS: East-Asians; SAS: South-East Asians.</em></p>
-</div>
+<h4 id="_uncharted_genomes"><strong>Uncharted Genomes</strong></h4>
 <div class="paragraph">
 <p>Our team evaluated, for the first time, human population structure using
 markers from short arms of the acrocentric chromosomes [PMID:
@@ -988,27 +1257,31 @@ regions [PMID: <a href="https://pubmed.ncbi.nlm.nih.gov/37165241/">37165241</a>]
 findings on the patterns of linkage disequilibrium in these regions
 support this idea.</p>
 </div>
+<div class="paragraph">
+<p><span class="image"><img src="images/used/pangenome_pca.png" alt="Human pangenome PCA"></span></p>
+</div>
+<div class="paragraph">
+<p><em>Well-known population stratification is not visible in the p-arms of
+acrocentric chromosomes. This observation is compatible with
+recombination occurring between the p-arms of heterologous acrocentric
+chromosomes. Here is an example of chromosome 15, PCA with markers from
+the whole chromosome, only the q-arm, only the p-arm. AFR: Africans;
+AMR: Native Americans; EAS: East-Asians; SAS: South-East Asians.</em></p>
+</div>
 </div>
 <div class="sect3">
-<h4 id="_pangenomics_tools_for_population_genetics">Pangenomics tools for population genetics</h4>
+<h4 id="_pangenomics_tools_for_population_genetics"><strong>Pangenomics tools for population genetics</strong></h4>
 
 </div>
 <div class="sect3">
-<h4 id="_funding"><strong>Funding</strong></h4>
-<div class="ulist">
-<ul>
-<li>
-<p>NIH U01HG013760 - Building Tools and Community to Make Pangenomes
-Accessible</p>
-</li>
-</ul>
-</div>
+<h4 id="_bats_pangenomics"><strong>Bat&#8217;s pangenomics</strong></h4>
+
 </div>
 </div>
 <div class="sect2">
-<h3 id="_genomics_of_early_embryonic_development">Genomics of early embryonic development</h3>
+<h3 id="_genomics_of_early_embryonic_development"><strong>Genomics of early embryonic development</strong></h3>
 <div class="sect3">
-<h4 id="_how_natural_selection_acts_on_early_human_development"><em>How natural selection acts on early human development</em></h4>
+<h4 id="_how_natural_selection_acts_on_early_human_development"><strong>How natural selection acts on early human development</strong></h4>
 <div class="paragraph">
 <p>We investigate adverse outcomes of embryonic development like recurrent
 pregnancy loss and preeclampsia to identify the genetic factors that
@@ -1034,33 +1307,18 @@ examine the role of ancestry in mediating the relationship between
 <em>APOL1</em> genotype and preeclampsia risk. The results can provide insights
 into genetic and molecular basis of preeclampsia.</p>
 </div>
-<div class="ulist">
-<ul>
-<li>
-<p><a href="https://scholar.google.at/citations?user=ceRslzAAAAAJ&amp;hl=en">Francesca
-Antonacci</a> University of Bari Aldo Moro</p>
-</li>
-<li>
-<p><a href="https://scholar.google.at/citations?user=02eKUFwAAAAJ&amp;hl=en&amp;oi=ao">Carlo
-Alviggi</a>, University of Naples Federico II</p>
-</li>
-<li>
-<p><a href="https://scholar.google.at/citations?user=iukICNwAAAAJ&amp;hl=en&amp;oi=ao">Antonio
-Lamarca</a>, University of Modena and Reggio Emilia</p>
-</li>
-<li>
-<p><a href="https://www.igb.cnr.it/index.php/marcella-vacca/">Marcella Vacca</a>,
+<div class="paragraph">
+<p>This project is in collaboration with
+<a href="https://scholar.google.at/citations?user=ceRslzAAAAAJ&amp;hl=en">Francesca
+Antonacci</a> University of Bari Aldo Moro;
+<a href="https://scholar.google.at/citations?user=02eKUFwAAAAJ&amp;hl=en&amp;oi=ao">Carlo
+Alviggi</a>, University of Naples Federico II;
+<a href="https://www.igb.cnr.it/index.php/marcella-vacca/">Marcella Vacca</a>, and
+<a href="https://www.igb.cnr.it/index.php/gabriella-lania/">Gabriella Lania</a>,
 National Research Council</p>
-</li>
-<li>
-<p><a href="https://www.igb.cnr.it/index.php/gabriella-lania/">Gabriella Lania</a>,
-National Research Council</p>
-</li>
-</ul>
 </div>
-</div>
-<div class="sect3">
-<h4 id="_funding_2"><strong>Funding</strong></h4>
+<div class="sect4">
+<h5 id="_funding"><strong>Funding</strong></h5>
 <div class="ulist">
 <ul>
 <li>
@@ -1071,12 +1329,6 @@ National Research Council</p>
 </li>
 <li>
 <p>PRIN P2022ZE75A Ministero dell&#8217;Universita e della Ricerca</p>
-</li>
-<li>
-<p><a href="https://www.merigen.it/">Merigen Research s.r.l</a></p>
-</li>
-<li>
-<p>POR Campania FSE 2014-2020 ASSE III - Ob. Sp. 14</p>
 </li>
 </ul>
 </div>
@@ -1090,6 +1342,7 @@ National Research Council</p>
 </div>
 </div>
 </div>
+</div>
 <div class="sect1">
 <h2 id="_current_members"><strong>Current Members</strong></h2>
 <div class="sectionbody">
@@ -1098,22 +1351,20 @@ National Research Council</p>
 <div class="paragraph">
 <p><span class="image"><img src="images/used/website2025/enza_2025.jpg" alt="Vincenza Colonna"></span></p>
 </div>
-<div class="sect3">
-<h4 id="_associate_professor_department_of_genetics_genomics_and_informatics_website"><em>Associate Professor, Department of Genetics, Genomics and Informatics <a href="https://www.uthsc.edu/faculty/profile/?netid=vcolonna">website</a></em></h4>
 <div class="paragraph">
-<p><em>University of Tennessee Health Science Center, Memphis, TN</em></p>
+<p><strong>Associate Professor, Department of Genetics, Genomics and Informatics</strong>
+<a href="https://www.uthsc.edu/faculty/profile/?netid=vcolonna">website</a><br>
+<em>University of Tennessee Health Science Center, Memphis, TN</em></p>
 </div>
-</div>
-<div class="sect3">
-<h4 id="_director_integrative_genomics_biorpository_department_of_pediatrics"><em>Director, Integrative Genomics Biorpository, Department of Pediatrics</em></h4>
 <div class="paragraph">
-<p><em>Children&#8217;s Foundation Research Institute, Memphis, TN</em></p>
+<p><strong>Director, Integrative Genomics Biorpository, Department of
+Pediatrics</strong><br>
+<em>Children&#8217;s Foundation Research Institute, Memphis, TN</em></p>
 </div>
-</div>
-<div class="sect3">
-<h4 id="_researcher_on_leave_of_absence_national_research_council_website"><em>Researcher (on leave of absence), National Research Council <a href="https://www.igb.cnr.it/index.php/vincenza-colonna/">website</a></em></h4>
 <div class="paragraph">
-<p><em>Institute of Genetics and Biophysics, Naples, Italy</em></p>
+<p><strong>Senior Researcher (on leave of absence), National Research Council</strong>
+<a href="https://www.igb.cnr.it/index.php/vincenza-colonna/">website</a><br>
+<em>Institute of Genetics and Biophysics, Naples, Italy</em></p>
 </div>
 <div class="paragraph">
 <p><em>I graduated in Evolutionary Biology from the University of Naples
@@ -1168,7 +1419,6 @@ rare variation [PMID:
 <div class="paragraph">
 <p>I founded and led <a href="http://www.igb.cnr.it/obilab">OBiLab</a>, a project on
 training in Bioinformatics</p>
-</div>
 </div>
 </div>
 <div class="sect2">
@@ -1407,7 +1657,7 @@ via Pietro Castellino 111 - 80131 Napoli - Italy
 </div>
 <div id="footer">
 <div id="footer-text">
-Last updated 2026-03-13 07:07:44 -0500
+Last updated 2026-03-13 16:48:09 -0500
 </div>
 </div>
 </body>

@@ -4,13 +4,13 @@
 
 ![Vincenza Colonna](images/used/website2025/enza_2025.jpg)
 
-##### *Associate Professor, Department of Genetics, Genomics and Informatics [website](https://www.uthsc.edu/faculty/profile/?netid=vcolonna)*  
+**Associate Professor, Department of Genetics, Genomics and Informatics** [website](https://www.uthsc.edu/faculty/profile/?netid=vcolonna)  
   *University of Tennessee Health Science Center, Memphis, TN*  
 
-#####  *Director, Integrative Genomics Biorpository, Department of Pediatrics*  
+**Director, Integrative Genomics Biorpository, Department of Pediatrics**  
   *Children's Foundation Research Institute, Memphis, TN*  
 
-#####   *Researcher (on leave of absence), National Research Council [website](https://www.igb.cnr.it/index.php/vincenza-colonna/)*  
+**Senior Researcher (on leave of absence), National Research Council** [website](https://www.igb.cnr.it/index.php/vincenza-colonna/)  
   *Institute of Genetics and Biophysics, Naples, Italy*  
 
 *I graduated in Evolutionary Biology from the University of Naples Federico II and did postdoctoral research at the University of Ferrara (Italy) and at Wellcome Trust Sanger Institute in Cambridge (UK). I was lectures in Genetics and Bioinformatics at the University of Ferrara (Italy). I am now leading the Population genomics laboratory at the University of Tennessee, College of Medicine, in the Department of Genetics, Genomics and Informatics.*
