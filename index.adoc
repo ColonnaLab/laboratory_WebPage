@@ -1,16 +1,23 @@
-image:images/spock.jpg[spock]
+= *Colonna Lab*
+:figure-caption!:
+:toc-title: Page Content
+:toc: left
+:toclevels: 1
+:hide-uri-scheme:
+:docinfo: shared
 
-Welcome to the *Population Genomics Laboratory* of Department of
-Genetics, Genomics and Informatics at the University of Tennessee Health
-Science Center. We are interested in understanding causes and
-consequences of genetic diversity and how natural selection in humans
-affects loci related to diseases.
+*Welcome to the Population Genomics Laboratory* +
+*Department of Genetics, Genomics and Informatics*
+
+image:images/used/spock.jpg[spock]
+
+We are interested in understanding causes and consequences of genetic
+diversity and how natural selection in humans affects loci related to
+diseases.
 
 ____
 _Fascinating (Lieutenant Spock)_
 ____
-
-image:images/UTHSC-primary-stacked-logo-4c.jpg[uthsc]
 
 == *Research*
 
@@ -23,14 +30,14 @@ has developed a pioneering resource to address gaps in genomic research
 by linking genomic, phenotypic, and environmental data from a diverse
 Mid-South population, in the USA.
 
-image:images/website2025/BIG-notes-for-figures.png[BIG]
+image:images/used/website2025/BIG-notes-for-figures.png[BIG]
 
 BIG is recruiting participants from Memphis, TN, with plans to include a
 total of 100,000 samples over the next five years. BIG is partnering
 with
 
 * the https://www.genomicinformationcommons.org/[Genomic Information
-Commons], a consortium of top children’s hospitals, to conduct genomics
+Commons], a consortium of top children's hospitals, to conduct genomics
 research aimed at discovering the genetic foundations of human disease
 in diverse populations.
 * Togheter for Change inititive
@@ -42,7 +49,7 @@ diversity, with 50% of participants inferred to have non-European or
 various types of admixed ancestry, highlighting the importance of
 inclusive genomics in understanding health disparities.
 
-image:images/website2025/big_admix.png[BIG admixture analysis]
+image:images/used/website2025/big_admix.png[BIG admixture analysis]
 
 _Global ancestry deconvolution of 13,152 sequenced individuals, based on
 reference populations in the 1000 Genomes and HGDP data sets. Each
@@ -75,7 +82,7 @@ individuals
 
 ==== Uncharted Genomes
 
-image:images/pangenome_pca.png[Human pangenome PCA]
+image:images/used/pangenome_pca.png[Human pangenome PCA]
 
 _Well-known population stratification is not visible in the p-arms of
 acrocentric chromosomes. This observation is compatible with
@@ -111,7 +118,7 @@ influence reproductive outcomes and pregnancy complications. This
 knowledge furthers our understanding of human evolution and informs
 efforts to improve pregnancy outcomes.
 
-image:images/embryo.png[embryo]
+image:images/used/embryo.png[embryo]
 
 In *CABERNET* we aim to determine the extent of chromosomal mosaicism
 between embryonic and extraembryonic tissues using single cell DNA
@@ -140,40 +147,46 @@ National Research Council
 
 ==== *Funding*
 
-* PRIN 2020J84FAM Ministero dell’Universita e della Ricerca
-* PRIN 2022WEHP7M Ministero dell’Universita e della Ricerca
-* PRIN P2022ZE75A Ministero dell’Universita e della Ricerca
+* PRIN 2020J84FAM Ministero dell'Universita e della Ricerca
+* PRIN 2022WEHP7M Ministero dell'Universita e della Ricerca
+* PRIN P2022ZE75A Ministero dell'Universita e della Ricerca
 * https://www.merigen.it/[Merigen Research s.r.l]
-* POR Campania FSE 2014-2020 ASSE III – Ob. Sp. 14
+* POR Campania FSE 2014-2020 ASSE III - Ob. Sp. 14
 
-image:images/loghi_grep.png[loghi_grep]
+image:images/used/loghi_grep.png[loghi_grep]
 
-image:images/miur.jpg[miur]
+image:images/used/miur.jpg[miur]
 
-== *People*
+== *Current Members*
 
 === *Vincenza Colonna*
 
-*_Associate Professor, Department of Genetics, Genomics and Informatics
-https://www.uthsc.edu/faculty/profile/?netid=vcolonna[website]_* +
+image:images/used/website2025/enza_2025.jpg[Vincenza Colonna]
+
+==== _Associate Professor, Department of Genetics, Genomics and Informatics https://www.uthsc.edu/faculty/profile/?netid=vcolonna[website]_
+
 _University of Tennessee Health Science Center, Memphis, TN_
 
-*_Director, Integrative Genomics Biorpository, Department of
-Pediatrics_* +
-_Children’s Foundation Research Institute, Memphis, TN_
+==== _Director, Integrative Genomics Biorpository, Department of Pediatrics_
 
-*_Researcher (on leave of absence), National Research Council
-https://www.igb.cnr.it/index.php/vincenza-colonna/[website]_* +
-_Institute of Genetics and Biophysics, Naples, Italy_ +
-image:images/website2025/enza_2025.jpg[vcolonna]
+_Children's Foundation Research Institute, Memphis, TN_
 
-*_I graduated in Evolutionary Biology from the University of Naples
+==== _Researcher (on leave of absence), National Research Council https://www.igb.cnr.it/index.php/vincenza-colonna/[website]_
+
+_Institute of Genetics and Biophysics, Naples, Italy_
+
+_I graduated in Evolutionary Biology from the University of Naples
 Federico II and did postdoctoral research at the University of Ferrara
 (Italy) and at Wellcome Trust Sanger Institute in Cambridge (UK). I was
 lectures in Genetics and Bioinformatics at the University of Ferrara
 (Italy). I am now leading the Population genomics laboratory at the
 University of Tennessee, College of Medicine, in the Department of
-Genetics, Genomics and Informatics._.*
+Genetics, Genomics and Informatics._
+
+https://orcid.org/0000-0002-3966-0474[ORCID] |
+https://github.com/ezcn[My GitHub] |
+https://scholar.google.com/citations?user=ufP1EYgAAAAJ&hl=en&oi=ao[Google
+Scholar]
 
 I am a genomicist and an expert in human evolutionary and population
 genomics and bioinformatics. In my postdoctoral research I was part of
@@ -211,46 +224,42 @@ https://pubmed.ncbi.nlm.nih.gov/28643794[28643794]]
 I founded and led http://www.igb.cnr.it/obilab[OBiLab], a project on
 training in Bioinformatics
 
-https://orcid.org/0000-0002-3966-0474[ORCID] |
-image:images/Octicons-mark-github.svg[git] https://github.com/ezcn[My
-GitHub] |
-https://scholar.google.com/citations?user=ufP1EYgAAAAJ&hl=en&oi=ao[Google
-Scholar]
-
 === *Silvia Buonaiuto*, Postdoctoral fellow
 
-image:images/silvia.jpg[silvia]
+image:images/used/silvia.jpg[Silvia Buonaiuto]
 
-*_ I am a postdoctoral researcher at the University of Tennessee Health
+_I am a postdoctoral researcher at the University of Tennessee Health
 Science Center in the Department of Genetics, Genomics, and Informatics.
 Prior to this, I worked as a postdoctoral researcher at the National
 Research Council in Italy. I earned a Ph.D. in Molecular Bioscience from
 the University of Campania "Luigi Vanvitelli." Before that, I completed
-my Master’s degree in Biology at the University of Naples Federico II,
+my Master's degree in Biology at the University of Naples Federico II,
 where I conducted my thesis in molecular biology at the Department of
-Biology._.*
+Biology._
 
-I work on the admixture mapping and pangenomics analysis in the BIG
-project. My role involves establishing connections between genotypes and
-phenotypes especially in admixed individuals through admixture mapping
-analysis. Additionally, I am leading sequence analysis for the projects
-related to early embryonic development.
-
-image:images/Octicons-mark-github.svg[git]
 https://github.com/SilviaBuonaiuto[My GitHub] |
 https://scholar.google.com/citations?user=oGGUawcAAAAJ&hl=it&oi=ao[Google
 Scholar]
 
+I work on admixture mapping and pangenomics analysis in the BIG project,
+with a focus on connecting genotypes and phenotypes in admixed
+individuals through admixture mapping. I also lead sequence analysis for
+projects related to early embryonic development.
+
 === *Franco Marsico*, Postdoctoral fellow
 
-image:images/franco.jpeg[franco]
+image:images/used/franco.jpeg[Franco Marsico]
 
-*_I earned my degree in Biology from the University of Buenos Aires,
+_I earned my degree in Biology from the University of Buenos Aires,
 Argentina, where I also completed my PhD in Computational Biology at the
 Calculus Institute. My research primarily focused on developing
 mathematical models for kinship inference, employing a Bayesian
 Approach. I am a postdoc in the Colonna lab, where my work centers on
-population genomics._.*
+population genomics._
+
+https://github.com/MarsicoFL[Github profile] |
+https://scholar.google.ca/citations?user=Vd4yh9wAAAAJ&hl=en[Google
+Scholar]
 
 I am currently working on *Admixture Mapping and Pangenomics Analysis in
 the Biorepository and Integrative Genomics (BIG) Initiative Cohort*
@@ -258,65 +267,57 @@ project. My focus is on studying recent natural selection signals in
 admixed populations. Additionally, I have a deep interest in evolution
 and how to compute processes that shape the history of life.
 
-image:images/Octicons-mark-github.svg[git]
-https://github.com/MarsicoFL[Github profile] |
-https://scholar.google.ca/citations?user=Vd4yh9wAAAAJ&hl=en[Google
-Scholar]
-
 === *Laura Pignata*, Postdoctoral fellow
 
-image:images/website2025/laura.jpeg[flavia]
+image:images/used/website2025/laura.jpeg[Laura Pignata]
 
-*_I graduated in Molecular Biology at the University of Campania Luigi
+_I graduated in Molecular Biology at the University of Campania Luigi
 Vanvitelli, where I also completed my PhD program in Molecular Life
 Sciences. After the PhD I continued my work as researcher, focusing on
 the analysis of DNA methylation in imprinting disorders. I am visiting
 Dr. Colonna laboratory at the University of Tennessee, College of
-Medicine, in the Department of Genetics, Genomics and Informatics_.*
-
-I am working on the analysis of long-read sequencing data on human
-samples with mosaic methylation defects. The aim of this study is to
-identify the mechanisms underlying the methylation defects by examining
-the role of de novo mutations in cis and somatic recombination events,
-possibly arisen during early embryogenesis.
+Medicine, in the Department of Genetics, Genomics and Informatics._
 
 https://orcid.org/0000-0001-8835-5567?lang=en[ORCID]
 
+I analyze long-read sequencing data from human samples with mosaic
+methylation defects. My work focuses on identifying the mechanisms
+behind these defects by testing the roles of de novo mutations in cis
+and somatic recombination events that may arise during early
+embryogenesis.
+
 === *Ernestine Amos-Abanyie*, PhD Student
 
-image:images/website2025/ernestine.jpg[flavia]
+image:images/used/website2025/ernestine.jpg[Ernestine Amos-Abanyie]
 
-*_I have a master degree in Molecular Biology from the university of
+_I have a master degree in Molecular Biology from the university of
 Ghana, I am a PhD candidate in the Biomedical Science program of the
 Department of Genetics Genomics and Informatics in co-supervision with
-Dr. Ashbrook_.*
+Dr. Ashbrook._
 
-I am studying mitochondrial DNA Variation in disease susceptibility in
-the BXD Mice and the BIG cohort.
-
-image:images/Octicons-mark-github.svg[git]
 https://github.com/Flavia95[My GitHub] |
 https://scholar.google.com/citations?user=CRXpC9gAAAAJ&hl=en&inst=1063551842422345302[Google
 Scholar]
 
+I study mitochondrial DNA variation and its contribution to disease
+susceptibility in both the BXD mice and the BIG cohort.
+
 === *Donna Vo*, Research associate
 
-image:images/website2025/donna.jpg[flavia]
+image:images/used/website2025/donna.jpg[Donna Vo]
 
-*_I earned a Bachelor of Science in Microbiology at the University of
+_I earned a Bachelor of Science in Microbiology at the University of
 Tennessee, Knoxville. I have a background in spoilage detection and
-mycology identification in the food and beverage industry_.*
+mycology identification in the food and beverage industry._
 
-I am in charge of sample collection and processing for the Integrative
-Genomics Biorepository that supports the BIG project.
+I oversee sample collection and processing for the Integrative Genomics
+Biorepository that supports the BIG project.
 
 == *Visiting*
 
 === *Giuseppe Comentale*, PhD Student
 
-== *Former members*
-
-=== *Lab members*
+=== *Past Lab members*
 
 * Flavia Villani, Master student, PhD student, 2019-2025
 * Gianluca Damaggio, Master student, PhD student, 2019-2023
@@ -325,15 +326,15 @@ Genomics Biorepository that supports the BIG project.
 * Marialaura Zitiello, Master Student, 2022-2023
 * Antonella Mecca, Master Student, 2022-2023
 * Angela Sequino, Master Student, 2022-2023
-* Giuliana D’Angelo, Master Student, 2019-2020
+* Giuliana D'Angelo, Master Student, 2019-2020
 * Roberto Sirica, PhD student, 2015-2018
 * Gaia Leandra Cecere, undergraduate student, 2018
 
-=== *Visiting*
+=== *Past visiting*
 
 * Dario Cannella, PhD student, visiting student, 2025
 * Angela Carfora, PhD student, visiting student, 2025
-* Davide D’angelo, Visiting master student, 2022
+* Davide D'angelo, Visiting master student, 2022
 * Marianna Buonaiuto, visiting Postdoc, 2017
 * Lucia De Martino, visiting master Student, 2016
 
@@ -356,7 +357,7 @@ Vincenza Colonna, PhD
 * University of Tennessee Health Science Center, TSRB room 405 +
 71 S Manassas St, Memphis TN 38163
 https://maps.app.goo.gl/XnjsEmoGLyGBTd7b7[map]
-* Children’s Foundation Research Institute +
+* Children's Foundation Research Institute +
 50 N. Dunlap St. Memphis, TN 38105
 https://maps.app.goo.gl/ATEtD8DFUi7oFWeC8[map]
 * Istituto di Genetica e Biofisica "Adriano Buzzati-Traverso" piano R,

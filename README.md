@@ -4,7 +4,7 @@ Website source and build workflow.
 
 ## Recommended workflow (easy editing)
 
-Edit `index.md` only, then build with one command.
+Edit the section files in `content/`, then build with one command.
 
 ### Requirements
 - `pandoc`
@@ -16,6 +16,7 @@ make update
 ```
 
 This generates:
+- `index.md`
 - `index.adoc`
 - `index.html`
 

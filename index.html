@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="generator" content="Asciidoctor 2.0.16">
-<title>Research</title>
+<title>Colonna Lab</title>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,300italic,400,400italic,600,600italic%7CNoto+Serif:400,400italic,700,700italic%7CDroid+Sans+Mono:400,700">
 <style>
 /*! Asciidoctor default stylesheet | MIT License | https://asciidoctor.org */
@@ -436,20 +436,442 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 #footer-text{color:rgba(0,0,0,.6);font-size:.9em}}
 @media amzn-kf8{#header,#content,#footnotes,#footer{padding:0}}
 </style>
+<style>
+/* Top horizontal navigation bar */
+body.toc2 {
+  padding-left: 0 !important;
+  padding-top: 134px !important;
+}
+
+#toc.toc2 {
+  display: grid;
+  grid-template-columns: 412px 1fr;
+  grid-template-rows: 56px 44px;
+  column-gap: 18px;
+  align-items: center;
+  position: fixed !important;
+  top: 0;
+  left: 0;
+  width: 100% !important;
+  height: auto !important;
+  padding: 10px 28px !important;
+  margin: 0 !important;
+  border-right: none !important;
+  border-bottom: 1px solid #d9d9d9;
+  background: #576A8F;
+  z-index: 2000;
+  overflow: visible;
+  white-space: nowrap;
+}
+
+#toc.toc2 .topbar-logo {
+  grid-column: 1;
+  grid-row: 1 / span 2;
+  width: 412px;
+  height: 114px;
+  background: url("images/used/UTHSC-primary-stacked-logo-4c-151.png") no-repeat left center / 412px auto;
+}
+
+#toc.toc2 #toctitle { display: none; }
+
+#toc.toc2 .topbar-brand {
+  grid-column: 2;
+  grid-row: 1;
+  display: flex;
+  align-items: end;
+  font-family: "Open Sans", "DejaVu Sans", sans-serif;
+  font-size: 36px;
+  font-weight: 700;
+  color: #FFF8DE;
+  line-height: 1;
+}
+
+#toc.toc2 > ul {
+  display: flex;
+  gap: 18px;
+  align-items: center;
+  list-style: none;
+  margin: 0 !important;
+  padding: 0 !important;
+  font-family: "Open Sans", "DejaVu Sans", sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  grid-column: 2;
+  grid-row: 2;
+  align-self: start;
+}
+
+#toc.toc2 > ul > li,
+#toc.toc2 ul.sectlevel1 > li {
+  position: relative;
+  margin: 0 !important;
+  list-style: none;
+}
+
+#toc.toc2 > ul > li > a,
+#toc.toc2 .nav-toggle {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 8px 10px;
+  color: #FFF8DE;
+  text-decoration: none;
+  cursor: pointer;
+  background: transparent;
+  border: 0;
+  font: inherit;
+}
+
+#toc.toc2 .nav-toggle::after {
+  content: "";
+  width: 7px;
+  height: 7px;
+  border-right: 1.5px solid currentColor;
+  border-bottom: 1.5px solid currentColor;
+  transform: rotate(45deg) translateY(-1px);
+}
+
+#toc.toc2 > ul > li:hover > a,
+#toc.toc2 > ul > li:hover > .nav-toggle,
+#toc.toc2 > ul > li > .nav-toggle:focus-visible,
+#toc.toc2 > ul > li.is-open > .nav-toggle,
+#toc.toc2 a:hover {
+  color: #FFF8DE;
+}
+
+#toc.toc2 .nav-menu {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  min-width: 240px;
+  padding: 14px 0;
+  margin: 0;
+  background: #ffffff;
+  border-top: 3px solid #1f5ea8;
+  box-shadow: 0 18px 36px rgba(20, 32, 61, 0.14);
+  white-space: normal;
+  z-index: 2100;
+}
+
+#toc.toc2 > ul > li:hover > .nav-menu,
+#toc.toc2 > ul > li.is-open > .nav-menu {
+  display: block;
+}
+
+#toc.toc2 .nav-menu li {
+  list-style: none;
+  margin: 0;
+}
+
+#toc.toc2 .nav-menu a {
+  display: block;
+  padding: 10px 18px;
+  color: #555;
+  text-decoration: none;
+}
+
+#toc.toc2 .nav-menu a:hover {
+  background: rgba(31, 94, 168, 0.08);
+  color: #1f5ea8;
+}
+
+#toc.toc2 .nav-link a {
+  text-decoration: none;
+}
+
+@media (max-width: 960px) {
+  body.toc2 {
+    padding-top: 188px !important;
+  }
+
+  #toc.toc2 {
+    grid-template-columns: 1fr;
+    grid-template-rows: auto auto auto;
+    row-gap: 10px;
+  }
+
+  #toc.toc2 .topbar-logo {
+    grid-column: 1;
+    grid-row: 1;
+    width: min(100%, 412px);
+    height: 114px;
+  }
+
+  #toc.toc2 .topbar-brand {
+    grid-column: 1;
+    grid-row: 2;
+  }
+
+  #toc.toc2 > ul {
+    grid-column: 1;
+    grid-row: 3;
+    width: 100%;
+    flex-wrap: wrap;
+  }
+}
+
+/* Image sizing */
+#preamble > .sectionbody > .paragraph:first-of-type p {
+  margin: 0 auto 1.5rem auto;
+  max-width: 980px;
+  text-align: center;
+  color: #576A8F;
+  font-family: "Open Sans", "DejaVu Sans", sans-serif;
+  font-size: 1.55rem;
+  font-weight: 700;
+  line-height: 1.35;
+}
+
+img[src$="spock.jpg"] {
+  width: 180px;
+  height: auto;
+  float: left;
+  margin: -56px 18px 10px 0;
+}
+
+#preamble > .sectionbody > .paragraph:nth-of-type(3) p {
+  font-size: 1.2rem;
+  font-style: italic;
+  font-family: "Open Sans", "DejaVu Sans", sans-serif;
+  font-weight: 700;
+  line-height: 1.6;
+  color: #576A8F;
+}
+
+#preamble .quoteblock blockquote p,
+#preamble .quoteblock .attribution,
+#preamble .quoteblock .attribution cite {
+  color: #576A8F;
+}
+
+#preamble {
+  margin-bottom: 2.5rem;
+}
+
+#preamble + .sect1 {
+  margin-top: 1.5rem;
+}
+
+#_current_members ~ .sectionbody h3 + .paragraph .image img {
+  width: 180px;
+  max-width: 180px;
+  height: auto;
+  float: left;
+  margin: 0 18px 10px 0;
+}
+
+#_current_members ~ .sectionbody h3 {
+  color: #FF8200;
+  clear: both;
+}
+
+#_visiting,
+#_publications,
+#_contacts {
+  clear: both;
+}
+
+#_current_members ~ .sectionbody h4 {
+  color: #FF8200;
+  font-size: 0.98rem;
+  font-weight: 600;
+  line-height: 1.35;
+  margin-top: 0.2rem;
+  margin-bottom: 0.15rem;
+}
+
+#_current_members ~ .sectionbody h5 {
+  color: #FF8200;
+  font-size: 0.98rem;
+  font-weight: 600;
+  line-height: 1.35;
+  margin-top: 0.2rem;
+  margin-bottom: 0.15rem;
+}
+
+#_current_members ~ .sectionbody h4 + .paragraph p {
+  font-size: 0.95rem;
+  color: rgba(0, 0, 0, 0.72);
+  margin-bottom: 0.55rem;
+}
+
+#_current_members ~ .sectionbody .sect2:not(:first-of-type) > .paragraph:nth-of-type(2) p,
+#_current_members ~ .sectionbody .sect2:first-of-type .sect3 > .paragraph:first-of-type p,
+#_current_members ~ .sectionbody .sect2:first-of-type .sect3:last-of-type > .paragraph:nth-of-type(2) p {
+  color: #576A8F;
+}
+
+#_current_members ~ .sectionbody .sect2 > .paragraph p,
+#_current_members ~ .sectionbody .sect2 .sect3 > .paragraph p {
+  margin-bottom: 0.75rem;
+}
+
+img[src$="BIG-notes-for-figures.png"] {
+  width: min(100%, 760px);
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+
+img[src$="big_admix.png"] {
+  width: min(100%, 1100px);
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+
+img[src$="pangenome_pca.png"],
+img[src$="embryo.png"] {
+  width: min(100%, 900px);
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+
+img[src$="loghi_grep.png"],
+img[src$="miur.jpg"] {
+  width: min(100%, 320px);
+  height: auto;
+}
+
+img[src$="enza_2025.jpg"],
+img[src$="silvia.jpg"],
+img[src$="franco.jpeg"],
+img[src$="laura.jpeg"],
+img[src$="ernestine.jpg"],
+img[src$="donna.jpg"] {
+  width: 220px;
+  height: auto;
+}
+
+img[src$="Octicons-mark-github.svg"] {
+  width: 20px;
+  height: 20px;
+  vertical-align: text-bottom;
+}
+
+@media (max-width: 960px) {
+  #_current_members ~ .sectionbody h3 + .paragraph .image img {
+    float: none;
+    margin: 0 0 1rem 0;
+  }
+}
+
+/* Hide the standalone page title above the preamble; branding is in the top bar */
+#header > h1 {
+  display: none;
+}
+
+h1, h2, h3, h4, h5, h6, #toctitle, .sidebarblock > .content > .title {
+  color: #FF8200;
+}
+</style>
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+  var toc = document.getElementById("toc");
+  if (!toc) return;
+
+  if (!toc.querySelector(".topbar-logo")) {
+    var logo = document.createElement("div");
+    logo.className = "topbar-logo";
+    logo.setAttribute("aria-hidden", "true");
+    toc.insertBefore(logo, toc.firstChild);
+  }
+
+  if (!toc.querySelector(".topbar-brand")) {
+    var brand = document.createElement("div");
+    brand.className = "topbar-brand";
+    brand.textContent = "Colonna Lab";
+    var titleNode = toc.querySelector("#toctitle");
+    toc.insertBefore(brand, titleNode ? titleNode.nextSibling : toc.firstChild);
+  }
+
+  var nav = toc.querySelector("ul.sectlevel1");
+  if (!nav) return;
+
+  nav.innerHTML = [
+    '<li class="has-menu"><button class="nav-toggle" type="button" aria-expanded="false" aria-controls="nav-research-menu">Research</button><ul class="nav-menu" id="nav-research-menu">',
+    '<li><a href="#_population_genomics_and_health_disparities">Population Genomics</a></li>',
+    '<li><a href="#_population_pangenomics">Population Pangenomics</a></li>',
+    '</ul></li>',
+    '<li class="has-menu"><button class="nav-toggle" type="button" aria-expanded="false" aria-controls="nav-team-menu">Team</button><ul class="nav-menu" id="nav-team-menu">',
+    '<li><a href="#_current_members">Current Members</a></li>',
+    '<li><a href="#_visiting">Visiting</a></li>',
+    '<li><a href="#_past_lab_members">Past Lab members</a></li>',
+    '<li><a href="#_past_visiting">Past visiting</a></li>',
+    '</ul></li>',
+    '<li class="nav-link"><a href="#_publications">Publications</a></li>',
+    '<li class="nav-link"><a href="#_contacts">Contact</a></li>'
+  ].join("");
+
+  var menuItems = nav.querySelectorAll("li.has-menu");
+
+  function closeMenus(exceptItem) {
+    menuItems.forEach(function (item) {
+      var isOpen = item === exceptItem;
+      item.classList.toggle("is-open", isOpen);
+      var button = item.querySelector(".nav-toggle");
+      if (button) {
+        button.setAttribute("aria-expanded", isOpen ? "true" : "false");
+      }
+    });
+  }
+
+  menuItems.forEach(function (item) {
+    var button = item.querySelector(".nav-toggle");
+    if (!button) return;
+
+    button.addEventListener("click", function (event) {
+      event.preventDefault();
+      event.stopPropagation();
+      var willOpen = !item.classList.contains("is-open");
+      closeMenus(willOpen ? item : null);
+    });
+  });
+
+  document.addEventListener("click", function (event) {
+    if (!nav.contains(event.target)) {
+      closeMenus(null);
+    }
+  });
+
+  document.addEventListener("keydown", function (event) {
+    if (event.key === "Escape") {
+      closeMenus(null);
+    }
+  });
+});
+</script>
 </head>
-<body class="article">
+<body class="article toc2 toc-left">
 <div id="header">
+<h1><strong>Colonna Lab</strong></h1>
+<div id="toc" class="toc2">
+<div id="toctitle">Page Content</div>
+<ul class="sectlevel1">
+<li><a href="#_research"><strong>Research</strong></a></li>
+<li><a href="#_current_members"><strong>Current Members</strong></a></li>
+<li><a href="#_visiting"><strong>Visiting</strong></a></li>
+<li><a href="#_publications"><strong>Publications</strong></a></li>
+<li><a href="#_contacts"><strong>Contacts</strong></a></li>
+</ul>
+</div>
 </div>
 <div id="content">
+<div id="preamble">
+<div class="sectionbody">
 <div class="paragraph">
-<p><span class="image"><img src="images/spock.jpg" alt="spock"></span></p>
+<p><strong>Welcome to the Population Genomics Laboratory</strong><br>
+<strong>Department of Genetics, Genomics and Informatics</strong></p>
 </div>
 <div class="paragraph">
-<p>Welcome to the <strong>Population Genomics Laboratory</strong> of Department of
-Genetics, Genomics and Informatics at the University of Tennessee Health
-Science Center. We are interested in understanding causes and
-consequences of genetic diversity and how natural selection in humans
-affects loci related to diseases.</p>
+<p><span class="image"><img src="images/used/spock.jpg" alt="spock"></span></p>
+</div>
+<div class="paragraph">
+<p>We are interested in understanding causes and consequences of genetic
+diversity and how natural selection in humans affects loci related to
+diseases.</p>
 </div>
 <div class="quoteblock">
 <blockquote>
@@ -458,8 +880,7 @@ affects loci related to diseases.</p>
 </div>
 </blockquote>
 </div>
-<div class="paragraph">
-<p><span class="image"><img src="images/UTHSC-primary-stacked-logo-4c.jpg" alt="uthsc"></span></p>
+</div>
 </div>
 <div class="sect1">
 <h2 id="_research"><strong>Research</strong></h2>
@@ -475,7 +896,7 @@ by linking genomic, phenotypic, and environmental data from a diverse
 Mid-South population, in the USA.</p>
 </div>
 <div class="paragraph">
-<p><span class="image"><img src="images/website2025/BIG-notes-for-figures.png" alt="BIG"></span></p>
+<p><span class="image"><img src="images/used/website2025/BIG-notes-for-figures.png" alt="BIG"></span></p>
 </div>
 <div class="paragraph">
 <p>BIG is recruiting participants from Memphis, TN, with plans to include a
@@ -486,7 +907,7 @@ with</p>
 <ul>
 <li>
 <p>the <a href="https://www.genomicinformationcommons.org/">Genomic Information
-Commons</a>, a consortium of top children’s hospitals, to conduct genomics
+Commons</a>, a consortium of top children&#8217;s hospitals, to conduct genomics
 research aimed at discovering the genetic foundations of human disease
 in diverse populations.</p>
 </li>
@@ -505,7 +926,7 @@ various types of admixed ancestry, highlighting the importance of
 inclusive genomics in understanding health disparities.</p>
 </div>
 <div class="paragraph">
-<p><span class="image"><img src="images/website2025/big_admix.png" alt="BIG admixture analysis"></span></p>
+<p><span class="image"><img src="images/used/website2025/big_admix.png" alt="BIG admixture analysis"></span></p>
 </div>
 <div class="paragraph">
 <p><em>Global ancestry deconvolution of 13,152 sequenced individuals, based on
@@ -546,7 +967,7 @@ individuals</p>
 <div class="sect3">
 <h4 id="_uncharted_genomes">Uncharted Genomes</h4>
 <div class="paragraph">
-<p><span class="image"><img src="images/pangenome_pca.png" alt="Human pangenome PCA"></span></p>
+<p><span class="image"><img src="images/used/pangenome_pca.png" alt="Human pangenome PCA"></span></p>
 </div>
 <div class="paragraph">
 <p><em>Well-known population stratification is not visible in the p-arms of
@@ -596,7 +1017,7 @@ knowledge furthers our understanding of human evolution and informs
 efforts to improve pregnancy outcomes.</p>
 </div>
 <div class="paragraph">
-<p><span class="image"><img src="images/embryo.png" alt="embryo"></span></p>
+<p><span class="image"><img src="images/used/embryo.png" alt="embryo"></span></p>
 </div>
 <div class="paragraph">
 <p>In <strong>CABERNET</strong> we aim to determine the extent of chromosomal mosaicism
@@ -643,61 +1064,71 @@ National Research Council</p>
 <div class="ulist">
 <ul>
 <li>
-<p>PRIN 2020J84FAM Ministero dell’Universita e della Ricerca</p>
+<p>PRIN 2020J84FAM Ministero dell&#8217;Universita e della Ricerca</p>
 </li>
 <li>
-<p>PRIN 2022WEHP7M Ministero dell’Universita e della Ricerca</p>
+<p>PRIN 2022WEHP7M Ministero dell&#8217;Universita e della Ricerca</p>
 </li>
 <li>
-<p>PRIN P2022ZE75A Ministero dell’Universita e della Ricerca</p>
+<p>PRIN P2022ZE75A Ministero dell&#8217;Universita e della Ricerca</p>
 </li>
 <li>
 <p><a href="https://www.merigen.it/">Merigen Research s.r.l</a></p>
 </li>
 <li>
-<p>POR Campania FSE 2014-2020 ASSE III – Ob. Sp. 14</p>
+<p>POR Campania FSE 2014-2020 ASSE III - Ob. Sp. 14</p>
 </li>
 </ul>
 </div>
 <div class="paragraph">
-<p><span class="image"><img src="images/loghi_grep.png" alt="loghi_grep"></span></p>
+<p><span class="image"><img src="images/used/loghi_grep.png" alt="loghi_grep"></span></p>
 </div>
 <div class="paragraph">
-<p><span class="image"><img src="images/miur.jpg" alt="miur"></span></p>
+<p><span class="image"><img src="images/used/miur.jpg" alt="miur"></span></p>
 </div>
 </div>
 </div>
 </div>
 </div>
 <div class="sect1">
-<h2 id="_people"><strong>People</strong></h2>
+<h2 id="_current_members"><strong>Current Members</strong></h2>
 <div class="sectionbody">
 <div class="sect2">
 <h3 id="_vincenza_colonna"><strong>Vincenza Colonna</strong></h3>
 <div class="paragraph">
-<p><strong><em>Associate Professor, Department of Genetics, Genomics and Informatics
-<a href="https://www.uthsc.edu/faculty/profile/?netid=vcolonna">website</a></em></strong><br>
-<em>University of Tennessee Health Science Center, Memphis, TN</em></p>
+<p><span class="image"><img src="images/used/website2025/enza_2025.jpg" alt="Vincenza Colonna"></span></p>
+</div>
+<div class="sect3">
+<h4 id="_associate_professor_department_of_genetics_genomics_and_informatics_website"><em>Associate Professor, Department of Genetics, Genomics and Informatics <a href="https://www.uthsc.edu/faculty/profile/?netid=vcolonna">website</a></em></h4>
+<div class="paragraph">
+<p><em>University of Tennessee Health Science Center, Memphis, TN</em></p>
+</div>
+</div>
+<div class="sect3">
+<h4 id="_director_integrative_genomics_biorpository_department_of_pediatrics"><em>Director, Integrative Genomics Biorpository, Department of Pediatrics</em></h4>
+<div class="paragraph">
+<p><em>Children&#8217;s Foundation Research Institute, Memphis, TN</em></p>
+</div>
+</div>
+<div class="sect3">
+<h4 id="_researcher_on_leave_of_absence_national_research_council_website"><em>Researcher (on leave of absence), National Research Council <a href="https://www.igb.cnr.it/index.php/vincenza-colonna/">website</a></em></h4>
+<div class="paragraph">
+<p><em>Institute of Genetics and Biophysics, Naples, Italy</em></p>
 </div>
 <div class="paragraph">
-<p><strong><em>Director, Integrative Genomics Biorpository, Department of
-Pediatrics</em></strong><br>
-<em>Children’s Foundation Research Institute, Memphis, TN</em></p>
-</div>
-<div class="paragraph">
-<p><strong><em>Researcher (on leave of absence), National Research Council
-<a href="https://www.igb.cnr.it/index.php/vincenza-colonna/">website</a></em></strong><br>
-<em>Institute of Genetics and Biophysics, Naples, Italy</em><br>
-<span class="image"><img src="images/website2025/enza_2025.jpg" alt="vcolonna"></span></p>
-</div>
-<div class="paragraph">
-<p><strong><em>I graduated in Evolutionary Biology from the University of Naples
+<p><em>I graduated in Evolutionary Biology from the University of Naples
 Federico II and did postdoctoral research at the University of Ferrara
 (Italy) and at Wellcome Trust Sanger Institute in Cambridge (UK). I was
 lectures in Genetics and Bioinformatics at the University of Ferrara
 (Italy). I am now leading the Population genomics laboratory at the
 University of Tennessee, College of Medicine, in the Department of
-Genetics, Genomics and Informatics.</em>.</strong></p>
+Genetics, Genomics and Informatics.</em></p>
+</div>
+<div class="paragraph">
+<p><a href="https://orcid.org/0000-0002-3966-0474">ORCID</a> |
+<a href="https://github.com/ezcn">My GitHub</a> |
+<a href="https://scholar.google.com/citations?user=ufP1EYgAAAAJ&amp;hl=en&amp;oi=ao">Google
+Scholar</a></p>
 </div>
 <div class="paragraph">
 <p>I am a genomicist and an expert in human evolutionary and population
@@ -738,55 +1169,52 @@ rare variation [PMID:
 <p>I founded and led <a href="http://www.igb.cnr.it/obilab">OBiLab</a>, a project on
 training in Bioinformatics</p>
 </div>
-<div class="paragraph">
-<p><a href="https://orcid.org/0000-0002-3966-0474">ORCID</a> |
-<span class="image"><img src="images/Octicons-mark-github.svg" alt="git"></span> <a href="https://github.com/ezcn">My
-GitHub</a> |
-<a href="https://scholar.google.com/citations?user=ufP1EYgAAAAJ&amp;hl=en&amp;oi=ao">Google
-Scholar</a></p>
 </div>
 </div>
 <div class="sect2">
 <h3 id="_silvia_buonaiuto_postdoctoral_fellow"><strong>Silvia Buonaiuto</strong>, Postdoctoral fellow</h3>
 <div class="paragraph">
-<p><span class="image"><img src="images/silvia.jpg" alt="silvia"></span></p>
+<p><span class="image"><img src="images/used/silvia.jpg" alt="Silvia Buonaiuto"></span></p>
 </div>
 <div class="paragraph">
-<p><strong>_ I am a postdoctoral researcher at the University of Tennessee Health
+<p><em>I am a postdoctoral researcher at the University of Tennessee Health
 Science Center in the Department of Genetics, Genomics, and Informatics.
 Prior to this, I worked as a postdoctoral researcher at the National
 Research Council in Italy. I earned a Ph.D. in Molecular Bioscience from
 the University of Campania "Luigi Vanvitelli." Before that, I completed
-my Master’s degree in Biology at the University of Naples Federico II,
+my Master&#8217;s degree in Biology at the University of Naples Federico II,
 where I conducted my thesis in molecular biology at the Department of
-Biology._.</strong></p>
+Biology.</em></p>
 </div>
 <div class="paragraph">
-<p>I work on the admixture mapping and pangenomics analysis in the BIG
-project. My role involves establishing connections between genotypes and
-phenotypes especially in admixed individuals through admixture mapping
-analysis. Additionally, I am leading sequence analysis for the projects
-related to early embryonic development.</p>
-</div>
-<div class="paragraph">
-<p><span class="image"><img src="images/Octicons-mark-github.svg" alt="git"></span>
-<a href="https://github.com/SilviaBuonaiuto">My GitHub</a> |
+<p><a href="https://github.com/SilviaBuonaiuto">My GitHub</a> |
 <a href="https://scholar.google.com/citations?user=oGGUawcAAAAJ&amp;hl=it&amp;oi=ao">Google
 Scholar</a></p>
+</div>
+<div class="paragraph">
+<p>I work on admixture mapping and pangenomics analysis in the BIG project,
+with a focus on connecting genotypes and phenotypes in admixed
+individuals through admixture mapping. I also lead sequence analysis for
+projects related to early embryonic development.</p>
 </div>
 </div>
 <div class="sect2">
 <h3 id="_franco_marsico_postdoctoral_fellow"><strong>Franco Marsico</strong>, Postdoctoral fellow</h3>
 <div class="paragraph">
-<p><span class="image"><img src="images/franco.jpeg" alt="franco"></span></p>
+<p><span class="image"><img src="images/used/franco.jpeg" alt="Franco Marsico"></span></p>
 </div>
 <div class="paragraph">
-<p><strong><em>I earned my degree in Biology from the University of Buenos Aires,
+<p><em>I earned my degree in Biology from the University of Buenos Aires,
 Argentina, where I also completed my PhD in Computational Biology at the
 Calculus Institute. My research primarily focused on developing
 mathematical models for kinship inference, employing a Bayesian
 Approach. I am a postdoc in the Colonna lab, where my work centers on
-population genomics.</em>.</strong></p>
+population genomics.</em></p>
+</div>
+<div class="paragraph">
+<p><a href="https://github.com/MarsicoFL">Github profile</a> |
+<a href="https://scholar.google.ca/citations?user=Vd4yh9wAAAAJ&amp;hl=en">Google
+Scholar</a></p>
 </div>
 <div class="paragraph">
 <p>I am currently working on <strong>Admixture Mapping and Pangenomics Analysis in
@@ -795,72 +1223,65 @@ project. My focus is on studying recent natural selection signals in
 admixed populations. Additionally, I have a deep interest in evolution
 and how to compute processes that shape the history of life.</p>
 </div>
-<div class="paragraph">
-<p><span class="image"><img src="images/Octicons-mark-github.svg" alt="git"></span>
-<a href="https://github.com/MarsicoFL">Github profile</a> |
-<a href="https://scholar.google.ca/citations?user=Vd4yh9wAAAAJ&amp;hl=en">Google
-Scholar</a></p>
-</div>
 </div>
 <div class="sect2">
 <h3 id="_laura_pignata_postdoctoral_fellow"><strong>Laura Pignata</strong>, Postdoctoral fellow</h3>
 <div class="paragraph">
-<p><span class="image"><img src="images/website2025/laura.jpeg" alt="flavia"></span></p>
+<p><span class="image"><img src="images/used/website2025/laura.jpeg" alt="Laura Pignata"></span></p>
 </div>
 <div class="paragraph">
-<p><strong><em>I graduated in Molecular Biology at the University of Campania Luigi
+<p><em>I graduated in Molecular Biology at the University of Campania Luigi
 Vanvitelli, where I also completed my PhD program in Molecular Life
 Sciences. After the PhD I continued my work as researcher, focusing on
 the analysis of DNA methylation in imprinting disorders. I am visiting
 Dr. Colonna laboratory at the University of Tennessee, College of
-Medicine, in the Department of Genetics, Genomics and Informatics</em>.</strong></p>
-</div>
-<div class="paragraph">
-<p>I am working on the analysis of long-read sequencing data on human
-samples with mosaic methylation defects. The aim of this study is to
-identify the mechanisms underlying the methylation defects by examining
-the role of de novo mutations in cis and somatic recombination events,
-possibly arisen during early embryogenesis.</p>
+Medicine, in the Department of Genetics, Genomics and Informatics.</em></p>
 </div>
 <div class="paragraph">
 <p><a href="https://orcid.org/0000-0001-8835-5567?lang=en">ORCID</a></p>
+</div>
+<div class="paragraph">
+<p>I analyze long-read sequencing data from human samples with mosaic
+methylation defects. My work focuses on identifying the mechanisms
+behind these defects by testing the roles of de novo mutations in cis
+and somatic recombination events that may arise during early
+embryogenesis.</p>
 </div>
 </div>
 <div class="sect2">
 <h3 id="_ernestine_amos_abanyie_phd_student"><strong>Ernestine Amos-Abanyie</strong>, PhD Student</h3>
 <div class="paragraph">
-<p><span class="image"><img src="images/website2025/ernestine.jpg" alt="flavia"></span></p>
+<p><span class="image"><img src="images/used/website2025/ernestine.jpg" alt="Ernestine Amos-Abanyie"></span></p>
 </div>
 <div class="paragraph">
-<p><strong><em>I have a master degree in Molecular Biology from the university of
+<p><em>I have a master degree in Molecular Biology from the university of
 Ghana, I am a PhD candidate in the Biomedical Science program of the
 Department of Genetics Genomics and Informatics in co-supervision with
-Dr. Ashbrook</em>.</strong></p>
+Dr. Ashbrook.</em></p>
 </div>
 <div class="paragraph">
-<p>I am studying mitochondrial DNA Variation in disease susceptibility in
-the BXD Mice and the BIG cohort.</p>
-</div>
-<div class="paragraph">
-<p><span class="image"><img src="images/Octicons-mark-github.svg" alt="git"></span>
-<a href="https://github.com/Flavia95">My GitHub</a> |
+<p><a href="https://github.com/Flavia95">My GitHub</a> |
 <a href="https://scholar.google.com/citations?user=CRXpC9gAAAAJ&amp;hl=en&amp;inst=1063551842422345302">Google
 Scholar</a></p>
+</div>
+<div class="paragraph">
+<p>I study mitochondrial DNA variation and its contribution to disease
+susceptibility in both the BXD mice and the BIG cohort.</p>
 </div>
 </div>
 <div class="sect2">
 <h3 id="_donna_vo_research_associate"><strong>Donna Vo</strong>, Research associate</h3>
 <div class="paragraph">
-<p><span class="image"><img src="images/website2025/donna.jpg" alt="flavia"></span></p>
+<p><span class="image"><img src="images/used/website2025/donna.jpg" alt="Donna Vo"></span></p>
 </div>
 <div class="paragraph">
-<p><strong><em>I earned a Bachelor of Science in Microbiology at the University of
+<p><em>I earned a Bachelor of Science in Microbiology at the University of
 Tennessee, Knoxville. I have a background in spoilage detection and
-mycology identification in the food and beverage industry</em>.</strong></p>
+mycology identification in the food and beverage industry.</em></p>
 </div>
 <div class="paragraph">
-<p>I am in charge of sample collection and processing for the Integrative
-Genomics Biorepository that supports the BIG project.</p>
+<p>I oversee sample collection and processing for the Integrative Genomics
+Biorepository that supports the BIG project.</p>
 </div>
 </div>
 </div>
@@ -872,13 +1293,8 @@ Genomics Biorepository that supports the BIG project.</p>
 <h3 id="_giuseppe_comentale_phd_student"><strong>Giuseppe Comentale</strong>, PhD Student</h3>
 
 </div>
-</div>
-</div>
-<div class="sect1">
-<h2 id="_former_members"><strong>Former members</strong></h2>
-<div class="sectionbody">
 <div class="sect2">
-<h3 id="_lab_members"><strong>Lab members</strong></h3>
+<h3 id="_past_lab_members"><strong>Past Lab members</strong></h3>
 <div class="ulist">
 <ul>
 <li>
@@ -903,7 +1319,7 @@ Genomics Biorepository that supports the BIG project.</p>
 <p>Angela Sequino, Master Student, 2022-2023</p>
 </li>
 <li>
-<p>Giuliana D’Angelo, Master Student, 2019-2020</p>
+<p>Giuliana D&#8217;Angelo, Master Student, 2019-2020</p>
 </li>
 <li>
 <p>Roberto Sirica, PhD student, 2015-2018</p>
@@ -915,7 +1331,7 @@ Genomics Biorepository that supports the BIG project.</p>
 </div>
 </div>
 <div class="sect2">
-<h3 id="_visiting_2"><strong>Visiting</strong></h3>
+<h3 id="_past_visiting"><strong>Past visiting</strong></h3>
 <div class="ulist">
 <ul>
 <li>
@@ -925,7 +1341,7 @@ Genomics Biorepository that supports the BIG project.</p>
 <p>Angela Carfora, PhD student, visiting student, 2025</p>
 </li>
 <li>
-<p>Davide D’angelo, Visiting master student, 2022</p>
+<p>Davide D&#8217;angelo, Visiting master student, 2022</p>
 </li>
 <li>
 <p>Marianna Buonaiuto, visiting Postdoc, 2017</p>
@@ -970,7 +1386,7 @@ is possible to found our past Research</p>
 <a href="https://maps.app.goo.gl/XnjsEmoGLyGBTd7b7">map</a></p>
 </li>
 <li>
-<p>Children’s Foundation Research Institute<br>
+<p>Children&#8217;s Foundation Research Institute<br>
 50 N. Dunlap St. Memphis, TN 38105
 <a href="https://maps.app.goo.gl/ATEtD8DFUi7oFWeC8">map</a></p>
 </li>
@@ -991,7 +1407,7 @@ via Pietro Castellino 111 - 80131 Napoli - Italy
 </div>
 <div id="footer">
 <div id="footer-text">
-Last updated 2026-03-13 04:46:43 -0500
+Last updated 2026-03-13 07:07:44 -0500
 </div>
 </div>
 </body>

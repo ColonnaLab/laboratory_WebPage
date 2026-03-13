@@ -1,75 +1,407 @@
-<!-- Generate a nice TOC -->
-<script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
-<script src="https://code.jquery.com/ui/1.11.4/jquery-ui.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.tocify/1.9.0/javascripts/jquery.tocify.min.js"></script>
-<!-- We do not need the tocify CSS because the asciidoc CSS already provides most of what we neeed -->
-
 <style>
-.tocify-header {
-    font-style: italic;
+/* Top horizontal navigation bar */
+body.toc2 {
+  padding-left: 0 !important;
+  padding-top: 134px !important;
 }
 
-.tocify-subheader {
-    font-style: normal;
-    font-size: 90%;
+#toc.toc2 {
+  display: grid;
+  grid-template-columns: 412px 1fr;
+  grid-template-rows: 56px 44px;
+  column-gap: 18px;
+  align-items: center;
+  position: fixed !important;
+  top: 0;
+  left: 0;
+  width: 100% !important;
+  height: auto !important;
+  padding: 10px 28px !important;
+  margin: 0 !important;
+  border-right: none !important;
+  border-bottom: 1px solid #d9d9d9;
+  background: #576A8F;
+  z-index: 2000;
+  overflow: visible;
+  white-space: nowrap;
 }
 
-.tocify ul {
-    margin: 0;
- }
-
-.tocify-focus {
-    color: #7a2518;
-    background-color: rgba(0, 0, 0, 0.1);
+#toc.toc2 .topbar-logo {
+  grid-column: 1;
+  grid-row: 1 / span 2;
+  width: 412px;
+  height: 114px;
+  background: url("images/used/UTHSC-primary-stacked-logo-4c-151.png") no-repeat left center / 412px auto;
 }
 
-.tocify-focus > a {
-    color: #7a2518;
+#toc.toc2 #toctitle { display: none; }
+
+#toc.toc2 .topbar-brand {
+  grid-column: 2;
+  grid-row: 1;
+  display: flex;
+  align-items: end;
+  font-family: "Open Sans", "DejaVu Sans", sans-serif;
+  font-size: 36px;
+  font-weight: 700;
+  color: #FFF8DE;
+  line-height: 1;
+}
+
+#toc.toc2 > ul {
+  display: flex;
+  gap: 18px;
+  align-items: center;
+  list-style: none;
+  margin: 0 !important;
+  padding: 0 !important;
+  font-family: "Open Sans", "DejaVu Sans", sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  grid-column: 2;
+  grid-row: 2;
+  align-self: start;
+}
+
+#toc.toc2 > ul > li,
+#toc.toc2 ul.sectlevel1 > li {
+  position: relative;
+  margin: 0 !important;
+  list-style: none;
+}
+
+#toc.toc2 > ul > li > a,
+#toc.toc2 .nav-toggle {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 8px 10px;
+  color: #FFF8DE;
+  text-decoration: none;
+  cursor: pointer;
+  background: transparent;
+  border: 0;
+  font: inherit;
+}
+
+#toc.toc2 .nav-toggle::after {
+  content: "";
+  width: 7px;
+  height: 7px;
+  border-right: 1.5px solid currentColor;
+  border-bottom: 1.5px solid currentColor;
+  transform: rotate(45deg) translateY(-1px);
+}
+
+#toc.toc2 > ul > li:hover > a,
+#toc.toc2 > ul > li:hover > .nav-toggle,
+#toc.toc2 > ul > li > .nav-toggle:focus-visible,
+#toc.toc2 > ul > li.is-open > .nav-toggle,
+#toc.toc2 a:hover {
+  color: #FFF8DE;
+}
+
+#toc.toc2 .nav-menu {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  min-width: 240px;
+  padding: 14px 0;
+  margin: 0;
+  background: #ffffff;
+  border-top: 3px solid #1f5ea8;
+  box-shadow: 0 18px 36px rgba(20, 32, 61, 0.14);
+  white-space: normal;
+  z-index: 2100;
+}
+
+#toc.toc2 > ul > li:hover > .nav-menu,
+#toc.toc2 > ul > li.is-open > .nav-menu {
+  display: block;
+}
+
+#toc.toc2 .nav-menu li {
+  list-style: none;
+  margin: 0;
+}
+
+#toc.toc2 .nav-menu a {
+  display: block;
+  padding: 10px 18px;
+  color: #555;
+  text-decoration: none;
+}
+
+#toc.toc2 .nav-menu a:hover {
+  background: rgba(31, 94, 168, 0.08);
+  color: #1f5ea8;
+}
+
+#toc.toc2 .nav-link a {
+  text-decoration: none;
+}
+
+@media (max-width: 960px) {
+  body.toc2 {
+    padding-top: 188px !important;
+  }
+
+  #toc.toc2 {
+    grid-template-columns: 1fr;
+    grid-template-rows: auto auto auto;
+    row-gap: 10px;
+  }
+
+  #toc.toc2 .topbar-logo {
+    grid-column: 1;
+    grid-row: 1;
+    width: min(100%, 412px);
+    height: 114px;
+  }
+
+  #toc.toc2 .topbar-brand {
+    grid-column: 1;
+    grid-row: 2;
+  }
+
+  #toc.toc2 > ul {
+    grid-column: 1;
+    grid-row: 3;
+    width: 100%;
+    flex-wrap: wrap;
+  }
+}
+
+/* Image sizing */
+#preamble > .sectionbody > .paragraph:first-of-type p {
+  margin: 0 auto 1.5rem auto;
+  max-width: 980px;
+  text-align: center;
+  color: #576A8F;
+  font-family: "Open Sans", "DejaVu Sans", sans-serif;
+  font-size: 1.55rem;
+  font-weight: 700;
+  line-height: 1.35;
+}
+
+img[src$="spock.jpg"] {
+  width: 180px;
+  height: auto;
+  float: left;
+  margin: -56px 18px 10px 0;
+}
+
+#preamble > .sectionbody > .paragraph:nth-of-type(3) p {
+  font-size: 1.2rem;
+  font-style: italic;
+  font-family: "Open Sans", "DejaVu Sans", sans-serif;
+  font-weight: 700;
+  line-height: 1.6;
+  color: #576A8F;
+}
+
+#preamble .quoteblock blockquote p,
+#preamble .quoteblock .attribution,
+#preamble .quoteblock .attribution cite {
+  color: #576A8F;
+}
+
+#preamble {
+  margin-bottom: 2.5rem;
+}
+
+#preamble + .sect1 {
+  margin-top: 1.5rem;
+}
+
+#_current_members ~ .sectionbody h3 + .paragraph .image img {
+  width: 180px;
+  max-width: 180px;
+  height: auto;
+  float: left;
+  margin: 0 18px 10px 0;
+}
+
+#_current_members ~ .sectionbody h3 {
+  color: #FF8200;
+  clear: both;
+}
+
+#_visiting,
+#_publications,
+#_contacts {
+  clear: both;
+}
+
+#_current_members ~ .sectionbody h4 {
+  color: #FF8200;
+  font-size: 0.98rem;
+  font-weight: 600;
+  line-height: 1.35;
+  margin-top: 0.2rem;
+  margin-bottom: 0.15rem;
+}
+
+#_current_members ~ .sectionbody h5 {
+  color: #FF8200;
+  font-size: 0.98rem;
+  font-weight: 600;
+  line-height: 1.35;
+  margin-top: 0.2rem;
+  margin-bottom: 0.15rem;
+}
+
+#_current_members ~ .sectionbody h4 + .paragraph p {
+  font-size: 0.95rem;
+  color: rgba(0, 0, 0, 0.72);
+  margin-bottom: 0.55rem;
+}
+
+#_current_members ~ .sectionbody .sect2:not(:first-of-type) > .paragraph:nth-of-type(2) p,
+#_current_members ~ .sectionbody .sect2:first-of-type .sect3 > .paragraph:first-of-type p,
+#_current_members ~ .sectionbody .sect2:first-of-type .sect3:last-of-type > .paragraph:nth-of-type(2) p {
+  color: #576A8F;
+}
+
+#_current_members ~ .sectionbody .sect2 > .paragraph p,
+#_current_members ~ .sectionbody .sect2 .sect3 > .paragraph p {
+  margin-bottom: 0.75rem;
+}
+
+img[src$="BIG-notes-for-figures.png"] {
+  width: min(100%, 760px);
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+
+img[src$="big_admix.png"] {
+  width: min(100%, 1100px);
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+
+img[src$="pangenome_pca.png"],
+img[src$="embryo.png"] {
+  width: min(100%, 900px);
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+
+img[src$="loghi_grep.png"],
+img[src$="miur.jpg"] {
+  width: min(100%, 320px);
+  height: auto;
+}
+
+img[src$="enza_2025.jpg"],
+img[src$="silvia.jpg"],
+img[src$="franco.jpeg"],
+img[src$="laura.jpeg"],
+img[src$="ernestine.jpg"],
+img[src$="donna.jpg"] {
+  width: 220px;
+  height: auto;
+}
+
+img[src$="Octicons-mark-github.svg"] {
+  width: 20px;
+  height: 20px;
+  vertical-align: text-bottom;
+}
+
+@media (max-width: 960px) {
+  #_current_members ~ .sectionbody h3 + .paragraph .image img {
+    float: none;
+    margin: 0 0 1rem 0;
+  }
+}
+
+/* Hide the standalone page title above the preamble; branding is in the top bar */
+#header > h1 {
+  display: none;
+}
+
+h1, h2, h3, h4, h5, h6, #toctitle, .sidebarblock > .content > .title {
+  color: #FF8200;
 }
 </style>
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+  var toc = document.getElementById("toc");
+  if (!toc) return;
 
-<script type="text/javascript">
-    $(function () {
-        // Add a new container for the tocify toc into the existing toc so we can re-use its
-        // styling
-        $("#toc").append("<div id='generated-toc'></div>");
-        $("#generated-toc").tocify({
-            extendPage: false,
-            context: "#content",
-            highlightOnScroll: true,
-            hideEffect: "slideUp",
-            // Use the IDs that asciidoc already provides so that TOC links and intra-document
-            // links are the same. Anything else might confuse users when they create bookmarks.
-            hashGenerator: function(text, element) {
-                return $(element).attr("id");
-            },
-            // Smooth scrolling doesn't work properly if we use the asciidoc IDs
-            smoothScroll: false,
-            // Set to 'none' to use the tocify classes
-            theme: "none",
-            // Handle book (may contain h1) and article (only h2 deeper)
-            selectors: $( "#content" ).has( "h1" ).size() > 0 ? "h1,h2,h3,h4,h5" : "h2,h3,h4,h5",
-            ignoreSelector: ".discrete"
-        });
+  if (!toc.querySelector(".topbar-logo")) {
+    var logo = document.createElement("div");
+    logo.className = "topbar-logo";
+    logo.setAttribute("aria-hidden", "true");
+    toc.insertBefore(logo, toc.firstChild);
+  }
 
-        // Switch between static asciidoc toc and dynamic tocify toc based on browser size
-        // This is set to match the media selectors in the asciidoc CSS
-        // Without this, we keep the dynamic toc even if it is moved from the side to preamble
-        // position which will cause odd scrolling behavior
-        var handleTocOnResize = function() {
-            if ($(document).width() < 768) {
-                $("#generated-toc").hide();
-                $(".sectlevel0").show();
-                $(".sectlevel1").show();
-            }
-            else {
-                $("#generated-toc").show();
-                $(".sectlevel0").hide();
-                $(".sectlevel1").hide();
-            }
-        }
+  if (!toc.querySelector(".topbar-brand")) {
+    var brand = document.createElement("div");
+    brand.className = "topbar-brand";
+    brand.textContent = "Colonna Lab";
+    var titleNode = toc.querySelector("#toctitle");
+    toc.insertBefore(brand, titleNode ? titleNode.nextSibling : toc.firstChild);
+  }
 
-        $(window).resize(handleTocOnResize);
-        handleTocOnResize();
+  var nav = toc.querySelector("ul.sectlevel1");
+  if (!nav) return;
+
+  nav.innerHTML = [
+    '<li class="has-menu"><button class="nav-toggle" type="button" aria-expanded="false" aria-controls="nav-research-menu">Research</button><ul class="nav-menu" id="nav-research-menu">',
+    '<li><a href="#_population_genomics_and_health_disparities">Population Genomics</a></li>',
+    '<li><a href="#_population_pangenomics">Population Pangenomics</a></li>',
+    '</ul></li>',
+    '<li class="has-menu"><button class="nav-toggle" type="button" aria-expanded="false" aria-controls="nav-team-menu">Team</button><ul class="nav-menu" id="nav-team-menu">',
+    '<li><a href="#_current_members">Current Members</a></li>',
+    '<li><a href="#_visiting">Visiting</a></li>',
+    '<li><a href="#_past_lab_members">Past Lab members</a></li>',
+    '<li><a href="#_past_visiting">Past visiting</a></li>',
+    '</ul></li>',
+    '<li class="nav-link"><a href="#_publications">Publications</a></li>',
+    '<li class="nav-link"><a href="#_contacts">Contact</a></li>'
+  ].join("");
+
+  var menuItems = nav.querySelectorAll("li.has-menu");
+
+  function closeMenus(exceptItem) {
+    menuItems.forEach(function (item) {
+      var isOpen = item === exceptItem;
+      item.classList.toggle("is-open", isOpen);
+      var button = item.querySelector(".nav-toggle");
+      if (button) {
+        button.setAttribute("aria-expanded", isOpen ? "true" : "false");
+      }
     });
+  }
+
+  menuItems.forEach(function (item) {
+    var button = item.querySelector(".nav-toggle");
+    if (!button) return;
+
+    button.addEventListener("click", function (event) {
+      event.preventDefault();
+      event.stopPropagation();
+      var willOpen = !item.classList.contains("is-open");
+      closeMenus(willOpen ? item : null);
+    });
+  });
+
+  document.addEventListener("click", function (event) {
+    if (!nav.contains(event.target)) {
+      closeMenus(null);
+    }
+  });
+
+  document.addEventListener("keydown", function (event) {
+    if (event.key === "Escape") {
+      closeMenus(null);
+    }
+  });
+});
 </script>

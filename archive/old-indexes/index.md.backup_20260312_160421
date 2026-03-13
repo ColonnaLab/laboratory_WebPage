@@ -12,7 +12,7 @@ title: "The Colonna Lab - Population Genomics"
 >"*Fascinating*" *(Lieutenant Spock)*
 
 
-![logoCNR](images/loghi_cnr_igb.png)
+![logoCNR](images/used/loghi_cnr_igb.png)
 
 # *Research*
 
@@ -22,7 +22,7 @@ title: "The Colonna Lab - Population Genomics"
 
 We investigate adverse outcomes of embryonic development like recurrent pregnancy loss and preeclampsia to identify the genetic factors that influence reproductive outcomes and pregnancy complications. This knowledge furthers our understanding of human evolution and informs efforts to improve pregnancy outcomes.
 
-<img src="images/embryo.png" alt="embryo" />
+<img src="images/used/embryo.png" alt="embryo" />
 
 In <b>CABERNET</b> we aim to determine the extent of *chromosomal mosaicism between embryonic and extraembryonic tissues* using single cell DNA sequencing.
 In <b>DELIVER / NEONATE</b> we want to identify genetic factors contributing to *reproductive failure and recurrent miscarriage*. We will use single cell strand sequencing to map balanced rearrangements and whole genome sequencing of euploid miscarried embryos to identify causative variants.
@@ -47,8 +47,8 @@ This project is in collaboration with
 - Merigen Research s.r.l 
 - POR Campania FSE 2014-2020 ASSE III – Ob. Sp. 14 
 
-<img src="images/loghi_grep.png" alt="loghi_grep" width="30%"/>
-<img src="images/miur.jpg" alt="miur" width="30%"/>
+<img src="images/used/loghi_grep.png" alt="loghi_grep" width="30%"/>
+<img src="images/used/miur.jpg" alt="miur" width="30%"/>
 
 ## Admixture Mapping and Pangenomics Analysis in the Biorepository and Integrative Genomics (BIG) Initiative Cohort
 
@@ -59,7 +59,7 @@ The BIG initiative is currently recruiting 30k participants from Memphis (TN), m
 We want to understand the extent and origin of admixture patterns in the Biorepository and Integrative Genomics (BIG) Initiative cohort and to develop pipelines for admixture mapping of phenotypic traits related to diseases and natural selection phenotypes.
 
 
-<img src="images/panmix.png" alt="panmix" width="30%"/>
+<img src="images/used/panmix.png" alt="panmix" width="30%"/>
 
 We are using existing exome sequence data and electronic health records from 10k children to obtain an improved set of genetic variants, including structural variants through mapping against reference pangenomes and imputation. 
 
@@ -70,7 +70,7 @@ This project is in collaboration with
 * [Robert Davis ](https://scholar.google.com/citations?user=965VipkAAAAJ), UTHSC 
 * [Akram Mohammed](https://scholar.google.com/citations?user=DuzpZDEAAAAJ), UTHSC 
 
-<img src="images/UTHSC-primary-stacked-logo-4c.jpg" alt="uthsclogo" width="30%"/>
+<img src="images/used/UTHSC-primary-stacked-logo-4c.jpg" alt="uthsclogo" width="30%"/>
 
 
 ## Mouse Pangenomics 
@@ -81,7 +81,7 @@ We are building a reference pangenome for all extant members of all BXD families
 
 <div style="border: 2px solid gray; display: inline-block;">
 <figure>
-  <img src="images/pangenome.png" alt="pangenomeMouse" width="80%"/>
+  <img src="images/used/pangenome.png" alt="pangenomeMouse" width="80%"/>
   <figcaption><b>(A)</b> odgi-vizlinear visualization of the pangenome of chromosome 19. Each line represents a haplotype. Line interruptions (white) are insertions in one or more strains, therefore deletions in the others (vertical white stripes). The left side is the centromere, the right side is the telomere.In these two regions sequences are fragmented. <b>(B)</b> Extract of the pangenome from the Zfp91gene showing a 2,006 bp insertion found in DBA/2J and 48% of the BXD strains(green nodes in the graph). The insertion is in complete linkage with two other insertions of 4 bp and 135 bp in a region spanning 2.8 kbp. <b>(C)</b> Strain-specific haplotypes (gray segments are not in scale)</figcaption>
 </figure> 
 </div>
@@ -97,7 +97,7 @@ This project is in collaboration with the Department of Genetics, Genomics and I
 
 *Our biorxiv preprints on this project can be find [here](https://www.biorxiv.org/content/10.1101/2022.04.21.489063v1.full) and [here](https://www.biorxiv.org/content/10.1101/2022.03.02.482700v1.full[)*
 
-<img src="images/UTHSC-primary-stacked-logo-4c.jpg" alt="uthsclogo" width="30%"/>
+<img src="images/used/UTHSC-primary-stacked-logo-4c.jpg" alt="uthsclogo" width="30%"/>
 
 
 
@@ -111,7 +111,7 @@ We are actively organizing and participating into bioinformatics training
 
 <hr> 
 
-|Vinc(Enza) Colonna | <img src="images/vcolonna.jpg" alt="Vc" width="40%"/> |I am a genomicist and an expert in human evolutionary and population genomics and bioinformatics.|
+|Vinc(Enza) Colonna | <img src="images/used/vcolonna.jpg" alt="Vc" width="40%"/> |I am a genomicist and an expert in human evolutionary and population genomics and bioinformatics.|
 |---|---|---| 
 
 *I graduated in Evolutionary Biology from the University of Naples Federico II and did postdoctoral research at the University of Ferrara (Italy) and at Wellcome Trust Sanger Institute in Cambridge (UK). I am now leading the Population genomics laboratory  at the IGB-CNR (Naples, Italy) and I am visiting Assistant Professor at the University of Tennessee, College of Medicine, in the Department of Genetics, Genomics and Informatics*
@@ -129,7 +129,7 @@ I founded and led [OBiLab](http://www.igb.cnr.it/obilab), a project on training 
 
 <hr>
 
-|Silvia Buonaiuto | <img src="images/silvia.jpg" alt="silvia" width="40%"/> |I am a postdoc ... .|
+|Silvia Buonaiuto | <img src="images/used/silvia.jpg" alt="silvia" width="40%"/> |I am a postdoc ... .|
 |---|---|---| 
 
 *I have a PhD degree From the university Luigi Vanvitelli, a master’s degree in Biology from the University of Napoli Federico II. I did a master thesis in molecular biology at the Department of Biology.*
@@ -138,7 +138,7 @@ I work on project DELIVER Decipher unExpLored genetIc Variation inrEproductive f
 
 <hr> 
 
-|Franco Marsico | <img src="images/franco.jpeg" alt="franco" width="50%"/> |I am a postdoc with expertise in mathematical modeling applied to genetics.|
+|Franco Marsico | <img src="images/used/franco.jpeg" alt="franco" width="50%"/> |I am a postdoc with expertise in mathematical modeling applied to genetics.|
 |---|---|---| 
 
 *I earned my degree in Biology from the University of Buenos Aires, Argentina, where I also completed my PhD in Computational Biology at the Calculus Institute. My research primarily focused on developing mathematical models for kinship inference, employing a Bayesian Approach. I am a postdoc in the Colonna lab, where my work centers on population genomics.*
@@ -152,7 +152,7 @@ I am currently working on "Admixture Mapping and Pangenomics Analysis in the Bio
 
 <hr> 
 
-|Gianluca Damaggio | <img src="images/gianluca.jpg" alt="GL" width="40%"/> |I am a PhD student |
+|Gianluca Damaggio | <img src="images/used/gianluca.jpg" alt="GL" width="40%"/> |I am a PhD student |
 |---|---|---| 
 
 *I am a PhD student at the University of Naples Federico II,  visiting student at the IGB-CNR in Naples, and a Junior Research Fellow at the University of Milano Statale in the Laboratory of Elena Cattaneo.*
@@ -162,7 +162,7 @@ my projects my interests Project Title: HD-DittoGraph - a digital human Embryoni
 
 <hr> 
 
-|Flavia Villani | <img src="images/Flavia.JPG" alt="flavia" width="40%"/> |I am a Ph.D. student with expertise in pangenomics and comparative genomics|
+|Flavia Villani | <img src="images/used/Flavia.JPG" alt="flavia" width="40%"/> |I am a Ph.D. student with expertise in pangenomics and comparative genomics|
 |---|---|---| 
 
 *I obtained a Master's degree in Medical Biotechnology from the University of Naples Federico II in Italy. Currently, I am a PhD candidate at the University of Tennessee Health Science Center in the Colonna lab.*
@@ -176,7 +176,7 @@ I am working on the "Mouse Pangenomics Project". My research aims to construct t
 
 <hr> 
 
-|Rosanna Maione | <img src="images/flavia.jpg" alt="flavia" width="40%"/> |I am a Research Associate. I am an expert in human embriology |
+|Rosanna Maione | <img src="images/used/rosanna.jpg" alt="flavia" width="40%"/> |I am a Research Associate. I am an expert in human embriology |
 |---|---|---| 
 
 

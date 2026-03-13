@@ -6,7 +6,7 @@ PORT ?= 8000
 
 help:
 	@echo "Available targets:"
-	@echo "  make update      Convert index.md -> index.adoc -> index.html"
+	@echo "  make update      Build index.md from content/ then convert to index.adoc and index.html"
 	@echo "  make check-tools Verify pandoc and asciidoctor are installed"
 	@echo "  make preview     Build and serve website at http://localhost:$(PORT)/index.html"
 	@echo "  make preview-file Build and print local file path to open directly"

@@ -22,7 +22,7 @@ This project aims to identify the genetic factors that are implicated in instabi
 
 [#img-count]
 [caption="Figure 1.2: ",link=https://github.com/GianlucaDamaggio/testWebPage/blob/master/image/strique_count.png]
-image::/images/strique_count.png[preSeq_screening,800,600,role="center"]
+image::/images/used/strique_count.png[preSeq_screening,800,600,role="center"]
 
 CAG sizing using STRIque on Nanopore sequencing data obtained from libraries generated starting from a donor plasmid carrying the sequence [CAG]48-CAA-CAG. Several combinations of parameters (prefix/suffix size, Qscore, lenght of the reference sequence) were used. Accurate CAG size was detected under most of the combinations used.
 
@@ -45,7 +45,7 @@ With the emerging of the COVID19+ pandemic we feel motivated to give our contrib
 
 [#img-wolrd]
 [caption="Figure 1.2: ",link=https://github.com/GianlucaDamaggio/testWebPage/blob/master/image/wolrd_covid19.png]
-image::/images/wolrd_covid19.png[wolrd_covid19,700,align="center"]
+image::/images/used/wolrd_covid19.png[wolrd_covid19,700,align="center"]
 
 Despite Italy being one of the earliest countries hit by the pandemic, as we write (04/05/20) there are only seven sequences from samples collected in Italy in GenBank.
 
@@ -55,7 +55,7 @@ We are committed to collect, sequence and openly publish as many samples as we c
 *These consideration were presented at the Commissione sanità of the Italian Senate of the Republic in May 2020. Slides can be find https://github.com/ColonnaLab/laboratory_WebPage/blob/master/docs/2020_Covid19Senato.pdf[here]*
 
 //.[purple]#A de novo assembly of pulled down RNA sequenced on a nanopore device.#
-//image::images/Assembly_denovo.png[align="center"]
+//image::../images/used/Assembly_denovo.png[align="center"]
 
 We are working on SARS-CoV-2 genomics along two research lines:
 
@@ -65,7 +65,7 @@ We are working on SARS-CoV-2 genomics along two research lines:
 
 //.  We are recruiting COVID19+ individuals from Regione Basilicata, one of the few regions in Italy with the lowest rate of infection.
 
-//image::images/bloccscheme.png[blocc,800,align="center"]
+//image::../images/used/bloccscheme.png[blocc,800,align="center"]
 
 '''
 
@@ -89,7 +89,7 @@ We discovered 746k high quality polymorphic sites analyzing sequence data of 373
 
 [#img-capsicum]
 [caption="Figure 1.2: ",link=https://github.com/GianlucaDamaggio/testWebPage/blob/master/image/preSeq_screaning.png]
-image::/images/capsicum.png[capsicum,1000]
+image::/images/used/capsicum.png[capsicum,1000]
 
 Our collection includes 373 pepper accessions from eleven species from 51 countries. It covers all the economically important species of Capsicum widely used in breeding programs, representing the largest study so far in terms of number of species and number of genetic variants analyzed.
 
@@ -112,7 +112,7 @@ In a https://genomebiology.biomedcentral.com/articles/10.1186/gb-2014-15-6-r88[p
 
 We studied the signal of selection in the genomic region surrounding rs10180970 in a larger dataset that includes DNA sequences from ancient samples. We also investigated the functional consequences of gene expression of the alleles of rs10180970 and another genetic variant in its proximity in healthy volunteers exposed to similar UV radiation.
 
-image::/images/abca12.png[abca12,800]
+image::/images/used/abca12.png[abca12,800]
 
 The Cross Population Extended Haplotype Homozogysity statistic (XP-EHH), measured between pairs of continental populations, shows a signal of positive selection in non-Africans over 35kb downstream rs10180970, especially in East-Asians.
 
@@ -128,7 +128,7 @@ The Cross Population Extended Haplotype Homozogysity statistic (XP-EHH), measure
 
 Alleles with detrimental consequences and recessive inheritance pattern are the major contributors to the genetic load in human populations. Indeed, while dominant deleterious variants are quickly purged by selection, recessive variants remain in the populations at low frequency and mostly in a heterozygosis.
 
-image:/images/consang_pop.png[consang_pop,600]
+image:/images/used/consang_pop.png[consang_pop,600]
 
 In consanguineous populations kin marriages can cause deleterious recessive variants to be exposed in homozygous state causing higher rate rate of disorders (congenital, late onset, infertility, miscarriage, infant mortality and morbidity). At the same time, however, inbreeding provides an occasion for selection to act on deleterious phenotypes, in a phenomenon known as purging through inbreeding.
 
