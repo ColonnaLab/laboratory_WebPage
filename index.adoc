@@ -340,26 +340,19 @@ See them on
 https://scholar.google.it/citations?user=ufP1EYgAAAAJ&hl=en&oi=ao[Google
 Scholar]
 
-=== *Past Research*
-
-At this
-https://github.com/ColonnaLab/laboratory_WebPage/blob/master/docs/pastResearc.adoc[link]
-is possible to found our past Research
-
 == *Contacts*
 
-Vincenza Colonna, PhD
+Vincenza Colonna, PhD enza.colonna@gmail.com
 
 * University of Tennessee Health Science Center, TSRB room 405 +
-71 S Manassas St, Memphis TN 38163
-https://maps.app.goo.gl/XnjsEmoGLyGBTd7b7[map]
+71 S Manassas St, Memphis TN 38163 +
+https://maps.app.goo.gl/XnjsEmoGLyGBTd7b7[map] vcolonna@uthsc.edu
+https://www.uthsc.edu/faculty/profile/?netid=vcolonna[website at UTHSC]
 * Children's Foundation Research Institute +
-50 N. Dunlap St. Memphis, TN 38105
+50 N. Dunlap St. Memphis, TN 38105 +
 https://maps.app.goo.gl/ATEtD8DFUi7oFWeC8[map]
 * Istituto di Genetica e Biofisica "Adriano Buzzati-Traverso" piano R,
 stanza 11 +
-via Pietro Castellino 111 - 80131 Napoli - Italy
+via Pietro Castellino 111 - 80131 Napoli - Italy +
 https://maps.app.goo.gl/xD6UzBYSzX45cBSq7[map]
-
-Email: enza.colonna@gmail.com - vcolonna@uthsc.edu -
 vincenza.colonna@igb.cnr.it

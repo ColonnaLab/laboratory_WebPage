@@ -409,7 +409,7 @@ h1, h2, h3, h4, h5, h6, #toctitle, .sidebarblock > .content > .title {
   text-underline-offset: 0.16em;
 }
 
-body.section-view-active #preamble,
+body.section-view-active:not(.view-home) #preamble,
 body.section-view-active .content-section-hidden {
   display: none !important;
 }
@@ -442,6 +442,21 @@ body.section-view-active .content-section-hidden {
   background: url("images/used/spock.jpg") no-repeat center center / cover;
   box-shadow: 0 0 0 1px rgba(87, 106, 143, 0.18);
 }
+
+#_research ~ .sectionbody > .sect2 > h3#_population_genomics_and_health_equity::before {
+  background-image: url("images/used/bigpca.png");
+  background-repeat: no-repeat;
+  background-position: left center;
+  background-size: 200% 100%;
+}
+
+#_research ~ .sectionbody > .sect2 > h3#_population_pangenomics::before {
+  background-image: url("images/used/raimbow.png");
+}
+
+#_research ~ .sectionbody > .sect2 > h3#_genomics_of_early_embryonic_development::before {
+  background-image: url("images/used/fetus.jpg");
+}
 </style>
 <script>
 document.addEventListener("DOMContentLoaded", function () {
@@ -466,7 +481,7 @@ document.addEventListener("DOMContentLoaded", function () {
   if (!toc.querySelector(".topbar-brand")) {
     var brand = document.createElement("div");
     brand.className = "topbar-brand";
-    brand.innerHTML = '<a href="#_research">Colonna Lab</a>';
+    brand.innerHTML = '<a href="https://colonnalab.github.io/laboratory_WebPage/">Colonna Lab</a>';
     var titleNode = toc.querySelector("#toctitle");
     toc.insertBefore(brand, titleNode ? titleNode.nextSibling : toc.firstChild);
   }
@@ -475,6 +490,7 @@ document.addEventListener("DOMContentLoaded", function () {
   if (!nav) return;
 
   nav.innerHTML = [
+    '<li class="nav-link"><a href="#_home" data-view="home">Home</a></li>',
     '<li class="has-menu"><button class="nav-toggle" type="button" data-view="research" data-target="#_research" aria-expanded="false" aria-controls="nav-research-menu">Research</button><ul class="nav-menu" id="nav-research-menu">',
     '<li><a href="#_population_genomics_and_health_equity">Population Genomics</a></li>',
     '<li><a href="#_population_pangenomics">Population Pangenomics</a></li>',
@@ -545,10 +561,21 @@ document.addEventListener("DOMContentLoaded", function () {
 
     if (!view) {
       body.classList.remove("section-view-active");
+      body.classList.remove("view-home");
       return;
     }
 
     body.classList.add("section-view-active");
+    body.classList.toggle("view-home", view === "home");
+
+    if (view === "home") {
+      topSections.forEach(function (section) {
+        if (!section.querySelector("#_research")) {
+          section.classList.add("content-section-hidden");
+        }
+      });
+      return;
+    }
 
     if (view === "research") {
       topSections.forEach(function (section) {
@@ -587,7 +614,7 @@ document.addEventListener("DOMContentLoaded", function () {
   }
 
   function inferViewFromHash(hash) {
-    if (!hash) return "";
+    if (!hash || hash === "#_home") return "home";
 
     if (
       hash === "#_research" ||
@@ -662,7 +689,11 @@ document.addEventListener("DOMContentLoaded", function () {
 
   nav.querySelectorAll("a[data-view]").forEach(function (link) {
     link.addEventListener("click", function () {
-      setSectionVisibility(link.getAttribute("data-view"));
+      var view = link.getAttribute("data-view");
+      setSectionVisibility(view);
+      if (view === "home") {
+        closeResearchItems(null);
+      }
       closeMenus(null);
     });
   });
